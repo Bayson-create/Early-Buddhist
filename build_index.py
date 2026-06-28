@@ -14,7 +14,7 @@ import re
 import sys
 from pathlib import Path
 
-SOURCE_DIR = Path(__file__).parent / "data"
+SOURCE_DIR = Path(__file__).parent / "docs" / "data"
 
 COLLECTION_MAP = {
     "经藏/长部_dn": {"pitaka": "经藏 Sutta", "collection": "长部 Dīgha Nikāya", "abbr": "DN"},

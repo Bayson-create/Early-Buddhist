@@ -14,6 +14,7 @@
   --accent: #8b6914;
   --accent-light: #f5ecd9;
   --highlight: #fff3b0;
+  --highlight-active: #ffd54f;
   --tag-sutta: #2e7d32;
   --tag-vinaya: #1565c0;
   --tag-abhi: #6a1b9a;
@@ -136,6 +137,12 @@ select:focus { border-color: var(--accent); }
   margin-bottom: 14px;
   box-shadow: var(--shadow);
   overflow: hidden;
+  cursor: pointer;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.result-card:hover {
+  border-color: var(--accent);
+  box-shadow: 0 2px 8px rgba(139,105,20,0.15);
 }
 .result-meta {
   display: flex;
@@ -178,11 +185,6 @@ select:focus { border-color: var(--accent); }
 .result-body .translation {
   font-size: 15px;
   line-height: 1.8;
-}
-.result-body .zh-title {
-  font-weight: 700;
-  color: var(--accent);
-  margin-bottom: 4px;
 }
 mark {
   background: var(--highlight);
@@ -240,17 +242,168 @@ mark {
   border-top: 1px solid var(--border);
 }
 .footer a { color: var(--accent); }
+
+/* Detail view */
+.detail-view { max-width: 860px; margin: 0 auto; padding: 0 20px 60px; }
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 18px;
+  border: 2px solid var(--accent);
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--accent);
+  font-size: 14px;
+  cursor: pointer;
+  font-family: inherit;
+  margin-bottom: 20px;
+  transition: background 0.2s;
+}
+.back-btn:hover { background: var(--accent-light); }
+.detail-header {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 24px;
+  margin-bottom: 24px;
+}
+.detail-header .detail-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+.detail-header .detail-meta-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 6px 16px;
+  font-size: 14px;
+}
+.detail-header .detail-meta-label {
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+.detail-header .detail-meta-value {
+  color: var(--text);
+}
+.detail-header .detail-sc-link {
+  margin-top: 12px;
+  font-size: 13px;
+}
+.detail-header .detail-sc-link a {
+  color: var(--accent);
+}
+.detail-section {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.detail-section-title {
+  padding: 12px 20px;
+  background: #faf6ef;
+  border-bottom: 1px solid var(--border);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--accent);
+}
+.detail-section-body { padding: 20px; }
+.seg-row {
+  padding: 8px 0;
+  border-bottom: 1px solid #f0ebe3;
+  display: flex;
+  gap: 12px;
+}
+.seg-row:last-child { border-bottom: none; }
+.seg-id {
+  flex-shrink: 0;
+  width: 120px;
+  font-size: 11px;
+  color: var(--text-secondary);
+  padding-top: 3px;
+  font-family: monospace;
+}
+.seg-content { flex: 1; min-width: 0; }
+.seg-pali {
+  font-size: 14px;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-bottom: 4px;
+}
+.seg-en {
+  font-size: 15px;
+  line-height: 1.7;
+}
+.seg-row.active-match {
+  background: #fff8e1;
+  border-radius: 6px;
+  padding: 10px 12px;
+  margin: 4px -12px;
+  border-left: 4px solid var(--highlight-active);
+}
+.zh-legacy-block {
+  font-size: 15px;
+  line-height: 2;
+  white-space: pre-wrap;
+}
+.zh-legacy-block .zh-sentence {
+  display: inline;
+}
+.zh-legacy-block .zh-sentence.active-match {
+  background: var(--highlight-active);
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+.zh-author-info {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #f0ebe3;
+}
+.match-nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+  padding: 10px 16px;
+  background: #fff8e1;
+  border: 1px solid #ffd54f;
+  border-radius: var(--radius);
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+.match-nav button {
+  padding: 4px 12px;
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--accent);
+  font-size: 13px;
+  cursor: pointer;
+  font-family: inherit;
+}
+.match-nav button:hover { background: var(--accent-light); }
+
 @media (max-width: 600px) {
   .header { padding: 32px 16px 16px; }
   .header h1 { font-size: 22px; }
   .search-box { flex-direction: column; }
   .search-box button { width: 100%; }
   .result-meta { gap: 4px; }
+  .seg-row { flex-direction: column; gap: 2px; }
+  .seg-id { width: auto; }
+  .detail-header .detail-meta-grid { grid-template-columns: 1fr; }
 }
 </style>
 </head>
 <body>
 
+<div id="searchPage">
 <div class="header">
   <h1>Early Buddhist Texts Search</h1>
   <div class="subtitle">巴利语三藏经典全文检索 &middot; Pāli Canon Full-Text Search</div>
@@ -306,6 +459,15 @@ mark {
     <p style="font-size:13px;margin-top:8px">支持英文逐句段搜索 &middot; 支持中文全文搜索 &middot; 可按藏经部筛选</p>
   </div>
 </div>
+</div>
+
+<div id="detailPage" style="display:none">
+  <div class="header">
+    <h1>Early Buddhist Texts Search</h1>
+    <div class="subtitle">巴利语三藏经典全文检索 &middot; Pāli Canon Full-Text Search</div>
+  </div>
+  <div class="detail-view" id="detailContent"></div>
+</div>
 
 <div class="footer">
   Data source: <a href="https://suttacentral.net" target="_blank">SuttaCentral</a> &middot;
@@ -335,6 +497,28 @@ const COLLECTIONS = {
   "xplayground/other": {pitaka:"其他", collection:"其他", abbr:"Other"},
 };
 
+const COLL_FILE_MAP = {
+  "经藏/长部_dn":       {en:"data/经藏/长部_dn/pali_english_sutta_dn.json",       zh:"data/经藏/长部_dn/pali_chinese_sutta_dn.json"},
+  "经藏/中部_mn":       {en:"data/经藏/中部_mn/pali_english_sutta_mn.json",       zh:"data/经藏/中部_mn/pali_chinese_sutta_mn.json"},
+  "经藏/相应部_sn":     {en:"data/经藏/相应部_sn/pali_english_sutta_sn.json",     zh:"data/经藏/相应部_sn/pali_chinese_sutta_sn.json"},
+  "经藏/增支部_an":     {en:"data/经藏/增支部_an/pali_english_sutta_an.json",     zh:"data/经藏/增支部_an/pali_chinese_sutta_an.json"},
+  "经藏/小部_kn":       {en:"data/经藏/小部_kn/pali_english_sutta_kn.json",       zh:"data/经藏/小部_kn/pali_chinese_sutta_kn.json"},
+  "律藏/pli-tv-bu-pm":  {en:"data/律藏/pli-tv-bu-pm/pali_english_vinaya_pli-tv-bu-pm.json",  zh:"data/律藏/pli-tv-bu-pm/pali_chinese_vinaya_pli-tv-bu-pm.json"},
+  "律藏/pli-tv-bu-vb":  {en:"data/律藏/pli-tv-bu-vb/pali_english_vinaya_pli-tv-bu-vb.json",  zh:"data/律藏/pli-tv-bu-vb/pali_chinese_vinaya_pli-tv-bu-vb.json"},
+  "律藏/pli-tv-bi-pm":  {en:"data/律藏/pli-tv-bi-pm/pali_english_vinaya_pli-tv-bi-pm.json",  zh:"data/律藏/pli-tv-bi-pm/pali_chinese_vinaya_pli-tv-bi-pm.json"},
+  "律藏/pli-tv-bi-vb":  {en:"data/律藏/pli-tv-bi-vb/pali_english_vinaya_pli-tv-bi-vb.json",  zh:"data/律藏/pli-tv-bi-vb/pali_chinese_vinaya_pli-tv-bi-vb.json"},
+  "律藏/pli-tv-kd":     {en:"data/律藏/pli-tv-kd/pali_english_vinaya_pli-tv-kd.json",     zh:"data/律藏/pli-tv-kd/pali_chinese_vinaya_pli-tv-kd.json"},
+  "律藏/pli-tv-pvr":    {en:"data/律藏/pli-tv-pvr/pali_english_vinaya_pli-tv-pvr.json",    zh:"data/律藏/pli-tv-pvr/pali_chinese_vinaya_pli-tv-pvr.json"},
+  "论藏/ds":             {en:"data/论藏/ds/pali_english_abhidhamma_ds.json",             zh:"data/论藏/ds/pali_chinese_abhidhamma_ds.json"},
+  "论藏/dt":             {en:"data/论藏/dt/pali_english_abhidhamma_dt.json",             zh:"data/论藏/dt/pali_chinese_abhidhamma_dt.json"},
+  "论藏/kv":             {en:"data/论藏/kv/pali_english_abhidhamma_kv.json",             zh:"data/论藏/kv/pali_chinese_abhidhamma_kv.json"},
+  "论藏/patthana":       {en:"data/论藏/patthana/pali_english_abhidhamma_patthana.json",       zh:"data/论藏/patthana/pali_chinese_abhidhamma_patthana.json"},
+  "论藏/pp":             {en:"data/论藏/pp/pali_english_abhidhamma_pp.json",             zh:"data/论藏/pp/pali_chinese_abhidhamma_pp.json"},
+  "论藏/vb":             {en:"data/论藏/vb/pali_english_abhidhamma_vb.json",             zh:"data/论藏/vb/pali_chinese_abhidhamma_vb.json"},
+  "论藏/ya":             {en:"data/论藏/ya/pali_english_abhidhamma_ya.json",             zh:"data/论藏/ya/pali_chinese_abhidhamma_ya.json"},
+  "xplayground/other":   {en:"data/xplayground/other/pali_english_xplayground_other.json",   zh:"data/xplayground/other/pali_chinese_xplayground_other.json"},
+};
+
 const S2T_S = "爱碍袄奥坝罢摆败颁办绑榜报贝备辈笔毕边编变辩标鳖别宾拨补参蚕残惭惨灿苍舱层产长尝偿厂畅车彻尘陈衬称惩诚骋迟齿冲虫丑筹处触础传创纯辞词赐聪从丛窜达带担单当挡党档导灯邓敌涤递点电垫淀调谍叠钉东动栋冻斗独读赌镀锻断对吨顿夺堕鹅额恶儿尔饵贰发罚阀烦范飞废费纷坟奋愤丰锋风凤肤辐抚辅赋复负妇缚该盖干赶感冈纲岗钢搞镐稿个给龚宫巩贡购够顾雇观馆惯广规龟归轨贵柜国过铪韩号合贺横恒轰鸿红后壶护华画划话怀坏欢环还缓换唤焕患荒皇辉回汇会绘荤浑伙获货祸击积饥迹际剂济继记技计纪夹颊坚监减简检鉴键舰渐践荐剑贱见间将奖桨酱讲胶脚饺搅缴轿较阶节杰洁结届紧进晋尽禁经惊净竞纠旧举据锯惧剧鹃卷觉决绝军骏开凯颗壳课肯垦恳铿库夸块宽况亏岿窥馈扩阔蜡腊莱来赖兰拦栏烂滥劳涝乐类离历丽励砾沥隶俩联帘怜莲连炼练粮两辆谅疗辽了临邻灵岭刘龙笼垄拢楼露卢芦颅庐炉鲁陆虏录禄滤绿峦挛乱掠抡轮论萝罗逻骡落妈马买卖迈脉馒满谩猫贸么没镁门闷萌锰梦弥觅灭庙蔑闽鸣铭谬谋亩哪钠难恼脑呢拟逆酿鸟聂镊宁农浓怒诺偶盘庞赔喷鹏骗频凭评泼扑朴铺齐启气弃牵签迁钱潜浅谴堑枪强抢锹桥窍窃钦侵亲轻氢倾庆穷琼丘区驱趋权劝确让扰热认纫荣绒软锐闰润洒丧骚扫涩杀纱筛晒删闪赡缮伤赏烧绍赊摄慑设绅审肾渗声胜师狮湿实识驶释寿书输属术树竖数帅双谁顺说丝饲松耸颂讼诵搜苏诉肃虽随岁孙损缩锁她台态摊贪坛谈叹汤趟烫涛讨誊锑题体屉天条铁厅听铜统头图团推腿退吞拖驮驼椭洼袜弯湾万网围为韦维纬伪苇卫温闻纹稳问瓮挝蜗涡窝呜钨乌无芜吴务误锡牺袭习铣戏细虾辖吓锨鲜纤咸显险馅宪线献乡详响项橡向协胁亵写泄卸锌兴汹绣虚叙绪续轩选悬学寻询训讯压鸦鸭哑亚烟严岩颜阎艳验阳养样药谣尧摇遥页业叶医铱仪蚁亿忆义艺异议译阴银饮隐应莹蝇颖拥涌优邮犹铀游鱼渔屿语吁郁誉预驭鸳渊圆远愿约跃钥岳阅云运酝杂灾载暂赞赃脏凿枣灶则择泽责贼赠扎铡轧闸诈摘斋债毡战盏斩展辗占栈绽张涨帐账胀赵哲辙针侦诊镇阵挣睁郑证织职执纸质滞钟终种肿众诌轴皱昼朱驻铸筑专庄桩装壮状锥坠赘准浊资踪综总纵邹组钻";
 const S2T_T = "愛礙襖奧壩罷擺敗頒辦綁榜報貝備輩筆畢邊編變辯標鱉別賓撥補參蠶殘慚慘燦蒼艙層產長嘗償廠暢車徹塵陳襯稱懲誠騁遲齒衝蟲醜籌處觸礎傳創純辭詞賜聰從叢竄達帶擔單當擋黨檔導燈鄧敵滌遞點電墊澱調諜疊釘東動棟凍鬥獨讀賭鍍鍛斷對噸頓奪墮鵝額惡兒爾餌貳發罰閥煩範飛廢費紛墳奮憤豐鋒風鳳膚輻撫輔賦復負婦縛該蓋幹趕感岡綱崗鋼搞鎬稿個給龔宮鞏貢購夠顧僱觀館慣廣規龜歸軌貴櫃國過鉿韓號閤賀橫恆轟鴻紅後壺護華畫劃話懷壞歡環還緩換喚煥患荒皇輝回匯會繪葷渾夥獲貨禍擊積飢跡際劑濟繼記技計紀夾頰堅監減簡檢鑑鍵艦漸踐薦劍賤見間將獎槳醬講膠腳餃攪繳轎較階節傑潔結屆緊進晉盡禁經驚淨競糾舊舉據鋸懼劇鵑卷覺決絕軍駿開凱顆殼課肯墾懇鏗庫誇塊寬況虧巋窺饋擴闊蠟臘萊來賴蘭攔欄爛濫勞澇樂類離歷麗勵礫瀝隸倆聯簾憐蓮連煉練糧兩輛諒療遼瞭臨鄰靈嶺劉龍籠壟攏樓露盧蘆顱廬爐魯陸虜錄祿濾綠巒攣亂掠掄輪論蘿羅邏騾落媽馬買賣邁脈饅滿謾貓貿麼沒鎂門悶萌錳夢彌覓滅廟蔑閩鳴銘謬謀畝哪鈉難惱腦呢擬逆釀鳥聶鑷寧農濃怒諾偶盤龐賠噴鵬騙頻憑評潑撲樸鋪齊啟氣棄牽簽遷錢潛淺譴塹槍強搶鍬橋竅竊欽侵親輕氫傾慶窮瓊丘區驅趨權勸確讓擾熱認紉榮絨軟銳閏潤灑喪騷掃澀殺紗篩曬刪閃贍繕傷賞燒紹賒攝懾設紳審腎滲聲勝師獅濕實識駛釋壽書輸屬術樹豎數帥雙誰順說絲飼鬆聳頌訟誦搜蘇訴肅雖隨歲孫損縮鎖她台態攤貪壇談嘆湯趟燙濤討謄銻題體屜天條鐵廳聽銅統頭圖團推腿退吞拖馱駝橢窪襪彎灣萬網圍為韋維緯偽葦衛溫聞紋穩問甕撾蝸渦窩嗚鎢烏無蕪吳務誤錫犧襲習銑戲細蝦轄嚇鍁鮮纖鹹顯險餡憲線獻鄉詳響項橡嚮協脅褻寫洩卸鋅興洶繡虛敘緒續軒選懸學尋詢訓訊壓鴉鴨啞亞煙嚴巖顏閻艷驗陽養樣藥謠堯搖遙頁業葉醫銥儀蟻億憶義藝異議譯陰銀飲隱應瑩蠅穎擁湧優郵猶鈾遊魚漁嶼語籲鬱譽預馭鴛淵圓遠願約躍鑰嶽閱雲運醞雜災載暫贊贓髒鑿棗竈則擇澤責賊贈扎鍘軋閘詐摘齋債氈戰盞斬展輾佔棧綻張漲帳賬脹趙哲轍針偵診鎮陣掙睜鄭證織職執紙質滯鐘終種腫眾謅軸皺晝朱駐鑄築專莊樁裝壯狀錐墜贅準濁資蹤綜總縱鄒組鑽";
 const _s2tMap = {};
@@ -353,6 +537,8 @@ let searchResults = [];
 let currentPage = 0;
 const PAGE_SIZE = 30;
 let manifest = null;
+let lastQuery = '';
+const dataCache = {};
 
 function setLang(lang) {
   currentLang = lang;
@@ -450,6 +636,7 @@ async function doSearch() {
     }
   }
 
+  lastQuery = query;
   currentPage = 0;
   renderResults(query);
   btn.disabled = false;
@@ -478,13 +665,12 @@ function renderResults(query) {
     const tagClass = pitakaClass(item.c);
 
     if (currentLang === 'en') {
-      const scLink = `https://suttacentral.net/${item.u}`;
-      html += `<div class="result-card">
+      html += `<div class="result-card" onclick="viewFullText('${escapeAttr(item.u)}','${escapeAttr(item.c)}','en','${escapeAttr(item.s)}')">
         <div class="result-meta">
           <span class="tag ${tagClass}">${coll.pitaka}</span>
-          <span class="uid-badge"><a href="${scLink}" target="_blank" style="color:inherit;text-decoration:none">${item.u}</a></span>
+          <span class="uid-badge">${escapeHtml(item.u)}</span>
           <span class="meta-item">${coll.collection}</span>
-          <span class="meta-item">Seg: ${item.s}</span>
+          <span class="meta-item">Seg: ${escapeHtml(item.s)}</span>
           <span class="meta-item">Tr: ${item.a.join(', ')}</span>
         </div>
         <div class="result-body">
@@ -493,11 +679,10 @@ function renderResults(query) {
         </div>
       </div>`;
     } else {
-      const scLink = `https://suttacentral.net/${item.u}`;
-      html += `<div class="result-card">
+      html += `<div class="result-card" onclick="viewFullText('${escapeAttr(item.u)}','${escapeAttr(item.c)}','zh','',${item.i})">
         <div class="result-meta">
           <span class="tag ${tagClass}">${coll.pitaka}</span>
-          <span class="uid-badge"><a href="${scLink}" target="_blank" style="color:inherit;text-decoration:none">${item.u}</a></span>
+          <span class="uid-badge">${escapeHtml(item.u)}</span>
           <span class="meta-item">${coll.collection}</span>
           ${item.t ? `<span class="meta-item">${escapeHtml(item.t)}</span>` : ''}
           <span class="meta-item">译者: ${escapeHtml(item.a)}</span>
@@ -522,7 +707,7 @@ function renderResults(query) {
 }
 
 function escapeAttr(s) {
-  return s.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+  return s.replace(/\\/g, '\\\\').replace(/'/g, "\\'").replace(/"/g, '&quot;');
 }
 
 function prevPage(query) {
@@ -532,6 +717,188 @@ function prevPage(query) {
 function nextPage(query) {
   const totalPages = Math.ceil(searchResults.length / PAGE_SIZE);
   if (currentPage < totalPages - 1) { currentPage++; renderResults(query); }
+}
+
+async function fetchCollectionData(collKey, lang) {
+  const cacheKey = collKey + '|' + lang;
+  if (dataCache[cacheKey]) return dataCache[cacheKey];
+  const fileInfo = COLL_FILE_MAP[collKey];
+  if (!fileInfo) return null;
+  const url = lang === 'en' ? fileInfo.en : fileInfo.zh;
+  const r = await fetch(url);
+  if (!r.ok) return null;
+  const d = await r.json();
+  dataCache[cacheKey] = d;
+  return d;
+}
+
+async function viewFullText(uid, collKey, lang, segId, sentIdx) {
+  document.getElementById('searchPage').style.display = 'none';
+  document.getElementById('detailPage').style.display = 'block';
+  const container = document.getElementById('detailContent');
+  container.innerHTML = '<div class="loading"><span class="spinner"></span>加载经文全文中...</div>';
+  window.scrollTo(0, 0);
+
+  const data = await fetchCollectionData(collKey, lang);
+  if (!data) {
+    container.innerHTML = '<div class="empty"><p>无法加载经文数据</p></div>';
+    return;
+  }
+
+  const text = data.texts.find(t => t.uid === uid);
+  if (!text) {
+    container.innerHTML = '<div class="empty"><p>未找到经文 ' + escapeHtml(uid) + '</p></div>';
+    return;
+  }
+
+  const coll = COLLECTIONS[collKey] || {pitaka:'', collection:'', abbr:''};
+  const tagClass = pitakaClass(collKey);
+  const query = lastQuery;
+
+  let html = `<button class="back-btn" onclick="backToResults()">&#x2190; 返回搜索结果</button>`;
+
+  // Header
+  html += `<div class="detail-header">`;
+  html += `<div class="detail-title"><span class="tag ${tagClass}" style="font-size:14px;vertical-align:middle;margin-right:8px">${coll.pitaka}</span>${escapeHtml(uid)}</div>`;
+  html += `<div class="detail-meta-grid">`;
+  html += `<span class="detail-meta-label">藏经部</span><span class="detail-meta-value">${coll.collection}</span>`;
+
+  if (lang === 'en') {
+    const sources = text.translation_sources || [];
+    const authors = [...new Set(sources.map(s => s.author))].join(', ');
+    html += `<span class="detail-meta-label">译者</span><span class="detail-meta-value">${escapeHtml(authors)}</span>`;
+    html += `<span class="detail-meta-label">句段数</span><span class="detail-meta-value">${text.segments.length}</span>`;
+  } else {
+    const legacyCount = (text.zh_legacy || []).length;
+    html += `<span class="detail-meta-label">汉译数</span><span class="detail-meta-value">${legacyCount} 个译本</span>`;
+  }
+
+  html += `<span class="detail-meta-label">SuttaCentral</span><span class="detail-meta-value"><a href="https://suttacentral.net/${uid}" target="_blank" style="color:var(--accent)">在 SuttaCentral 查看 &#x2197;</a></span>`;
+  html += `</div></div>`;
+
+  if (lang === 'en') {
+    html += renderEnglishDetail(text, segId, query);
+  } else {
+    html += renderChineseDetail(text, sentIdx, query);
+  }
+
+  container.innerHTML = html;
+
+  requestAnimationFrame(() => {
+    const el = document.querySelector('.first-match mark') || document.querySelector('.first-match') || document.querySelector('.active-match mark') || document.querySelector('.active-match');
+    if (el) {
+      el.scrollIntoView({behavior: 'smooth', block: 'center'});
+    }
+  });
+}
+
+function renderEnglishDetail(text, activeSegId, query) {
+  let html = '';
+  const matchIndices = [];
+
+  html += `<div class="detail-section">`;
+  html += `<div class="detail-section-title">巴利原文 · 英文译文</div>`;
+  html += `<div class="detail-section-body">`;
+
+  text.segments.forEach((seg, idx) => {
+    const isActive = seg.segment_id === activeSegId;
+    if (isActive) matchIndices.push(idx);
+    const enTexts = (seg.english || []).map(e => e.text.trim()).filter(Boolean);
+    const combinedEn = enTexts.join(' / ');
+    const pali = (seg.pali || '').trim();
+
+    if (!pali && !combinedEn) return;
+
+    html += `<div class="seg-row${isActive ? ' active-match' : ''}" id="seg-${idx}">`;
+    html += `<div class="seg-id">${escapeHtml(seg.segment_id)}</div>`;
+    html += `<div class="seg-content">`;
+    if (pali) html += `<div class="seg-pali">${highlight(pali, query)}</div>`;
+    if (combinedEn) html += `<div class="seg-en">${highlight(combinedEn, query)}</div>`;
+    html += `</div></div>`;
+  });
+
+  html += `</div></div>`;
+  return html;
+}
+
+function renderChineseDetail(text, activeSentIdx, query) {
+  let html = '';
+  const legacies = text.zh_legacy || [];
+
+  if (legacies.length === 0) {
+    html += `<div class="detail-section"><div class="detail-section-body"><p>此经文暂无中文译文</p></div></div>`;
+    return html;
+  }
+
+  // Also show pali segments as a collapsible section
+  const paliSegs = text.pali_segments || [];
+  if (paliSegs.length > 0) {
+    html += `<div class="detail-section">`;
+    html += `<div class="detail-section-title" style="cursor:pointer" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='none'?'block':'none'">巴利原文 (点击展开/收起)</div>`;
+    html += `<div class="detail-section-body" style="display:none;max-height:400px;overflow-y:auto">`;
+    for (const seg of paliSegs) {
+      const p = (seg.pali || '').trim();
+      if (!p) continue;
+      html += `<div class="seg-row"><div class="seg-id">${escapeHtml(seg.segment_id)}</div><div class="seg-content"><div class="seg-pali">${escapeHtml(p)}</div></div></div>`;
+    }
+    html += `</div></div>`;
+  }
+
+  for (const legacy of legacies) {
+    html += `<div class="detail-section">`;
+    const title = legacy.title || '';
+    const author = legacy.author || legacy.author_uid || '';
+    html += `<div class="detail-section-title">中文译文${title ? ' · ' + escapeHtml(title) : ''}</div>`;
+    html += `<div class="detail-section-body">`;
+    html += `<div class="zh-author-info">`;
+    html += `译者: ${escapeHtml(author)}`;
+    if (legacy.author_uid) html += ` (${escapeHtml(legacy.author_uid)})`;
+    if (legacy.publication_date) html += ` · ${escapeHtml(legacy.publication_date)}`;
+    html += `</div>`;
+
+    const rawText = legacy.text || '';
+    const sentences = splitZhSentences(rawText);
+
+    let firstMatchFound = false;
+    html += `<div class="zh-legacy-block">`;
+    sentences.forEach((sent, idx) => {
+      const hasMatch = query && textContainsQuery(sent, query);
+      const isFirstMatch = hasMatch && !firstMatchFound;
+      if (isFirstMatch) firstMatchFound = true;
+      html += `<span class="zh-sentence${hasMatch ? ' active-match' : ''}${isFirstMatch ? ' first-match' : ''}" id="zh-sent-${idx}">${highlight(sent, query)}</span>`;
+    });
+    html += `</div>`;
+    html += `</div></div>`;
+  }
+
+  return html;
+}
+
+function textContainsQuery(text, query) {
+  const q = query.toLowerCase();
+  const t = text.toLowerCase();
+  return t.includes(q) || t.includes(toTraditional(q)) || t.includes(toSimplified(q));
+}
+
+function splitZhSentences(text) {
+  text = text.replace(/\n{2,}/g, '\n');
+  const lines = text.split('\n');
+  const sentences = [];
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (!trimmed) continue;
+    const parts = trimmed.split(/(?<=[。！？；])/);
+    for (const p of parts) {
+      const s = p.trim();
+      if (s.length > 0) sentences.push(s);
+    }
+  }
+  return sentences;
+}
+
+function backToResults() {
+  document.getElementById('detailPage').style.display = 'none';
+  document.getElementById('searchPage').style.display = 'block';
 }
 
 document.getElementById('searchInput').addEventListener('keydown', function(e) {
