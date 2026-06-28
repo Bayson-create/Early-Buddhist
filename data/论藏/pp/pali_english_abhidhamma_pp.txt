@@ -1,0 +1,7449 @@
+pali_english - 论藏/pp
+Generated: 2026-06-12T11:05:09.455119+00:00
+Group: 论藏/pp
+Texts: 20
+
+================================================================================
+pp1.1
+Root: root/pli/ms/abhidhamma/pp/pp1/pp1.1_root-pli-ms.json
+
+pp1.1:0.1
+Pali: Puggalapaññatti 
+English: 
+
+pp1.1:0.2
+Pali: Mātikā 
+English: 
+
+pp1.1:0.3
+Pali: 1. Ekakauddesa 
+English: 
+
+pp1.1:1.1
+Pali: Namo tassa Bhagavato Arahato Sammāsambuddhassa. 
+English: 
+
+pp1.1:2.1
+Pali: Cha paññattiyo—
+English: 
+
+pp1.1:2.2
+Pali: khandhapaññatti, āyatanapaññatti, dhātupaññatti, saccapaññatti, indriyapaññatti, puggalapaññattīti. 
+English: 
+
+pp1.1:3.1
+Pali: Kittāvatā khandhānaṁ khandhapaññatti? 
+English: 
+
+pp1.1:3.2
+Pali: Yāvatā pañcakkhandhā—
+English: 
+
+pp1.1:3.3
+Pali: rūpakkhandho, vedanākkhandho, saññākkhandho, saṅkhārakkhandho, viññāṇakkhandho; 
+English: 
+
+pp1.1:3.4
+Pali: ettāvatā khandhānaṁ khandhapaññatti. 
+English: 
+
+pp1.1:4.1
+Pali: Kittāvatā āyatanānaṁ āyatanapaññatti? 
+English: 
+
+pp1.1:4.2
+Pali: Yāvatā dvādasāyatanāni—
+English: 
+
+pp1.1:4.3
+Pali: cakkhāyatanaṁ, rūpāyatanaṁ, sotāyatanaṁ, saddāyatanaṁ, ghānāyatanaṁ, gandhāyatanaṁ, jivhāyatanaṁ, rasāyatanaṁ, kāyāyatanaṁ, phoṭṭhabbāyatanaṁ, manāyatanaṁ, dhammāyatanaṁ; 
+English: 
+
+pp1.1:4.4
+Pali: ettāvatā āyatanānaṁ āyatanapaññatti. 
+English: 
+
+pp1.1:5.1
+Pali: Kittāvatā dhātūnaṁ dhātupaññatti? 
+English: 
+
+pp1.1:5.2
+Pali: Yāvatā aṭṭhārasa dhātuyo—
+English: 
+
+pp1.1:5.3
+Pali: cakkhudhātu, rūpadhātu, cakkhuviññāṇadhātu, sotadhātu, saddadhātu, sotaviññāṇadhātu, ghānadhātu, gandhadhātu, ghānaviññāṇadhātu, jivhādhātu, rasadhātu, jivhāviññāṇadhātu, kāyadhātu, phoṭṭhabbadhātu, kāyaviññāṇadhātu, manodhātu, dhammadhātu, manoviññāṇadhātu; 
+English: 
+
+pp1.1:5.4
+Pali: ettāvatā dhātūnaṁ dhātupaññatti. 
+English: 
+
+pp1.1:6.1
+Pali: Kittāvatā saccānaṁ saccapaññatti? 
+English: 
+
+pp1.1:6.2
+Pali: Yāvatā cattāri saccāni—
+English: 
+
+pp1.1:6.3
+Pali: dukkhasaccaṁ, samudayasaccaṁ, nirodhasaccaṁ, maggasaccaṁ; 
+English: 
+
+pp1.1:6.4
+Pali: ettāvatā saccānaṁ saccapaññatti. 
+English: 
+
+pp1.1:7.1
+Pali: Kittāvatā indriyānaṁ indriyapaññatti? 
+English: 
+
+pp1.1:7.2
+Pali: Yāvatā bāvīsatindriyāni—
+English: 
+
+pp1.1:7.3
+Pali: cakkhundriyaṁ, sotindriyaṁ, ghānindriyaṁ, jivhindriyaṁ, kāyindriyaṁ, manindriyaṁ, itthindriyaṁ, purisindriyaṁ, jīvitindriyaṁ, sukhindriyaṁ, dukkhindriyaṁ, somanassindriyaṁ, domanassindriyaṁ, upekkhindriyaṁ, saddhindriyaṁ, vīriyindriyaṁ, satindriyaṁ, samādhindriyaṁ, paññindriyaṁ, anaññātaññassāmītindriyaṁ, aññindriyaṁ, aññātāvindriyaṁ; 
+English: 
+
+pp1.1:7.4
+Pali: ettāvatā indriyānaṁ indriyapaññatti. 
+English: 
+
+pp1.1:8.1
+Pali: <b>Kittāvatā puggalānaṁ puggalapaññatti?</b> 
+English: 
+
+pp1.1:9.1
+Pali: Samayavimutto 
+English: 
+
+pp1.1:10.1
+Pali: Asamayavimutto 
+English: 
+
+pp1.1:11.1
+Pali: Kuppadhammo 
+English: 
+
+pp1.1:12.1
+Pali: Akuppadhammo 
+English: 
+
+pp1.1:13.1
+Pali: Parihānadhammo 
+English: 
+
+pp1.1:14.1
+Pali: Aparihānadhammo 
+English: 
+
+pp1.1:15.1
+Pali: Cetanābhabbo 
+English: 
+
+pp1.1:16.1
+Pali: Anurakkhaṇābhabbo 
+English: 
+
+pp1.1:17.1
+Pali: Puthujjano 
+English: 
+
+pp1.1:18.1
+Pali: Gotrabhū 
+English: 
+
+pp1.1:19.1
+Pali: Bhayūparato 
+English: 
+
+pp1.1:20.1
+Pali: Abhayūparato 
+English: 
+
+pp1.1:21.1
+Pali: Bhabbāgamano 
+English: 
+
+pp1.1:22.1
+Pali: Abhabbāgamano 
+English: 
+
+pp1.1:23.1
+Pali: Niyato 
+English: 
+
+pp1.1:24.1
+Pali: Aniyato 
+English: 
+
+pp1.1:25.1
+Pali: Paṭipannako 
+English: 
+
+pp1.1:26.1
+Pali: Phaleṭhito 
+English: 
+
+pp1.1:27.1
+Pali: Samasīsī 
+English: 
+
+pp1.1:28.1
+Pali: Ṭhitakappī 
+English: 
+
+pp1.1:29.1
+Pali: Ariyo 
+English: 
+
+pp1.1:30.1
+Pali: Anariyo 
+English: 
+
+pp1.1:31.1
+Pali: Sekkho 
+English: 
+
+pp1.1:32.1
+Pali: Asekkho 
+English: 
+
+pp1.1:33.1
+Pali: Nevasekkhanāsekkho 
+English: 
+
+pp1.1:34.1
+Pali: Tevijjo 
+English: 
+
+pp1.1:35.1
+Pali: Chaḷabhiñño 
+English: 
+
+pp1.1:36.1
+Pali: Sammāsambuddho 
+English: 
+
+pp1.1:37.1
+Pali: Paccekasambuddho 
+English: 
+
+pp1.1:38.1
+Pali: Ubhatobhāgavimutto 
+English: 
+
+pp1.1:39.1
+Pali: Paññāvimutto 
+English: 
+
+pp1.1:40.1
+Pali: Kāyasakkhī 
+English: 
+
+pp1.1:41.1
+Pali: Diṭṭhippatto 
+English: 
+
+pp1.1:42.1
+Pali: Saddhāvimutto 
+English: 
+
+pp1.1:43.1
+Pali: Dhammānusārī 
+English: 
+
+pp1.1:44.1
+Pali: Saddhānusārī 
+English: 
+
+pp1.1:45.1
+Pali: Sattakkhattuparamo 
+English: 
+
+pp1.1:46.1
+Pali: Kolaṅkolo 
+English: 
+
+pp1.1:47.1
+Pali: Ekabījī 
+English: 
+
+pp1.1:48.1
+Pali: Sakadāgāmī 
+English: 
+
+pp1.1:49.1
+Pali: Anāgāmī 
+English: 
+
+pp1.1:50.1
+Pali: Antarāparinibbāyī 
+English: 
+
+pp1.1:51.1
+Pali: Upahaccaparinibbāyī 
+English: 
+
+pp1.1:52.1
+Pali: Asaṅkhāraparinibbāyī 
+English: 
+
+pp1.1:53.1
+Pali: Sasaṅkhāraparinibbāyī 
+English: 
+
+pp1.1:54.1
+Pali: Uddhaṁsotoakaniṭṭhagāmī 
+English: 
+
+pp1.1:55.1
+Pali: Sotāpanno 
+English: 
+
+pp1.1:56.1
+Pali: Sotāpattiphalasacchikiriyāya paṭipanno 
+English: 
+
+pp1.1:57.1
+Pali: Sakadāgāmī 
+English: 
+
+pp1.1:58.1
+Pali: Sakadāgāmiphalasacchikiriyāya paṭipanno 
+English: 
+
+pp1.1:59.1
+Pali: Anāgāmī 
+English: 
+
+pp1.1:60.1
+Pali: Anāgāmiphalasacchikiriyāya paṭipanno 
+English: 
+
+pp1.1:61.1
+Pali: Arahā 
+English: 
+
+pp1.1:62.1
+Pali: Arahattaphalasacchikiriyāya paṭipanno 
+English: 
+
+pp1.1:63.1
+Pali: Ekakaṁ. 
+English: 
+
+================================================================================
+pp1.2
+Root: root/pli/ms/abhidhamma/pp/pp1/pp1.2_root-pli-ms.json
+
+pp1.2:0.1
+Pali: Puggalapaññatti 
+English: 
+
+pp1.2:0.2
+Pali: Mātikā 
+English: 
+
+pp1.2:0.3
+Pali: 2. Dukauddesa 
+English: 
+
+pp1.2:1.1
+Pali: <b>Dve puggalā—</b> 
+English: 
+
+pp1.2:2.1
+Pali: Kodhano ca, upanāhī ca. 
+English: 
+
+pp1.2:3.1
+Pali: Makkhī ca, paḷāsī ca. 
+English: 
+
+pp1.2:4.1
+Pali: Issukī ca, maccharī ca. 
+English: 
+
+pp1.2:5.1
+Pali: Saṭho ca, māyāvī ca. 
+English: 
+
+pp1.2:6.1
+Pali: Ahiriko ca, anottappī ca. 
+English: 
+
+pp1.2:7.1
+Pali: Dubbaco ca, pāpamitto ca. 
+English: 
+
+pp1.2:8.1
+Pali: Indriyesu aguttadvāro ca, bhojane amattaññū ca. 
+English: 
+
+pp1.2:9.1
+Pali: Muṭṭhassati ca, asampajāno ca. 
+English: 
+
+pp1.2:10.1
+Pali: Sīlavipanno ca, diṭṭhivipanno ca. 
+English: 
+
+pp1.2:11.1
+Pali: Ajjhattasaṁyojano ca, bahiddhāsaṁyojano ca. 
+English: 
+
+pp1.2:12.1
+Pali: Akkodhano ca, anupanāhī ca. 
+English: 
+
+pp1.2:13.1
+Pali: Amakkhī ca, apaḷāsī ca. 
+English: 
+
+pp1.2:14.1
+Pali: Anissukī ca, amaccharī ca. 
+English: 
+
+pp1.2:15.1
+Pali: Asaṭho ca, amāyāvī ca. 
+English: 
+
+pp1.2:16.1
+Pali: Hirimā ca, ottappī ca. 
+English: 
+
+pp1.2:17.1
+Pali: Suvaco ca, kalyāṇamitto ca. 
+English: 
+
+pp1.2:18.1
+Pali: Indriyesu guttadvāro ca, bhojane mattaññū ca. 
+English: 
+
+pp1.2:19.1
+Pali: Upaṭṭhitassati ca, sampajāno ca. 
+English: 
+
+pp1.2:20.1
+Pali: Sīlasampanno ca, diṭṭhisampanno ca. 
+English: 
+
+pp1.2:21.1
+Pali: Dve puggalā dullabhā lokasmiṁ. 
+English: 
+
+pp1.2:22.1
+Pali: Dve puggalā duttappayā. 
+English: 
+
+pp1.2:23.1
+Pali: Dve puggalā sutappayā. 
+English: 
+
+pp1.2:24.1
+Pali: Dvinnaṁ puggalānaṁ āsavā vaḍḍhanti. 
+English: 
+
+pp1.2:25.1
+Pali: Dvinnaṁ puggalānaṁ āsavā na vaḍḍhanti. 
+English: 
+
+pp1.2:26.1
+Pali: Hīnādhimutto ca, paṇītādhimutto ca. 
+English: 
+
+pp1.2:27.1
+Pali: Titto ca, tappetā ca. 
+English: 
+
+pp1.2:28.1
+Pali: Dukaṁ. 
+English: 
+
+================================================================================
+pp1.3
+Root: root/pli/ms/abhidhamma/pp/pp1/pp1.3_root-pli-ms.json
+
+pp1.3:0.1
+Pali: Puggalapaññatti 
+English: 
+
+pp1.3:0.2
+Pali: Mātikā 
+English: 
+
+pp1.3:0.3
+Pali: 3. Tikauddesa 
+English: 
+
+pp1.3:1.1
+Pali: <b>Tayo puggalā—</b> 
+English: 
+
+pp1.3:2.1
+Pali: Nirāso, āsaṁso, vigatāso. 
+English: 
+
+pp1.3:3.1
+Pali: Tayo gilānūpamā puggalā. 
+English: 
+
+pp1.3:4.1
+Pali: Kāyasakkhī, diṭṭhippatto, saddhāvimutto. 
+English: 
+
+pp1.3:5.1
+Pali: Gūthabhāṇī, pupphabhāṇī, madhubhāṇī. 
+English: 
+
+pp1.3:6.1
+Pali: Arukūpamacitto puggalo, vijjūpamacitto puggalo, vajirūpamacitto puggalo. 
+English: 
+
+pp1.3:7.1
+Pali: Andho, ekacakkhu, dvicakkhu. 
+English: 
+
+pp1.3:8.1
+Pali: Avakujjapañño puggalo, ucchaṅgapañño puggalo, puthupañño puggalo. 
+English: 
+
+pp1.3:9.1
+Pali: Atthekacco puggalo kāmesu ca bhavesu ca avītarāgo, atthekacco puggalo kāmesu vītarāgo bhavesu avītarāgo, atthekacco puggalo kāmesu ca bhavesu ca vītarāgo. 
+English: 
+
+pp1.3:10.1
+Pali: Pāsāṇalekhūpamo puggalo, pathavilekhūpamo puggalo, udakalekhūpamo puggalo. 
+English: 
+
+pp1.3:11.1
+Pali: Tayo potthakūpamā puggalā. 
+English: 
+
+pp1.3:12.1
+Pali: Tayo kāsikavatthūpamā puggalā. 
+English: 
+
+pp1.3:13.1
+Pali: Suppameyyo, duppameyyo, appameyyo. 
+English: 
+
+pp1.3:14.1
+Pali: Atthekacco puggalo na sevitabbo na bhajitabbo na payirupāsitabbo, atthekacco puggalo sevitabbo bhajitabbo payirupāsitabbo, atthekacco puggalo sakkatvā garuṁ katvā sevitabbo bhajitabbo payirupāsitabbo. 
+English: 
+
+pp1.3:15.1
+Pali: Atthekacco puggalo jigucchitabbo na sevitabbo na bhajitabbo na payirupāsitabbo, atthekacco puggalo ajjhupekkhitabbo na sevitabbo na bhajitabbo na payirupāsitabbo; 
+English: 
+
+pp1.3:15.2
+Pali: atthekacco puggalo sevitabbo bhajitabbo payirupāsitabbo. 
+English: 
+
+pp1.3:16.1
+Pali: Atthekacco puggalo sīlesu paripūrakārī, samādhismiṁ mattaso kārī, paññāya mattaso kārī; 
+English: 
+
+pp1.3:16.2
+Pali: atthekacco puggalo sīlesu ca paripūrakārī, samādhismiñca paripūrakārī, paññāya mattaso kārī; 
+English: 
+
+pp1.3:16.3
+Pali: atthekacco puggalo sīlesu ca paripūrakārī, samādhismiñca paripūrakārī, paññāya ca paripūrakārī. 
+English: 
+
+pp1.3:17.1
+Pali: Tayo satthāro. 
+English: 
+
+pp1.3:18.1
+Pali: Aparepi tayo satthāro. 
+English: 
+
+pp1.3:19.1
+Pali: Tikaṁ. 
+English: 
+
+================================================================================
+pp1.4
+Root: root/pli/ms/abhidhamma/pp/pp1/pp1.4_root-pli-ms.json
+
+pp1.4:0.1
+Pali: Puggalapaññatti 
+English: 
+
+pp1.4:0.2
+Pali: Mātikā 
+English: 
+
+pp1.4:0.3
+Pali: 4. Catukkauddesa 
+English: 
+
+pp1.4:1.1
+Pali: <b>Cattāro puggalā—</b> 
+English: 
+
+pp1.4:2.1
+Pali: Asappuriso, asappurisena asappurisataro, sappuriso, sappurisena sappurisataro. 
+English: 
+
+pp1.4:3.1
+Pali: Pāpo, pāpena pāpataro, kalyāṇo, kalyāṇena kalyāṇataro. 
+English: 
+
+pp1.4:4.1
+Pali: Pāpadhammo, pāpadhammena pāpadhammataro, kalyāṇadhammo, kalyāṇadhammena kalyāṇadhammataro. 
+English: 
+
+pp1.4:5.1
+Pali: Sāvajjo, vajjabahulo, appavajjo, anavajjo. 
+English: 
+
+pp1.4:6.1
+Pali: Ugghaṭitaññū, vipañcitaññū, neyyo, padaparamo. 
+English: 
+
+pp1.4:7.1
+Pali: Yuttappaṭibhāno, no muttappaṭibhāno, muttappaṭibhāno, no yuttappaṭibhāno, yuttappaṭibhāno ca muttappaṭibhāno ca, neva yuttappaṭibhāno no muttappaṭibhāno. 
+English: 
+
+pp1.4:8.1
+Pali: Cattāro dhammakathikā puggalā. 
+English: 
+
+pp1.4:9.1
+Pali: Cattāro valāhakūpamā puggalā. 
+English: 
+
+pp1.4:10.1
+Pali: Cattāro mūsikūpamā puggalā. 
+English: 
+
+pp1.4:11.1
+Pali: Cattāro ambūpamā puggalā. 
+English: 
+
+pp1.4:12.1
+Pali: Cattāro kumbhūpamā puggalā. 
+English: 
+
+pp1.4:13.1
+Pali: Cattāro udakarahadūpamā puggalā. 
+English: 
+
+pp1.4:14.1
+Pali: Cattāro balībaddūpamā puggalā. 
+English: 
+
+pp1.4:15.1
+Pali: Cattāro āsīvisūpamā puggalā. 
+English: 
+
+pp1.4:16.1
+Pali: Atthekacco puggalo ananuvicca apariyogāhetvā avaṇṇārahassa vaṇṇaṁ bhāsitā hoti, atthekacco puggalo ananuvicca apariyogāhetvā vaṇṇārahassa avaṇṇaṁ bhāsitā hoti, atthekacco puggalo ananuvicca apariyogāhetvā appasādanīye ṭhāne pasādaṁ upadaṁsitā hoti, atthekacco puggalo ananuvicca apariyogāhetvā pasādanīye ṭhāne appasādaṁ upadaṁsitā hoti. 
+English: 
+
+pp1.4:17.1
+Pali: Atthekacco puggalo anuvicca pariyogāhetvā avaṇṇārahassa avaṇṇaṁ bhāsitā hoti, atthekacco puggalo anuvicca pariyogāhetvā vaṇṇārahassa vaṇṇaṁ bhāsitā hoti, atthekacco puggalo anuvicca pariyogāhetvā appasādanīye ṭhāne appasādaṁ upadaṁsitā hoti, atthekacco puggalo anuvicca pariyogāhetvā pasādanīye ṭhāne pasādaṁ upadaṁsitā hoti. 
+English: 
+
+pp1.4:18.1
+Pali: Atthekacco puggalo avaṇṇārahassa avaṇṇaṁ bhāsitā hoti bhūtaṁ tacchaṁ kālena, no ca kho vaṇṇārahassa vaṇṇaṁ bhāsitā hoti bhūtaṁ tacchaṁ kālena; 
+English: 
+
+pp1.4:18.2
+Pali: atthekacco puggalo vaṇṇārahassa vaṇṇaṁ bhāsitā hoti bhūtaṁ tacchaṁ kālena, no ca kho avaṇṇārahassa avaṇṇaṁ bhāsitā hoti bhūtaṁ tacchaṁ kālena; 
+English: 
+
+pp1.4:18.3
+Pali: atthekacco puggalo avaṇṇārahassa ca avaṇṇaṁ bhāsitā hoti bhūtaṁ tacchaṁ kālena; 
+English: 
+
+pp1.4:18.4
+Pali: vaṇṇārahassa ca vaṇṇaṁ bhāsitā hoti bhūtaṁ tacchaṁ kālena, atthekacco puggalo neva avaṇṇārahassa avaṇṇaṁ bhāsitā hoti bhūtaṁ tacchaṁ kālena, no ca vaṇṇārahassa vaṇṇaṁ bhāsitā hoti bhūtaṁ tacchaṁ kālena. 
+English: 
+
+pp1.4:19.1
+Pali: Uṭṭhānaphalūpajīvī no puññaphalūpajīvī, puññaphalūpajīvī no uṭṭhānaphalūpajīvī, uṭṭhānaphalūpajīvī ca puññaphalūpajīvī ca, neva uṭṭhānaphalūpajīvī no puññaphalūpajīvī. 
+English: 
+
+pp1.4:20.1
+Pali: Tamo tamaparāyano, tamo jotiparāyano, joti tamaparāyano, joti jotiparāyano. 
+English: 
+
+pp1.4:21.1
+Pali: Oṇatoṇato, oṇatuṇṇato, uṇṇatoṇato, uṇṇatuṇṇato. 
+English: 
+
+pp1.4:22.1
+Pali: Cattāro rukkhūpamā puggalā. 
+English: 
+
+pp1.4:23.1
+Pali: Rūpappamāṇo, rūpappasanno, ghosappamāṇo, ghosappasanno. 
+English: 
+
+pp1.4:24.1
+Pali: Lūkhappamāṇo, lūkhappasanno, dhammappamāṇo, dhammappasanno. 
+English: 
+
+pp1.4:25.1
+Pali: Atthekacco puggalo attahitāya paṭipanno hoti, no parahitāya; 
+English: 
+
+pp1.4:25.2
+Pali: atthekacco puggalo parahitāya paṭipanno hoti, no attahitāya; 
+English: 
+
+pp1.4:25.3
+Pali: atthekacco puggalo attahitāya ceva paṭipanno hoti parahitāya ca; 
+English: 
+
+pp1.4:25.4
+Pali: atthekacco puggalo neva attahitāya paṭipanno hoti no parahitāya. 
+English: 
+
+pp1.4:26.1
+Pali: Atthekacco puggalo attantapo hoti attaparitāpanānuyogamanuyutto; 
+English: 
+
+pp1.4:26.2
+Pali: atthekacco puggalo parantapo hoti paraparitāpanānuyogamanuyutto; 
+English: 
+
+pp1.4:26.3
+Pali: atthekacco puggalo attantapo ca hoti attaparitāpanānuyogamanuyutto, parantapo ca paraparitāpanānuyogamanuyutto; 
+English: 
+
+pp1.4:26.4
+Pali: atthekacco puggalo neva attantapo hoti na attaparitāpanānuyogamanuyutto, na parantapo na paraparitāpanānuyogamanuyutto. 
+English: 
+
+pp1.4:26.5
+Pali: So anattantapo aparantapo diṭṭheva dhamme nicchāto nibbuto sītībhūto sukhappaṭisaṁvedī brahmabhūtena attanā viharati. 
+English: 
+
+pp1.4:27.1
+Pali: Sarāgo, sadoso, samoho, samāno. 
+English: 
+
+pp1.4:28.1
+Pali: Atthekacco puggalo lābhī hoti ajjhattaṁ cetosamathassa, na lābhī adhipaññādhammavipassanāya; 
+English: 
+
+pp1.4:28.2
+Pali: atthekacco puggalo lābhī hoti adhipaññādhammavipassanāya, na lābhī ajjhattaṁ cetosamathassa; 
+English: 
+
+pp1.4:28.3
+Pali: atthekacco puggalo lābhī ceva hoti ajjhattaṁ cetosamathassa, lābhī ca adhipaññādhammavipassanāya; 
+English: 
+
+pp1.4:28.4
+Pali: atthekacco puggalo neva lābhī hoti ajjhattaṁ cetosamathassa, na lābhī adhipaññādhammavipassanāya. 
+English: 
+
+pp1.4:29.1
+Pali: Anusotagāmī puggalo, paṭisotagāmī puggalo, ṭhitatto puggalo, tiṇṇo pāraṅgato thale tiṭṭhati brāhmaṇo. 
+English: 
+
+pp1.4:30.1
+Pali: Appassuto sutena anupapanno, appassuto sutena upapanno, bahussuto sutena anupapanno, bahussuto sutena upapanno. 
+English: 
+
+pp1.4:31.1
+Pali: Samaṇamacalo, samaṇapadumo, samaṇapuṇḍarīko, samaṇesu samaṇasukhumālo. 
+English: 
+
+pp1.4:32.1
+Pali: Catukkaṁ. 
+English: 
+
+================================================================================
+pp1.5
+Root: root/pli/ms/abhidhamma/pp/pp1/pp1.5_root-pli-ms.json
+
+pp1.5:0.1
+Pali: Puggalapaññatti 
+English: 
+
+pp1.5:0.2
+Pali: Mātikā 
+English: 
+
+pp1.5:0.3
+Pali: 5. Pañcakauddesa 
+English: 
+
+pp1.5:1.1
+Pali: <b>Pañca puggalā—</b> 
+English: 
+
+pp1.5:2.1
+Pali: Atthekacco puggalo ārabhati ca vippaṭisārī ca hoti, tañca cetovimuttiṁ paññāvimuttiṁ yathābhūtaṁ nappajānāti, yatthassa te uppannā pāpakā akusalā dhammā aparisesā nirujjhanti. 
+English: 
+
+pp1.5:2.2
+Pali: Atthekacco puggalo ārabhati na vippaṭisārī ca hoti, tañca cetovimuttiṁ paññāvimuttiṁ yathābhūtaṁ nappajānāti, yatthassa te uppannā pāpakā akusalā dhammā aparisesā nirujjhanti. 
+English: 
+
+pp1.5:2.3
+Pali: Atthekacco puggalo nārabhati vippaṭisārī ca hoti, tañca cetovimuttiṁ paññāvimuttiṁ yathābhūtaṁ nappajānāti, yatthassa te uppannā pāpakā akusalā dhammā aparisesā nirujjhanti. 
+English: 
+
+pp1.5:2.4
+Pali: Atthekacco puggalo nārabhati na vippaṭisārī hoti, tañca cetovimuttiṁ paññāvimuttiṁ yathābhūtaṁ nappajānāti, yatthassa te uppannā pāpakā akusalā dhammā aparisesā nirujjhanti. 
+English: 
+
+pp1.5:2.5
+Pali: Atthekacco puggalo nārabhati na vippaṭisārī hoti, tañca cetovimuttiṁ paññāvimuttiṁ yathābhūtaṁ pajānāti, yatthassa te uppannā pāpakā akusalā dhammā aparisesā nirujjhanti. 
+English: 
+
+pp1.5:3.1
+Pali: Datvā avajānāti, saṁvāsena avajānāti, ādheyyamukho hoti, lolo hoti, mando momūho hoti. 
+English: 
+
+pp1.5:4.1
+Pali: Pañca yodhājīvūpamā puggalā. 
+English: 
+
+pp1.5:5.1
+Pali: Pañca piṇḍapātikā. 
+English: 
+
+pp1.5:6.1
+Pali: Pañca khalupacchābhattikā. 
+English: 
+
+pp1.5:7.1
+Pali: Pañca ekāsanikā. 
+English: 
+
+pp1.5:8.1
+Pali: Pañca paṁsukūlikā. 
+English: 
+
+pp1.5:9.1
+Pali: Pañca tecīvarikā. 
+English: 
+
+pp1.5:10.1
+Pali: Pañca āraññikā. 
+English: 
+
+pp1.5:11.1
+Pali: Pañca rukkhamūlikā. 
+English: 
+
+pp1.5:12.1
+Pali: Pañca abbhokāsikā. 
+English: 
+
+pp1.5:13.1
+Pali: Pañca nesajjikā. 
+English: 
+
+pp1.5:14.1
+Pali: Pañca yathāsanthatikā. 
+English: 
+
+pp1.5:15.1
+Pali: Pañca sosānikā. 
+English: 
+
+pp1.5:16.1
+Pali: Pañcakaṁ. 
+English: 
+
+================================================================================
+pp1.6
+Root: root/pli/ms/abhidhamma/pp/pp1/pp1.6_root-pli-ms.json
+
+pp1.6:0.1
+Pali: Puggalapaññatti 
+English: 
+
+pp1.6:0.2
+Pali: Mātikā 
+English: 
+
+pp1.6:0.3
+Pali: 6. Chakkauddesa 
+English: 
+
+pp1.6:1.1
+Pali: <b>Cha puggalā—</b> 
+English: 
+
+pp1.6:2.1
+Pali: Atthekacco puggalo pubbe ananussutesu dhammesu sāmaṁ saccāni abhisambujjhati, tattha ca sabbaññutaṁ pāpuṇāti balesu ca vasībhāvaṁ. 
+English: 
+
+pp1.6:2.2
+Pali: Atthekacco puggalo pubbe ananussutesu dhammesu sāmaṁ saccāni abhisambujjhati, na ca tattha sabbaññutaṁ pāpuṇāti na ca balesu vasībhāvaṁ. 
+English: 
+
+pp1.6:2.3
+Pali: Atthekacco puggalo pubbe ananussutesu dhammesu sāmaṁ saccāni anabhisambujjhati, diṭṭhe ceva dhamme dukkhassantakaro hoti sāvakapāramiñca pāpuṇāti. 
+English: 
+
+pp1.6:2.4
+Pali: Atthekacco puggalo pubbe ananussutesu dhammesu sāmaṁ saccāni anabhisambujjhati, diṭṭheva dhamme dukkhassantakaro hoti, na ca sāvakapāramiṁ pāpuṇāti. 
+English: 
+
+pp1.6:2.5
+Pali: Atthekacco puggalo pubbe ananussutesu dhammesu sāmaṁ saccāni anabhisambujjhati, na ca diṭṭheva dhamme dukkhassantakaro hoti, anāgāmī hoti anāgantā itthattaṁ. 
+English: 
+
+pp1.6:2.6
+Pali: Atthekacco puggalo pubbe ananussutesu dhammesu sāmaṁ saccāni anabhisambujjhati, na ca diṭṭheva dhamme dukkhassantakaro hoti, āgāmī hoti āgantā itthattaṁ. 
+English: 
+
+pp1.6:3.1
+Pali: Chakkaṁ. 
+English: 
+
+================================================================================
+pp1.7
+Root: root/pli/ms/abhidhamma/pp/pp1/pp1.7_root-pli-ms.json
+
+pp1.7:0.1
+Pali: Puggalapaññatti 
+English: 
+
+pp1.7:0.2
+Pali: Mātikā 
+English: 
+
+pp1.7:0.3
+Pali: 7. Sattakauddesa 
+English: 
+
+pp1.7:1.1
+Pali: <b>Satta puggalā—</b> 
+English: 
+
+pp1.7:2.1
+Pali: Satta udakūpamā puggalā. 
+English: 
+
+pp1.7:2.2
+Pali: Sakiṁ nimuggo nimuggova hoti, ummujjitvā nimujjati, ummujjitvā ṭhito hoti, ummujjitvā vipassati viloketi, ummujjitvā patarati, ummujjitvā patigādhappatto hoti, ummujjitvā tiṇṇo hoti pāraṅgato thale tiṭṭhati brāhmaṇo. 
+English: 
+
+pp1.7:3.1
+Pali: Ubhatobhāgavimutto, paññāvimutto, kāyasakkhī, diṭṭhippatto, saddhāvimutto, dhammānusārī, saddhānusārī. 
+English: 
+
+pp1.7:4.1
+Pali: Sattakaṁ. 
+English: 
+
+================================================================================
+pp1.8
+Root: root/pli/ms/abhidhamma/pp/pp1/pp1.8_root-pli-ms.json
+
+pp1.8:0.1
+Pali: Puggalapaññatti 
+English: 
+
+pp1.8:0.2
+Pali: Mātikā 
+English: 
+
+pp1.8:0.3
+Pali: 8. Aṭṭhakauddesa 
+English: 
+
+pp1.8:1.1
+Pali: <b>Aṭṭha puggalā—</b> 
+English: 
+
+pp1.8:2.1
+Pali: Cattāro maggasamaṅgino, cattāro phalasamaṅgino puggalā. 
+English: 
+
+pp1.8:3.1
+Pali: Aṭṭhakaṁ. 
+English: 
+
+================================================================================
+pp1.9
+Root: root/pli/ms/abhidhamma/pp/pp1/pp1.9_root-pli-ms.json
+
+pp1.9:0.1
+Pali: Puggalapaññatti 
+English: 
+
+pp1.9:0.2
+Pali: Mātikā 
+English: 
+
+pp1.9:0.3
+Pali: 9. Navakauddesa 
+English: 
+
+pp1.9:1.1
+Pali: <b>Nava puggalā—</b> 
+English: 
+
+pp1.9:2.1
+Pali: Sammāsambuddho, paccekasambuddho, ubhatobhāgavimutto, paññāvimutto, kāyasakkhī, diṭṭhippatto, saddhāvimutto, dhammānusārī, saddhānusārī. 
+English: 
+
+pp1.9:3.1
+Pali: Navakaṁ. 
+English: 
+
+================================================================================
+pp1.10
+Root: root/pli/ms/abhidhamma/pp/pp1/pp1.10_root-pli-ms.json
+
+pp1.10:0.1
+Pali: Puggalapaññatti 
+English: 
+
+pp1.10:0.2
+Pali: Mātikā 
+English: 
+
+pp1.10:0.3
+Pali: 10. Dasakauddesa 
+English: 
+
+pp1.10:1.1
+Pali: <b>Dasa puggalā—</b> 
+English: 
+
+pp1.10:2.1
+Pali: Pañcannaṁ idha niṭṭhā, pañcannaṁ idha vihāya niṭṭhā. 
+English: 
+
+pp1.10:3.1
+Pali: Dasakaṁ. 
+English: 
+
+pp1.10:4.1
+Pali: Puggalapaññattimātikā niṭṭhitā. 
+English: 
+
+================================================================================
+pp2.1
+Root: root/pli/ms/abhidhamma/pp/pp2/pp2.1_root-pli-ms.json
+
+pp2.1:0.1
+Pali: Puggalapaññatti 
+English: 
+
+pp2.1:0.2
+Pali: Niddesa 
+English: 
+
+pp2.1:0.3
+Pali: 1. Ekakapuggalapaññatti 
+English: 
+
+pp2.1:1.1
+Pali: Katamo ca puggalo samayavimutto? 
+English: 
+
+pp2.1:1.2
+Pali: Idhekacco puggalo kālena kālaṁ samayena samayaṁ aṭṭha vimokkhe kāyena phusitvā viharati, paññāya cassa disvā ekacce āsavā parikkhīṇā honti—
+English: 
+
+pp2.1:1.3
+Pali: ayaṁ vuccati puggalo “samayavimutto”. 
+English: 
+
+pp2.1:2.1
+Pali: Katamo ca puggalo asamayavimutto? 
+English: 
+
+pp2.1:2.2
+Pali: Idhekacco puggalo na heva kho kālena kālaṁ samayena samayaṁ aṭṭha vimokkhe kāyena phusitvā viharati, paññāya cassa disvā āsavā parikkhīṇā honti—
+English: 
+
+pp2.1:2.3
+Pali: ayaṁ vuccati puggalo “asamayavimutto”. 
+English: 
+
+pp2.1:2.4
+Pali: Sabbepi ariyapuggalā ariye vimokkhe asamayavimuttā. 
+English: 
+
+pp2.1:3.1
+Pali: Katamo ca puggalo kuppadhammo? 
+English: 
+
+pp2.1:3.2
+Pali: Idhekacco puggalo lābhī hoti rūpasahagatānaṁ vā arūpasahagatānaṁ vā samāpattīnaṁ. 
+English: 
+
+pp2.1:3.3
+Pali: So ca kho na nikāmalābhī hoti na akicchalābhī na akasiralābhī; 
+English: 
+
+pp2.1:3.4
+Pali: na yatthicchakaṁ yadicchakaṁ yāvaticchakaṁ samāpajjatipi vuṭṭhātipi. 
+English: 
+
+pp2.1:3.5
+Pali: Ṭhānaṁ kho panetaṁ vijjati, yaṁ tassa puggalassa pamādamāgamma tā samāpattiyo kuppeyyuṁ—
+English: 
+
+pp2.1:3.6
+Pali: ayaṁ vuccati puggalo “kuppadhammo”. 
+English: 
+
+pp2.1:4.1
+Pali: Katamo ca puggalo akuppadhammo? 
+English: 
+
+pp2.1:4.2
+Pali: Idhekacco puggalo lābhī hoti rūpasahagatānaṁ vā arūpasahagatānaṁ vā samāpattīnaṁ. 
+English: 
+
+pp2.1:4.3
+Pali: So ca kho nikāmalābhī hoti akicchalābhī akasiralābhī; 
+English: 
+
+pp2.1:4.4
+Pali: yatthicchakaṁ yadicchakaṁ yāvaticchakaṁ samāpajjatipi vuṭṭhātipi. 
+English: 
+
+pp2.1:4.5
+Pali: Aṭṭhānametaṁ anavakāso yaṁ tassa puggalassa pamādamāgamma tā samāpattiyo kuppeyyuṁ—
+English: 
+
+pp2.1:4.6
+Pali: ayaṁ vuccati puggalo “akuppadhammo”. 
+English: 
+
+pp2.1:4.7
+Pali: Sabbepi ariyapuggalā ariye vimokkhe akuppadhammā. 
+English: 
+
+pp2.1:5.1
+Pali: Katamo ca puggalo parihānadhammo? 
+English: 
+
+pp2.1:5.2
+Pali: Idhekacco puggalo lābhī hoti rūpasahagatānaṁ vā arūpasahagatānaṁ vā samāpattīnaṁ. 
+English: 
+
+pp2.1:5.3
+Pali: So ca kho na nikāmalābhī hoti na akicchalābhī na akasiralābhī; 
+English: 
+
+pp2.1:5.4
+Pali: na yatthicchakaṁ yadicchakaṁ yāvaticchakaṁ samāpajjatipi vuṭṭhātipi. 
+English: 
+
+pp2.1:5.5
+Pali: Ṭhānaṁ kho panetaṁ vijjati, yaṁ so puggalo pamādamāgamma tāhi samāpattīhi parihāyeyya—
+English: 
+
+pp2.1:5.6
+Pali: ayaṁ vuccati puggalo “parihānadhammo”. 
+English: 
+
+pp2.1:6.1
+Pali: Katamo ca puggalo aparihānadhammo? 
+English: 
+
+pp2.1:6.2
+Pali: Idhekacco puggalo lābhī hoti rūpasahagatānaṁ vā arūpasahagatānaṁ vā samāpattīnaṁ. 
+English: 
+
+pp2.1:6.3
+Pali: So ca kho nikāmalābhī hoti akicchalābhī akasiralābhī; 
+English: 
+
+pp2.1:6.4
+Pali: yatthicchakaṁ yadicchakaṁ yāvaticchakaṁ samāpajjatipi vuṭṭhātipi. 
+English: 
+
+pp2.1:6.5
+Pali: Aṭṭhānametaṁ anavakāso yaṁ so puggalo pamādamāgamma tāhi samāpattīhi parihāyeyya—
+English: 
+
+pp2.1:6.6
+Pali: ayaṁ vuccati puggalo “aparihānadhammo”. 
+English: 
+
+pp2.1:6.7
+Pali: Sabbepi ariyapuggalā ariye vimokkhe aparihānadhammā. 
+English: 
+
+pp2.1:7.1
+Pali: Katamo ca puggalo cetanābhabbo? 
+English: 
+
+pp2.1:7.2
+Pali: Idhekacco puggalo lābhī hoti rūpasahagatānaṁ vā arūpasahagatānaṁ vā samāpattīnaṁ. 
+English: 
+
+pp2.1:7.3
+Pali: So ca kho na nikāmalābhī hoti na akicchalābhī na akasiralābhī; 
+English: 
+
+pp2.1:7.4
+Pali: na yatthicchakaṁ yadicchakaṁ yāvaticchakaṁ samāpajjatipi vuṭṭhātipi. 
+English: 
+
+pp2.1:7.5
+Pali: Sace anusañceteti, na parihāyati tāhi samāpattīhi. 
+English: 
+
+pp2.1:7.6
+Pali: Sace na anusañceteti, parihāyati tāhi samāpattīhi—
+English: 
+
+pp2.1:7.7
+Pali: ayaṁ vuccati puggalo “cetanābhabbo”. 
+English: 
+
+pp2.1:8.1
+Pali: Katamo ca puggalo anurakkhaṇābhabbo? 
+English: 
+
+pp2.1:8.2
+Pali: Idhekacco puggalo lābhī hoti rūpasahagatānaṁ vā arūpasahagatānaṁ vā samāpattīnaṁ. 
+English: 
+
+pp2.1:8.3
+Pali: So ca kho na nikāmalābhī hoti na akicchalābhī na akasiralābhī; 
+English: 
+
+pp2.1:8.4
+Pali: na yatthicchakaṁ yadicchakaṁ yāvaticchakaṁ samāpajjatipi vuṭṭhātipi. 
+English: 
+
+pp2.1:8.5
+Pali: Sace anurakkhati, na parihāyati tāhi samāpattīhi. 
+English: 
+
+pp2.1:8.6
+Pali: Sace na anurakkhati, parihāyati tāhi samāpattīhi—
+English: 
+
+pp2.1:8.7
+Pali: ayaṁ vuccati puggalo “anurakkhaṇābhabbo”. 
+English: 
+
+pp2.1:9.1
+Pali: Katamo ca puggalo puthujjano? 
+English: 
+
+pp2.1:9.2
+Pali: Yassa puggalassa tīṇi saṁyojanāni appahīnāni; 
+English: 
+
+pp2.1:9.3
+Pali: na ca tesaṁ dhammānaṁ pahānāya paṭipanno—
+English: 
+
+pp2.1:9.4
+Pali: ayaṁ vuccati puggalo “puthujjano”. 
+English: 
+
+pp2.1:10.1
+Pali: Katamo ca puggalo gotrabhū? 
+English: 
+
+pp2.1:10.2
+Pali: Yesaṁ dhammānaṁ samanantarā ariyadhammassa avakkanti hoti tehi dhammehi samannāgato—
+English: 
+
+pp2.1:10.3
+Pali: ayaṁ vuccati puggalo “gotrabhū”. 
+English: 
+
+pp2.1:11.1
+Pali: Katamo ca puggalo bhayūparato? 
+English: 
+
+pp2.1:11.2
+Pali: Satta sekkhā bhayūparatā, ye ca puthujjanā sīlavanto. 
+English: 
+
+pp2.1:11.3
+Pali: Arahā abhayūparato. 
+English: 
+
+pp2.1:12.1
+Pali: Katamo ca puggalo abhabbāgamano? 
+English: 
+
+pp2.1:12.2
+Pali: Ye te puggalā kammāvaraṇena samannāgatā, kilesāvaraṇena samannāgatā, vipākāvaraṇena samannāgatā, assaddhā acchandikā duppaññā eḷā, abhabbā niyāmaṁ okkamituṁ kusalesu dhammesu sammattaṁ—
+English: 
+
+pp2.1:12.3
+Pali: ime vuccanti puggalā “abhabbāgamanā”. 
+English: 
+
+pp2.1:13.1
+Pali: Katamo ca puggalo bhabbāgamano? 
+English: 
+
+pp2.1:13.2
+Pali: Ye te puggalā na kammāvaraṇena samannāgatā, na kilesāvaraṇena samannāgatā, na vipākāvaraṇena samannāgatā, saddhā chandikā paññavanto aneḷā, bhabbā niyāmaṁ okkamituṁ kusalesu dhammesu sammattaṁ—
+English: 
+
+pp2.1:13.3
+Pali: ime vuccanti puggalā “bhabbāgamanā”. 
+English: 
+
+pp2.1:14.1
+Pali: Katamo ca puggalo niyato? 
+English: 
+
+pp2.1:14.2
+Pali: Pañca puggalā ānantarikā, ye ca micchādiṭṭhikā niyatā, aṭṭha ca ariyapuggalā niyatā. 
+English: 
+
+pp2.1:14.3
+Pali: Avasesā puggalā aniyatā. 
+English: 
+
+pp2.1:15.1
+Pali: Katamo ca puggalo paṭipannako? 
+English: 
+
+pp2.1:15.2
+Pali: Cattāro maggasamaṅgino puggalā paṭipannakā, cattāro phalasamaṅgino puggalā phale ṭhitā. 
+English: 
+
+pp2.1:16.1
+Pali: Katamo ca puggalo samasīsī? 
+English: 
+
+pp2.1:16.2
+Pali: Yassa puggalassa apubbaṁ acarimaṁ āsavapariyādānañca hoti jīvitapariyādānañca—
+English: 
+
+pp2.1:16.3
+Pali: ayaṁ vuccati puggalo “samasīsī”. 
+English: 
+
+pp2.1:17.1
+Pali: Katamo ca puggalo ṭhitakappī? 
+English: 
+
+pp2.1:17.2
+Pali: Ayañca puggalo sotāpattiphalasacchikiriyāya paṭipanno assa, kappassa ca uḍḍayhanavelā assa, neva tāva kappo uḍḍayheyya yāvāyaṁ puggalo na sotāpattiphalaṁ sacchikaroti. 
+English: 
+
+pp2.1:17.3
+Pali: Ayaṁ vuccati puggalo “ṭhitakappī”. 
+English: 
+
+pp2.1:17.4
+Pali: Sabbepi maggasamaṅgino puggalā ṭhitakappino. 
+English: 
+
+pp2.1:18.1
+Pali: Katamo ca puggalo ariyo? 
+English: 
+
+pp2.1:18.2
+Pali: Aṭṭha ariyapuggalā ariyā. 
+English: 
+
+pp2.1:18.3
+Pali: Avasesā puggalā anariyā. 
+English: 
+
+pp2.1:19.1
+Pali: Katamo ca puggalo sekkho? 
+English: 
+
+pp2.1:19.2
+Pali: Cattāro maggasamaṅgino tayo phalasamaṅgino puggalā “sekkhā”. 
+English: 
+
+pp2.1:19.3
+Pali: Arahā asekkho. 
+English: 
+
+pp2.1:19.4
+Pali: Avasesā puggalā nevasekkhanāsekkhā. 
+English: 
+
+pp2.1:20.1
+Pali: Katamo ca puggalo tevijjo? 
+English: 
+
+pp2.1:20.2
+Pali: Tīhi vijjāhi samannāgato puggalo “tevijjo”. 
+English: 
+
+pp2.1:21.1
+Pali: Katamo ca puggalo chaḷabhiñño? 
+English: 
+
+pp2.1:21.2
+Pali: Chahi abhiññāhi samannāgato puggalo “chaḷabhiñño”. 
+English: 
+
+pp2.1:22.1
+Pali: Katamo ca puggalo sammāsambuddho? 
+English: 
+
+pp2.1:22.2
+Pali: Idhekacco puggalo pubbe ananussutesu dhammesu sāmaṁ saccāni abhisambujjhati; 
+English: 
+
+pp2.1:22.3
+Pali: tattha ca sabbaññutaṁ pāpuṇāti, balesu ca vasībhāvaṁ—
+English: 
+
+pp2.1:22.4
+Pali: ayaṁ vuccati puggalo “sammāsambuddho”. 
+English: 
+
+pp2.1:23.1
+Pali: Katamo ca puggalo paccekasambuddho? 
+English: 
+
+pp2.1:23.2
+Pali: Idhekacco puggalo pubbe ananussutesu dhammesu sāmaṁ saccāni abhisambujjhati; 
+English: 
+
+pp2.1:23.3
+Pali: na ca tattha sabbaññutaṁ pāpuṇāti, na ca balesu vasībhāvaṁ—
+English: 
+
+pp2.1:23.4
+Pali: ayaṁ vuccati puggalo “paccekasambuddho”. 
+English: 
+
+pp2.1:24.1
+Pali: Katamo ca puggalo ubhatobhāgavimutto? 
+English: 
+
+pp2.1:24.2
+Pali: Idhekacco puggalo aṭṭha vimokkhe kāyena phusitvā viharati; 
+English: 
+
+pp2.1:24.3
+Pali: paññāya cassa disvā āsavā parikkhīṇā honti—
+English: 
+
+pp2.1:24.4
+Pali: ayaṁ vuccati puggalo “ubhatobhāgavimutto”. 
+English: 
+
+pp2.1:25.1
+Pali: Katamo ca puggalo paññāvimutto? 
+English: 
+
+pp2.1:25.2
+Pali: Idhekacco puggalo na heva kho aṭṭha vimokkhe kāyena phusitvā viharati; 
+English: 
+
+pp2.1:25.3
+Pali: paññāya cassa disvā āsavā parikkhīṇā honti. 
+English: 
+
+pp2.1:25.4
+Pali: Ayaṁ vuccati puggalo “paññāvimutto”. 
+English: 
+
+pp2.1:26.1
+Pali: Katamo ca puggalo kāyasakkhī? 
+English: 
+
+pp2.1:26.2
+Pali: Idhekacco puggalo aṭṭha vimokkhe kāyena phusitvā viharati; 
+English: 
+
+pp2.1:26.3
+Pali: paññāya cassa disvā ekacce āsavā parikkhīṇā honti. 
+English: 
+
+pp2.1:26.4
+Pali: Ayaṁ vuccati puggalo “kāyasakkhī”. 
+English: 
+
+pp2.1:27.1
+Pali: Katamo ca puggalo diṭṭhippatto? 
+English: 
+
+pp2.1:27.2
+Pali: Idhekacco puggalo “idaṁ dukkhan”ti yathābhūtaṁ pajānāti, “ayaṁ dukkhasamudayo”ti yathābhūtaṁ pajānāti, “ayaṁ dukkhanirodho”ti yathābhūtaṁ pajānāti, “ayaṁ dukkhanirodhagāminī paṭipadā”ti yathābhūtaṁ pajānāti. 
+English: 
+
+pp2.1:27.3
+Pali: Tathāgatappaveditā cassa dhammā paññāya vodiṭṭhā honti vocaritā. 
+English: 
+
+pp2.1:27.4
+Pali: Paññāya cassa disvā ekacce āsavā parikkhīṇā honti—
+English: 
+
+pp2.1:27.5
+Pali: ayaṁ vuccati puggalo “diṭṭhippatto”. 
+English: 
+
+pp2.1:28.1
+Pali: Katamo ca puggalo saddhāvimutto? 
+English: 
+
+pp2.1:28.2
+Pali: Idhekacco puggalo “idaṁ dukkhan”ti yathābhūtaṁ pajānāti, “ayaṁ dukkhasamudayo”ti yathābhūtaṁ pajānāti, “ayaṁ dukkhanirodho”ti yathābhūtaṁ pajānāti, “ayaṁ dukkhanirodhagāminī paṭipadā”ti yathābhūtaṁ pajānāti. 
+English: 
+
+pp2.1:28.3
+Pali: Tathāgatappaveditā cassa dhammā paññāya vodiṭṭhā honti vocaritā. 
+English: 
+
+pp2.1:28.4
+Pali: Paññāya cassa disvā ekacce āsavā parikkhīṇā honti, no ca kho yathā diṭṭhippattassa—
+English: 
+
+pp2.1:28.5
+Pali: ayaṁ vuccati puggalo “saddhāvimutto”. 
+English: 
+
+pp2.1:29.1
+Pali: Katamo ca puggalo dhammānusārī? 
+English: 
+
+pp2.1:29.2
+Pali: Yassa puggalassa sotāpattiphalasacchikiriyāya paṭipannassa paññindriyaṁ adhimattaṁ hoti, paññāvāhiṁ paññāpubbaṅgamaṁ ariyamaggaṁ bhāveti—
+English: 
+
+pp2.1:29.3
+Pali: ayaṁ vuccati puggalo “dhammānusārī”. 
+English: 
+
+pp2.1:29.4
+Pali: Sotāpattiphalasacchikiriyāya paṭipanno puggalo dhammānusārī phale ṭhito diṭṭhippatto. 
+English: 
+
+pp2.1:30.1
+Pali: Katamo ca puggalo saddhānusārī? 
+English: 
+
+pp2.1:30.2
+Pali: Yassa puggalassa sotāpattiphalasacchikiriyāya paṭipannassa saddhindriyaṁ adhimattaṁ hoti, saddhāvāhiṁ saddhāpubbaṅgamaṁ ariyamaggaṁ bhāveti—
+English: 
+
+pp2.1:30.3
+Pali: ayaṁ vuccati puggalo “saddhānusārī”. 
+English: 
+
+pp2.1:30.4
+Pali: Sotāpattiphalasacchikiriyāya paṭipanno puggalo saddhānusārī phale ṭhito saddhāvimutto. 
+English: 
+
+pp2.1:31.1
+Pali: Katamo ca puggalo sattakkhattuparamo? 
+English: 
+
+pp2.1:31.2
+Pali: Idhekacco puggalo tiṇṇaṁ saṁyojanānaṁ parikkhayā sotāpanno hoti avinipātadhammo niyato sambodhiparāyano. 
+English: 
+
+pp2.1:31.3
+Pali: So sattakkhattuṁ deve ca mānuse ca sandhāvitvā saṁsaritvā dukkhassantaṁ karoti—
+English: 
+
+pp2.1:31.4
+Pali: ayaṁ vuccati puggalo “sattakkhattuparamo”. 
+English: 
+
+pp2.1:32.1
+Pali: Katamo ca puggalo kolaṅkolo? 
+English: 
+
+pp2.1:32.2
+Pali: Idhekacco puggalo tiṇṇaṁ saṁyojanānaṁ parikkhayā sotāpanno hoti avinipātadhammo niyato sambodhiparāyano. 
+English: 
+
+pp2.1:32.3
+Pali: So dve vā tīṇi vā kulāni sandhāvitvā saṁsaritvā dukkhassantaṁ karoti—
+English: 
+
+pp2.1:32.4
+Pali: ayaṁ vuccati puggalo “kolaṅkolo”. 
+English: 
+
+pp2.1:33.1
+Pali: Katamo ca puggalo ekabījī? 
+English: 
+
+pp2.1:33.2
+Pali: Idhekacco puggalo tiṇṇaṁ saṁyojanānaṁ parikkhayā sotāpanno hoti avinipātadhammo niyato sambodhiparāyano. 
+English: 
+
+pp2.1:33.3
+Pali: So ekaṁyeva mānusakaṁ bhavaṁ nibbattetvā dukkhassantaṁ karoti—
+English: 
+
+pp2.1:33.4
+Pali: ayaṁ vuccati puggalo “ekabījī”. 
+English: 
+
+pp2.1:34.1
+Pali: Katamo ca puggalo sakadāgāmī? 
+English: 
+
+pp2.1:34.2
+Pali: Idhekacco puggalo tiṇṇaṁ saṁyojanānaṁ parikkhayā rāgadosamohānaṁ tanuttā sakadāgāmī hoti, sakideva imaṁ lokaṁ āgantvā dukkhassantaṁ karoti—
+English: 
+
+pp2.1:34.3
+Pali: ayaṁ vuccati puggalo “sakadāgāmī”. 
+English: 
+
+pp2.1:35.1
+Pali: Katamo ca puggalo anāgāmī? 
+English: 
+
+pp2.1:35.2
+Pali: Idhekacco puggalo pañcannaṁ orambhāgiyānaṁ saṁyojanānaṁ parikkhayā opapātiko hoti, tattha parinibbāyī anāvattidhammo tasmā lokā—
+English: 
+
+pp2.1:35.3
+Pali: ayaṁ vuccati puggalo “anāgāmī”. 
+English: 
+
+pp2.1:36.1
+Pali: Katamo ca puggalo antarāparinibbāyī? 
+English: 
+
+pp2.1:36.2
+Pali: Idhekacco puggalo pañcannaṁ orambhāgiyānaṁ saṁyojanānaṁ parikkhayā opapātiko hoti, tattha parinibbāyī anāvattidhammo tasmā lokā. 
+English: 
+
+pp2.1:36.3
+Pali: So upapannaṁ vā samanantarā appattaṁ vā vemajjhaṁ āyuppamāṇaṁ ariyamaggaṁ sañjaneti upariṭṭhimānaṁ saṁyojanānaṁ pahānāya—
+English: 
+
+pp2.1:36.4
+Pali: ayaṁ vuccati puggalo “antarāparinibbāyī”. 
+English: 
+
+pp2.1:37.1
+Pali: Katamo ca puggalo upahaccaparinibbāyī? 
+English: 
+
+pp2.1:37.2
+Pali: Idhekacco puggalo pañcannaṁ orambhāgiyānaṁ saṁyojanānaṁ parikkhayā opapātiko hoti, tattha parinibbāyī anāvattidhammo tasmā lokā. 
+English: 
+
+pp2.1:37.3
+Pali: So atikkamitvā vemajjhaṁ āyuppamāṇaṁ upahacca vā kālakiriyaṁ ariyamaggaṁ sañjaneti upariṭṭhimānaṁ saṁyojanānaṁ pahānāya—
+English: 
+
+pp2.1:37.4
+Pali: ayaṁ vuccati puggalo “upahaccaparinibbāyī”. 
+English: 
+
+pp2.1:38.1
+Pali: Katamo ca puggalo asaṅkhāraparinibbāyī? 
+English: 
+
+pp2.1:38.2
+Pali: Idhekacco puggalo pañcannaṁ orambhāgiyānaṁ saṁyojanānaṁ parikkhayā opapātiko hoti, tattha parinibbāyī anāvattidhammo tasmā lokā. 
+English: 
+
+pp2.1:38.3
+Pali: So asaṅkhārena ariyamaggaṁ sañjaneti upariṭṭhimānaṁ saṁyojanānaṁ pahānāya—
+English: 
+
+pp2.1:38.4
+Pali: ayaṁ vuccati puggalo “asaṅkhāraparinibbāyī”. 
+English: 
+
+pp2.1:39.1
+Pali: Katamo ca puggalo sasaṅkhāraparinibbāyī? 
+English: 
+
+pp2.1:39.2
+Pali: Idhekacco puggalo pañcannaṁ orambhāgiyānaṁ saṁyojanānaṁ parikkhayā opapātiko hoti, tattha parinibbāyī anāvattidhammo tasmā lokā. 
+English: 
+
+pp2.1:39.3
+Pali: So sasaṅkhārena ariyamaggaṁ sañjaneti upariṭṭhimānaṁ saṁyojanānaṁ pahānāya—
+English: 
+
+pp2.1:39.4
+Pali: ayaṁ vuccati puggalo “sasaṅkhāraparinibbāyī”. 
+English: 
+
+pp2.1:40.1
+Pali: Katamo ca puggalo uddhaṁsoto akaniṭṭhagāmī? 
+English: 
+
+pp2.1:40.2
+Pali: Idhekacco puggalo pañcannaṁ orambhāgiyānaṁ saṁyojanānaṁ parikkhayā opapātiko hoti, tattha parinibbāyī anāvattidhammo tasmā lokā. 
+English: 
+
+pp2.1:40.3
+Pali: So avihā cuto atappaṁ gacchati, atappā cuto sudassaṁ gacchati, sudassā cuto sudassiṁ gacchati, sudassiyā cuto akaniṭṭhaṁ gacchati; 
+English: 
+
+pp2.1:40.4
+Pali: akaniṭṭhe ariyamaggaṁ sañjaneti upariṭṭhimānaṁ saṁyojanānaṁ pahānāya—
+English: 
+
+pp2.1:40.5
+Pali: ayaṁ vuccati puggalo “uddhaṁsoto akaniṭṭhagāmī”. 
+English: 
+
+pp2.1:41.1
+Pali: Katamo ca puggalo sotāpanno sotāpattiphalasacchikiriyāya paṭipanno? 
+English: 
+
+pp2.1:41.2
+Pali: Tiṇṇaṁ saṁyojanānaṁ pahānāya paṭipanno puggalo sotāpattiphalasacchikiriyāya paṭipanno. 
+English: 
+
+pp2.1:41.3
+Pali: Yassa puggalassa tīṇi saṁyojanāni pahīnāni—
+English: 
+
+pp2.1:41.4
+Pali: ayaṁ vuccati puggalo “sotāpanno”. 
+English: 
+
+pp2.1:42.1
+Pali: Kāmarāgabyāpādānaṁ tanubhāvāya paṭipanno puggalo sakadāgāmiphalasacchikiriyāya paṭipanno. 
+English: 
+
+pp2.1:42.2
+Pali: Yassa puggalassa kāmarāgabyāpādā tanubhūtā—
+English: 
+
+pp2.1:42.3
+Pali: ayaṁ vuccati puggalo “sakadāgāmī”. 
+English: 
+
+pp2.1:43.1
+Pali: Kāmarāgabyāpādānaṁ anavasesappahānāya paṭipanno puggalo anāgāmiphalasacchikiriyāya paṭipanno. 
+English: 
+
+pp2.1:43.2
+Pali: Yassa puggalassa kāmarāgabyāpādā anavasesā pahīnā—
+English: 
+
+pp2.1:43.3
+Pali: ayaṁ vuccati puggalo “anāgāmī”. 
+English: 
+
+pp2.1:44.1
+Pali: Rūparāgaarūparāgamānauddhaccaavijjāya anavasesappahānāya paṭipanno puggalo arahattaphalasacchikiriyāya paṭipanno. 
+English: 
+
+pp2.1:44.2
+Pali: Yassa puggalassa rūparāgo arūparāgo māno uddhaccaṁ avijjā anavasesā pahīnā—
+English: 
+
+pp2.1:44.3
+Pali: ayaṁ vuccati puggalo “arahā”. 
+English: 
+
+pp2.1:45.1
+Pali: Ekakaniddeso. 
+English: 
+
+================================================================================
+pp2.2
+Root: root/pli/ms/abhidhamma/pp/pp2/pp2.2_root-pli-ms.json
+
+pp2.2:0.1
+Pali: Puggalapaññatti 
+English: 
+
+pp2.2:0.2
+Pali: Niddesa 
+English: 
+
+pp2.2:0.3
+Pali: 2. Dukapuggalapaññatti 
+English: 
+
+pp2.2:1.1
+Pali: Katamo ca puggalo kodhano? 
+English: 
+
+pp2.2:1.2
+Pali: Tattha katamo kodho? 
+English: 
+
+pp2.2:1.3
+Pali: Yo kodho kujjhanā kujjhitattaṁ doso dussanā dussitattaṁ byāpatti byāpajjanā byāpajjitattaṁ virodho paṭivirodho caṇḍikkaṁ asuropo anattamanatā cittassa—
+English: 
+
+pp2.2:1.4
+Pali: ayaṁ vuccati kodho. 
+English: 
+
+pp2.2:1.5
+Pali: Yassa puggalassa ayaṁ kodho appahīno—
+English: 
+
+pp2.2:1.6
+Pali: ayaṁ vuccati puggalo “kodhano”. 
+English: 
+
+pp2.2:2.1
+Pali: Katamo ca puggalo upanāhī? 
+English: 
+
+pp2.2:2.2
+Pali: Tattha katamo upanāho? 
+English: 
+
+pp2.2:2.3
+Pali: Pubbakālaṁ kodho aparakālaṁ upanāho. 
+English: 
+
+pp2.2:2.4
+Pali: Yo evarūpo upanāho upanayhanā upanayhitattaṁ aṭṭhapanā ṭhapanā saṇṭhapanā anusaṁsandanā anuppabandhanā daḷhīkammaṁ kodhassa—
+English: 
+
+pp2.2:2.5
+Pali: ayaṁ vuccati upanāho. 
+English: 
+
+pp2.2:2.6
+Pali: Yassa puggalassa ayaṁ upanāho appahīno—
+English: 
+
+pp2.2:2.7
+Pali: ayaṁ vuccati puggalo “upanāhī”. 
+English: 
+
+pp2.2:3.1
+Pali: Katamo ca puggalo makkhī? 
+English: 
+
+pp2.2:3.2
+Pali: Tattha katamo makkho? 
+English: 
+
+pp2.2:3.3
+Pali: Yo makkho makkhāyanā makkhāyitattaṁ niṭṭhuriyaṁ niṭṭhuriyakammaṁ—
+English: 
+
+pp2.2:3.4
+Pali: ayaṁ vuccati makkho. 
+English: 
+
+pp2.2:3.5
+Pali: Yassa puggalassa ayaṁ makkho appahīno—
+English: 
+
+pp2.2:3.6
+Pali: ayaṁ vuccati puggalo “makkhī”. 
+English: 
+
+pp2.2:4.1
+Pali: Katamo ca puggalo paḷāsī? 
+English: 
+
+pp2.2:4.2
+Pali: Tattha katamo paḷāso? 
+English: 
+
+pp2.2:4.3
+Pali: Yo paḷāso paḷāsāyanā paḷāsāyitattaṁ paḷāsāhāro vivādaṭṭhānaṁ yugaggāho appaṭinissaggo—
+English: 
+
+pp2.2:4.4
+Pali: ayaṁ vuccati paḷāso. 
+English: 
+
+pp2.2:4.5
+Pali: Yassa puggalassa ayaṁ paḷāso appahīno—
+English: 
+
+pp2.2:4.6
+Pali: ayaṁ vuccati puggalo “paḷāsī”. 
+English: 
+
+pp2.2:5.1
+Pali: Katamo ca puggalo issukī? 
+English: 
+
+pp2.2:5.2
+Pali: Tattha katamā issā? 
+English: 
+
+pp2.2:5.3
+Pali: Yā paralābhasakkāragarukāramānanavandanapūjanāsu issā issāyanā issāyitattaṁ usūyā usūyanā usūyitattaṁ—
+English: 
+
+pp2.2:5.4
+Pali: ayaṁ vuccati issā. 
+English: 
+
+pp2.2:5.5
+Pali: Yassa puggalassa ayaṁ issā appahīnā—
+English: 
+
+pp2.2:5.6
+Pali: ayaṁ vuccati puggalo “issukī”. 
+English: 
+
+pp2.2:6.1
+Pali: Katamo ca puggalo maccharī? 
+English: 
+
+pp2.2:6.2
+Pali: Tattha katamaṁ macchariyaṁ? 
+English: 
+
+pp2.2:6.3
+Pali: Pañca macchariyāni—
+English: 
+
+pp2.2:6.4
+Pali: āvāsamacchariyaṁ, kulamacchariyaṁ, lābhamacchariyaṁ, vaṇṇamacchariyaṁ, dhammamacchariyaṁ. 
+English: 
+
+pp2.2:6.5
+Pali: Yaṁ evarūpaṁ maccheraṁ maccharāyanā maccharāyitattaṁ vevicchaṁ kadariyaṁ kaṭukañcukatā aggahitattaṁ cittassa—
+English: 
+
+pp2.2:6.6
+Pali: idaṁ vuccati macchariyaṁ. 
+English: 
+
+pp2.2:6.7
+Pali: Yassa puggalassa idaṁ macchariyaṁ appahīnaṁ—
+English: 
+
+pp2.2:6.8
+Pali: ayaṁ vuccati puggalo “maccharī”. 
+English: 
+
+pp2.2:7.1
+Pali: Katamo ca puggalo saṭho? 
+English: 
+
+pp2.2:7.2
+Pali: Tattha katamaṁ sāṭheyyaṁ? 
+English: 
+
+pp2.2:7.3
+Pali: Idhekacco saṭho hoti parisaṭho. 
+English: 
+
+pp2.2:7.4
+Pali: Yaṁ tattha saṭhaṁ saṭhatā sāṭheyyaṁ kakkaratā kakkariyaṁ parikkhattatā pārikkhattiyaṁ—
+English: 
+
+pp2.2:7.5
+Pali: idaṁ vuccati sāṭheyyaṁ. 
+English: 
+
+pp2.2:7.6
+Pali: Yassa puggalassa idaṁ sāṭheyyaṁ appahīnaṁ—
+English: 
+
+pp2.2:7.7
+Pali: ayaṁ vuccati puggalo “saṭho”. 
+English: 
+
+pp2.2:8.1
+Pali: Katamo ca puggalo māyāvī? 
+English: 
+
+pp2.2:8.2
+Pali: Tattha katamā māyā? 
+English: 
+
+pp2.2:8.3
+Pali: Idhekacco kāyena duccaritaṁ caritvā vācāya duccaritaṁ caritvā manasā duccaritaṁ caritvā tassa paṭicchādanahetu pāpikaṁ icchaṁ paṇidahati—
+English: 
+
+pp2.2:8.4
+Pali: “mā maṁ jaññā”ti icchati, “mā maṁ jaññā”ti saṅkappati “mā maṁ jaññā”ti vācaṁ bhāsati, “mā maṁ jaññā”ti kāyena parakkamati. 
+English: 
+
+pp2.2:8.5
+Pali: Yā evarūpā māyā māyāvitā accāsarā vañcanā nikati vikiraṇā pariharaṇā gūhanā parigūhanā chādanā paṭicchādanā anuttānīkammaṁ anāvikammaṁ vocchādanā pāpakiriyā—
+English: 
+
+pp2.2:8.6
+Pali: ayaṁ vuccati māyā. 
+English: 
+
+pp2.2:8.7
+Pali: Yassa puggalassa ayaṁ māyā appahīnā—
+English: 
+
+pp2.2:8.8
+Pali: ayaṁ vuccati puggalo “māyāvī”. 
+English: 
+
+pp2.2:9.1
+Pali: Katamo ca puggalo ahiriko? 
+English: 
+
+pp2.2:9.2
+Pali: Tattha katamaṁ ahirikaṁ? 
+English: 
+
+pp2.2:9.3
+Pali: Yaṁ na hirīyati hiriyitabbena na hirīyati pāpakānaṁ akusalānaṁ dhammānaṁ samāpattiyā—
+English: 
+
+pp2.2:9.4
+Pali: idaṁ vuccati ahirikaṁ. 
+English: 
+
+pp2.2:9.5
+Pali: Iminā ahirikena samannāgato puggalo “ahiriko”. 
+English: 
+
+pp2.2:10.1
+Pali: Katamo ca puggalo anottappī? 
+English: 
+
+pp2.2:10.2
+Pali: Tattha katamaṁ anottappaṁ? 
+English: 
+
+pp2.2:10.3
+Pali: Yaṁ na ottappati ottappitabbena na ottappati pāpakānaṁ akusalānaṁ dhammānaṁ samāpattiyā—
+English: 
+
+pp2.2:10.4
+Pali: idaṁ vuccati anottappaṁ. 
+English: 
+
+pp2.2:10.5
+Pali: Iminā anottappena samannāgato puggalo “anottappī”. 
+English: 
+
+pp2.2:11.1
+Pali: Katamo ca puggalo dubbaco? 
+English: 
+
+pp2.2:11.2
+Pali: Tattha katamā dovacassatā? 
+English: 
+
+pp2.2:11.3
+Pali: Sahadhammike vuccamāne dovacassāyaṁ dovacassiyaṁ dovacassatā vippaṭikulaggāhitā vipaccanīkasātatā anādariyaṁ anādariyatā agāravatā appatissavatā—
+English: 
+
+pp2.2:11.4
+Pali: ayaṁ vuccati dovacassatā. 
+English: 
+
+pp2.2:11.5
+Pali: Imāya dovacassatāya samannāgato puggalo “dubbaco”. 
+English: 
+
+pp2.2:12.1
+Pali: Katamo ca puggalo pāpamitto? 
+English: 
+
+pp2.2:12.2
+Pali: Tattha katamā pāpamittatā? 
+English: 
+
+pp2.2:12.3
+Pali: Ye te puggalā assaddhā dussīlā appassutā maccharino duppaññā, yā tesaṁ sevanā nisevanā saṁsevanā bhajanā sambhajanā bhatti sambhatti sampavaṅkatā—
+English: 
+
+pp2.2:12.4
+Pali: ayaṁ vuccati pāpamittatā. 
+English: 
+
+pp2.2:12.5
+Pali: Imāya pāpamittatāya samannāgato puggalo “pāpamitto”. 
+English: 
+
+pp2.2:13.1
+Pali: Katamo ca puggalo indriyesu aguttadvāro? 
+English: 
+
+pp2.2:13.2
+Pali: Tattha katamā indriyesu aguttadvāratā? 
+English: 
+
+pp2.2:13.3
+Pali: Idhekacco puggalo cakkhunā rūpaṁ disvā nimittaggāhī hoti anubyañjanaggāhī; 
+English: 
+
+pp2.2:13.4
+Pali: yatvādhikaraṇamenaṁ cakkhundriyaṁ asaṁvutaṁ viharantaṁ abhijjhādomanassā pāpakā akusalā dhammā anvāssaveyyuṁ, tassa saṁvarāya na paṭipajjati, na rakkhati cakkhundriyaṁ, cakkhundriye na saṁvaraṁ āpajjati. 
+English: 
+
+pp2.2:13.5
+Pali: Sotena saddaṁ sutvā …pe… 
+English: 
+
+pp2.2:13.6
+Pali: ghānena gandhaṁ ghāyitvā …pe… 
+English: 
+
+pp2.2:13.7
+Pali: jivhāya rasaṁ sāyitvā …pe… 
+English: 
+
+pp2.2:13.8
+Pali: kāyena phoṭṭhabbaṁ phusitvā …pe… 
+English: 
+
+pp2.2:13.9
+Pali: manasā dhammaṁ viññāya nimittaggāhī hoti anubyañjanaggāhī; 
+English: 
+
+pp2.2:13.10
+Pali: yatvādhikaraṇamenaṁ manindriyaṁ asaṁvutaṁ viharantaṁ abhijjhādomanassā pāpakā akusalā dhammā anvāssaveyyuṁ, tassa saṁvarāya na paṭipajjati, na rakkhati manindriyaṁ, manindriye na saṁvaraṁ āpajjati. 
+English: 
+
+pp2.2:13.11
+Pali: Yā imesaṁ channaṁ indriyānaṁ agutti agopanā anārakkho asaṁvaro—
+English: 
+
+pp2.2:13.12
+Pali: ayaṁ vuccati indriyesu aguttadvāratā. 
+English: 
+
+pp2.2:13.13
+Pali: Imāya indriyesu aguttadvāratāya samannāgato puggalo “indriyesu aguttadvāro”. 
+English: 
+
+pp2.2:14.1
+Pali: Katamo ca puggalo bhojane amattaññū? 
+English: 
+
+pp2.2:14.2
+Pali: Tattha katamā bhojane amattaññutā? 
+English: 
+
+pp2.2:14.3
+Pali: Idhekacco puggalo appaṭisaṅkhā ayoniso āhāraṁ āhāreti davāya madāya maṇḍanāya vibhūsanāya, yā tattha asantuṭṭhitā amattaññutā appaṭisaṅkhā bhojane—
+English: 
+
+pp2.2:14.4
+Pali: ayaṁ vuccati bhojane amattaññutā. 
+English: 
+
+pp2.2:14.5
+Pali: Imāya bhojane amattaññutāya samannāgato puggalo “bhojane amattaññū”. 
+English: 
+
+pp2.2:15.1
+Pali: Katamo ca puggalo muṭṭhassati? 
+English: 
+
+pp2.2:15.2
+Pali: Tattha katamaṁ muṭṭhassaccaṁ? 
+English: 
+
+pp2.2:15.3
+Pali: Yā assati ananussati appaṭissati assati assaraṇatā adhāraṇatā pilāpanatā sammussanatā—
+English: 
+
+pp2.2:15.4
+Pali: idaṁ vuccati muṭṭhassaccaṁ. 
+English: 
+
+pp2.2:15.5
+Pali: Iminā muṭṭhassaccena samannāgato puggalo “muṭṭhassati”. 
+English: 
+
+pp2.2:16.1
+Pali: Katamo ca puggalo asampajāno? 
+English: 
+
+pp2.2:16.2
+Pali: Tattha katamaṁ asampajaññaṁ? 
+English: 
+
+pp2.2:16.3
+Pali: Yaṁ aññāṇaṁ adassanaṁ anabhisamayo ananubodho asambodho appaṭivedho asaṅgāhaṇā apariyogāhaṇā asamapekkhaṇā apaccavekkhaṇā apaccakkhakammaṁ dummejjhaṁ bālyaṁ asampajaññaṁ moho pamoho sammoho avijjā avijjogho avijjāyogo avijjānusayo avijjāpariyuṭṭhānaṁ avijjālaṅgī moho akusalamūlaṁ—
+English: 
+
+pp2.2:16.4
+Pali: idaṁ vuccati asampajaññaṁ. 
+English: 
+
+pp2.2:16.5
+Pali: Iminā asampajaññena samannāgato puggalo “asampajāno”. 
+English: 
+
+pp2.2:17.1
+Pali: Katamo ca puggalo sīlavipanno? 
+English: 
+
+pp2.2:17.2
+Pali: Tattha katamā sīlavipatti? 
+English: 
+
+pp2.2:17.3
+Pali: Kāyiko vītikkamo vācasiko vītikkamo kāyikavācasiko vītikkamo—
+English: 
+
+pp2.2:17.4
+Pali: ayaṁ vuccati sīlavipatti. 
+English: 
+
+pp2.2:17.5
+Pali: Sabbampi dussilyaṁ sīlavipatti. 
+English: 
+
+pp2.2:17.6
+Pali: Imāya sīlavipattiyā samannāgato puggalo “sīlavipanno”. 
+English: 
+
+pp2.2:18.1
+Pali: Katamo ca puggalo diṭṭhivipanno? 
+English: 
+
+pp2.2:18.2
+Pali: Tattha katamā diṭṭhivipatti? 
+English: 
+
+pp2.2:18.3
+Pali: “Natthi dinnaṁ, natthi yiṭṭhaṁ, natthi hutaṁ, natthi sukatadukkaṭānaṁ kammānaṁ phalaṁ vipāko, natthi ayaṁ loko, natthi paro loko, natthi mātā, natthi pitā, natthi sattā opapātikā, natthi loke samaṇabrāhmaṇā sammaggatā sammāpaṭipannā ye imañca lokaṁ parañca lokaṁ sayaṁ abhiññā sacchikatvā pavedentī”ti. 
+English: 
+
+pp2.2:18.4
+Pali: Yā evarūpā diṭṭhi diṭṭhigataṁ diṭṭhigahanaṁ diṭṭhikantāro diṭṭhivisūkāyikaṁ diṭṭhivipphanditaṁ diṭṭhisaṁyojanaṁ gāho paṭiggāho abhiniveso parāmāso kummaggo micchāpatho micchattaṁ titthāyatanaṁ vipariyāsaggāho, ayaṁ vuccati diṭṭhivipatti. 
+English: 
+
+pp2.2:18.5
+Pali: Sabbāpi micchādiṭṭhi diṭṭhivipatti. 
+English: 
+
+pp2.2:18.6
+Pali: Imāya diṭṭhivipattiyā samannāgato puggalo “diṭṭhivipanno”. 
+English: 
+
+pp2.2:19.1
+Pali: Katamo ca puggalo ajjhattasaṁyojano? 
+English: 
+
+pp2.2:19.2
+Pali: Yassa puggalassa pañcorambhāgiyāni saṁyojanāni appahīnāni—
+English: 
+
+pp2.2:19.3
+Pali: ayaṁ vuccati puggalo “ajjhattasaṁyojano”. 
+English: 
+
+pp2.2:20.1
+Pali: Katamo ca puggalo bahiddhāsaṁyojano? 
+English: 
+
+pp2.2:20.2
+Pali: Yassa puggalassa pañcuddhambhāgiyāni saṁyojanāni appahīnāni—
+English: 
+
+pp2.2:20.3
+Pali: ayaṁ vuccati puggalo “bahiddhāsaṁyojano”. 
+English: 
+
+pp2.2:21.1
+Pali: Katamo ca puggalo akkodhano? 
+English: 
+
+pp2.2:21.2
+Pali: Tattha katamo kodho? 
+English: 
+
+pp2.2:21.3
+Pali: Yo kodho kujjhanā kujjhitattaṁ doso dussanā dussitattaṁ byāpatti byāpajjanā byāpajjitattaṁ virodho paṭivirodho caṇḍikkaṁ asuropo anattamanatā cittassa—
+English: 
+
+pp2.2:21.4
+Pali: ayaṁ vuccati kodho. 
+English: 
+
+pp2.2:21.5
+Pali: Yassa puggalassa ayaṁ kodho pahīno—
+English: 
+
+pp2.2:21.6
+Pali: ayaṁ vuccati puggalo “akkodhano”. 
+English: 
+
+pp2.2:22.1
+Pali: Katamo ca puggalo anupanāhī? 
+English: 
+
+pp2.2:22.2
+Pali: Tattha katamo upanāho? 
+English: 
+
+pp2.2:22.3
+Pali: Pubbakālaṁ kodho aparakālaṁ upanāho yo evarūpo upanāho upanayhanā upanayhitattaṁ aṭṭhapanā ṭhapanā saṇṭhapanā anusaṁsandanā anuppabandhanā daḷhīkammaṁ kodhassa—
+English: 
+
+pp2.2:22.4
+Pali: ayaṁ vuccati upanāho. 
+English: 
+
+pp2.2:22.5
+Pali: Yassa puggalassa ayaṁ upanāho pahīno—
+English: 
+
+pp2.2:22.6
+Pali: ayaṁ vuccati puggalo “anupanāhī”. 
+English: 
+
+pp2.2:23.1
+Pali: Katamo ca puggalo amakkhī? 
+English: 
+
+pp2.2:23.2
+Pali: Tattha katamo makkho? 
+English: 
+
+pp2.2:23.3
+Pali: Yo makkho makkhāyanā makkhāyitattaṁ niṭṭhuriyaṁ niṭṭhuriyakammaṁ—
+English: 
+
+pp2.2:23.4
+Pali: ayaṁ vuccati makkho. 
+English: 
+
+pp2.2:23.5
+Pali: Yassa puggalassa ayaṁ makkho pahīno—
+English: 
+
+pp2.2:23.6
+Pali: ayaṁ vuccati puggalo “amakkhī”. 
+English: 
+
+pp2.2:24.1
+Pali: Katamo ca puggalo apaḷāsī? 
+English: 
+
+pp2.2:24.2
+Pali: Tattha katamo paḷāso? 
+English: 
+
+pp2.2:24.3
+Pali: Yo paḷāso paḷāsāyanā paḷāsāyitattaṁ paḷāsāhāro vivādaṭṭhānaṁ yugaggāho appaṭinissaggo—
+English: 
+
+pp2.2:24.4
+Pali: ayaṁ vuccati paḷāso. 
+English: 
+
+pp2.2:24.5
+Pali: Yassa puggalassa ayaṁ paḷāso pahīno—
+English: 
+
+pp2.2:24.6
+Pali: ayaṁ vuccati puggalo “apaḷāsī”. 
+English: 
+
+pp2.2:25.1
+Pali: Katamo ca puggalo anissukī? 
+English: 
+
+pp2.2:25.2
+Pali: Tattha katamā issā? 
+English: 
+
+pp2.2:25.3
+Pali: Yā paralābhasakkāragarukāramānanavandanapūjanāsu issā issāyanā issāyitattaṁ usūyā usūyanā usūyitattaṁ—
+English: 
+
+pp2.2:25.4
+Pali: ayaṁ vuccati issā. 
+English: 
+
+pp2.2:25.5
+Pali: Yassa puggalassa ayaṁ issā pahīnā—
+English: 
+
+pp2.2:25.6
+Pali: ayaṁ vuccati puggalo “anissukī”. 
+English: 
+
+pp2.2:26.1
+Pali: Katamo ca puggalo amaccharī? 
+English: 
+
+pp2.2:26.2
+Pali: Tattha katamaṁ macchariyaṁ? 
+English: 
+
+pp2.2:26.3
+Pali: Pañca macchariyāni—
+English: 
+
+pp2.2:26.4
+Pali: āvāsamacchariyaṁ, kulamacchariyaṁ, lābhamacchariyaṁ, vaṇṇamacchariyaṁ, dhammamacchariyaṁ. 
+English: 
+
+pp2.2:26.5
+Pali: Yaṁ evarūpaṁ maccheraṁ maccharāyanā maccharāyitattaṁ vevicchaṁ kadariyaṁ kaṭukañcukatā aggahitattaṁ cittassa—
+English: 
+
+pp2.2:26.6
+Pali: idaṁ vuccati macchariyaṁ. 
+English: 
+
+pp2.2:26.7
+Pali: Yassa puggalassa idaṁ macchariyaṁ pahīnaṁ—
+English: 
+
+pp2.2:26.8
+Pali: ayaṁ vuccati puggalo “amaccharī”. 
+English: 
+
+pp2.2:27.1
+Pali: Katamo ca puggalo asaṭho? 
+English: 
+
+pp2.2:27.2
+Pali: Tattha katamaṁ sāṭheyyaṁ? 
+English: 
+
+pp2.2:27.3
+Pali: Idhekacco saṭho hoti parisaṭho. 
+English: 
+
+pp2.2:27.4
+Pali: Yaṁ tattha saṭhaṁ saṭhatā sāṭheyyaṁ kakkaratā kakkariyaṁ parikkhattatā pārikkhattiyaṁ—
+English: 
+
+pp2.2:27.5
+Pali: idaṁ vuccati sāṭheyyaṁ. 
+English: 
+
+pp2.2:27.6
+Pali: Yassa puggalassa idaṁ sāṭheyyaṁ pahīnaṁ—
+English: 
+
+pp2.2:27.7
+Pali: ayaṁ vuccati puggalo “asaṭho”. 
+English: 
+
+pp2.2:28.1
+Pali: Katamo ca puggalo amāyāvī? 
+English: 
+
+pp2.2:28.2
+Pali: Tattha katamā māyā? 
+English: 
+
+pp2.2:28.3
+Pali: Idhekacco puggalo kāyena duccaritaṁ caritvā vācāya duccaritaṁ caritvā manasā duccaritaṁ caritvā tassa paṭicchādanahetu pāpikaṁ icchaṁ paṇidahati—
+English: 
+
+pp2.2:28.4
+Pali: “mā maṁ jaññā”ti icchati, “mā maṁ jaññā”ti saṅkappati, “mā maṁ jaññā”ti vācaṁ bhāsati, “mā maṁ jaññā”ti kāyena parakkamati. 
+English: 
+
+pp2.2:28.5
+Pali: Yā evarūpā māyā māyāvitā accāsarā vañcanā nikati vikiraṇā pariharaṇā gūhanā parigūhanā chādanā paṭicchādanā anuttānīkammaṁ anāvikammaṁ vocchādanā pāpakiriyā—
+English: 
+
+pp2.2:28.6
+Pali: ayaṁ vuccati māyā. 
+English: 
+
+pp2.2:28.7
+Pali: Yassa puggalassa ayaṁ māyā pahīnā—
+English: 
+
+pp2.2:28.8
+Pali: ayaṁ vuccati puggalo “amāyāvī”. 
+English: 
+
+pp2.2:29.1
+Pali: Katamo ca puggalo hirimā? 
+English: 
+
+pp2.2:29.2
+Pali: Tattha katamā hirī? 
+English: 
+
+pp2.2:29.3
+Pali: Yaṁ hirīyati hiriyitabbena hirīyati pāpakānaṁ akusalānaṁ dhammānaṁ samāpattiyā—
+English: 
+
+pp2.2:29.4
+Pali: ayaṁ vuccati hirī. 
+English: 
+
+pp2.2:29.5
+Pali: Imāya hiriyā samannāgato puggalo “hirimā”. 
+English: 
+
+pp2.2:30.1
+Pali: Katamo ca puggalo ottappī? 
+English: 
+
+pp2.2:30.2
+Pali: Tattha katamaṁ ottappaṁ? 
+English: 
+
+pp2.2:30.3
+Pali: Yaṁ ottappati ottappitabbena ottappati pāpakānaṁ akusalānaṁ dhammānaṁ samāpattiyā—
+English: 
+
+pp2.2:30.4
+Pali: idaṁ vuccati ottappaṁ. 
+English: 
+
+pp2.2:30.5
+Pali: Iminā ottappena samannāgato puggalo “ottappī”. 
+English: 
+
+pp2.2:31.1
+Pali: Katamo ca puggalo suvaco? 
+English: 
+
+pp2.2:31.2
+Pali: Tattha katamā sovacassatā? 
+English: 
+
+pp2.2:31.3
+Pali: Sahadhammike vuccamāne sovacassāyaṁ sovacassiyaṁ sovacassatā avippaṭikulaggāhitā avipaccanīkasātatā sādariyaṁ sādariyatā sagāravatā sappatissavatā—
+English: 
+
+pp2.2:31.4
+Pali: ayaṁ vuccati sovacassatā. 
+English: 
+
+pp2.2:31.5
+Pali: Imāya sovacassatāya samannāgato puggalo “suvaco”. 
+English: 
+
+pp2.2:32.1
+Pali: Katamo ca puggalo kalyāṇamitto? 
+English: 
+
+pp2.2:32.2
+Pali: Tattha katamā kalyāṇamittatā? 
+English: 
+
+pp2.2:32.3
+Pali: Ye te puggalā saddhā sīlavanto bahussutā cāgavanto paññavanto, yā tesaṁ sevanā nisevanā saṁsevanā bhajanā sambhajanā bhatti sambhatti sampavaṅkatā—
+English: 
+
+pp2.2:32.4
+Pali: ayaṁ vuccati kalyāṇamittatā. 
+English: 
+
+pp2.2:32.5
+Pali: Imāya kalyāṇamittatāya samannāgato puggalo “kalyāṇamitto”. 
+English: 
+
+pp2.2:33.1
+Pali: Katamo ca puggalo indriyesu guttadvāro? 
+English: 
+
+pp2.2:33.2
+Pali: Tattha katamā indriyesu guttadvāratā? 
+English: 
+
+pp2.2:33.3
+Pali: Idhekacco puggalo cakkhunā rūpaṁ disvā na nimittaggāhī hoti nānubyañjanaggāhī; 
+English: 
+
+pp2.2:33.4
+Pali: yatvādhikaraṇamenaṁ cakkhundriyaṁ asaṁvutaṁ viharantaṁ abhijjhādomanassā pāpakā akusalā dhammā anvāssaveyyuṁ, tassa saṁvarāya paṭipajjati, rakkhati cakkhundriyaṁ cakkhundriye saṁvaraṁ āpajjati. 
+English: 
+
+pp2.2:33.5
+Pali: Sotena saddaṁ sutvā …pe… 
+English: 
+
+pp2.2:33.6
+Pali: ghānena gandhaṁ ghāyitvā …pe… 
+English: 
+
+pp2.2:33.7
+Pali: jivhāya rasaṁ sāyitvā …pe… 
+English: 
+
+pp2.2:33.8
+Pali: kāyena phoṭṭhabbaṁ phusitvā …pe… 
+English: 
+
+pp2.2:33.9
+Pali: manasā dhammaṁ viññāya na nimittaggāhī hoti nānubyañjanaggāhī; 
+English: 
+
+pp2.2:33.10
+Pali: yatvādhikaraṇamenaṁ manindriyaṁ asaṁvutaṁ viharantaṁ abhijjhādomanassā pāpakā akusalā dhammā anvāssaveyyuṁ, tassa saṁvarāya paṭipajjati, rakkhati manindriyaṁ, manindriye saṁvaraṁ āpajjati. 
+English: 
+
+pp2.2:33.11
+Pali: Yā imesaṁ channaṁ indriyānaṁ gutti gopanā ārakkho saṁvaro—
+English: 
+
+pp2.2:33.12
+Pali: ayaṁ vuccati indriyesu guttadvāratā. 
+English: 
+
+pp2.2:33.13
+Pali: Imāya indriyesu guttadvāratāya samannāgato puggalo “indriyesu guttadvāro”. 
+English: 
+
+pp2.2:34.1
+Pali: Katamo ca puggalo bhojane mattaññū? 
+English: 
+
+pp2.2:34.2
+Pali: Tattha katamā bhojane mattaññutā? 
+English: 
+
+pp2.2:34.3
+Pali: Idhekacco puggalo paṭisaṅkhā yoniso āhāraṁ āhāreti—
+English: 
+
+pp2.2:34.4
+Pali: “neva davāya, na madāya, na maṇḍanāya, na vibhūsanāya; 
+English: 
+
+pp2.2:34.5
+Pali: yāvadeva imassa kāyassa ṭhitiyā yāpanāya vihiṁsūparatiyā brahmacariyānuggahāya. 
+English: 
+
+pp2.2:34.6
+Pali: Iti purāṇañca vedanaṁ paṭihaṅkhāmi, navañca vedanaṁ na uppādessāmi, yātrā ca me bhavissati anavajjatā ca phāsuvihāro cā”ti. 
+English: 
+
+pp2.2:34.7
+Pali: Yā tattha santuṭṭhitā mattaññutā paṭisaṅkhā bhojane—
+English: 
+
+pp2.2:34.8
+Pali: ayaṁ vuccati bhojane mattaññutā. 
+English: 
+
+pp2.2:34.9
+Pali: Imāya bhojane mattaññutāya samannāgato puggalo “bhojane mattaññū”. 
+English: 
+
+pp2.2:35.1
+Pali: Katamo ca puggalo upaṭṭhitassati? 
+English: 
+
+pp2.2:35.2
+Pali: Tattha katamā sati? 
+English: 
+
+pp2.2:35.3
+Pali: Yā sati anussati paṭissati sati saraṇatā dhāraṇatā apilāpanatā asammussanatā sati satindriyaṁ satibalaṁ sammāsati—
+English: 
+
+pp2.2:35.4
+Pali: ayaṁ vuccati sati. 
+English: 
+
+pp2.2:35.5
+Pali: Imāya satiyā samannāgato puggalo “upaṭṭhitassati”. 
+English: 
+
+pp2.2:36.1
+Pali: Katamo ca puggalo sampajāno? 
+English: 
+
+pp2.2:36.2
+Pali: Tattha katamaṁ sampajaññaṁ? 
+English: 
+
+pp2.2:36.3
+Pali: Yā paññā pajānanā vicayo pavicayo dhammavicayo sallakkhaṇā upalakkhaṇā paccupalakkhaṇā paṇḍiccaṁ kosallaṁ nepuññaṁ vebhabyā cintā upaparikkhā bhūrī medhā pariṇāyikā vipassanā sampajaññaṁ patodo paññā paññindriyaṁ paññābalaṁ paññāsatthaṁ paññāpāsādo paññāāloko paññāobhāso paññāpajjoto paññāratanaṁ amoho dhammavicayo sammādiṭṭhi—
+English: 
+
+pp2.2:36.4
+Pali: idaṁ vuccati sampajaññaṁ. 
+English: 
+
+pp2.2:36.5
+Pali: Iminā sampajaññena samannāgato puggalo “sampajāno”. 
+English: 
+
+pp2.2:37.1
+Pali: Katamo ca puggalo sīlasampanno? 
+English: 
+
+pp2.2:37.2
+Pali: Tattha katamā sīlasampadā? 
+English: 
+
+pp2.2:37.3
+Pali: Kāyiko avītikkamo vācasiko avītikkamo kāyikavācasiko avītikkamo—
+English: 
+
+pp2.2:37.4
+Pali: ayaṁ vuccati sīlasampadā. 
+English: 
+
+pp2.2:37.5
+Pali: Sabbopi sīlasaṁvaro sīlasampadā. 
+English: 
+
+pp2.2:37.6
+Pali: Imāya sīlasampadāya samannāgato puggalo “sīlasampanno”. 
+English: 
+
+pp2.2:38.1
+Pali: Katamo ca puggalo diṭṭhisampanno? 
+English: 
+
+pp2.2:38.2
+Pali: Tattha katamā diṭṭhisampadā? 
+English: 
+
+pp2.2:38.3
+Pali: “Atthi dinnaṁ, atthi yiṭṭhaṁ, atthi hutaṁ, atthi sukatadukkaṭānaṁ kammānaṁ phalaṁ vipāko, atthi ayaṁ loko, atthi paro loko, atthi mātā, atthi pitā, atthi sattā opapātikā, atthi loke samaṇabrāhmaṇā sammaggatā sammāpaṭipannā ye imañca lokaṁ parañca lokaṁ sayaṁ abhiññā sacchikatvā pavedentī”ti. 
+English: 
+
+pp2.2:38.4
+Pali: Yā evarūpā paññā pajānanā …pe… amoho dhammavicayo sammādiṭṭhi—
+English: 
+
+pp2.2:38.5
+Pali: ayaṁ vuccati diṭṭhisampadā. 
+English: 
+
+pp2.2:38.6
+Pali: Sabbāpi sammādiṭṭhi diṭṭhisampadā. 
+English: 
+
+pp2.2:38.7
+Pali: Imāya diṭṭhisampadāya samannāgato puggalo “diṭṭhisampanno”. 
+English: 
+
+pp2.2:39.1
+Pali: Katame dve puggalā dullabhā lokasmiṁ? 
+English: 
+
+pp2.2:39.2
+Pali: Yo ca pubbakārī, yo ca kataññū katavedī—
+English: 
+
+pp2.2:39.3
+Pali: ime dve puggalā dullabhā lokasmiṁ. 
+English: 
+
+pp2.2:40.1
+Pali: Katame dve puggalā duttappayā? 
+English: 
+
+pp2.2:40.2
+Pali: Yo ca laddhaṁ laddhaṁ nikkhipati, yo ca laddhaṁ laddhaṁ vissajjeti—
+English: 
+
+pp2.2:40.3
+Pali: ime dve puggalā “duttappayā”. 
+English: 
+
+pp2.2:41.1
+Pali: Katame dve puggalā sutappayā? 
+English: 
+
+pp2.2:41.2
+Pali: Yo ca laddhaṁ laddhaṁ na nikkhipati, yo ca laddhaṁ laddhaṁ na vissajjeti—
+English: 
+
+pp2.2:41.3
+Pali: ime dve puggalā “sutappayā”. 
+English: 
+
+pp2.2:42.1
+Pali: Katamesaṁ dvinnaṁ puggalānaṁ āsavā vaḍḍhanti? 
+English: 
+
+pp2.2:42.2
+Pali: Yo ca na kukkuccāyitabbaṁ kukkuccāyati, yo ca kukkuccāyitabbaṁ na kukkuccāyati—
+English: 
+
+pp2.2:42.3
+Pali: imesaṁ dvinnaṁ puggalānaṁ āsavā vaḍḍhanti. 
+English: 
+
+pp2.2:43.1
+Pali: Katamesaṁ dvinnaṁ puggalānaṁ āsavā na vaḍḍhanti? 
+English: 
+
+pp2.2:43.2
+Pali: Yo ca na kukkuccāyitabbaṁ na kukkuccāyati, yo ca kukkuccāyitabbaṁ kukkuccāyati—
+English: 
+
+pp2.2:43.3
+Pali: imesaṁ dvinnaṁ puggalānaṁ āsavā na vaḍḍhanti. 
+English: 
+
+pp2.2:44.1
+Pali: Katamo ca puggalo hīnādhimutto? 
+English: 
+
+pp2.2:44.2
+Pali: Idhekacco puggalo dussīlo hoti pāpadhammo, so aññaṁ dussīlaṁ pāpadhammaṁ sevati bhajati payirupāsati—
+English: 
+
+pp2.2:44.3
+Pali: ayaṁ vuccati puggalo “hīnādhimutto”. 
+English: 
+
+pp2.2:45.1
+Pali: Katamo ca puggalo paṇītādhimutto? 
+English: 
+
+pp2.2:45.2
+Pali: Idhekacco puggalo sīlavā hoti kalyāṇadhammo, so aññaṁ sīlavantaṁ kalyāṇadhammaṁ sevati bhajati payirupāsati—
+English: 
+
+pp2.2:45.3
+Pali: ayaṁ vuccati puggalo “paṇītādhimutto”. 
+English: 
+
+pp2.2:46.1
+Pali: Katamo ca puggalo titto? 
+English: 
+
+pp2.2:46.2
+Pali: Paccekasambuddhā ye ca tathāgatassa sāvakā arahanto tittā. 
+English: 
+
+pp2.2:46.3
+Pali: Sammāsambuddho titto ca tappetā ca. 
+English: 
+
+pp2.2:47.1
+Pali: Dukaniddeso. 
+English: 
+
+================================================================================
+pp2.3
+Root: root/pli/ms/abhidhamma/pp/pp2/pp2.3_root-pli-ms.json
+
+pp2.3:0.1
+Pali: Puggalapaññatti 
+English: 
+
+pp2.3:0.2
+Pali: Niddesa 
+English: 
+
+pp2.3:0.3
+Pali: 3. Tikapuggalapaññatti 
+English: 
+
+pp2.3:1.1
+Pali: Katamo ca puggalo nirāso? 
+English: 
+
+pp2.3:1.2
+Pali: Idhekacco puggalo dussīlo hoti pāpadhammo asuci saṅkassarasamācāro paṭicchannakammanto assamaṇo samaṇapaṭiñño abrahmacārī brahmacāripaṭiñño antopūti avassuto kasambujāto. 
+English: 
+
+pp2.3:1.3
+Pali: So suṇāti—
+English: 
+
+pp2.3:1.4
+Pali: “itthannāmo kira bhikkhu āsavānaṁ khayā anāsavaṁ cetovimuttiṁ paññāvimuttiṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja viharatī”ti. 
+English: 
+
+pp2.3:1.5
+Pali: Tassa na evaṁ hoti—
+English: 
+
+pp2.3:1.6
+Pali: “kudāssu nāmāhampi āsavānaṁ khayā anāsavaṁ cetovimuttiṁ paññāvimuttiṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja viharissāmī”ti. 
+English: 
+
+pp2.3:1.7
+Pali: Ayaṁ vuccati puggalo “nirāso”. 
+English: 
+
+pp2.3:2.1
+Pali: Katamo ca puggalo āsaṁso? 
+English: 
+
+pp2.3:2.2
+Pali: Idhekacco puggalo sīlavā hoti kalyāṇadhammo. 
+English: 
+
+pp2.3:2.3
+Pali: So suṇāti—
+English: 
+
+pp2.3:2.4
+Pali: “itthannāmo kira bhikkhu āsavānaṁ khayā anāsavaṁ cetovimuttiṁ paññāvimuttiṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja viharatī”ti. 
+English: 
+
+pp2.3:2.5
+Pali: Tassa evaṁ hoti—
+English: 
+
+pp2.3:2.6
+Pali: “kudāssu nāmāhampi āsavānaṁ khayā anāsavaṁ cetovimuttiṁ paññāvimuttiṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja viharissāmī”ti. 
+English: 
+
+pp2.3:2.7
+Pali: Ayaṁ vuccati puggalo “āsaṁso”. 
+English: 
+
+pp2.3:3.1
+Pali: Katamo ca puggalo vigatāso? 
+English: 
+
+pp2.3:3.2
+Pali: Idhekacco puggalo āsavānaṁ khayā anāsavaṁ cetovimuttiṁ paññāvimuttiṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja viharati. 
+English: 
+
+pp2.3:3.3
+Pali: So suṇāti—
+English: 
+
+pp2.3:3.4
+Pali: “itthannāmo kira bhikkhu āsavānaṁ khayā anāsavaṁ cetovimuttiṁ paññāvimuttiṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja viharatī”ti. 
+English: 
+
+pp2.3:3.5
+Pali: Tassa na evaṁ hoti—
+English: 
+
+pp2.3:3.6
+Pali: “kudāssu nāmāhampi āsavānaṁ khayā anāsavaṁ cetovimuttiṁ paññāvimuttiṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja viharissāmī”ti. 
+English: 
+
+pp2.3:3.7
+Pali: Taṁ kissa hetu? 
+English: 
+
+pp2.3:3.8
+Pali: Yā hissa pubbe avimuttassa vimuttāsā, sā paṭippassaddhā. 
+English: 
+
+pp2.3:3.9
+Pali: Ayaṁ vuccati puggalo “vigatāso”. 
+English: 
+
+pp2.3:4.1
+Pali: Tattha katame tayo gilānūpamā puggalā? 
+English: 
+
+pp2.3:4.2
+Pali: Tayo gilānā—
+English: 
+
+pp2.3:4.3
+Pali: idhekacco gilāno labhanto vā sappāyāni bhojanāni alabhanto vā sappāyāni bhojanāni, labhanto vā sappāyāni bhesajjāni alabhanto vā sappāyāni bhesajjāni, labhanto vā patirūpaṁ upaṭṭhākaṁ alabhanto vā patirūpaṁ upaṭṭhākaṁ, neva vuṭṭhāti tamhā ābādhā. 
+English: 
+
+pp2.3:5.1
+Pali: Idha panekacco gilāno labhanto vā sappāyāni bhojanāni alabhanto vā sappāyāni bhojanāni, labhanto vā sappāyāni bhesajjāni alabhanto vā sappāyāni bhesajjāni, labhanto vā patirūpaṁ upaṭṭhākaṁ alabhanto vā patirūpaṁ upaṭṭhākaṁ, vuṭṭhāti tamhā ābādhā. 
+English: 
+
+pp2.3:6.1
+Pali: Idha panekacco gilāno labhanto sappāyāni bhojanāni no alabhanto, labhanto sappāyāni bhesajjāni no alabhanto, labhanto patirūpaṁ upaṭṭhākaṁ no alabhanto, vuṭṭhāti tamhā ābādhā. 
+English: 
+
+pp2.3:7.1
+Pali: Tatra yvāyaṁ gilāno labhanto sappāyāni bhojanāni no alabhanto, labhanto sappāyāni bhesajjāni no alabhanto, labhanto patirūpaṁ upaṭṭhākaṁ no alabhanto, vuṭṭhāti tamhā ābādhā, imaṁ gilānaṁ paṭicca bhagavatā gilānabhattaṁ anuññātaṁ gilānabhesajjaṁ anuññātaṁ gilānupaṭṭhāko anuññāto. 
+English: 
+
+pp2.3:7.2
+Pali: Imañca pana gilānaṁ paṭicca aññepi gilānā upaṭṭhātabbā. 
+English: 
+
+pp2.3:8.1
+Pali: Evamevaṁ tayo gilānūpamā puggalā santo saṁvijjamānā lokasmiṁ. 
+English: 
+
+pp2.3:8.2
+Pali: Katame tayo? 
+English: 
+
+pp2.3:8.3
+Pali: Idhekacco puggalo labhanto vā tathāgataṁ dassanāya alabhanto vā tathāgataṁ dassanāya, labhanto vā tathāgatappaveditaṁ dhammavinayaṁ savaṇāya alabhanto vā tathāgatappaveditaṁ dhammavinayaṁ savaṇāya, neva okkamati niyāmaṁ kusalesu dhammesu sammattaṁ. 
+English: 
+
+pp2.3:9.1
+Pali: Idha panekacco puggalo labhanto vā tathāgataṁ dassanāya alabhanto vā tathāgataṁ dassanāya, labhanto vā tathāgatappaveditaṁ dhammavinayaṁ savaṇāya alabhanto vā tathāgatappaveditaṁ dhammavinayaṁ savaṇāya, okkamati niyāmaṁ kusalesu dhammesu sammattaṁ. 
+English: 
+
+pp2.3:10.1
+Pali: Idha panekacco puggalo labhanto tathāgataṁ dassanāya no alabhanto, labhanto tathāgatappaveditaṁ dhammavinayaṁ savaṇāya no alabhanto, okkamati niyāmaṁ kusalesu dhammesu sammattaṁ. 
+English: 
+
+pp2.3:11.1
+Pali: Tatra yvāyaṁ puggalo labhanto tathāgataṁ dassanāya no alabhanto, labhanto tathāgatappaveditaṁ dhammavinayaṁ savaṇāya no alabhanto, okkamati niyāmaṁ kusalesu dhammesu sammattaṁ, imaṁ puggalaṁ paṭicca bhagavatā dhammadesanā anuññātā, imañca puggalaṁ paṭicca aññesampi dhammo desetabbo. 
+English: 
+
+pp2.3:11.2
+Pali: Ime tayo gilānūpamā puggalā santo saṁvijjamānā lokasmiṁ. 
+English: 
+
+pp2.3:12.1
+Pali: Katamo ca puggalo kāyasakkhī? 
+English: 
+
+pp2.3:12.2
+Pali: Idhekacco puggalo aṭṭha vimokkhe kāyena phusitvā viharati, paññāya cassa disvā ekacce āsavā parikkhīṇā honti—
+English: 
+
+pp2.3:12.3
+Pali: ayaṁ vuccati puggalo “kāyasakkhī”. 
+English: 
+
+pp2.3:13.1
+Pali: Katamo ca puggalo diṭṭhippatto? 
+English: 
+
+pp2.3:13.2
+Pali: Idhekacco puggalo “idaṁ dukkhan”ti yathābhūtaṁ pajānāti, “ayaṁ dukkhasamudayo”ti yathābhūtaṁ pajānāti, “ayaṁ dukkhanirodho”ti yathābhūtaṁ pajānāti, “ayaṁ dukkhanirodhagāminī paṭipadā”ti yathābhūtaṁ pajānāti, tathāgatappaveditā cassa dhammā paññāya vodiṭṭhā honti vocaritā, paññāya cassa disvā ekacce āsavā parikkhīṇā honti—
+English: 
+
+pp2.3:13.3
+Pali: ayaṁ vuccati puggalo “diṭṭhippatto”. 
+English: 
+
+pp2.3:14.1
+Pali: Katamo ca puggalo saddhāvimutto? 
+English: 
+
+pp2.3:14.2
+Pali: Idhekacco puggalo “idaṁ dukkhan”ti yathābhūtaṁ pajānāti …pe… 
+English: 
+
+pp2.3:14.3
+Pali: tathāgatappaveditā cassa dhammā paññāya vodiṭṭhā honti vocaritā, paññāya cassa disvā ekacce āsavā parikkhīṇā honti, no ca kho yathādiṭṭhippattassa—
+English: 
+
+pp2.3:14.4
+Pali: ayaṁ vuccati puggalo “saddhāvimutto”. 
+English: 
+
+pp2.3:15.1
+Pali: Katamo ca puggalo gūthabhāṇī? 
+English: 
+
+pp2.3:15.2
+Pali: Idhekacco puggalo musāvādī hoti sabhaggato vā parisaggato vā ñātimajjhagato vā pūgamajjhagato vā rājakulamajjhagato vā abhinīto sakkhipuṭṭho—
+English: 
+
+pp2.3:15.3
+Pali: “ehambho, purisa, yaṁ jānāsi taṁ vadehī”ti, 
+English: 
+
+pp2.3:15.4
+Pali: so ajānaṁ vā āha—“jānāmī”ti, 
+English: 
+
+pp2.3:15.5
+Pali: jānaṁ vā āha—“na jānāmī”ti, 
+English: 
+
+pp2.3:15.6
+Pali: apassaṁ vā āha—“passāmī”ti, 
+English: 
+
+pp2.3:15.7
+Pali: passaṁ vā āha—“na passāmī”ti. 
+English: 
+
+pp2.3:15.8
+Pali: Iti attahetu vā parahetu vā āmisakiñcikkhahetu vā sampajānamusā bhāsitā hoti—
+English: 
+
+pp2.3:15.9
+Pali: ayaṁ vuccati puggalo “gūthabhāṇī”. 
+English: 
+
+pp2.3:16.1
+Pali: Katamo ca puggalo pupphabhāṇī? 
+English: 
+
+pp2.3:16.2
+Pali: Idhekacco puggalo musāvādaṁ pahāya musāvādā paṭivirato hoti sabhaggato vā parisaggato vā ñātimajjhagato vā pūgamajjhagato vā rājakulamajjhagato vā abhinīto sakkhipuṭṭho—
+English: 
+
+pp2.3:16.3
+Pali: “ehambho, purisa, yaṁ jānāsi taṁ vadehī”ti, 
+English: 
+
+pp2.3:16.4
+Pali: so ajānaṁ vā āha—“na jānāmī”ti, 
+English: 
+
+pp2.3:16.5
+Pali: jānaṁ vā āha—“jānāmī”ti, 
+English: 
+
+pp2.3:16.6
+Pali: apassaṁ vā āha—“na passāmī”ti, 
+English: 
+
+pp2.3:16.7
+Pali: passaṁ vā āha—“passāmī”ti. 
+English: 
+
+pp2.3:16.8
+Pali: Iti attahetu vā parahetu vā āmisakiñcikkhahetu vā na sampajānamusā bhāsitā hoti—
+English: 
+
+pp2.3:16.9
+Pali: ayaṁ vuccati puggalo “pupphabhāṇī”. 
+English: 
+
+pp2.3:17.1
+Pali: Katamo ca puggalo madhubhāṇī? 
+English: 
+
+pp2.3:17.2
+Pali: Idhekacco puggalo yā sā vācā nelā kaṇṇasukhā pemanīyā hadayaṅgamā porī bahujanakantā bahujanamanāpā, tathārūpiṁ vācaṁ bhāsitā hoti—
+English: 
+
+pp2.3:17.3
+Pali: ayaṁ vuccati puggalo “madhubhāṇī”. 
+English: 
+
+pp2.3:18.1
+Pali: Katamo ca puggalo arukūpamacitto? 
+English: 
+
+pp2.3:18.2
+Pali: Idhekacco puggalo kodhano hoti upāyāsabahulo, appampi vutto samāno abhisajjati kuppati byāpajjati patitthīyati, kopañca dosañca appaccayañca pātukaroti. 
+English: 
+
+pp2.3:18.3
+Pali: Seyyathāpi nāma duṭṭhāruko kaṭṭhena vā kaṭhalāya vā ghaṭṭito bhiyyoso mattāya āsavaṁ deti; 
+English: 
+
+pp2.3:18.4
+Pali: evamevaṁ idhekacco puggalo kodhano hoti upāyāsabahulo, appampi vutto samāno abhisajjati kuppati byāpajjati patitthīyati, kopañca dosañca appaccayañca pātukaroti—
+English: 
+
+pp2.3:18.5
+Pali: ayaṁ vuccati puggalo “arukūpamacitto”. 
+English: 
+
+pp2.3:19.1
+Pali: Katamo ca puggalo vijjūpamacitto? 
+English: 
+
+pp2.3:19.2
+Pali: Idhekacco puggalo “idaṁ dukkhan”ti yathābhūtaṁ pajānāti, “ayaṁ dukkhasamudayo”ti yathābhūtaṁ pajānāti, “ayaṁ dukkhanirodho”ti yathābhūtaṁ pajānāti, “ayaṁ dukkhanirodhagāminī paṭipadā”ti yathābhūtaṁ pajānāti. 
+English: 
+
+pp2.3:19.3
+Pali: Seyyathāpi nāma cakkhumā puriso rattandhakāratimisāya vijjantarikāya rūpāni passeyya; 
+English: 
+
+pp2.3:19.4
+Pali: evamevaṁ idhekacco puggalo “idaṁ dukkhan”ti yathābhūtaṁ pajānāti, “ayaṁ dukkhasamudayo”ti yathābhūtaṁ pajānāti, “ayaṁ dukkhanirodho”ti yathābhūtaṁ pajānāti, “ayaṁ dukkhanirodhagāminī paṭipadā”ti yathābhūtaṁ pajānāti—
+English: 
+
+pp2.3:19.5
+Pali: ayaṁ vuccati puggalo “vijjūpamacitto”. 
+English: 
+
+pp2.3:20.1
+Pali: Katamo ca puggalo vajirūpamacitto? 
+English: 
+
+pp2.3:20.2
+Pali: Idhekacco puggalo āsavānaṁ khayā anāsavaṁ cetovimuttiṁ paññāvimuttiṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja viharati. 
+English: 
+
+pp2.3:20.3
+Pali: Seyyathāpi nāma vajirassa natthi kiñci abhejjaṁ maṇi vā pāsāṇo vā; 
+English: 
+
+pp2.3:20.4
+Pali: evamevaṁ idhekacco puggalo āsavānaṁ khayā anāsavaṁ cetovimuttiṁ paññāvimuttiṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja viharati—
+English: 
+
+pp2.3:20.5
+Pali: ayaṁ vuccati puggalo “vajirūpamacitto”. 
+English: 
+
+pp2.3:21.1
+Pali: Katamo ca puggalo andho? 
+English: 
+
+pp2.3:21.2
+Pali: Idhekaccassa puggalassa tathārūpaṁ cakkhu na hoti yathārūpena cakkhunā anadhigataṁ vā bhogaṁ adhigaccheyya, adhigataṁ vā bhogaṁ phātiṁ kareyya; 
+English: 
+
+pp2.3:21.3
+Pali: tathārūpampissa cakkhu na hoti yathārūpena cakkhunā kusalākusale dhamme jāneyya, sāvajjānavajje dhamme jāneyya, hīnappaṇīte dhamme jāneyya, kaṇhasukkasappaṭibhāge dhamme jāneyya—
+English: 
+
+pp2.3:21.4
+Pali: ayaṁ vuccati puggalo “andho”. 
+English: 
+
+pp2.3:22.1
+Pali: Katamo ca puggalo ekacakkhu? 
+English: 
+
+pp2.3:22.2
+Pali: Idhekaccassa puggalassa tathārūpaṁ cakkhu hoti, yathārūpena cakkhunā anadhigataṁ vā bhogaṁ adhigaccheyya, adhigataṁ vā bhogaṁ phātiṁ kareyya; 
+English: 
+
+pp2.3:22.3
+Pali: tathārūpampissa cakkhu na hoti yathārūpena cakkhunā kusalākusale dhamme jāneyya, sāvajjānavajje dhamme jāneyya, hīnappaṇīte dhamme jāneyya, kaṇhasukkasappaṭibhāge dhamme jāneyya—
+English: 
+
+pp2.3:22.4
+Pali: ayaṁ vuccati puggalo “ekacakkhu”. 
+English: 
+
+pp2.3:23.1
+Pali: Katamo ca puggalo dvicakkhu? 
+English: 
+
+pp2.3:23.2
+Pali: Idhekaccassa puggalassa tathārūpaṁ cakkhu hoti yathārūpena cakkhunā anadhigataṁ vā bhogaṁ adhigaccheyya, adhigataṁ vā bhogaṁ phātiṁ kareyya; 
+English: 
+
+pp2.3:23.3
+Pali: tathārūpampissa cakkhu hoti yathārūpena cakkhunā kusalākusale dhamme jāneyya, sāvajjānavajje dhamme jāneyya, hīnappaṇīte dhamme jāneyya, kaṇhasukkasappaṭibhāge dhamme jāneyya—
+English: 
+
+pp2.3:23.4
+Pali: ayaṁ vuccati puggalo “dvicakkhu”. 
+English: 
+
+pp2.3:24.1
+Pali: Katamo ca puggalo avakujjapañño? 
+English: 
+
+pp2.3:24.2
+Pali: Idhekacco puggalo ārāmaṁ gantā hoti abhikkhaṇaṁ bhikkhūnaṁ santike dhammassavaṇāya. 
+English: 
+
+pp2.3:24.3
+Pali: Tassa bhikkhū dhammaṁ desenti ādikalyāṇaṁ majjhekalyāṇaṁ pariyosānakalyāṇaṁ sātthaṁ sabyañjanaṁ kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ pakāsenti. 
+English: 
+
+pp2.3:24.4
+Pali: So tasmiṁ āsane nisinno tassā kathāya neva ādiṁ manasi karoti, na majjhaṁ manasi karoti, na pariyosānaṁ manasi karoti. 
+English: 
+
+pp2.3:24.5
+Pali: Vuṭṭhitopi tamhā āsanā tassā kathāya neva ādiṁ manasi karoti, na majjhaṁ manasi karoti, na pariyosānaṁ manasi karoti. 
+English: 
+
+pp2.3:24.6
+Pali: Seyyathāpi nāma kumbho nikkujjo tatra udakaṁ āsittaṁ vivaṭṭati, no saṇṭhāti; 
+English: 
+
+pp2.3:24.7
+Pali: evamevaṁ idhekacco puggalo ārāmaṁ gantā hoti abhikkhaṇaṁ bhikkhūnaṁ santike dhammassavaṇāya. 
+English: 
+
+pp2.3:24.8
+Pali: Tassa bhikkhū dhammaṁ desenti ādikalyāṇaṁ majjhekalyāṇaṁ pariyosānakalyāṇaṁ sātthaṁ sabyañjanaṁ kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ pakāsenti. 
+English: 
+
+pp2.3:24.9
+Pali: So tasmiṁ āsane nisinno tassā kathāya neva ādiṁ manasi karoti, na majjhaṁ manasi karoti, na pariyosānaṁ manasi karoti. 
+English: 
+
+pp2.3:24.10
+Pali: Vuṭṭhitopi tamhā āsanā tassā kathāya neva ādiṁ manasi karoti, na majjhaṁ manasi karoti, na pariyosānaṁ manasi karoti—
+English: 
+
+pp2.3:24.11
+Pali: ayaṁ vuccati puggalo “avakujjapañño”. 
+English: 
+
+pp2.3:25.1
+Pali: Katamo ca puggalo ucchaṅgapañño? 
+English: 
+
+pp2.3:25.2
+Pali: Idhekacco puggalo ārāmaṁ gantā hoti abhikkhaṇaṁ bhikkhūnaṁ santike dhammassavaṇāya. 
+English: 
+
+pp2.3:25.3
+Pali: Tassa bhikkhū dhammaṁ desenti ādikalyāṇaṁ majjhekalyāṇaṁ pariyosānakalyāṇaṁ sātthaṁ sabyañjanaṁ kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ pakāsenti. 
+English: 
+
+pp2.3:25.4
+Pali: So tasmiṁ āsane nisinno tassā kathāya ādimpi manasi karoti, majjhampi manasi karoti, pariyosānampi manasi karoti. 
+English: 
+
+pp2.3:25.5
+Pali: Vuṭṭhito ca kho tamhā āsanā tassā kathāya neva ādiṁ manasi karoti, na majjhaṁ manasi karoti, na pariyosānaṁ manasi karoti. 
+English: 
+
+pp2.3:25.6
+Pali: Seyyathāpi nāma purisassa ucchaṅge nānākhajjakāni ākiṇṇāni—
+English: 
+
+pp2.3:25.7
+Pali: tilā taṇḍulā modakā badarā. 
+English: 
+
+pp2.3:25.8
+Pali: So tamhā āsanā vuṭṭhahanto satisammosā pakireyya; 
+English: 
+
+pp2.3:25.9
+Pali: evamevaṁ idhekacco puggalo ārāmaṁ gantā hoti abhikkhaṇaṁ bhikkhūnaṁ santike dhammassavaṇāya. 
+English: 
+
+pp2.3:25.10
+Pali: Tassa bhikkhū dhammaṁ desenti ādikalyāṇaṁ majjhekalyāṇaṁ pariyosānakalyāṇaṁ sātthaṁ sabyañjanaṁ kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ pakāsenti. 
+English: 
+
+pp2.3:25.11
+Pali: So tasmiṁ āsane nisinno tassā kathāya ādimpi manasi karoti, majjhampi manasi karoti, pariyosānampi manasi karoti. 
+English: 
+
+pp2.3:25.12
+Pali: Vuṭṭhito ca kho tamhā āsanā tassā kathāya neva ādimpi manasi karoti, na majjhampi manasi karoti, na pariyosānampi manasi karoti—
+English: 
+
+pp2.3:25.13
+Pali: ayaṁ vuccati puggalo “ucchaṅgapañño”. 
+English: 
+
+pp2.3:26.1
+Pali: Katamo ca puggalo puthupañño? 
+English: 
+
+pp2.3:26.2
+Pali: Idhekacco puggalo ārāmaṁ gantā hoti abhikkhaṇaṁ bhikkhūnaṁ santike dhammassavaṇāya. 
+English: 
+
+pp2.3:26.3
+Pali: Tassa bhikkhū dhammaṁ desenti ādikalyāṇaṁ majjhekalyāṇaṁ pariyosānakalyāṇaṁ sātthaṁ sabyañjanaṁ kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ pakāsenti. 
+English: 
+
+pp2.3:26.4
+Pali: So tasmiṁ āsane nisinno tassā kathāya ādimpi manasi karoti, majjhampi manasi karoti, pariyosānampi manasi karoti. 
+English: 
+
+pp2.3:26.5
+Pali: Vuṭṭhitopi tamhā āsanā tassā kathāya ādimpi manasi karoti, majjhampi manasi karoti, pariyosānampi manasi karoti. 
+English: 
+
+pp2.3:26.6
+Pali: Seyyathāpi nāma kumbho ukkujjo tatra udakaṁ āsittaṁ saṇṭhāti, no vivaṭṭati; 
+English: 
+
+pp2.3:26.7
+Pali: evamevaṁ idhekacco puggalo ārāmaṁ gantā honti abhikkhaṇaṁ bhikkhūnaṁ santike dhammassavaṇāya. 
+English: 
+
+pp2.3:26.8
+Pali: Tassa bhikkhū dhammaṁ desenti ādikalyāṇaṁ majjhekalyāṇaṁ pariyosānakalyāṇaṁ sātthaṁ sabyañjanaṁ kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ pakāsenti. 
+English: 
+
+pp2.3:26.9
+Pali: So tasmiṁ āsane nisinno tassā kathāya ādimpi manasi karoti, majjhampi manasi karoti, pariyosānampi manasi karoti. 
+English: 
+
+pp2.3:26.10
+Pali: Vuṭṭhitopi tamhā āsanā tassā kathāya ādimpi manasi karoti, majjhampi manasi karoti, pariyosānampi manasi karoti—
+English: 
+
+pp2.3:26.11
+Pali: ayaṁ vuccati puggalo “puthupañño”. 
+English: 
+
+pp2.3:27.1
+Pali: Katamo ca puggalo kāmesu ca bhavesu ca avītarāgo? 
+English: 
+
+pp2.3:27.2
+Pali: Sotāpannasakadāgāmino—
+English: 
+
+pp2.3:27.3
+Pali: ime vuccanti puggalā “kāmesu ca bhavesu ca avītarāgā”. 
+English: 
+
+pp2.3:28.1
+Pali: Katamo ca puggalo kāmesu vītarāgo, bhavesu avītarāgo? 
+English: 
+
+pp2.3:28.2
+Pali: Anāgāmī—
+English: 
+
+pp2.3:28.3
+Pali: ayaṁ vuccati puggalo “kāmesu vītarāgo, bhavesu avītarāgo”. 
+English: 
+
+pp2.3:29.1
+Pali: Katamo ca puggalo kāmesu ca bhavesu ca vītarāgo? 
+English: 
+
+pp2.3:29.2
+Pali: Arahā—
+English: 
+
+pp2.3:29.3
+Pali: ayaṁ vuccati puggalo “kāmesu ca bhavesu ca vītarāgo”. 
+English: 
+
+pp2.3:30.1
+Pali: Katamo ca puggalo pāsāṇalekhūpamo? 
+English: 
+
+pp2.3:30.2
+Pali: Idhekacco puggalo abhiṇhaṁ kujjhati. 
+English: 
+
+pp2.3:30.3
+Pali: So ca khvassa kodho ciraṁ dīgharattaṁ anuseti. 
+English: 
+
+pp2.3:30.4
+Pali: Seyyathāpi nāma pāsāṇe lekhā na khippaṁ lujjati vātena vā udakena vā, ciraṭṭhitikā hoti; 
+English: 
+
+pp2.3:30.5
+Pali: evamevaṁ idhekacco puggalo abhiṇhaṁ kujjhati. 
+English: 
+
+pp2.3:30.6
+Pali: So ca khvassa kodho ciraṁ dīgharattaṁ anuseti—
+English: 
+
+pp2.3:30.7
+Pali: ayaṁ vuccati puggalo “pāsāṇalekhūpamo”. 
+English: 
+
+pp2.3:31.1
+Pali: Katamo ca puggalo pathavilekhūpamo? 
+English: 
+
+pp2.3:31.2
+Pali: Idhekacco puggalo abhiṇhaṁ kujjhati. 
+English: 
+
+pp2.3:31.3
+Pali: So ca khvassa kodho na ciraṁ dīgharattaṁ anuseti. 
+English: 
+
+pp2.3:31.4
+Pali: Seyyathāpi nāma pathaviyā lekhā khippaṁ lujjati vātena vā udakena vā, na ciraṭṭhitikā hoti; 
+English: 
+
+pp2.3:31.5
+Pali: evamevaṁ idhekacco puggalo abhiṇhaṁ kujjhati. 
+English: 
+
+pp2.3:31.6
+Pali: So ca khvassa kodho na ciraṁ dīgharattaṁ anuseti—
+English: 
+
+pp2.3:31.7
+Pali: ayaṁ vuccati puggalo “pathavilekhūpamo”. 
+English: 
+
+pp2.3:32.1
+Pali: Katamo ca puggalo udakalekhūpamo? 
+English: 
+
+pp2.3:32.2
+Pali: Idhekacco puggalo āgāḷhenapi vuccamāno pharusenapi vuccamāno amanāpenapi vuccamāno saṁsandatimeva sandhiyatimeva sammodatimeva. 
+English: 
+
+pp2.3:32.3
+Pali: Seyyathāpi nāma udake lekhā khippaṁ lujjati, na ciraṭṭhitikā hoti; 
+English: 
+
+pp2.3:32.4
+Pali: evamevaṁ idhekacco puggalo āgāḷhenapi vuccamāno pharusenapi vuccamāno amanāpenapi vuccamāno saṁsandatimeva sandhiyatimeva sammodatimeva—
+English: 
+
+pp2.3:32.5
+Pali: ayaṁ vuccati puggalo “udakalekhūpamo”. 
+English: 
+
+pp2.3:33.1
+Pali: Tattha katame tayo potthakūpamā puggalā? 
+English: 
+
+pp2.3:33.2
+Pali: Tayo potthakā—
+English: 
+
+pp2.3:33.3
+Pali: navopi potthako dubbaṇṇo ceva hoti dukkhasamphasso ca appaggho ca, majjhimopi potthako dubbaṇṇo ceva hoti dukkhasamphasso ca appaggho ca, jiṇṇopi potthako dubbaṇṇo ceva hoti dukkhasamphasso ca appaggho ca. 
+English: 
+
+pp2.3:33.4
+Pali: Jiṇṇampi potthakaṁ ukkhaliparimajjanaṁ vā karonti saṅkārakūṭe vā naṁ chaḍḍenti. 
+English: 
+
+pp2.3:33.5
+Pali: Evamevaṁ tayome potthakūpamā puggalā santo saṁvijjamānā bhikkhūsu. 
+English: 
+
+pp2.3:33.6
+Pali: Katame tayo? 
+English: 
+
+pp2.3:33.7
+Pali: Navo cepi bhikkhu hoti dussīlo pāpadhammo, imassa dubbaṇṇatāya. 
+English: 
+
+pp2.3:33.8
+Pali: Seyyathāpi so potthako dubbaṇṇo, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.3:33.9
+Pali: Ye kho panassa sevanti bhajanti payirupāsanti diṭṭhānugatiṁ āpajjanti, tesaṁ taṁ hoti dīgharattaṁ ahitāya dukkhāya. 
+English: 
+
+pp2.3:33.10
+Pali: Idamassa dukkhasamphassatāya. 
+English: 
+
+pp2.3:33.11
+Pali: Seyyathāpi so potthako dukkhasamphasso, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.3:33.12
+Pali: Yesaṁ kho pana so paṭiggaṇhāti cīvarapiṇḍapātasenāsanagilānapaccayabhesajjaparikkhāraṁ, tesaṁ taṁ na mahapphalaṁ hoti na mahānisaṁsaṁ. 
+English: 
+
+pp2.3:33.13
+Pali: Idamassa appagghatāya. 
+English: 
+
+pp2.3:33.14
+Pali: Seyyathāpi so potthako appaggho, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.3:34.1
+Pali: Majjhimo cepi bhikkhu hoti …pe… 
+English: 
+
+pp2.3:34.2
+Pali: thero cepi bhikkhu hoti dussīlo pāpadhammo, idamassa dubbaṇṇatāya. 
+English: 
+
+pp2.3:34.3
+Pali: Seyyathāpi so potthako dubbaṇṇo, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.3:34.4
+Pali: Ye kho panassa sevanti bhajanti payirupāsanti diṭṭhānugatiṁ āpajjanti, tesaṁ taṁ hoti dīgharattaṁ ahitāya dukkhāya. 
+English: 
+
+pp2.3:34.5
+Pali: Idamassa dukkhasamphassatāya. 
+English: 
+
+pp2.3:34.6
+Pali: Seyyathāpi so potthako dukkhasamphasso, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.3:34.7
+Pali: Yesaṁ kho pana so paṭiggaṇhāti cīvarapiṇḍapātasenāsanagilānapaccayabhesajjaparikkhāraṁ, tesaṁ taṁ na mahapphalaṁ hoti na mahānisaṁsaṁ. 
+English: 
+
+pp2.3:34.8
+Pali: Idamassa appagghatāya. 
+English: 
+
+pp2.3:34.9
+Pali: Seyyathāpi so potthako appaggho, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.3:35.1
+Pali: Evarūpo ce thero bhikkhu saṅghamajjhe bhaṇati. 
+English: 
+
+pp2.3:35.2
+Pali: Tamenaṁ bhikkhū evamāhaṁsu—
+English: 
+
+pp2.3:35.3
+Pali: “kiṁ nu kho tuyhaṁ bālassa abyattassa bhaṇitena, tvampi nāma bhaṇitabbaṁ maññasī”ti. 
+English: 
+
+pp2.3:35.4
+Pali: So kupito anattamano tathārūpiṁ vācaṁ nicchāreti yathārūpāya vācāya saṅgho taṁ ukkhipati, saṅkārakūṭeva naṁ potthakaṁ. 
+English: 
+
+pp2.3:35.5
+Pali: Ime tayo potthakūpamā puggalā santo saṁvijjamānā bhikkhūsu. 
+English: 
+
+pp2.3:36.1
+Pali: Tattha katame tayo kāsikavatthūpamā puggalā? 
+English: 
+
+pp2.3:36.2
+Pali: Tīṇi kāsikavatthāni—
+English: 
+
+pp2.3:36.3
+Pali: navampi kāsikavatthaṁ vaṇṇavantañceva hoti sukhasamphassañca mahagghañca, majjhimampi kāsikavatthaṁ vaṇṇavantañceva hoti sukhasamphassañca mahagghañca, jiṇṇampi kāsikavatthaṁ vaṇṇavantañceva hoti sukhasamphassañca mahagghañca. 
+English: 
+
+pp2.3:36.4
+Pali: Jiṇṇampi kāsikavatthaṁ ratanapaliveṭhanaṁ vā karonti gandhakaraṇḍake vā naṁ nikkhipanti. 
+English: 
+
+pp2.3:37.1
+Pali: Evamevaṁ tayome kāsikavatthūpamā puggalā santo saṁvijjamānā bhikkhūsu. 
+English: 
+
+pp2.3:37.2
+Pali: Katame tayo? 
+English: 
+
+pp2.3:37.3
+Pali: Navo cepi bhikkhu hoti sīlavā kalyāṇadhammo, idamassa suvaṇṇatāya. 
+English: 
+
+pp2.3:37.4
+Pali: Seyyathāpi taṁ kāsikavatthaṁ vaṇṇavantaṁ, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.3:37.5
+Pali: Ye kho panassa sevanti bhajanti payirupāsanti diṭṭhānugatiṁ āpajjanti, tesaṁ taṁ hoti dīgharattaṁ hitāya sukhāya. 
+English: 
+
+pp2.3:37.6
+Pali: Idamassa sukhasamphassatāya. 
+English: 
+
+pp2.3:37.7
+Pali: Seyyathāpi taṁ kāsikavatthaṁ sukhasamphassaṁ, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.3:37.8
+Pali: Yesaṁ kho pana so paṭiggaṇhāti cīvarapiṇḍapātasenāsanagilānapaccayabhesajjaparikkhāraṁ, tesaṁ taṁ mahapphalaṁ hoti mahānisaṁsaṁ. 
+English: 
+
+pp2.3:37.9
+Pali: Idamassa mahagghatāya. 
+English: 
+
+pp2.3:37.10
+Pali: Seyyathāpi taṁ kāsikavatthaṁ mahagghaṁ, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.3:38.1
+Pali: Majjhimo cepi bhikkhu …pe… 
+English: 
+
+pp2.3:38.2
+Pali: thero cepi bhikkhu hoti sīlavā kalyāṇadhammo, idamassa suvaṇṇatāya. 
+English: 
+
+pp2.3:38.3
+Pali: Seyyathāpi taṁ kāsikavatthaṁ vaṇṇavantaṁ, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.3:38.4
+Pali: Ye kho panassa sevanti bhajanti payirupāsanti diṭṭhānugatiṁ āpajjanti, tesaṁ taṁ hoti dīgharattaṁ hitāya sukhāya. 
+English: 
+
+pp2.3:38.5
+Pali: Idamassa sukhasamphassatāya. 
+English: 
+
+pp2.3:38.6
+Pali: Seyyathāpi taṁ kāsikavatthaṁ sukhasamphassaṁ, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.3:38.7
+Pali: Yesaṁ kho pana so paṭiggaṇhāti cīvarapiṇḍapātasenāsanagilānapaccayabhesajjaparikkhāraṁ, tesaṁ taṁ mahapphalaṁ hoti mahānisaṁsaṁ. 
+English: 
+
+pp2.3:38.8
+Pali: Idamassa mahagghatāya. 
+English: 
+
+pp2.3:38.9
+Pali: Seyyathāpi taṁ kāsikavatthaṁ mahagghaṁ, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.3:39.1
+Pali: Evarūpo ce thero bhikkhu saṅghamajjhe bhaṇati, tamenaṁ bhikkhū evamāhaṁsu—
+English: 
+
+pp2.3:39.2
+Pali: “appasaddā āyasmanto hotha, thero bhikkhu dhammañca vinayañca bhaṇatī”ti. 
+English: 
+
+pp2.3:39.3
+Pali: Tassa taṁ vacanaṁ ādheyyaṁ gacchati, gandhakaraṇḍakeva naṁ kāsikavatthaṁ. 
+English: 
+
+pp2.3:39.4
+Pali: Ime tayo kāsikavatthūpamā puggalā santo saṁvijjamānā bhikkhūsu. 
+English: 
+
+pp2.3:40.1
+Pali: Katamo ca puggalo suppameyyo? 
+English: 
+
+pp2.3:40.2
+Pali: Idhekacco puggalo uddhato hoti unnaḷo capalo mukharo vikiṇṇavāco muṭṭhassati asampajāno asamāhito vibbhantacitto pākaṭindriyo—
+English: 
+
+pp2.3:40.3
+Pali: ayaṁ vuccati puggalo “suppameyyo”. 
+English: 
+
+pp2.3:41.1
+Pali: Katamo ca puggalo duppameyyo? 
+English: 
+
+pp2.3:41.2
+Pali: Idhekacco puggalo anuddhato hoti anunnaḷo acapalo amukharo avikiṇṇavāco upaṭṭhitassati sampajāno samāhito ekaggacitto saṁvutindriyo—
+English: 
+
+pp2.3:41.3
+Pali: ayaṁ vuccati puggalo “duppameyyo”. 
+English: 
+
+pp2.3:42.1
+Pali: Katamo ca puggalo appameyyo? 
+English: 
+
+pp2.3:42.2
+Pali: Idhekacco puggalo āsavānaṁ khayā anāsavaṁ cetovimuttiṁ paññāvimuttiṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja viharati—
+English: 
+
+pp2.3:42.3
+Pali: ayaṁ vuccati puggalo “appameyyo”. 
+English: 
+
+pp2.3:43.1
+Pali: Katamo ca puggalo na sevitabbo na bhajitabbo na payirupāsitabbo? 
+English: 
+
+pp2.3:43.2
+Pali: Idhekacco puggalo hīno hoti sīlena samādhinā paññāya. 
+English: 
+
+pp2.3:43.3
+Pali: Evarūpo puggalo na sevitabbo na bhajitabbo na payirupāsitabbo, aññatra anuddayā aññatra anukampā. 
+English: 
+
+pp2.3:44.1
+Pali: Katamo ca puggalo sevitabbo bhajitabbo payirupāsitabbo? 
+English: 
+
+pp2.3:44.2
+Pali: Idhekacco puggalo sadiso hoti sīlena samādhinā paññāya. 
+English: 
+
+pp2.3:44.3
+Pali: Evarūpo puggalo sevitabbo bhajitabbo payirupāsitabbo. 
+English: 
+
+pp2.3:44.4
+Pali: Taṁ kissa hetu? 
+English: 
+
+pp2.3:44.5
+Pali: “Sīlasāmaññagatānaṁ sataṁ sīlakathā ca no bhavissati, sā ca no phāsu bhavissati, sā ca no pavattinī bhavissati; 
+English: 
+
+pp2.3:44.6
+Pali: samādhisāmaññagatānaṁ sataṁ samādhikathā ca no bhavissati, sā ca no phāsu bhavissati, sā ca no pavattinī bhavissati; 
+English: 
+
+pp2.3:44.7
+Pali: paññāsāmaññagatānaṁ sataṁ paññākathā ca no bhavissati, sā ca no phāsu bhavissati, sā ca no pavattinī bhavissatī”ti. 
+English: 
+
+pp2.3:44.8
+Pali: Tasmā evarūpo puggalo sevitabbo bhajitabbo payirupāsitabbo. 
+English: 
+
+pp2.3:45.1
+Pali: Katamo ca puggalo sakkatvā garuṁ katvā sevitabbo bhajitabbo payirupāsitabbo? 
+English: 
+
+pp2.3:45.2
+Pali: Idhekacco puggalo adhiko hoti sīlena samādhinā paññāya. 
+English: 
+
+pp2.3:45.3
+Pali: Evarūpo puggalo sakkatvā garuṁ katvā sevitabbo bhajitabbo payirupāsitabbo. 
+English: 
+
+pp2.3:45.4
+Pali: Taṁ kissa hetu? 
+English: 
+
+pp2.3:45.5
+Pali: “Aparipūraṁ vā sīlakkhandhaṁ paripūressāmi, paripūraṁ vā sīlakkhandhaṁ tattha tattha paññāya anuggahessāmi; 
+English: 
+
+pp2.3:45.6
+Pali: aparipūraṁ vā samādhikkhandhaṁ paripūressāmi, paripūraṁ vā samādhikkhandhaṁ tattha tattha paññāya anuggahessāmi; 
+English: 
+
+pp2.3:45.7
+Pali: aparipūraṁ vā paññākkhandhaṁ paripūressāmi, paripūraṁ vā paññākkhandhaṁ tattha tattha paññāya anuggahessāmī”ti. 
+English: 
+
+pp2.3:45.8
+Pali: Tasmā evarūpo puggalo sakkatvā garuṁ katvā sevitabbo bhajitabbo payirupāsitabbo. 
+English: 
+
+pp2.3:46.1
+Pali: Katamo ca puggalo jigucchitabbo na sevitabbo na bhajitabbo na payirupāsitabbo? 
+English: 
+
+pp2.3:46.2
+Pali: Idhekacco puggalo dussīlo hoti pāpadhammo asuci saṅkassarasamācāro paṭicchannakammanto assamaṇo samaṇapaṭiñño abrahmacārī brahmacāripaṭiñño antopūti avassuto kasambujāto. 
+English: 
+
+pp2.3:46.3
+Pali: Evarūpo puggalo jigucchitabbo na sevitabbo na bhajitabbo na payirupāsitabbo. 
+English: 
+
+pp2.3:46.4
+Pali: Taṁ kissa hetu? 
+English: 
+
+pp2.3:46.5
+Pali: Kiñcāpi evarūpassa puggalassa na diṭṭhānugatiṁ āpajjati, atha kho naṁ pāpako kittisaddo abbhuggacchati—
+English: 
+
+pp2.3:46.6
+Pali: “pāpamitto purisapuggalo pāpasahāyo pāpasampavaṅko”ti. 
+English: 
+
+pp2.3:46.7
+Pali: Seyyathāpi nāma ahi gūthagato kiñcāpi na ḍaṁsati, atha kho naṁ makkheti; 
+English: 
+
+pp2.3:46.8
+Pali: evamevaṁ kiñcāpi evarūpassa puggalassa na diṭṭhānugatiṁ āpajjati, atha kho naṁ pāpako kittisaddo abbhuggacchati—
+English: 
+
+pp2.3:46.9
+Pali: “pāpamitto purisapuggalo pāpasahāyo pāpasampavaṅko”ti. 
+English: 
+
+pp2.3:46.10
+Pali: Tasmā evarūpo puggalo jigucchitabbo na sevitabbo na bhajitabbo na payirupāsitabbo. 
+English: 
+
+pp2.3:47.1
+Pali: Katamo ca puggalo ajjhupekkhitabbo na sevitabbo na bhajitabbo na payirupāsitabbo? 
+English: 
+
+pp2.3:47.2
+Pali: Idhekacco puggalo kodhano hoti upāyāsabahulo, appampi vutto samāno abhisajjati kuppati byāpajjati patitthīyati, kopañca dosañca appaccayañca pātukaroti. 
+English: 
+
+pp2.3:47.3
+Pali: Seyyathāpi nāma duṭṭhāruko kaṭṭhena vā kaṭhalāya vā ghaṭṭito bhiyyoso mattāya āsavaṁ deti, evamevaṁ idhekacco puggalo kodhano hoti upāyāsabahulo, appampi vutto samāno abhisajjati kuppati byāpajjati patitthīyati, kopañca dosañca appaccayañca pātukaroti. 
+English: 
+
+pp2.3:47.4
+Pali: Seyyathāpi nāma tindukālātaṁ kaṭṭhena vā kaṭhalāya vā ghaṭṭitaṁ bhiyyoso mattāya cicciṭāyati ciṭiciṭāyati; 
+English: 
+
+pp2.3:47.5
+Pali: evamevaṁ idhekacco puggalo kodhano hoti upāyāsabahulo, appampi vutto samāno abhisajjati kuppati byāpajjati patitthīyati, kopañca dosañca appaccayañca pātukaroti. 
+English: 
+
+pp2.3:47.6
+Pali: Seyyathāpi nāma gūthakūpo kaṭṭhena vā kaṭhalāya vā ghaṭṭito bhiyyoso mattāya duggandho hoti; 
+English: 
+
+pp2.3:47.7
+Pali: evamevaṁ idhekacco puggalo kodhano hoti upāyāsabahulo, appampi vutto samāno abhisajjati kuppati byāpajjati patitthīyati, kopañca dosañca appaccayañca pātukaroti; 
+English: 
+
+pp2.3:47.8
+Pali: evarūpo puggalo ajjhupekkhitabbo na sevitabbo na bhajitabbo na payirupāsitabbo. 
+English: 
+
+pp2.3:47.9
+Pali: Taṁ kissa hetu? 
+English: 
+
+pp2.3:47.10
+Pali: “Akkoseyyapi maṁ paribhāseyyapi maṁ anatthampi me kareyyā”ti. 
+English: 
+
+pp2.3:47.11
+Pali: Tasmā evarūpo puggalo ajjhupekkhitabbo na sevitabbo na bhajitabbo na payirupāsitabbo. 
+English: 
+
+pp2.3:48.1
+Pali: Katamo ca puggalo sevitabbo bhajitabbo payirupāsitabbo? 
+English: 
+
+pp2.3:48.2
+Pali: Idhekacco puggalo sīlavā hoti kalyāṇadhammo—
+English: 
+
+pp2.3:48.3
+Pali: evarūpo puggalo sevitabbo bhajitabbo payirupāsitabbo. 
+English: 
+
+pp2.3:48.4
+Pali: Taṁ kissa hetu? 
+English: 
+
+pp2.3:48.5
+Pali: Kiñcāpi evarūpassa puggalassa na diṭṭhānugatiṁ āpajjati, atha kho naṁ kalyāṇo kittisaddo abbhuggacchati—
+English: 
+
+pp2.3:48.6
+Pali: “kalyāṇamitto purisapuggalo kalyāṇasahāyo kalyāṇasampavaṅko”ti. 
+English: 
+
+pp2.3:48.7
+Pali: Tasmā evarūpo puggalo sevitabbo bhajitabbo payirupāsitabbo. 
+English: 
+
+pp2.3:49.1
+Pali: Katamo ca puggalo sīlesu paripūrakārī, samādhismiṁ mattaso kārī, paññāya mattaso kārī? 
+English: 
+
+pp2.3:49.2
+Pali: Sotāpannasakadāgāmino—
+English: 
+
+pp2.3:49.3
+Pali: ime vuccanti puggalā sīlesu paripūrakārino, samādhismiṁ mattaso kārino, paññāya mattaso kārino. 
+English: 
+
+pp2.3:50.1
+Pali: Katamo ca puggalo sīlesu ca paripūrakārī, samādhismiñca paripūrakārī, paññāya mattaso kārī? 
+English: 
+
+pp2.3:50.2
+Pali: Anāgāmī—
+English: 
+
+pp2.3:50.3
+Pali: ayaṁ vuccati puggalo sīlesu ca paripūrakārī, samādhismiñca paripūrakārī, paññāya mattaso kārī. 
+English: 
+
+pp2.3:51.1
+Pali: Katamo ca puggalo sīlesu ca paripūrakārī, samādhismiñca paripūrakārī, paññāya ca paripūrakārī? 
+English: 
+
+pp2.3:51.2
+Pali: Arahā—
+English: 
+
+pp2.3:51.3
+Pali: ayaṁ vuccati puggalo sīlesu ca paripūrakārī, samādhismiñca paripūrakārī, paññāya ca paripūrakārī. 
+English: 
+
+pp2.3:52.1
+Pali: Tattha katame tayo satthāro? 
+English: 
+
+pp2.3:52.2
+Pali: Idhekacco satthā kāmānaṁ pariññaṁ paññapeti, na rūpānaṁ pariññaṁ paññapeti, na vedanānaṁ pariññaṁ paññapeti. 
+English: 
+
+pp2.3:52.3
+Pali: Idha panekacco satthā kāmānañca pariññaṁ paññapeti, rūpānañca pariññaṁ paññapeti, na vedanānaṁ pariññaṁ paññapeti. 
+English: 
+
+pp2.3:52.4
+Pali: Idha panekacco satthā kāmānañca pariññaṁ paññapeti, rūpānañca pariññaṁ paññapeti, vedanānañca pariññaṁ paññapeti. 
+English: 
+
+pp2.3:53.1
+Pali: Tatra yvāyaṁ satthā kāmānaṁ pariññaṁ paññapeti, na rūpānaṁ pariññaṁ paññapeti, na vedanānaṁ pariññaṁ paññapeti, rūpāvacarasamāpattiyā lābhī satthā tena daṭṭhabbo. 
+English: 
+
+pp2.3:53.2
+Pali: Tatra yvāyaṁ satthā kāmānañca pariññaṁ paññapeti, rūpānañca pariññaṁ paññapeti, na vedanānaṁ pariññaṁ paññapeti, arūpāvacarasamāpattiyā lābhī satthā tena daṭṭhabbo. 
+English: 
+
+pp2.3:53.3
+Pali: Tatra yvāyaṁ satthā kāmānañca pariññaṁ paññapeti, rūpānañca pariññaṁ paññapeti, vedanānañca pariññaṁ paññapeti, sammāsambuddho satthā tena daṭṭhabbo. 
+English: 
+
+pp2.3:53.4
+Pali: Ime tayo satthāro. 
+English: 
+
+pp2.3:54.1
+Pali: Tattha katame aparepi tayo satthāro? 
+English: 
+
+pp2.3:54.2
+Pali: Idhekacco satthā diṭṭhe ceva dhamme attānaṁ saccato thetato paññapeti, abhisamparāyañca attānaṁ saccato thetato paññapeti. 
+English: 
+
+pp2.3:54.3
+Pali: Idha panekacco satthā diṭṭhe ceva dhamme attānaṁ saccato thetato paññapeti, no ca kho abhisamparāyaṁ attānaṁ saccato thetato paññapeti. 
+English: 
+
+pp2.3:54.4
+Pali: Idha panekacco satthā diṭṭhe ceva dhamme attānaṁ saccato thetato na paññapeti, abhisamparāyañca attānaṁ saccato thetato na paññapeti. 
+English: 
+
+pp2.3:55.1
+Pali: Tatra yvāyaṁ satthā diṭṭhe ceva dhamme attānaṁ saccato thetato paññapeti, abhisamparāyañca attānaṁ saccato thetato paññapeti, sassatavādo satthā tena daṭṭhabbo. 
+English: 
+
+pp2.3:55.2
+Pali: Tatra yvāyaṁ satthā diṭṭhe ceva dhamme attānaṁ saccato thetato paññapeti, no ca kho abhisamparāyaṁ attānaṁ saccato thetato paññapeti, ucchedavādo satthā tena daṭṭhabbo. 
+English: 
+
+pp2.3:55.3
+Pali: Tatra yvāyaṁ satthā diṭṭhe ceva dhamme attānaṁ saccato thetato na paññapeti, abhisamparāyañca attānaṁ saccato thetato na paññapeti, sammāsambuddho satthā tena daṭṭhabbo. 
+English: 
+
+pp2.3:55.4
+Pali: Ime aparepi tayo satthāro. 
+English: 
+
+pp2.3:56.1
+Pali: Tikaniddeso. 
+English: 
+
+================================================================================
+pp2.4
+Root: root/pli/ms/abhidhamma/pp/pp2/pp2.4_root-pli-ms.json
+
+pp2.4:0.1
+Pali: Puggalapaññatti 
+English: 
+
+pp2.4:0.2
+Pali: Niddesa 
+English: 
+
+pp2.4:0.3
+Pali: 4. Catukkapuggalapaññatti 
+English: 
+
+pp2.4:1.1
+Pali: Katamo ca puggalo asappuriso? 
+English: 
+
+pp2.4:1.2
+Pali: Idhekacco puggalo pāṇātipātī hoti, adinnādāyī hoti, kāmesumicchācārī hoti, musāvādī hoti, surāmerayamajjapamādaṭṭhāyī hoti—
+English: 
+
+pp2.4:1.3
+Pali: ayaṁ vuccati puggalo “asappuriso”. 
+English: 
+
+pp2.4:2.1
+Pali: Katamo ca puggalo asappurisena asappurisataro? 
+English: 
+
+pp2.4:2.2
+Pali: Idhekacco puggalo attanā ca pāṇātipātī hoti parañca pāṇātipāte samādapeti, attanā ca adinnādāyī hoti parañca adinnādāne samādapeti, attanā ca kāmesumicchācārī hoti parañca kāmesumicchācāre samādapeti, attanā ca musāvādī hoti parañca musāvāde samādapeti, attanā ca surāmerayamajjapamādaṭṭhāyī hoti parañca surāmerayamajjapamādaṭṭhāne samādapeti—
+English: 
+
+pp2.4:2.3
+Pali: ayaṁ vuccati puggalo “asappurisena asappurisataro”. 
+English: 
+
+pp2.4:3.1
+Pali: Katamo ca puggalo sappuriso? 
+English: 
+
+pp2.4:3.2
+Pali: Idhekacco puggalo pāṇātipātā paṭivirato hoti, adinnādānā paṭivirato hoti, kāmesumicchācārā paṭivirato hoti, musāvādā paṭivirato hoti, surāmerayamajjapamādaṭṭhānā paṭivirato hoti—
+English: 
+
+pp2.4:3.3
+Pali: ayaṁ vuccati puggalo “sappuriso”. 
+English: 
+
+pp2.4:4.1
+Pali: Katamo ca puggalo sappurisena sappurisataro? 
+English: 
+
+pp2.4:4.2
+Pali: Idhekacco puggalo attanā ca pāṇātipātā paṭivirato hoti parañca pāṇātipātā veramaṇiyā samādapeti, attanā ca adinnādānā paṭivirato hoti parañca adinnādānā veramaṇiyā samādapeti, attanā ca kāmesumicchācārā paṭivirato hoti parañca kāmesumicchācārā veramaṇiyā samādapeti, attanā ca musāvādā paṭivirato hoti parañca musāvādā veramaṇiyā samādapeti, attanā ca surāmerayamajjapamādaṭṭhānā paṭivirato hoti parañca surāmerayamajjapamādaṭṭhānā veramaṇiyā samādapeti—
+English: 
+
+pp2.4:4.3
+Pali: ayaṁ vuccati puggalo “sappurisena sappurisataro”. 
+English: 
+
+pp2.4:5.1
+Pali: Katamo ca puggalo pāpo? 
+English: 
+
+pp2.4:5.2
+Pali: Idhekacco puggalo pāṇātipātī hoti, adinnādāyī hoti, kāmesumicchācārī hoti, musāvādī hoti, pisuṇavāco hoti, pharusavāco hoti, samphappalāpī hoti, abhijjhālu hoti, byāpannacitto hoti, micchādiṭṭhi hoti—
+English: 
+
+pp2.4:5.3
+Pali: ayaṁ vuccati puggalo “pāpo”. 
+English: 
+
+pp2.4:6.1
+Pali: Katamo ca puggalo pāpena pāpataro? 
+English: 
+
+pp2.4:6.2
+Pali: Idhekacco puggalo attanā ca pāṇātipātī hoti parañca pāṇātipāte samādapeti, attanā ca adinnādāyī hoti parañca adinnādāne samādapeti, attanā ca kāmesumicchācārī hoti parañca kāmesumicchācāre samādapeti, attanā ca musāvādī hoti parañca musāvāde samādapeti, attanā ca pisuṇavāco hoti parañca pisuṇāya vācāya samādapeti, attanā ca pharusavāco hoti parañca pharusāya vācāya samādapeti, attanā ca samphappalāpī hoti parañca samphappalāpe samādapeti, attanā ca abhijjhālu hoti parañca abhijjhāya samādapeti, attanā ca byāpannacitto hoti parañca byāpāde samādapeti, attanā ca micchādiṭṭhi hoti parañca micchādiṭṭhiyā samādapeti—
+English: 
+
+pp2.4:6.3
+Pali: ayaṁ vuccati puggalo “pāpena pāpataro”. 
+English: 
+
+pp2.4:7.1
+Pali: Katamo ca puggalo kalyāṇo? 
+English: 
+
+pp2.4:7.2
+Pali: Idhekacco puggalo pāṇātipātā paṭivirato hoti, adinnādānā paṭivirato hoti, kāmesumicchācārā paṭivirato hoti, musāvādā paṭivirato hoti, pisuṇāya vācāya paṭivirato hoti, pharusāya vācāya paṭivirato hoti, samphappalāpā paṭivirato hoti, anabhijjhālu hoti, abyāpannacitto hoti, sammādiṭṭhi hoti—
+English: 
+
+pp2.4:7.3
+Pali: ayaṁ vuccati puggalo “kalyāṇo”. 
+English: 
+
+pp2.4:8.1
+Pali: Katamo ca puggalo kalyāṇena kalyāṇataro? 
+English: 
+
+pp2.4:8.2
+Pali: Idhekacco puggalo attanā ca pāṇātipātā paṭivirato hoti parañca pāṇātipātā veramaṇiyā samādapeti, attanā ca adinnādānā paṭivirato hoti parañca adinnādānā veramaṇiyā samādapeti, attanā ca kāmesumicchācārā paṭivirato hoti parañca kāmesumicchācārā veramaṇiyā samādapeti, attanā ca musāvādā paṭivirato hoti parañca musāvādā veramaṇiyā samādapeti, attanā ca pisuṇāya vācāya paṭivirato hoti parañca pisuṇāya vācāya veramaṇiyā samādapeti, attanā ca pharusāya vācāya paṭivirato hoti parañca pharusāya vācāya veramaṇiyā samādapeti, attanā ca samphappalāpā paṭivirato hoti parañca samphappalāpā veramaṇiyā samādapeti, attanā ca anabhijjhālu hoti parañca anabhijjhāya samādapeti, attanā ca abyāpannacitto hoti parañca abyāpāde samādapeti, attanā ca sammādiṭṭhi hoti parañca sammādiṭṭhiyā samādapeti—
+English: 
+
+pp2.4:8.3
+Pali: ayaṁ vuccati puggalo “kalyāṇena kalyāṇataro”. 
+English: 
+
+pp2.4:9.1
+Pali: Katamo ca puggalo pāpadhammo? 
+English: 
+
+pp2.4:9.2
+Pali: Idhekacco puggalo pāṇātipātī hoti, adinnādāyī hoti …pe… 
+English: 
+
+pp2.4:9.3
+Pali: micchādiṭṭhi hoti—
+English: 
+
+pp2.4:9.4
+Pali: ayaṁ vuccati puggalo “pāpadhammo”. 
+English: 
+
+pp2.4:10.1
+Pali: Katamo ca puggalo pāpadhammena pāpadhammataro? 
+English: 
+
+pp2.4:10.2
+Pali: Idhekacco puggalo attanā ca pāṇātipātī hoti parañca pāṇātipāte samādapeti, attanā ca adinnādāyī hoti parañca adinnādāne samādapeti …pe… 
+English: 
+
+pp2.4:10.3
+Pali: attanā ca micchādiṭṭhi hoti parañca micchādiṭṭhiyā samādapeti—
+English: 
+
+pp2.4:10.4
+Pali: ayaṁ vuccati puggalo “pāpadhammena pāpadhammataro”. 
+English: 
+
+pp2.4:11.1
+Pali: Katamo ca puggalo kalyāṇadhammo? 
+English: 
+
+pp2.4:11.2
+Pali: Idhekacco puggalo pāṇātipātā paṭivirato hoti, adinnādānā paṭivirato hoti …pe… 
+English: 
+
+pp2.4:11.3
+Pali: sammādiṭṭhi hoti—
+English: 
+
+pp2.4:11.4
+Pali: ayaṁ vuccati puggalo “kalyāṇadhammo”. 
+English: 
+
+pp2.4:12.1
+Pali: Katamo ca puggalo kalyāṇadhammena kalyāṇadhammataro? 
+English: 
+
+pp2.4:12.2
+Pali: Idhekacco puggalo attanā ca pāṇātipātā paṭivirato hoti parañca pāṇātipātā veramaṇiyā samādapeti …pe… 
+English: 
+
+pp2.4:12.3
+Pali: attanā ca sammādiṭṭhi hoti parañca sammādiṭṭhiyā samādapeti—
+English: 
+
+pp2.4:12.4
+Pali: ayaṁ vuccati puggalo “kalyāṇadhammena kalyāṇadhammataro”. 
+English: 
+
+pp2.4:13.1
+Pali: Katamo ca puggalo sāvajjo? 
+English: 
+
+pp2.4:13.2
+Pali: Idhekacco puggalo sāvajjena kāyakammena samannāgato hoti, sāvajjena vacīkammena samannāgato hoti, sāvajjena manokammena samannāgato hoti—
+English: 
+
+pp2.4:13.3
+Pali: ayaṁ vuccati puggalo “sāvajjo”. 
+English: 
+
+pp2.4:14.1
+Pali: Katamo ca puggalo vajjabahulo? 
+English: 
+
+pp2.4:14.2
+Pali: Idhekacco puggalo sāvajjena bahulaṁ kāyakammena samannāgato hoti appaṁ anavajjena, sāvajjena bahulaṁ vacīkammena samannāgato hoti appaṁ anavajjena, sāvajjena bahulaṁ manokammena samannāgato hoti appaṁ anavajjena—
+English: 
+
+pp2.4:14.3
+Pali: ayaṁ vuccati puggalo “vajjabahulo”. 
+English: 
+
+pp2.4:15.1
+Pali: Katamo ca puggalo appavajjo? 
+English: 
+
+pp2.4:15.2
+Pali: Idhekacco puggalo anavajjena bahulaṁ kāyakammena samannāgato hoti appaṁ sāvajjena, anavajjena bahulaṁ vacīkammena samannāgato hoti appaṁ sāvajjena, anavajjena bahulaṁ manokammena samannāgato hoti appaṁ sāvajjena—
+English: 
+
+pp2.4:15.3
+Pali: ayaṁ vuccati puggalo “appavajjo”. 
+English: 
+
+pp2.4:16.1
+Pali: Katamo ca puggalo anavajjo? 
+English: 
+
+pp2.4:16.2
+Pali: Idhekacco puggalo anavajjena kāyakammena samannāgato hoti, anavajjena vacīkammena samannāgato hoti, anavajjena manokammena samannāgato hoti—
+English: 
+
+pp2.4:16.3
+Pali: ayaṁ vuccati puggalo “anavajjo”. 
+English: 
+
+pp2.4:17.1
+Pali: Katamo ca puggalo ugghaṭitaññū? 
+English: 
+
+pp2.4:17.2
+Pali: Yassa puggalassa saha udāhaṭavelāya dhammābhisamayo hoti—
+English: 
+
+pp2.4:17.3
+Pali: ayaṁ vuccati puggalo “ugghaṭitaññū”. 
+English: 
+
+pp2.4:18.1
+Pali: Katamo ca puggalo vipañcitaññū? 
+English: 
+
+pp2.4:18.2
+Pali: Yassa puggalassa saṅkhittena bhāsitassa vitthārena atthe vibhajiyamāne dhammābhisamayo hoti—
+English: 
+
+pp2.4:18.3
+Pali: ayaṁ vuccati puggalo “vipañcitaññū”. 
+English: 
+
+pp2.4:19.1
+Pali: Katamo ca puggalo neyyo? 
+English: 
+
+pp2.4:19.2
+Pali: Yassa puggalassa uddesato paripucchato yoniso manasikaroto kalyāṇamitte sevato bhajato payirupāsato evaṁ anupubbena dhammābhisamayo hoti—
+English: 
+
+pp2.4:19.3
+Pali: ayaṁ vuccati puggalo “neyyo”. 
+English: 
+
+pp2.4:20.1
+Pali: Katamo ca puggalo padaparamo? 
+English: 
+
+pp2.4:20.2
+Pali: Yassa puggalassa bahumpi suṇato bahumpi bhaṇato bahumpi dhārayato bahumpi vācayato na tāya jātiyā dhammābhisamayo hoti—
+English: 
+
+pp2.4:20.3
+Pali: ayaṁ vuccati puggalo “padaparamo”. 
+English: 
+
+pp2.4:21.1
+Pali: Katamo ca puggalo yuttappaṭibhāno no muttappaṭibhāno? 
+English: 
+
+pp2.4:21.2
+Pali: Idhekacco puggalo pañhaṁ puṭṭho samāno yuttaṁ vadati no sīghaṁ—
+English: 
+
+pp2.4:21.3
+Pali: ayaṁ vuccati puggalo “yuttappaṭibhāno no muttappaṭibhāno”. 
+English: 
+
+pp2.4:22.1
+Pali: Katamo ca puggalo muttappaṭibhāno no yuttappaṭibhāno? 
+English: 
+
+pp2.4:22.2
+Pali: Idhekacco puggalo pañhaṁ puṭṭho samāno sīghaṁ vadati no yuttaṁ—
+English: 
+
+pp2.4:22.3
+Pali: ayaṁ vuccati puggalo “muttappaṭibhāno no yuttappaṭibhāno”. 
+English: 
+
+pp2.4:23.1
+Pali: Katamo ca puggalo yuttappaṭibhāno ca muttappaṭibhāno ca? 
+English: 
+
+pp2.4:23.2
+Pali: Idhekacco puggalo pañhaṁ puṭṭho samāno yuttañca vadati sīghañca—
+English: 
+
+pp2.4:23.3
+Pali: ayaṁ vuccati puggalo “yuttappaṭibhāno ca muttappaṭibhāno ca”. 
+English: 
+
+pp2.4:24.1
+Pali: Katamo ca puggalo neva yuttappaṭibhāno no muttappaṭibhāno? 
+English: 
+
+pp2.4:24.2
+Pali: Idhekacco puggalo pañhaṁ puṭṭho samāno neva yuttaṁ vadati no sīghaṁ—
+English: 
+
+pp2.4:24.3
+Pali: ayaṁ vuccati, puggalo “neva yuttappaṭibhāno no muttappaṭibhāno”. 
+English: 
+
+pp2.4:25.1
+Pali: Tattha katame cattāro dhammakathikā puggalā? 
+English: 
+
+pp2.4:25.2
+Pali: Idhekacco dhammakathiko appañca bhāsati asahitañca, parisā cassa na kusalā hoti sahitāsahitassa. 
+English: 
+
+pp2.4:25.3
+Pali: Evarūpo dhammakathiko evarūpāya parisāya dhammakathikotveva saṅkhaṁ gacchati. 
+English: 
+
+pp2.4:26.1
+Pali: Idha panekacco dhammakathiko appañca bhāsati sahitañca, parisā cassa kusalā hoti sahitāsahitassa. 
+English: 
+
+pp2.4:26.2
+Pali: Evarūpo dhammakathiko evarūpāya parisāya dhammakathikotveva saṅkhaṁ gacchati. 
+English: 
+
+pp2.4:27.1
+Pali: Idha panekacco dhammakathiko bahuñca bhāsati asahitañca, parisā cassa na kusalā hoti sahitāsahitassa. 
+English: 
+
+pp2.4:27.2
+Pali: Evarūpo dhammakathiko evarūpāya parisāya dhammakathikotveva saṅkhaṁ gacchati. 
+English: 
+
+pp2.4:28.1
+Pali: Idha panekacco dhammakathiko bahuñca bhāsati sahitañca, parisā cassa kusalā hoti sahitāsahitassa. 
+English: 
+
+pp2.4:28.2
+Pali: Evarūpo dhammakathiko evarūpāya parisāya dhammakathikotveva saṅkhaṁ gacchati. 
+English: 
+
+pp2.4:29.1
+Pali: Ime cattāro “dhammakathikā puggalā”. 
+English: 
+
+pp2.4:30.1
+Pali: Tattha katame cattāro valāhakūpamā puggalā? 
+English: 
+
+pp2.4:30.2
+Pali: Cattāro valāhakā—
+English: 
+
+pp2.4:30.3
+Pali: gajjitā no vassitā, vassitā no gajjitā, gajjitā ca vassitā ca, neva gajjitā no vassitā. 
+English: 
+
+pp2.4:30.4
+Pali: Evamevaṁ cattārome valāhakūpamā puggalā santo saṁvijjamānā lokasmiṁ. 
+English: 
+
+pp2.4:30.5
+Pali: Katame cattāro? 
+English: 
+
+pp2.4:30.6
+Pali: Gajjitā no vassitā, vassitā no gajjitā, gajjitā ca vassitā ca, neva gajjitā no vassitā. 
+English: 
+
+pp2.4:31.1
+Pali: Kathañca puggalo gajjitā hoti no vassitā? 
+English: 
+
+pp2.4:31.2
+Pali: Idhekacco puggalo bhāsitā hoti, no kattā. 
+English: 
+
+pp2.4:31.3
+Pali: Evaṁ puggalo gajjitā hoti, no vassitā. 
+English: 
+
+pp2.4:31.4
+Pali: Seyyathāpi so valāhako gajjitā no vassitā, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.4:32.1
+Pali: Kathañca puggalo vassitā hoti no gajjitā? 
+English: 
+
+pp2.4:32.2
+Pali: Idhekacco puggalo kattā hoti, no bhāsitā. 
+English: 
+
+pp2.4:32.3
+Pali: Evaṁ puggalo vassitā hoti no gajjitā. 
+English: 
+
+pp2.4:32.4
+Pali: Seyyathāpi so valāhako vassitā no gajjitā, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.4:33.1
+Pali: Kathañca puggalo gajjitā ca hoti vassitā ca? 
+English: 
+
+pp2.4:33.2
+Pali: Idhekacco puggalo bhāsitā ca hoti, kattā ca. 
+English: 
+
+pp2.4:33.3
+Pali: Evaṁ puggalo gajjitā ca hoti vassitā ca. 
+English: 
+
+pp2.4:33.4
+Pali: Seyyathāpi so valāhako gajjitā ca vassitā ca, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.4:34.1
+Pali: Kathañca puggalo neva gajjitā hoti no vassitā? 
+English: 
+
+pp2.4:34.2
+Pali: Idhekacco puggalo neva bhāsitā hoti no kattā. 
+English: 
+
+pp2.4:34.3
+Pali: Evaṁ puggalo neva gajjitā hoti no vassitā. 
+English: 
+
+pp2.4:34.4
+Pali: Seyyathāpi so valāhako neva gajjitā no vassitā, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.4:35.1
+Pali: Ime cattāro valāhakūpamā puggalā santo saṁvijjamānā lokasmiṁ. 
+English: 
+
+pp2.4:36.1
+Pali: Tattha katame cattāro mūsikūpamā puggalā? 
+English: 
+
+pp2.4:36.2
+Pali: Catasso mūsikā—
+English: 
+
+pp2.4:36.3
+Pali: gādhaṁ kattā no vasitā, vasitā no gādhaṁ kattā, gādhaṁ kattā ca vasitā ca, neva gādhaṁ kattā no vasitā. 
+English: 
+
+pp2.4:36.4
+Pali: Evamevaṁ cattārome mūsikūpamā puggalā santo saṁvijjamānā lokasmiṁ. 
+English: 
+
+pp2.4:36.5
+Pali: Katame cattāro? 
+English: 
+
+pp2.4:36.6
+Pali: Gādhaṁ kattā no vasitā, vasitā no gādhaṁ kattā, gādhaṁ kattā ca vasitā ca, neva gādhaṁ kattā no vasitā. 
+English: 
+
+pp2.4:37.1
+Pali: Kathañca puggalo gādhaṁ kattā hoti no vasitā? 
+English: 
+
+pp2.4:37.2
+Pali: Idhekacco puggalo dhammaṁ pariyāpuṇāti—
+English: 
+
+pp2.4:37.3
+Pali: suttaṁ geyyaṁ veyyākaraṇaṁ gāthaṁ udānaṁ itivuttakaṁ jātakaṁ abbhutadhammaṁ vedallaṁ. 
+English: 
+
+pp2.4:37.4
+Pali: So “idaṁ dukkhan”ti yathābhūtaṁ nappajānāti, “ayaṁ dukkhasamudayo”ti yathābhūtaṁ nappajānāti, “ayaṁ dukkhanirodho”ti yathābhūtaṁ nappajānāti, “ayaṁ dukkhanirodhagāminī paṭipadā”ti yathābhūtaṁ nappajānāti. 
+English: 
+
+pp2.4:37.5
+Pali: Evaṁ puggalo gādhaṁ kattā hoti no vasitā. 
+English: 
+
+pp2.4:37.6
+Pali: Seyyathāpi sā mūsikā gādhaṁ kattā no vasitā, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.4:38.1
+Pali: Kathañca puggalo vasitā hoti no gādhaṁ kattā? 
+English: 
+
+pp2.4:38.2
+Pali: Idhekacco puggalo dhammaṁ na pariyāpuṇāti—
+English: 
+
+pp2.4:38.3
+Pali: suttaṁ geyyaṁ veyyākaraṇaṁ gāthaṁ udānaṁ itivuttakaṁ jātakaṁ abbhutadhammaṁ vedallaṁ. 
+English: 
+
+pp2.4:38.4
+Pali: So “idaṁ dukkhan”ti yathābhūtaṁ pajānāti, “ayaṁ dukkhasamudayo”ti yathābhūtaṁ pajānāti, “ayaṁ dukkhanirodho”ti yathābhūtaṁ pajānāti, “ayaṁ dukkhanirodhagāminī paṭipadā”ti yathābhūtaṁ pajānāti. 
+English: 
+
+pp2.4:38.5
+Pali: Evaṁ puggalo vasitā hoti no gādhaṁ kattā. 
+English: 
+
+pp2.4:38.6
+Pali: Seyyathāpi sā mūsikā vasitā no gādhaṁ kattā, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.4:39.1
+Pali: Kathañca puggalo gādhaṁ kattā ca hoti vasitā ca? 
+English: 
+
+pp2.4:39.2
+Pali: Idhekacco puggalo dhammaṁ pariyāpuṇāti—
+English: 
+
+pp2.4:39.3
+Pali: suttaṁ geyyaṁ veyyākaraṇaṁ gāthaṁ udānaṁ itivuttakaṁ jātakaṁ abbhutadhammaṁ vedallaṁ. 
+English: 
+
+pp2.4:39.4
+Pali: So “idaṁ dukkhan”ti yathābhūtaṁ pajānāti, “ayaṁ dukkhasamudayo”ti yathābhūtaṁ pajānāti, “ayaṁ dukkhanirodho”ti yathābhūtaṁ pajānāti, “ayaṁ dukkhanirodhagāminī paṭipadā”ti yathābhūtaṁ pajānāti. 
+English: 
+
+pp2.4:39.5
+Pali: Evaṁ puggalo gādhaṁ kattā ca hoti vasitā ca. 
+English: 
+
+pp2.4:39.6
+Pali: Seyyathāpi sā mūsikā gādhaṁ kattā ca vasitā ca, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.4:40.1
+Pali: Kathañca puggalo neva gādhaṁ kattā hoti no vasitā? 
+English: 
+
+pp2.4:40.2
+Pali: Idhekacco puggalo dhammaṁ na pariyāpuṇāti—
+English: 
+
+pp2.4:40.3
+Pali: suttaṁ geyyaṁ veyyākaraṇaṁ gāthaṁ udānaṁ itivuttakaṁ jātakaṁ abbhutadhammaṁ vedallaṁ. 
+English: 
+
+pp2.4:40.4
+Pali: So “idaṁ dukkhan”ti yathābhūtaṁ nappajānāti, “ayaṁ dukkhasamudayo”ti yathābhūtaṁ nappajānāti, “ayaṁ dukkhanirodho”ti yathābhūtaṁ nappajānāti, “ayaṁ dukkhanirodhagāminī paṭipadā”ti yathābhūtaṁ nappajānāti. 
+English: 
+
+pp2.4:40.5
+Pali: Evaṁ puggalo neva gādhaṁ kattā hoti no vasitā. 
+English: 
+
+pp2.4:40.6
+Pali: Seyyathāpi sā mūsikā neva gādhaṁ kattā no vasitā, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.4:41.1
+Pali: Ime cattāro mūsikūpamā puggalā santo saṁvijjamānā lokasmiṁ. 
+English: 
+
+pp2.4:42.1
+Pali: Tattha katame cattāro ambūpamā puggalā? 
+English: 
+
+pp2.4:42.2
+Pali: Cattāri ambāni—
+English: 
+
+pp2.4:42.3
+Pali: āmaṁ pakkavaṇṇi, pakkaṁ āmavaṇṇi, āmaṁ āmavaṇṇi, pakkaṁ pakkavaṇṇi. 
+English: 
+
+pp2.4:42.4
+Pali: Evamevaṁ cattārome ambūpamā puggalā santo saṁvijjamānā lokasmiṁ. 
+English: 
+
+pp2.4:42.5
+Pali: Katame cattāro? 
+English: 
+
+pp2.4:42.6
+Pali: Āmo pakkavaṇṇī, pakko āmavaṇṇī, āmo āmavaṇṇī, pakko pakkavaṇṇī. 
+English: 
+
+pp2.4:43.1
+Pali: Kathañca puggalo āmo hoti pakkavaṇṇī? 
+English: 
+
+pp2.4:43.2
+Pali: Idhekaccassa puggalassa pāsādikaṁ hoti abhikkantaṁ paṭikkantaṁ ālokitaṁ vilokitaṁ samiñjitaṁ pasāritaṁ saṅghāṭipattacīvaradhāraṇaṁ. 
+English: 
+
+pp2.4:43.3
+Pali: So “idaṁ dukkhan”ti yathābhūtaṁ nappajānāti, “ayaṁ dukkhasamudayo”ti yathābhūtaṁ nappajānāti, “ayaṁ dukkhanirodho”ti yathābhūtaṁ nappajānāti, “ayaṁ dukkhanirodhagāminī paṭipadā”ti yathābhūtaṁ nappajānāti. 
+English: 
+
+pp2.4:43.4
+Pali: Evaṁ puggalo āmo hoti pakkavaṇṇī. 
+English: 
+
+pp2.4:43.5
+Pali: Seyyathāpi taṁ ambaṁ āmaṁ pakkavaṇṇi, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.4:44.1
+Pali: Kathañca puggalo pakko hoti āmavaṇṇī? 
+English: 
+
+pp2.4:44.2
+Pali: Idhekaccassa puggalassa na pāsādikaṁ hoti abhikkantaṁ paṭikkantaṁ ālokitaṁ vilokitaṁ samiñjitaṁ pasāritaṁ saṅghāṭipattacīvaradhāraṇaṁ. 
+English: 
+
+pp2.4:44.3
+Pali: So “idaṁ dukkhan”ti yathābhūtaṁ pajānāti, “ayaṁ dukkhasamudayo”ti yathābhūtaṁ pajānāti, “ayaṁ dukkhanirodho”ti yathābhūtaṁ pajānāti, “ayaṁ dukkhanirodhagāminī paṭipadā”ti yathābhūtaṁ pajānāti. 
+English: 
+
+pp2.4:44.4
+Pali: Evaṁ puggalo pakko hoti āmavaṇṇī. 
+English: 
+
+pp2.4:44.5
+Pali: Seyyathāpi taṁ ambaṁ pakkaṁ āmavaṇṇi, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.4:45.1
+Pali: Kathañca puggalo āmo hoti āmavaṇṇī? 
+English: 
+
+pp2.4:45.2
+Pali: Idhekaccassa puggalassa na pāsādikaṁ hoti abhikkantaṁ paṭikkantaṁ ālokitaṁ vilokitaṁ samiñjitaṁ pasāritaṁ saṅghāṭipattacīvaradhāraṇaṁ. 
+English: 
+
+pp2.4:45.3
+Pali: So “idaṁ dukkhan”ti yathābhūtaṁ nappajānāti …pe… 
+English: 
+
+pp2.4:45.4
+Pali: “ayaṁ dukkhanirodhagāminī paṭipadā”ti yathābhūtaṁ nappajānāti. 
+English: 
+
+pp2.4:45.5
+Pali: Evaṁ puggalo āmo hoti āmavaṇṇī. 
+English: 
+
+pp2.4:45.6
+Pali: Seyyathāpi taṁ ambaṁ āmaṁ āmavaṇṇi, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.4:46.1
+Pali: Kathañca puggalo pakko hoti pakkavaṇṇī? 
+English: 
+
+pp2.4:46.2
+Pali: Idhekaccassa puggalassa pāsādikaṁ hoti abhikkantaṁ paṭikkantaṁ ālokitaṁ vilokitaṁ samiñjitaṁ pasāritaṁ saṅghāṭipattacīvaradhāraṇaṁ. 
+English: 
+
+pp2.4:46.3
+Pali: So “idaṁ dukkhan”ti yathābhūtaṁ pajānāti …pe… 
+English: 
+
+pp2.4:46.4
+Pali: “ayaṁ dukkhanirodhagāminī paṭipadā”ti yathābhūtaṁ pajānāti. 
+English: 
+
+pp2.4:46.5
+Pali: Evaṁ puggalo pakko hoti pakkavaṇṇī. 
+English: 
+
+pp2.4:46.6
+Pali: Seyyathāpi taṁ ambaṁ pakkaṁ pakkavaṇṇi, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.4:47.1
+Pali: Ime cattāro ambūpamā puggalā santo saṁvijjamānā lokasmiṁ. 
+English: 
+
+pp2.4:48.1
+Pali: Tattha katame cattāro kumbhūpamā puggalā? 
+English: 
+
+pp2.4:48.2
+Pali: Cattāro kumbhā—
+English: 
+
+pp2.4:48.3
+Pali: tuccho pihito, pūro vivaṭo, tuccho vivaṭo, pūro pihito. 
+English: 
+
+pp2.4:48.4
+Pali: Evamevaṁ cattārome kumbhūpamā puggalā santo saṁvijjamānā lokasmiṁ. 
+English: 
+
+pp2.4:48.5
+Pali: Katame cattāro? 
+English: 
+
+pp2.4:48.6
+Pali: Tuccho pihito, pūro vivaṭo, tuccho vivaṭo, pūro pihito. 
+English: 
+
+pp2.4:49.1
+Pali: Kathañca puggalo tuccho hoti pihito? 
+English: 
+
+pp2.4:49.2
+Pali: Idhekaccassa puggalassa pāsādikaṁ hoti abhikkantaṁ paṭikkantaṁ ālokitaṁ vilokitaṁ samiñjitaṁ pasāritaṁ saṅghāṭipattacīvaradhāraṇaṁ. 
+English: 
+
+pp2.4:49.3
+Pali: So “idaṁ dukkhan”ti yathābhūtaṁ nappajānāti …pe… 
+English: 
+
+pp2.4:49.4
+Pali: “ayaṁ dukkhanirodhagāminī paṭipadā”ti yathābhūtaṁ nappajānāti. 
+English: 
+
+pp2.4:49.5
+Pali: Evaṁ puggalo tuccho hoti pihito. 
+English: 
+
+pp2.4:49.6
+Pali: Seyyathāpi so kumbho tuccho pihito, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.4:50.1
+Pali: Kathañca puggalo pūro hoti vivaṭo? 
+English: 
+
+pp2.4:50.2
+Pali: Idhekaccassa puggalassa na pāsādikaṁ hoti abhikkantaṁ paṭikkantaṁ ālokitaṁ vilokitaṁ samiñjitaṁ pasāritaṁ saṅghāṭipattacīvaradhāraṇaṁ. 
+English: 
+
+pp2.4:50.3
+Pali: So “idaṁ dukkhan”ti yathābhūtaṁ pajānāti …pe… 
+English: 
+
+pp2.4:50.4
+Pali: “ayaṁ dukkhanirodhagāminī paṭipadā”ti yathābhūtaṁ pajānāti. 
+English: 
+
+pp2.4:50.5
+Pali: Evaṁ puggalo pūro hoti vivaṭo. 
+English: 
+
+pp2.4:50.6
+Pali: Seyyathāpi so kumbho pūro vivaṭo, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.4:51.1
+Pali: Kathañca puggalo tuccho hoti vivaṭo? 
+English: 
+
+pp2.4:51.2
+Pali: Idhekaccassa puggalassa na pāsādikaṁ hoti abhikkantaṁ paṭikkantaṁ ālokitaṁ vilokitaṁ samiñjitaṁ pasāritaṁ saṅghāṭipattacīvaradhāraṇaṁ. 
+English: 
+
+pp2.4:51.3
+Pali: So “idaṁ dukkhan”ti yathābhūtaṁ nappajānāti …pe… 
+English: 
+
+pp2.4:51.4
+Pali: “ayaṁ dukkhanirodhagāminī paṭipadā”ti yathābhūtaṁ nappajānāti. 
+English: 
+
+pp2.4:51.5
+Pali: Evaṁ puggalo tuccho hoti vivaṭo. 
+English: 
+
+pp2.4:51.6
+Pali: Seyyathāpi so kumbho tuccho vivaṭo, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.4:52.1
+Pali: Kathañca puggalo pūro hoti pihito? 
+English: 
+
+pp2.4:52.2
+Pali: Idhekaccassa puggalassa pāsādikaṁ hoti abhikkantaṁ paṭikkantaṁ ālokitaṁ vilokitaṁ samiñjitaṁ pasāritaṁ saṅghāṭipattacīvaradhāraṇaṁ. 
+English: 
+
+pp2.4:52.3
+Pali: So “idaṁ dukkhan”ti yathābhūtaṁ pajānāti …pe… 
+English: 
+
+pp2.4:52.4
+Pali: “ayaṁ dukkhanirodhagāminī paṭipadā”ti yathābhūtaṁ pajānāti. 
+English: 
+
+pp2.4:52.5
+Pali: Evaṁ puggalo pūro hoti pihito. 
+English: 
+
+pp2.4:52.6
+Pali: Seyyathāpi so kumbho pūro pihito, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.4:53.1
+Pali: Ime cattāro kumbhūpamā puggalā santo saṁvijjamānā lokasmiṁ. 
+English: 
+
+pp2.4:54.1
+Pali: Tattha katame cattāro udakarahadūpamā puggalā? 
+English: 
+
+pp2.4:54.2
+Pali: Cattāro udakarahadā—
+English: 
+
+pp2.4:54.3
+Pali: uttāno gambhīrobhāso, gambhīro uttānobhāso, uttāno uttānobhāso, gambhīro gambhīrobhāso. 
+English: 
+
+pp2.4:54.4
+Pali: Evamevaṁ cattārome udakarahadūpamā puggalā santo saṁvijjamānā lokasmiṁ. 
+English: 
+
+pp2.4:54.5
+Pali: Katame cattāro? 
+English: 
+
+pp2.4:54.6
+Pali: Uttāno gambhīrobhāso, gambhīro uttānobhāso, uttāno uttānobhāso, gambhīro gambhīrobhāso. 
+English: 
+
+pp2.4:55.1
+Pali: Kathañca puggalo uttāno hoti gambhīrobhāso? 
+English: 
+
+pp2.4:55.2
+Pali: Idhekaccassa puggalassa pāsādikaṁ hoti abhikkantaṁ paṭikkantaṁ ālokitaṁ vilokitaṁ samiñjitaṁ pasāritaṁ saṅghāṭipattacīvaradhāraṇaṁ. 
+English: 
+
+pp2.4:55.3
+Pali: So “idaṁ dukkhan”ti yathābhūtaṁ nappajānāti …pe… 
+English: 
+
+pp2.4:55.4
+Pali: “ayaṁ dukkhanirodhagāminī paṭipadā”ti yathābhūtaṁ nappajānāti. 
+English: 
+
+pp2.4:55.5
+Pali: Evaṁ puggalo uttāno hoti gambhīrobhāso. 
+English: 
+
+pp2.4:55.6
+Pali: Seyyathāpi so udakarahado uttāno gambhīrobhāso, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.4:56.1
+Pali: Kathañca puggalo gambhīro hoti uttānobhāso? 
+English: 
+
+pp2.4:56.2
+Pali: Idhekaccassa puggalassa na pāsādikaṁ hoti abhikkantaṁ paṭikkantaṁ ālokitaṁ vilokitaṁ samiñjitaṁ pasāritaṁ saṅghāṭipattacīvaradhāraṇaṁ. 
+English: 
+
+pp2.4:56.3
+Pali: So “idaṁ dukkhan”ti yathābhūtaṁ pajānāti …pe… 
+English: 
+
+pp2.4:56.4
+Pali: “ayaṁ dukkhanirodhagāminī paṭipadā”ti yathābhūtaṁ pajānāti. 
+English: 
+
+pp2.4:56.5
+Pali: Evaṁ puggalo gambhīro hoti uttānobhāso. 
+English: 
+
+pp2.4:56.6
+Pali: Seyyathāpi so udakarahado gambhīro uttānobhāso, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.4:57.1
+Pali: Kathañca puggalo uttāno hoti uttānobhāso? 
+English: 
+
+pp2.4:57.2
+Pali: Idhekaccassa puggalassa na pāsādikaṁ hoti abhikkantaṁ paṭikkantaṁ ālokitaṁ vilokitaṁ samiñjitaṁ pasāritaṁ saṅghāṭipattacīvaradhāraṇaṁ. 
+English: 
+
+pp2.4:57.3
+Pali: So “idaṁ dukkhan”ti yathābhūtaṁ nappajānāti …pe… 
+English: 
+
+pp2.4:57.4
+Pali: “ayaṁ dukkhanirodhagāminī paṭipadā”ti yathābhūtaṁ nappajānāti. 
+English: 
+
+pp2.4:57.5
+Pali: Evaṁ puggalo uttāno hoti uttānobhāso. 
+English: 
+
+pp2.4:57.6
+Pali: Seyyathāpi so udakarahado uttāno uttānobhāso, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.4:58.1
+Pali: Kathañca puggalo gambhīro hoti gambhīrobhāso? 
+English: 
+
+pp2.4:58.2
+Pali: Idhekaccassa puggalassa pāsādikaṁ hoti abhikkantaṁ paṭikkantaṁ ālokitaṁ vilokitaṁ samiñjitaṁ pasāritaṁ saṅghāṭipattacīvaradhāraṇaṁ. 
+English: 
+
+pp2.4:58.3
+Pali: So “idaṁ dukkhan”ti yathābhūtaṁ pajānāti …pe… 
+English: 
+
+pp2.4:58.4
+Pali: “ayaṁ dukkhanirodhagāminī paṭipadā”ti yathābhūtaṁ pajānāti. 
+English: 
+
+pp2.4:58.5
+Pali: Evaṁ puggalo gambhīro hoti gambhīrobhāso. 
+English: 
+
+pp2.4:58.6
+Pali: Seyyathāpi so udakarahado gambhīro gambhīrobhāso, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.4:59.1
+Pali: Ime cattāro udakarahadūpamā puggalā santo saṁvijjamānā lokasmiṁ. 
+English: 
+
+pp2.4:60.1
+Pali: Tattha katame cattāro balībaddūpamā puggalā? 
+English: 
+
+pp2.4:60.2
+Pali: Cattāro balībaddā—
+English: 
+
+pp2.4:60.3
+Pali: sakagavacaṇḍo no paragavacaṇḍo, paragavacaṇḍo no sakagavacaṇḍo, sakagavacaṇḍo ca paragavacaṇḍo ca, neva sakagavacaṇḍo no paragavacaṇḍo. 
+English: 
+
+pp2.4:60.4
+Pali: Evamevaṁ cattārome balībaddūpamā puggalā santo saṁvijjamānā lokasmiṁ. 
+English: 
+
+pp2.4:60.5
+Pali: Katame cattāro? 
+English: 
+
+pp2.4:60.6
+Pali: Sakagavacaṇḍo no paragavacaṇḍo, paragavacaṇḍo no sakagavacaṇḍo, sakagavacaṇḍo ca paragavacaṇḍo ca, neva sakagavacaṇḍo no paragavacaṇḍo. 
+English: 
+
+pp2.4:61.1
+Pali: Kathañca puggalo sakagavacaṇḍo hoti no paragavacaṇḍo? 
+English: 
+
+pp2.4:61.2
+Pali: Idhekacco puggalo sakaparisaṁ ubbejitā hoti, no paraparisaṁ. 
+English: 
+
+pp2.4:61.3
+Pali: Evaṁ puggalo sakagavacaṇḍo hoti no paragavacaṇḍo. 
+English: 
+
+pp2.4:61.4
+Pali: Seyyathāpi so balībaddo sakagavacaṇḍo no paragavacaṇḍo, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.4:62.1
+Pali: Kathañca puggalo paragavacaṇḍo hoti no sakagavacaṇḍo? 
+English: 
+
+pp2.4:62.2
+Pali: Idhekacco puggalo paraparisaṁ ubbejitā hoti, no sakaparisaṁ. 
+English: 
+
+pp2.4:62.3
+Pali: Evaṁ puggalo paragavacaṇḍo hoti no sakagavacaṇḍo. 
+English: 
+
+pp2.4:62.4
+Pali: Seyyathāpi so balībaddo paragavacaṇḍo no sakagavacaṇḍo, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.4:63.1
+Pali: Kathañca puggalo sakagavacaṇḍo ca hoti paragavacaṇḍo ca? 
+English: 
+
+pp2.4:63.2
+Pali: Idhekacco puggalo sakaparisañca ubbejitā hoti, paraparisañca. 
+English: 
+
+pp2.4:63.3
+Pali: Evaṁ puggalo sakagavacaṇḍo ca hoti paragavacaṇḍo ca. 
+English: 
+
+pp2.4:63.4
+Pali: Seyyathāpi so balībaddo sakagavacaṇḍo ca paragavacaṇḍo ca, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.4:64.1
+Pali: Kathañca puggalo neva sakagavacaṇḍo hoti no paragavacaṇḍo? 
+English: 
+
+pp2.4:64.2
+Pali: Idhekacco puggalo neva sakaparisaṁ ubbejitā hoti no paraparisaṁ. 
+English: 
+
+pp2.4:64.3
+Pali: Evaṁ puggalo neva sakagavacaṇḍo hoti no paragavacaṇḍo. 
+English: 
+
+pp2.4:64.4
+Pali: Seyyathāpi so balībaddo neva sakagavacaṇḍo no paragavacaṇḍo, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.4:65.1
+Pali: Ime cattāro balībaddūpamā puggalā santo saṁvijjamānā lokasmiṁ. 
+English: 
+
+pp2.4:66.1
+Pali: Tattha katame cattāro āsīvisūpamā puggalā? 
+English: 
+
+pp2.4:66.2
+Pali: Cattāro āsīvisā—
+English: 
+
+pp2.4:66.3
+Pali: āgataviso no ghoraviso, ghoraviso no āgataviso, āgataviso ca ghoraviso ca, neva āgataviso no ghoraviso. 
+English: 
+
+pp2.4:66.4
+Pali: Evamevaṁ cattārome āsīvisūpamā puggalā santo saṁvijjamānā lokasmiṁ. 
+English: 
+
+pp2.4:66.5
+Pali: Katame cattāro? 
+English: 
+
+pp2.4:66.6
+Pali: Āgataviso no ghoraviso, ghoraviso no āgataviso, āgataviso ca ghoraviso ca, neva āgataviso no ghoraviso. 
+English: 
+
+pp2.4:67.1
+Pali: Kathañca puggalo āgataviso hoti no ghoraviso? 
+English: 
+
+pp2.4:67.2
+Pali: Idhekacco puggalo abhiṇhaṁ kujjhati. 
+English: 
+
+pp2.4:67.3
+Pali: So ca khvassa kodho na ciraṁ dīgharattaṁ anuseti. 
+English: 
+
+pp2.4:67.4
+Pali: Evaṁ puggalo āgataviso hoti, no ghoraviso. 
+English: 
+
+pp2.4:67.5
+Pali: Seyyathāpi so āsīviso āgataviso no ghoraviso, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.4:68.1
+Pali: Kathañca puggalo ghoraviso hoti no āgataviso? 
+English: 
+
+pp2.4:68.2
+Pali: Idhekacco puggalo naheva kho abhiṇhaṁ kujjhati. 
+English: 
+
+pp2.4:68.3
+Pali: So ca khvassa kodho ciraṁ dīgharattaṁ anuseti. 
+English: 
+
+pp2.4:68.4
+Pali: Evaṁ puggalo ghoraviso hoti, no āgataviso. 
+English: 
+
+pp2.4:68.5
+Pali: Seyyathāpi so āsīviso ghoraviso no āgataviso, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.4:69.1
+Pali: Kathañca puggalo āgataviso ca hoti ghoraviso ca? 
+English: 
+
+pp2.4:69.2
+Pali: Idhekacco puggalo abhiṇhaṁ kujjhati. 
+English: 
+
+pp2.4:69.3
+Pali: So ca khvassa kodho ciraṁ dīgharattaṁ anuseti. 
+English: 
+
+pp2.4:69.4
+Pali: Evaṁ puggalo āgataviso ca hoti ghoraviso ca. 
+English: 
+
+pp2.4:69.5
+Pali: Seyyathāpi so āsīviso āgataviso ca ghoraviso ca, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.4:70.1
+Pali: Kathañca puggalo neva āgataviso hoti no ghoraviso? 
+English: 
+
+pp2.4:70.2
+Pali: Idhekacco puggalo naheva kho abhiṇhaṁ kujjhati. 
+English: 
+
+pp2.4:70.3
+Pali: So ca khvassa kodho na ciraṁ dīgharattaṁ anuseti. 
+English: 
+
+pp2.4:70.4
+Pali: Evaṁ puggalo neva āgataviso hoti no ghoraviso. 
+English: 
+
+pp2.4:70.5
+Pali: Seyyathāpi so āsīviso neva āgataviso no ghoraviso, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.4:71.1
+Pali: Ime cattāro āsīvisūpamā puggalā santo saṁvijjamānā lokasmiṁ. 
+English: 
+
+pp2.4:72.1
+Pali: Kathañca puggalo ananuvicca apariyogāhetvā avaṇṇārahassa vaṇṇaṁ bhāsitā hoti? 
+English: 
+
+pp2.4:72.2
+Pali: Idhekacco puggalo duppaṭipannānaṁ micchāpaṭipannānaṁ titthiyānaṁ titthiyasāvakānaṁ vaṇṇaṁ bhāsati—
+English: 
+
+pp2.4:72.3
+Pali: “suppaṭipannā” itipi, “sammāpaṭipannā” itipīti. 
+English: 
+
+pp2.4:72.4
+Pali: Evaṁ puggalo ananuvicca apariyogāhetvā avaṇṇārahassa vaṇṇaṁ bhāsitā hoti. 
+English: 
+
+pp2.4:73.1
+Pali: Kathañca puggalo ananuvicca apariyogāhetvā vaṇṇārahassa avaṇṇaṁ bhāsitā hoti? 
+English: 
+
+pp2.4:73.2
+Pali: Idhekacco puggalo suppaṭipannānaṁ sammāpaṭipannānaṁ buddhānaṁ buddhasāvakānaṁ avaṇṇaṁ bhāsati—
+English: 
+
+pp2.4:73.3
+Pali: “duppaṭipannā” itipi, “micchāpaṭipannā” itipīti. 
+English: 
+
+pp2.4:73.4
+Pali: Evaṁ puggalo ananuvicca apariyogāhetvā vaṇṇārahassa avaṇṇaṁ bhāsitā hoti. 
+English: 
+
+pp2.4:74.1
+Pali: Kathañca puggalo ananuvicca apariyogāhetvā appasādanīye ṭhāne pasādaṁ upadaṁsitā hoti? 
+English: 
+
+pp2.4:74.2
+Pali: Idhekacco puggalo duppaṭipadāya micchāpaṭipadāya pasādaṁ janeti—
+English: 
+
+pp2.4:74.3
+Pali: “suppaṭipadā” itipi, “sammāpaṭipadā” itipīti. 
+English: 
+
+pp2.4:74.4
+Pali: Evaṁ puggalo ananuvicca apariyogāhetvā appasādanīye ṭhāne pasādaṁ upadaṁsitā hoti. 
+English: 
+
+pp2.4:75.1
+Pali: Kathañca puggalo ananuvicca apariyogāhetvā pasādanīye ṭhāne appasādaṁ upadaṁsitā hoti? 
+English: 
+
+pp2.4:75.2
+Pali: Idhekacco puggalo suppaṭipadāya sammāpaṭipadāya appasādaṁ janeti—
+English: 
+
+pp2.4:75.3
+Pali: “duppaṭipadā” itipi, “micchāpaṭipadā” itipīti. 
+English: 
+
+pp2.4:75.4
+Pali: Evaṁ puggalo ananuvicca apariyogāhetvā pasādanīye ṭhāne appasādaṁ upadaṁsitā hoti. 
+English: 
+
+pp2.4:76.1
+Pali: Kathañca puggalo anuvicca pariyogāhetvā avaṇṇārahassa avaṇṇaṁ bhāsitā hoti? 
+English: 
+
+pp2.4:76.2
+Pali: Idhekacco puggalo duppaṭipannānaṁ micchāpaṭipannānaṁ titthiyānaṁ titthiyasāvakānaṁ avaṇṇaṁ bhāsati—
+English: 
+
+pp2.4:76.3
+Pali: “duppaṭipannā” itipi, “micchāpaṭipannā” itipīti. 
+English: 
+
+pp2.4:76.4
+Pali: Evaṁ puggalo anuvicca pariyogāhetvā avaṇṇārahassa avaṇṇaṁ bhāsitā hoti. 
+English: 
+
+pp2.4:77.1
+Pali: Kathañca puggalo anuvicca pariyogāhetvā vaṇṇārahassa vaṇṇaṁ bhāsitā hoti? 
+English: 
+
+pp2.4:77.2
+Pali: Idhekacco puggalo suppaṭipannānaṁ sammāpaṭipannānaṁ buddhānaṁ buddhasāvakānaṁ vaṇṇaṁ bhāsati—
+English: 
+
+pp2.4:77.3
+Pali: “suppaṭipannā” itipi, “sammāpaṭipannā” itipīti. 
+English: 
+
+pp2.4:77.4
+Pali: Evaṁ puggalo anuvicca pariyogāhetvā vaṇṇārahassa vaṇṇaṁ bhāsitā hoti. 
+English: 
+
+pp2.4:78.1
+Pali: Kathañca puggalo anuvicca pariyogāhetvā appasādanīye ṭhāne appasādaṁ upadaṁsitā hoti? 
+English: 
+
+pp2.4:78.2
+Pali: Idhekacco puggalo duppaṭipadāya micchāpaṭipadāya appasādaṁ janeti—
+English: 
+
+pp2.4:78.3
+Pali: “duppaṭipadā” itipi, “micchāpaṭipadā” itipīti. 
+English: 
+
+pp2.4:78.4
+Pali: Evaṁ puggalo anuvicca pariyogāhetvā appasādanīye ṭhāne appasādaṁ upadaṁsitā hoti. 
+English: 
+
+pp2.4:79.1
+Pali: Kathañca puggalo anuvicca pariyogāhetvā pasādanīye ṭhāne pasādaṁ upadaṁsitā hoti? 
+English: 
+
+pp2.4:79.2
+Pali: Idhekacco puggalo suppaṭipadāya sammāpaṭipadāya pasādaṁ janeti—
+English: 
+
+pp2.4:79.3
+Pali: “suppaṭipadā” itipi, “sammāpaṭipadā” itipīti. 
+English: 
+
+pp2.4:79.4
+Pali: Evaṁ puggalo anuvicca pariyogāhetvā pasādanīye ṭhāne pasādaṁ upadaṁsitā hoti. 
+English: 
+
+pp2.4:80.1
+Pali: Kathañca puggalo avaṇṇārahassa avaṇṇaṁ bhāsitā hoti bhūtaṁ tacchaṁ kālena, no ca kho vaṇṇārahassa vaṇṇaṁ bhāsitā hoti bhūtaṁ tacchaṁ kālena? 
+English: 
+
+pp2.4:80.2
+Pali: Idhekacco puggalo vaṇṇopi saṁvijjati avaṇṇopi saṁvijjati. 
+English: 
+
+pp2.4:80.3
+Pali: Yo tattha avaṇṇo taṁ bhaṇati bhūtaṁ tacchaṁ kālena, yo tattha vaṇṇo taṁ na bhaṇati bhūtaṁ tacchaṁ kālena. 
+English: 
+
+pp2.4:80.4
+Pali: Evaṁ puggalo avaṇṇārahassa avaṇṇaṁ bhāsitā hoti bhūtaṁ tacchaṁ kālena, no ca kho vaṇṇārahassa vaṇṇaṁ bhāsitā hoti bhūtaṁ tacchaṁ kālena. 
+English: 
+
+pp2.4:81.1
+Pali: Kathañca puggalo vaṇṇārahassa vaṇṇaṁ bhāsitā hoti bhūtaṁ tacchaṁ kālena, no ca kho avaṇṇārahassa avaṇṇaṁ bhāsitā hoti bhūtaṁ tacchaṁ kālena? 
+English: 
+
+pp2.4:81.2
+Pali: Idhekacco puggalo vaṇṇopi saṁvijjati avaṇṇopi saṁvijjati. 
+English: 
+
+pp2.4:81.3
+Pali: Yo tattha vaṇṇo taṁ bhaṇati bhūtaṁ tacchaṁ kālena, yo tattha avaṇṇo taṁ na bhaṇati bhūtaṁ tacchaṁ kālena. 
+English: 
+
+pp2.4:81.4
+Pali: Evaṁ puggalo vaṇṇārahassa vaṇṇaṁ bhāsitā hoti bhūtaṁ tacchaṁ kālena, no ca kho avaṇṇārahassa avaṇṇaṁ bhāsitā hoti bhūtaṁ tacchaṁ kālena. 
+English: 
+
+pp2.4:82.1
+Pali: Kathañca puggalo avaṇṇārahassa ca avaṇṇaṁ bhāsitā hoti bhūtaṁ tacchaṁ kālena, vaṇṇārahassa ca vaṇṇaṁ bhāsitā hoti bhūtaṁ tacchaṁ kālena? 
+English: 
+
+pp2.4:82.2
+Pali: Idhekacco puggalo vaṇṇopi saṁvijjati avaṇṇopi saṁvijjati. 
+English: 
+
+pp2.4:82.3
+Pali: Yo tattha avaṇṇo taṁ bhaṇati bhūtaṁ tacchaṁ kālena, yopi tattha vaṇṇo tampi bhaṇati bhūtaṁ tacchaṁ kālena. 
+English: 
+
+pp2.4:82.4
+Pali: Tatra kālaññū hoti tassa pañhassa veyyākaraṇāya. 
+English: 
+
+pp2.4:82.5
+Pali: Evaṁ puggalo avaṇṇārahassa ca avaṇṇaṁ bhāsitā hoti bhūtaṁ tacchaṁ kālena, vaṇṇārahassa ca vaṇṇaṁ bhāsitā hoti bhūtaṁ tacchaṁ kālena. 
+English: 
+
+pp2.4:83.1
+Pali: Kathañca puggalo neva avaṇṇārahassa avaṇṇaṁ bhāsitā hoti bhūtaṁ tacchaṁ kālena, nopi vaṇṇārahassa vaṇṇaṁ bhāsitā hoti bhūtaṁ tacchaṁ kālena? 
+English: 
+
+pp2.4:83.2
+Pali: Idhekacco puggalo vaṇṇopi saṁvijjati avaṇṇopi saṁvijjati. 
+English: 
+
+pp2.4:83.3
+Pali: Yo tattha avaṇṇo taṁ na bhaṇati bhūtaṁ tacchaṁ kālena, yopi tattha vaṇṇo tampi na bhaṇati bhūtaṁ tacchaṁ kālena. 
+English: 
+
+pp2.4:83.4
+Pali: Upekkhako viharati sato sampajāno. 
+English: 
+
+pp2.4:83.5
+Pali: Evaṁ puggalo neva avaṇṇārahassa avaṇṇaṁ bhāsitā hoti bhūtaṁ tacchaṁ kālena, nopi vaṇṇārahassa vaṇṇaṁ bhāsitā hoti bhūtaṁ tacchaṁ kālena. 
+English: 
+
+pp2.4:84.1
+Pali: Katamo ca puggalo uṭṭhānaphalūpajīvī no puññaphalūpajīvī? 
+English: 
+
+pp2.4:84.2
+Pali: Yassa puggalassa uṭṭhahato ghaṭato vāyamato ājīvo abhinibbattati, no puññato—
+English: 
+
+pp2.4:84.3
+Pali: ayaṁ vuccati puggalo “uṭṭhānaphalūpajīvī, no puññaphalūpajīvī”. 
+English: 
+
+pp2.4:85.1
+Pali: Katamo ca puggalo puññaphalūpajīvī no uṭṭhānaphalūpajīvī? 
+English: 
+
+pp2.4:85.2
+Pali: Paranimmitavasavattī deve upādāya tatūpari devā puññaphalūpajīvino na uṭṭhānaphalūpajīvino. 
+English: 
+
+pp2.4:86.1
+Pali: Katamo ca puggalo uṭṭhānaphalūpajīvī ca puññaphalūpajīvī ca? 
+English: 
+
+pp2.4:86.2
+Pali: Yassa puggalassa uṭṭhahato ghaṭato vāyamato ājīvo abhinibbattati puññato ca—
+English: 
+
+pp2.4:86.3
+Pali: ayaṁ vuccati puggalo “uṭṭhānaphalūpajīvī ca puññaphalūpajīvī ca”. 
+English: 
+
+pp2.4:87.1
+Pali: Katamo ca puggalo neva uṭṭhānaphalūpajīvī no puññaphalūpajīvī? 
+English: 
+
+pp2.4:87.2
+Pali: Nerayikā neva uṭṭhānaphalūpajīvino no puññaphalūpajīvino. 
+English: 
+
+pp2.4:88.1
+Pali: Kathañca puggalo tamo hoti tamaparāyano? 
+English: 
+
+pp2.4:88.2
+Pali: Idhekacco puggalo nīce kule paccājāto hoti—
+English: 
+
+pp2.4:88.3
+Pali: caṇḍālakule vā nesādakule vā venakule vā rathakārakule vā pukkusakule vā dalidde appannapānabhojane kasiravuttike, yattha kasirena ghāsacchādo labbhati. 
+English: 
+
+pp2.4:88.4
+Pali: So ca hoti dubbaṇṇo duddasiko okoṭimako bahvābādho kāṇo vā kuṇī vā khañjo vā pakkhahato vā, na lābhī annassa pānassa vatthassa yānassa mālāgandhavilepanassa seyyāvasathapadīpeyyassa. 
+English: 
+
+pp2.4:88.5
+Pali: So kāyena duccaritaṁ carati, vācāya duccaritaṁ carati, manasā duccaritaṁ carati. 
+English: 
+
+pp2.4:88.6
+Pali: So kāyena duccaritaṁ caritvā vācāya duccaritaṁ caritvā manasā duccaritaṁ caritvā kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapajjati. 
+English: 
+
+pp2.4:88.7
+Pali: Evaṁ puggalo tamo hoti tamaparāyano. 
+English: 
+
+pp2.4:89.1
+Pali: Kathañca puggalo tamo hoti jotiparāyano? 
+English: 
+
+pp2.4:89.2
+Pali: Idhekacco puggalo nīce kule paccājāto hoti—
+English: 
+
+pp2.4:89.3
+Pali: caṇḍālakule vā nesādakule vā venakule vā rathakārakule vā pukkusakule vā dalidde appannapānabhojane kasiravuttike, yattha kasirena ghāsacchādo labbhati. 
+English: 
+
+pp2.4:89.4
+Pali: So ca hoti dubbaṇṇo duddasiko okoṭimako bahvābādho kāṇo vā kuṇī vā khañjo vā pakkhahato vā, na lābhī annassa pānassa vatthassa yānassa mālāgandhavilepanassa seyyāvasathapadīpeyyassa. 
+English: 
+
+pp2.4:89.5
+Pali: So kāyena sucaritaṁ carati, vācāya sucaritaṁ carati, manasā sucaritaṁ carati. 
+English: 
+
+pp2.4:89.6
+Pali: So kāyena sucaritaṁ caritvā vācāya sucaritaṁ caritvā manasā sucaritaṁ caritvā kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjati. 
+English: 
+
+pp2.4:89.7
+Pali: Evaṁ puggalo tamo hoti jotiparāyano. 
+English: 
+
+pp2.4:90.1
+Pali: Kathañca puggalo joti hoti tamaparāyano? 
+English: 
+
+pp2.4:90.2
+Pali: Idhekacco puggalo ucce kule paccājāto hoti—
+English: 
+
+pp2.4:90.3
+Pali: khattiyamahāsālakule vā brāhmaṇamahāsālakule vā gahapatimahāsālakule vā aḍḍhe mahaddhane mahābhoge pahūtajātarūparajate pahūtavittūpakaraṇe pahūtadhanadhaññe. 
+English: 
+
+pp2.4:90.4
+Pali: So ca hoti abhirūpo dassanīyo pāsādiko paramāya vaṇṇapokkharatāya samannāgato, lābhī annassa pānassa vatthassa yānassa mālāgandhavilepanassa seyyāvasathapadīpeyyassa. 
+English: 
+
+pp2.4:90.5
+Pali: So kāyena duccaritaṁ carati, vācāya duccaritaṁ carati, manasā duccaritaṁ carati. 
+English: 
+
+pp2.4:90.6
+Pali: So kāyena duccaritaṁ caritvā vācāya duccaritaṁ caritvā manasā duccaritaṁ caritvā kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapajjati. 
+English: 
+
+pp2.4:90.7
+Pali: Evaṁ puggalo joti hoti tamaparāyano. 
+English: 
+
+pp2.4:91.1
+Pali: Kathañca puggalo joti hoti jotiparāyano? 
+English: 
+
+pp2.4:91.2
+Pali: Idhekacco puggalo ucce kule paccājāto hoti—
+English: 
+
+pp2.4:91.3
+Pali: khattiyamahāsālakule vā brāhmaṇamahāsālakule vā gahapatimahāsālakule vā aḍḍhe mahaddhane mahābhoge pahūtajātarūparajate pahūtavittūpakaraṇe pahūtadhanadhaññe. 
+English: 
+
+pp2.4:91.4
+Pali: So ca hoti abhirūpo dassanīyo pāsādiko paramāya vaṇṇapokkharatāya samannāgato, lābhī annassa pānassa vatthassa yānassa mālāgandhavilepanassa seyyāvasathapadīpeyyassa. 
+English: 
+
+pp2.4:91.5
+Pali: So kāyena sucaritaṁ carati, vācāya sucaritaṁ carati, manasā sucaritaṁ carati. 
+English: 
+
+pp2.4:91.6
+Pali: So kāyena sucaritaṁ caritvā vācāya sucaritaṁ caritvā manasā sucaritaṁ caritvā kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjati. 
+English: 
+
+pp2.4:91.7
+Pali: Evaṁ puggalo joti hoti jotiparāyano. 
+English: 
+
+pp2.4:92.1
+Pali: Kathañca puggalo oṇatoṇato hoti …pe… 
+English: 
+
+pp2.4:92.2
+Pali: evaṁ puggalo oṇatoṇato hoti. 
+English: 
+
+pp2.4:93.1
+Pali: Kathañca puggalo oṇatuṇṇato hoti …pe… 
+English: 
+
+pp2.4:93.2
+Pali: evaṁ puggalo oṇatuṇṇato hoti. 
+English: 
+
+pp2.4:94.1
+Pali: Kathañca puggalo uṇṇatoṇato hoti …pe… 
+English: 
+
+pp2.4:94.2
+Pali: evaṁ puggalo uṇṇatoṇato hoti. 
+English: 
+
+pp2.4:95.1
+Pali: Kathañca puggalo uṇṇatuṇṇato hoti …pe… 
+English: 
+
+pp2.4:95.2
+Pali: evaṁ puggalo uṇṇatuṇṇato hoti. 
+English: 
+
+pp2.4:96.1
+Pali: Tattha katame cattāro rukkhūpamā puggalā? 
+English: 
+
+pp2.4:96.2
+Pali: Cattāro rukkhā—
+English: 
+
+pp2.4:96.3
+Pali: pheggu sāraparivāro, sāro phegguparivāro, pheggu phegguparivāro, sāro sāraparivāro. 
+English: 
+
+pp2.4:96.4
+Pali: Evamevaṁ cattārome rukkhūpamā puggalā santo saṁvijjamānā lokasmiṁ. 
+English: 
+
+pp2.4:96.5
+Pali: Katame cattāro? 
+English: 
+
+pp2.4:96.6
+Pali: Pheggu sāraparivāro, sāro phegguparivāro, pheggu phegguparivāro, sāro sāraparivāro. 
+English: 
+
+pp2.4:97.1
+Pali: Kathañca puggalo pheggu hoti sāraparivāro? 
+English: 
+
+pp2.4:97.2
+Pali: Idhekacco puggalo dussīlo hoti pāpadhammo, parisā ca khvassa hoti sīlavatī kalyāṇadhammā. 
+English: 
+
+pp2.4:97.3
+Pali: Evaṁ puggalo pheggu hoti sāraparivāro. 
+English: 
+
+pp2.4:97.4
+Pali: Seyyathāpi so rukkho pheggu sāraparivāro, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.4:98.1
+Pali: Kathañca puggalo sāro hoti phegguparivāro? 
+English: 
+
+pp2.4:98.2
+Pali: Idhekacco puggalo sīlavā hoti kalyāṇadhammo, parisā ca khvassa hoti dussīlā pāpadhammā. 
+English: 
+
+pp2.4:98.3
+Pali: Evaṁ puggalo sāro hoti phegguparivāro. 
+English: 
+
+pp2.4:98.4
+Pali: Seyyathāpi so rukkho sāro phegguparivāro, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.4:99.1
+Pali: Kathañca puggalo pheggu hoti phegguparivāro? 
+English: 
+
+pp2.4:99.2
+Pali: Idhekacco puggalo dussīlo hoti pāpadhammo, parisāpissa hoti dussīlā pāpadhammā. 
+English: 
+
+pp2.4:99.3
+Pali: Evaṁ puggalo pheggu hoti phegguparivāro. 
+English: 
+
+pp2.4:99.4
+Pali: Seyyathāpi so rukkho pheggu phegguparivāro, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.4:100.1
+Pali: Kathañca puggalo sāro hoti sāraparivāro? 
+English: 
+
+pp2.4:100.2
+Pali: Idhekacco puggalo sīlavā hoti kalyāṇadhammo, parisāpissa hoti sīlavatī kalyāṇadhammā. 
+English: 
+
+pp2.4:100.3
+Pali: Evaṁ puggalo sāro hoti sāraparivāro. 
+English: 
+
+pp2.4:100.4
+Pali: Seyyathāpi so rukkho sāro sāraparivāro, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.4:101.1
+Pali: Ime cattāro rukkhūpamā puggalā santo saṁvijjamānā lokasmiṁ. 
+English: 
+
+pp2.4:102.1
+Pali: Katamo ca puggalo rūpappamāṇo rūpappasanno? 
+English: 
+
+pp2.4:102.2
+Pali: Idhekacco puggalo ārohaṁ vā passitvā pariṇāhaṁ vā passitvā saṇṭhānaṁ vā passitvā pāripūriṁ vā passitvā tattha pamāṇaṁ gahetvā pasādaṁ janeti. 
+English: 
+
+pp2.4:102.3
+Pali: Ayaṁ vuccati puggalo rūpappamāṇo rūpappasanno. 
+English: 
+
+pp2.4:103.1
+Pali: Katamo ca puggalo ghosappamāṇo ghosappasanno? 
+English: 
+
+pp2.4:103.2
+Pali: Idhekacco puggalo paravaṇṇanāya parathomanāya parapasaṁsanāya paravaṇṇahārikāya tattha pamāṇaṁ gahetvā pasādaṁ janeti. 
+English: 
+
+pp2.4:103.3
+Pali: Ayaṁ vuccati puggalo ghosappamāṇo ghosappasanno. 
+English: 
+
+pp2.4:104.1
+Pali: Katamo ca puggalo lūkhappamāṇo lūkhappasanno? 
+English: 
+
+pp2.4:104.2
+Pali: Idhekacco puggalo cīvaralūkhaṁ vā passitvā pattalūkhaṁ vā passitvā senāsanalūkhaṁ vā passitvā vividhaṁ vā dukkarakārikaṁ passitvā tattha pamāṇaṁ gahetvā pasādaṁ janeti. 
+English: 
+
+pp2.4:104.3
+Pali: Ayaṁ vuccati puggalo lūkhappamāṇo lūkhappasanno. 
+English: 
+
+pp2.4:105.1
+Pali: Katamo ca puggalo dhammappamāṇo dhammappasanno? 
+English: 
+
+pp2.4:105.2
+Pali: Idhekacco puggalo sīlaṁ vā passitvā samādhiṁ vā passitvā paññaṁ vā passitvā tattha pamāṇaṁ gahetvā pasādaṁ janeti. 
+English: 
+
+pp2.4:105.3
+Pali: Ayaṁ vuccati puggalo dhammappamāṇo dhammappasanno. 
+English: 
+
+pp2.4:106.1
+Pali: Kathañca puggalo attahitāya paṭipanno hoti no parahitāya? 
+English: 
+
+pp2.4:106.2
+Pali: Idhekacco puggalo attanā sīlasampanno hoti, no paraṁ sīlasampadāya samādapeti; 
+English: 
+
+pp2.4:106.3
+Pali: attanā samādhisampanno hoti, no paraṁ samādhisampadāya samādapeti; 
+English: 
+
+pp2.4:106.4
+Pali: attanā paññāsampanno hoti, no paraṁ paññāsampadāya samādapeti; 
+English: 
+
+pp2.4:106.5
+Pali: attanā vimuttisampanno hoti, no paraṁ vimuttisampadāya samādapeti; 
+English: 
+
+pp2.4:106.6
+Pali: attanā vimuttiñāṇadassanasampanno hoti, no paraṁ vimuttiñāṇadassanasampadāya samādapeti. 
+English: 
+
+pp2.4:106.7
+Pali: Evaṁ puggalo attahitāya paṭipanno hoti no parahitāya. 
+English: 
+
+pp2.4:107.1
+Pali: Kathañca puggalo parahitāya paṭipanno hoti no attahitāya? 
+English: 
+
+pp2.4:107.2
+Pali: Idhekacco puggalo attanā na sīlasampanno hoti, paraṁ sīlasampadāya samādapeti; 
+English: 
+
+pp2.4:107.3
+Pali: attanā na samādhisampanno hoti, paraṁ samādhisampadāya samādapeti; 
+English: 
+
+pp2.4:107.4
+Pali: attanā na paññāsampanno hoti, paraṁ paññāsampadāya samādapeti; 
+English: 
+
+pp2.4:107.5
+Pali: attanā na vimuttisampanno hoti, paraṁ vimuttisampadāya samādapeti; 
+English: 
+
+pp2.4:107.6
+Pali: attanā na vimuttiñāṇadassanasampanno hoti, paraṁ vimuttiñāṇadassanasampadāya samādapeti. 
+English: 
+
+pp2.4:107.7
+Pali: Evaṁ puggalo parahitāya paṭipanno hoti no attahitāya. 
+English: 
+
+pp2.4:108.1
+Pali: Kathañca puggalo attahitāya ceva paṭipanno hoti parahitāya ca? 
+English: 
+
+pp2.4:108.2
+Pali: Idhekacco puggalo attanā ca sīlasampanno hoti, parañca sīlasampadāya samādapeti; 
+English: 
+
+pp2.4:108.3
+Pali: attanā ca samādhisampanno hoti, parañca samādhisampadāya samādapeti; 
+English: 
+
+pp2.4:108.4
+Pali: attanā ca paññāsampanno hoti, parañca paññāsampadāya samādapeti; 
+English: 
+
+pp2.4:108.5
+Pali: attanā ca vimuttisampanno hoti, parañca vimuttisampadāya samādapeti; 
+English: 
+
+pp2.4:108.6
+Pali: attanā ca vimuttiñāṇadassanasampanno hoti, parañca vimuttiñāṇadassanasampadāya samādapeti. 
+English: 
+
+pp2.4:108.7
+Pali: Evaṁ puggalo attahitāya ceva paṭipanno hoti parahitāya ca. 
+English: 
+
+pp2.4:109.1
+Pali: Kathañca puggalo neva attahitāya paṭipanno hoti no parahitāya? 
+English: 
+
+pp2.4:109.2
+Pali: Idhekacco puggalo attanā na sīlasampanno hoti, no paraṁ sīlasampadāya samādapeti; 
+English: 
+
+pp2.4:109.3
+Pali: attanā na samādhisampanno hoti, no paraṁ samādhisampadāya samādapeti; 
+English: 
+
+pp2.4:109.4
+Pali: attanā na paññāsampanno hoti, no paraṁ paññāsampadāya samādapeti; 
+English: 
+
+pp2.4:109.5
+Pali: attanā na vimuttisampanno hoti, no paraṁ vimuttisampadāya samādapeti; 
+English: 
+
+pp2.4:109.6
+Pali: attanā na vimuttiñāṇadassanasampanno hoti, no paraṁ vimuttiñāṇadassanasampadāya samādapeti. 
+English: 
+
+pp2.4:109.7
+Pali: Evaṁ puggalo neva attahitāya paṭipanno hoti no parahitāya. 
+English: 
+
+pp2.4:110.1
+Pali: Kathañca puggalo attantapo hoti attaparitāpanānuyogamanuyutto? 
+English: 
+
+pp2.4:110.2
+Pali: Idhekacco puggalo acelako hoti muttācāro hatthāpalekhano, naehibhaddantiko natiṭṭhabhaddantiko nābhihaṭaṁ na uddissakataṁ na nimantanaṁ sādiyati, so na kumbhimukhā paṭiggaṇhāti na kaḷopimukhā paṭiggaṇhāti, na eḷakamantaraṁ na daṇḍamantaraṁ na musalamantaraṁ na dvinnaṁ bhuñjamānānaṁ na gabbhiniyā na pāyamānāya na purisantaragatāya, na saṅkittīsu na yattha sā upaṭṭhito hoti na yattha makkhikā saṇḍasaṇḍacārinī, na macchaṁ na maṁsaṁ na suraṁ na merayaṁ na thusodakaṁ pivati. 
+English: 
+
+pp2.4:110.3
+Pali: So ekāgāriko vā hoti ekālopiko, dvāgāriko vā hoti dvālopiko …pe… 
+English: 
+
+pp2.4:110.4
+Pali: sattāgāriko vā hoti sattālopiko; 
+English: 
+
+pp2.4:110.5
+Pali: ekissāpi dattiyā yāpeti, dvīhipi dattīhi yāpeti …pe… 
+English: 
+
+pp2.4:110.6
+Pali: sattahipi dattīhi yāpeti; 
+English: 
+
+pp2.4:110.7
+Pali: ekāhikampi āhāraṁ āhāreti, dvīhikampi āhāraṁ āhāreti …pe… 
+English: 
+
+pp2.4:110.8
+Pali: sattāhikampi āhāraṁ āhāreti. 
+English: 
+
+pp2.4:110.9
+Pali: Iti evarūpaṁ aḍḍhamāsikampi pariyāyabhattabhojanānuyogamanuyutto viharati. 
+English: 
+
+pp2.4:110.10
+Pali: So sākabhakkho vā hoti sāmākabhakkho vā hoti nīvārabhakkho vā hoti daddulabhakkho vā hoti haṭabhakkho vā hoti kaṇabhakkho vā hoti ācāmabhakkho vā hoti piññākabhakkho vā hoti tiṇabhakkho vā hoti gomayabhakkho vā hoti, vanamūlaphalāhāro yāpeti pavattaphalabhojī. 
+English: 
+
+pp2.4:110.11
+Pali: So sāṇānipi dhāreti masāṇānipi dhāreti chavadussānipi dhāreti paṁsukūlānipi dhāreti tirīṭānipi dhāreti ajinampi dhāreti ajinakkhipampi dhāreti kusacīrampi dhāreti vākacīrampi dhāreti phalakacīrampi dhāreti kesakambalampi dhāreti vāḷakambalampi dhāreti ulūkapakkhampi dhāreti, kesamassulocakopi hoti kesamassulocanānuyogamanuyutto, ubbhaṭṭhakopi hoti āsanapaṭikkhitto, ukkuṭikopi hoti ukkuṭikappadhānamanuyutto, kaṇṭakāpassayikopi hoti kaṇṭakāpassaye seyyaṁ kappeti, sāyatatiyakampi udakorohanānuyogamanuyutto viharati. 
+English: 
+
+pp2.4:110.12
+Pali: Iti evarūpaṁ anekavihitaṁ kāyassa ātāpanaparitāpanānuyogamanuyutto viharati. 
+English: 
+
+pp2.4:110.13
+Pali: Evaṁ puggalo attantapo hoti attaparitāpanānuyogamanuyutto. 
+English: 
+
+pp2.4:111.1
+Pali: Kathañca puggalo parantapo hoti paraparitāpanānuyogamanuyutto? 
+English: 
+
+pp2.4:111.2
+Pali: Idhekacco puggalo orabbhiko hoti sūkariko sākuṇiko māgaviko luddo macchaghātako coro coraghātako goghātako bandhanāgāriko, ye vā panaññepi keci kurūrakammantā. 
+English: 
+
+pp2.4:111.3
+Pali: Evaṁ puggalo parantapo hoti paraparitāpanānuyogamanuyutto. 
+English: 
+
+pp2.4:112.1
+Pali: Kathañca puggalo attantapo ca hoti attaparitāpanānuyogamanuyutto, parantapo ca paraparitāpanānuyogamanuyutto? 
+English: 
+
+pp2.4:112.2
+Pali: Idhekacco puggalo rājā vā hoti khattiyo muddhāvasitto brāhmaṇo vā mahāsālo. 
+English: 
+
+pp2.4:112.3
+Pali: So puratthimena nagarassa navaṁ sandhāgāraṁ kārāpetvā kesamassuṁ ohāretvā kharājinaṁ nivāsetvā sappitelena kāyaṁ abbhañjitvā migavisāṇena piṭṭhiṁ kaṇḍuvamāno sandhāgāraṁ pavisati saddhiṁ mahesiyā brāhmaṇena ca purohitena. 
+English: 
+
+pp2.4:112.4
+Pali: So tattha anantarahitāya bhūmiyā haritupalittāya seyyaṁ kappeti. 
+English: 
+
+pp2.4:112.5
+Pali: Ekissā gāviyā sarūpavacchāya yaṁ ekasmiṁ thane khīraṁ hoti tena rājā yāpeti, yaṁ dutiyasmiṁ thane khīraṁ hoti tena mahesī yāpeti, yaṁ tatiyasmiṁ thane khīraṁ hoti tena brāhmaṇo purohito yāpeti, yaṁ catutthasmiṁ thane khīraṁ hoti tena aggiṁ juhati, avasesena vacchako yāpeti. 
+English: 
+
+pp2.4:112.6
+Pali: So evamāha—
+English: 
+
+pp2.4:112.7
+Pali: “ettakā usabhā haññantu yaññatthāya, ettakā vacchatarā haññantu yaññatthāya, ettakā vacchatariyo haññantu yaññatthāya, ettakā ajā haññantu yaññatthāya, ettakā urabbhā haññantu yaññatthāya, ettakā assā haññantu yaññatthāya ettakā rukkhā chijjantu yūpatthāya, ettakā dabbhā lūyantu barihisatthāyā”ti. 
+English: 
+
+pp2.4:112.8
+Pali: Yepissa te honti dāsāti vā pessāti vā kammakarāti vā, tepi daṇḍatajjitā bhayatajjitā assumukhā rudamānā parikammāni karonti. 
+English: 
+
+pp2.4:112.9
+Pali: Evaṁ puggalo attantapo ca hoti attaparitāpanānuyogamanuyutto, parantapo ca paraparitāpanānuyogamanuyutto. 
+English: 
+
+pp2.4:113.1
+Pali: Kathañca puggalo neva attantapo ca hoti na attaparitāpanānuyogamanuyutto, na parantapo na paraparitāpanānuyogamanuyutto? 
+English: 
+
+pp2.4:113.2
+Pali: So anattantapo aparantapo diṭṭheva dhamme nicchāto nibbuto sītībhūto sukhappaṭisaṁvedī brahmabhūtena attanā viharati. 
+English: 
+
+pp2.4:114.1
+Pali: Idha tathāgato loke uppajjati arahaṁ sammāsambuddho vijjācaraṇasampanno sugato lokavidū anuttaro purisadammasārathi satthā devamanussānaṁ buddho bhagavā. 
+English: 
+
+pp2.4:114.2
+Pali: So imaṁ lokaṁ sadevakaṁ samārakaṁ sabrahmakaṁ sassamaṇabrāhmaṇiṁ pajaṁ sadevamanussaṁ sayaṁ abhiññā sacchikatvā pavedeti. 
+English: 
+
+pp2.4:114.3
+Pali: So dhammaṁ deseti ādikalyāṇaṁ majjhekalyāṇaṁ pariyosānakalyāṇaṁ sātthaṁ sabyañjanaṁ, kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ pakāseti. 
+English: 
+
+pp2.4:114.4
+Pali: Taṁ dhammaṁ suṇāti gahapati vā gahapatiputto vā aññatarasmiṁ vā kule paccājāto. 
+English: 
+
+pp2.4:114.5
+Pali: So taṁ dhammaṁ sutvā tathāgate saddhaṁ paṭilabhati. 
+English: 
+
+pp2.4:114.6
+Pali: So tena saddhāpaṭilābhena samannāgato iti paṭisañcikkhati—
+English: 
+
+pp2.4:114.7
+Pali: “sambādho gharāvāso rajāpatho, abbhokāso pabbajjā. 
+English: 
+
+pp2.4:114.8
+Pali: Nayidaṁ sukaraṁ agāraṁ ajjhāvasatā ekantaparipuṇṇaṁ ekantaparisuddhaṁ saṅkhalikhitaṁ brahmacariyaṁ carituṁ. 
+English: 
+
+pp2.4:114.9
+Pali: Yannūnāhaṁ kesamassuṁ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṁ pabbajeyyan”ti. 
+English: 
+
+pp2.4:114.10
+Pali: So aparena samayena appaṁ vā bhogakkhandhaṁ pahāya mahantaṁ vā bhogakkhandhaṁ pahāya appaṁ vā ñātiparivaṭṭaṁ pahāya mahantaṁ vā ñātiparivaṭṭaṁ pahāya kesamassuṁ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṁ pabbajati. 
+English: 
+
+pp2.4:115.1
+Pali: So evaṁ pabbajito samāno bhikkhūnaṁ sikkhāsājīvasamāpanno pāṇātipātaṁ pahāya pāṇātipātā paṭivirato hoti nihitadaṇḍo nihitasattho lajjī dayāpanno sabbapāṇabhūtahitānukampī viharati. 
+English: 
+
+pp2.4:116.1
+Pali: Adinnādānaṁ pahāya adinnādānā paṭivirato hoti dinnādāyī dinnapāṭikaṅkhī, athenena sucibhūtena attanā viharati. 
+English: 
+
+pp2.4:117.1
+Pali: Abrahmacariyaṁ pahāya brahmacārī hoti ārācārī paṭivirato methunā gāmadhammā. 
+English: 
+
+pp2.4:118.1
+Pali: Musāvādaṁ pahāya musāvādā paṭivirato hoti saccavādī saccasandho theto paccayiko avisaṁvādako lokassa. 
+English: 
+
+pp2.4:119.1
+Pali: Pisuṇaṁ vācaṁ pahāya pisuṇāya vācāya paṭivirato hoti, ito sutvā na amutra akkhātā imesaṁ bhedāya, amutra vā sutvā na imesaṁ akkhātā amūsaṁ bhedāya. 
+English: 
+
+pp2.4:119.2
+Pali: Iti bhinnānaṁ vā sandhātā sahitānaṁ vā anuppadātā samaggārāmo samaggarato samagganandī samaggakaraṇiṁ vācaṁ bhāsitā hoti. 
+English: 
+
+pp2.4:120.1
+Pali: Pharusaṁ vācaṁ pahāya pharusāya vācāya paṭivirato hoti. 
+English: 
+
+pp2.4:120.2
+Pali: Yā sā vācā nelā kaṇṇasukhā pemanīyā hadayaṅgamā porī bahujanakantā bahujanamanāpā tathārūpiṁ vācaṁ bhāsitā hoti. 
+English: 
+
+pp2.4:121.1
+Pali: Samphappalāpaṁ pahāya samphappalāpā paṭivirato hoti, kālavādī bhūtavādī atthavādī dhammavādī vinayavādī nidhānavatiṁ vācaṁ bhāsitā kālena sāpadesaṁ pariyantavatiṁ atthasaṁhitaṁ. 
+English: 
+
+pp2.4:122.1
+Pali: So bījagāmabhūtagāmasamārambhā paṭivirato hoti, ekabhattiko hoti rattūparato virato vikālabhojanā, naccagītavāditavisūkadassanā paṭivirato hoti, mālāgandhavilepanadhāraṇamaṇḍanavibhūsanaṭṭhānā paṭivirato hoti, uccāsayanamahāsayanā paṭivirato hoti, jātarūparajatapaṭiggahaṇā paṭivirato hoti. 
+English: 
+
+pp2.4:123.1
+Pali: Āmakadhaññapaṭiggahaṇā paṭivirato hoti, āmakamaṁsapaṭiggahaṇā paṭivirato hoti, itthikumārikāpaṭiggahaṇā paṭivirato hoti, dāsidāsapaṭiggahaṇā paṭivirato hoti, ajeḷakapaṭiggahaṇā paṭivirato hoti, kukkuṭasūkarapaṭiggahaṇā paṭivirato hoti, hatthigavāssavaḷavapaṭiggahaṇā paṭivirato hoti, khettavatthupaṭiggahaṇā paṭivirato hoti, dūteyyapahiṇagamanānuyogā paṭivirato hoti, kayavikkayā paṭivirato hoti, tulākūṭakaṁsakūṭamānakūṭā paṭivirato hoti, ukkoṭanavañcananikatisāciyogā paṭivirato hoti, chedanavadhabandhanaviparāmosaālopasahasākārā paṭivirato hoti. 
+English: 
+
+pp2.4:124.1
+Pali: So santuṭṭho hoti kāyaparihārikena cīvarena kucchiparihārikena piṇḍapātena. 
+English: 
+
+pp2.4:124.2
+Pali: So yena yeneva pakkamati samādāyeva pakkamati, seyyathāpi nāma pakkhī sakuṇo yena yeneva ḍeti sapattabhārova ḍeti. 
+English: 
+
+pp2.4:124.3
+Pali: Evamevaṁ bhikkhu santuṭṭho hoti kāyaparihārikena cīvarena kucchiparihārikena piṇḍapātena. 
+English: 
+
+pp2.4:124.4
+Pali: So yena yeneva pakkamati samādāyeva pakkamati. 
+English: 
+
+pp2.4:124.5
+Pali: So iminā ariyena sīlakkhandhena samannāgato ajjhattaṁ anavajjasukhaṁ paṭisaṁvedeti. 
+English: 
+
+pp2.4:125.1
+Pali: So cakkhunā rūpaṁ disvā na nimittaggāhī hoti nānubyañjanaggāhī. 
+English: 
+
+pp2.4:125.2
+Pali: Yatvādhikaraṇamenaṁ cakkhundriyaṁ asaṁvutaṁ viharantaṁ abhijjhādomanassā pāpakā akusalā dhammā anvāssaveyyuṁ, tassa saṁvarāya paṭipajjati, rakkhati cakkhundriyaṁ, cakkhundriye saṁvaraṁ āpajjati; 
+English: 
+
+pp2.4:125.3
+Pali: sotena saddaṁ sutvā …pe… 
+English: 
+
+pp2.4:125.4
+Pali: ghānena gandhaṁ ghāyitvā …pe… 
+English: 
+
+pp2.4:125.5
+Pali: jivhāya rasaṁ sāyitvā …pe… 
+English: 
+
+pp2.4:125.6
+Pali: kāyena phoṭṭhabbaṁ phusitvā …pe… 
+English: 
+
+pp2.4:125.7
+Pali: manasā dhammaṁ viññāya na nimittaggāhī hoti nānubyañjanaggāhī. 
+English: 
+
+pp2.4:125.8
+Pali: Yatvādhikaraṇamenaṁ manindriyaṁ asaṁvutaṁ viharantaṁ abhijjhādomanassā pāpakā akusalā dhammā anvāssaveyyuṁ, tassa saṁvarāya paṭipajjati, rakkhati manindriyaṁ, manindriye saṁvaraṁ āpajjati. 
+English: 
+
+pp2.4:125.9
+Pali: So iminā ariyena indriyasaṁvarena samannāgato ajjhattaṁ abyāsekasukhaṁ paṭisaṁvedeti. 
+English: 
+
+pp2.4:126.1
+Pali: So abhikkante paṭikkante sampajānakārī hoti, ālokite vilokite sampajānakārī hoti, samiñjite pasārite sampajānakārī hoti, saṅghāṭipattacīvaradhāraṇe sampajānakārī hoti, asite pīte khāyite sāyite sampajānakārī hoti, uccārapassāvakamme sampajānakārī hoti, gate ṭhite nisinne sutte jāgarite bhāsite tuṇhībhāve sampajānakārī hoti. 
+English: 
+
+pp2.4:127.1
+Pali: So iminā ca ariyena sīlakkhandhena samannāgato iminā ca ariyena indriyasaṁvarena samannāgato iminā ca ariyena satisampajaññena samannāgato imāya ca ariyāya santuṭṭhiyā samannāgato vivittaṁ senāsanaṁ bhajati araññaṁ rukkhamūlaṁ pabbataṁ kandaraṁ giriguhaṁ susānaṁ vanapatthaṁ abbhokāsaṁ palālapuñjaṁ. 
+English: 
+
+pp2.4:127.2
+Pali: So pacchābhattaṁ piṇḍapātapaṭikkanto nisīdati pallaṅkaṁ ābhujitvā ujuṁ kāyaṁ paṇidhāya parimukhaṁ satiṁ upaṭṭhapetvā. 
+English: 
+
+pp2.4:127.3
+Pali: So abhijjhaṁ loke pahāya vigatābhijjhena cetasā viharati, abhijjhāya cittaṁ parisodheti; 
+English: 
+
+pp2.4:127.4
+Pali: byāpādapadosaṁ pahāya abyāpannacitto viharati sabbapāṇabhūtahitānukampī, byāpādapadosā cittaṁ parisodheti; 
+English: 
+
+pp2.4:127.5
+Pali: thinamiddhaṁ pahāya vigatathinamiddho viharati ālokasaññī sato sampajāno, thinamiddhā cittaṁ parisodheti; 
+English: 
+
+pp2.4:127.6
+Pali: uddhaccakukkuccaṁ pahāya anuddhato viharati ajjhattaṁ vūpasantacitto, uddhaccakukkuccā cittaṁ parisodheti; 
+English: 
+
+pp2.4:127.7
+Pali: vicikicchaṁ pahāya tiṇṇavicikiccho viharati akathaṅkathī kusalesu dhammesu, vicikicchāya cittaṁ parisodheti. 
+English: 
+
+pp2.4:128.1
+Pali: So ime pañca nīvaraṇe pahāya cetaso upakkilese paññāya dubbalīkaraṇe vivicceva kāmehi vivicca akusalehi dhammehi savitakkaṁ savicāraṁ vivekajaṁ pītisukhaṁ paṭhamaṁ jhānaṁ upasampajja viharati; 
+English: 
+
+pp2.4:128.2
+Pali: vitakkavicārānaṁ vūpasamā ajjhattaṁ sampasādanaṁ cetaso ekodibhāvaṁ avitakkaṁ avicāraṁ samādhijaṁ pītisukhaṁ dutiyaṁ jhānaṁ upasampajja viharati; 
+English: 
+
+pp2.4:128.3
+Pali: pītiyā ca virāgā upekkhako ca viharati sato ca sampajāno sukhañca kāyena paṭisaṁvedeti, yaṁ taṁ ariyā ācikkhanti—“upekkhako satimā sukhavihārī”ti tatiyaṁ jhānaṁ upasampajja viharati; 
+English: 
+
+pp2.4:128.4
+Pali: sukhassa ca pahānā dukkhassa ca pahānā pubbeva somanassadomanassānaṁ atthaṅgamā adukkhamasukhaṁ upekkhāsatipārisuddhiṁ catutthaṁ jhānaṁ upasampajja viharati. 
+English: 
+
+pp2.4:129.1
+Pali: So evaṁ samāhite citte parisuddhe pariyodāte anaṅgaṇe vigatūpakkilese mudubhūte kammaniye ṭhite āneñjappatte pubbenivāsānussatiñāṇāya cittaṁ abhininnāmeti. 
+English: 
+
+pp2.4:129.2
+Pali: So anekavihitaṁ pubbenivāsaṁ anussarati, seyyathidaṁ—
+English: 
+
+pp2.4:129.3
+Pali: ekampi jātiṁ dvepi jātiyo tissopi jātiyo catassopi jātiyo pañcapi jātiyo dasapi jātiyo vīsampi jātiyo tiṁsampi jātiyo cattālīsampi jātiyo paññāsampi jātiyo jātisatampi jātisahassampi jātisatasahassampi anekepi saṁvaṭṭakappe anekepi vivaṭṭakappe anekepi saṁvaṭṭavivaṭṭakappe—
+English: 
+
+pp2.4:129.4
+Pali: “amutrāsiṁ evaṁnāmo evaṅgotto evaṁvaṇṇo evamāhāro evaṁsukhadukkhapaṭisaṁvedī evamāyupariyanto, so tato cuto amutra udapādiṁ; 
+English: 
+
+pp2.4:129.5
+Pali: tatrāpāsiṁ evaṁnāmo evaṅgotto evaṁvaṇṇo evamāhāro evaṁsukhadukkhapaṭisaṁvedī evamāyupariyanto, so tato cuto idhūpapanno”ti. 
+English: 
+
+pp2.4:129.6
+Pali: Iti sākāraṁ sauddesaṁ anekavihitaṁ pubbenivāsaṁ anussarati. 
+English: 
+
+pp2.4:130.1
+Pali: So evaṁ samāhite citte parisuddhe pariyodāte anaṅgaṇe vigatūpakkilese mudubhūte kammaniye ṭhite āneñjappatte sattānaṁ cutūpapātañāṇāya cittaṁ abhininnāmeti. 
+English: 
+
+pp2.4:130.2
+Pali: So dibbena cakkhunā visuddhena atikkantamānusakena satte passati cavamāne upapajjamāne hīne paṇīte suvaṇṇe dubbaṇṇe, sugate duggate yathākammūpage satte pajānāti—
+English: 
+
+pp2.4:130.3
+Pali: “ime vata bhonto sattā kāyaduccaritena samannāgatā, vacīduccaritena samannāgatā, manoduccaritena samannāgatā, ariyānaṁ upavādakā, micchādiṭṭhikā micchādiṭṭhikammasamādānā. 
+English: 
+
+pp2.4:130.4
+Pali: Te kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapannā. 
+English: 
+
+pp2.4:130.5
+Pali: Ime vā pana bhonto sattā kāyasucaritena samannāgatā vacīsucaritena samannāgatā manosucaritena samannāgatā ariyānaṁ anupavādakā sammādiṭṭhikā sammādiṭṭhikammasamādānā. 
+English: 
+
+pp2.4:130.6
+Pali: Te kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapannā”ti. 
+English: 
+
+pp2.4:130.7
+Pali: So iti dibbena cakkhunā visuddhena atikkantamānusakena satte passati cavamāne upapajjamāne hīne paṇīte suvaṇṇe dubbaṇṇe, sugate duggate yathākammūpage satte pajānāti. 
+English: 
+
+pp2.4:131.1
+Pali: So evaṁ samāhite citte parisuddhe pariyodāte anaṅgaṇe vigatūpakkilese mudubhūte kammaniye ṭhite āneñjappatte āsavānaṁ khayañāṇāya cittaṁ abhininnāmeti. 
+English: 
+
+pp2.4:131.2
+Pali: So “idaṁ dukkhan”ti yathābhūtaṁ pajānāti, “ayaṁ dukkhasamudayo”ti yathābhūtaṁ pajānāti, “ayaṁ dukkhanirodho”ti yathābhūtaṁ pajānāti, “ayaṁ dukkhanirodhagāminī paṭipadā”ti yathābhūtaṁ pajānāti, 
+English: 
+
+pp2.4:131.3
+Pali: “ime āsavā”ti yathābhūtaṁ pajānāti, “ayaṁ āsavasamudayo”ti yathābhūtaṁ pajānāti, “ayaṁ āsavanirodho”ti yathābhūtaṁ pajānāti, “ayaṁ āsavanirodhagāminī paṭipadā”ti yathābhūtaṁ pajānāti. 
+English: 
+
+pp2.4:131.4
+Pali: Tassa evaṁ jānato evaṁ passato kāmāsavāpi cittaṁ vimuccati, bhavāsavāpi cittaṁ vimuccati, avijjāsavāpi cittaṁ vimuccati. 
+English: 
+
+pp2.4:131.5
+Pali: Vimuttasmiṁ vimuttamiti ñāṇaṁ hoti. 
+English: 
+
+pp2.4:131.6
+Pali: “Khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā”ti pajānāti. 
+English: 
+
+pp2.4:131.7
+Pali: Evaṁ puggalo neva attantapo ca hoti na attaparitāpanānuyogamanuyutto, na parantapo na paraparitāpanānuyogamanuyutto. 
+English: 
+
+pp2.4:131.8
+Pali: So anattantapo aparantapo diṭṭheva dhamme nicchāto nibbuto sītībhūto sukhappaṭisaṁvedī brahmabhūtena attanā viharati. 
+English: 
+
+pp2.4:132.1
+Pali: Katamo ca puggalo sarāgo? 
+English: 
+
+pp2.4:132.2
+Pali: Yassa puggalassa rāgo appahīno, ayaṁ vuccati puggalo “sarāgo”. 
+English: 
+
+pp2.4:133.1
+Pali: Katamo ca puggalo sadoso? 
+English: 
+
+pp2.4:133.2
+Pali: Yassa puggalassa doso appahīno, ayaṁ vuccati puggalo “sadoso”. 
+English: 
+
+pp2.4:134.1
+Pali: Katamo ca puggalo samoho? 
+English: 
+
+pp2.4:134.2
+Pali: Yassa puggalassa moho appahīno, ayaṁ vuccati puggalo “samoho”. 
+English: 
+
+pp2.4:135.1
+Pali: Katamo ca puggalo samāno? 
+English: 
+
+pp2.4:135.2
+Pali: Yassa puggalassa māno appahīno, ayaṁ vuccati puggalo “samāno”. 
+English: 
+
+pp2.4:136.1
+Pali: Kathañca puggalo lābhī hoti ajjhattaṁ cetosamathassa, na lābhī adhipaññādhammavipassanāya? 
+English: 
+
+pp2.4:136.2
+Pali: Idhekacco puggalo lābhī hoti rūpasahagatānaṁ vā arūpasahagatānaṁ vā samāpattīnaṁ, na lābhī lokuttaramaggassa vā phalassa vā. 
+English: 
+
+pp2.4:136.3
+Pali: Evaṁ puggalo lābhī hoti ajjhattaṁ cetosamathassa, na lābhī adhipaññādhammavipassanāya. 
+English: 
+
+pp2.4:137.1
+Pali: Kathañca puggalo lābhī hoti adhipaññādhammavipassanāya, na lābhī ajjhattaṁ cetosamathassa? 
+English: 
+
+pp2.4:137.2
+Pali: Idhekacco puggalo lābhī hoti lokuttaramaggassa vā phalassa vā, na lābhī rūpasahagatānaṁ vā arūpasahagatānaṁ vā samāpattīnaṁ. 
+English: 
+
+pp2.4:137.3
+Pali: Evaṁ puggalo lābhī hoti adhipaññādhammavipassanāya, na lābhī ajjhattaṁ cetosamathassa. 
+English: 
+
+pp2.4:138.1
+Pali: Kathañca puggalo lābhī ceva hoti ajjhattaṁ cetosamathassa, lābhī ca adhipaññādhammavipassanāya? 
+English: 
+
+pp2.4:138.2
+Pali: Idhekacco puggalo lābhī hoti rūpasahagatānaṁ vā arūpasahagatānaṁ vā samāpattīnaṁ, lābhī lokuttaramaggassa vā phalassa vā. 
+English: 
+
+pp2.4:138.3
+Pali: Evaṁ puggalo lābhī ceva hoti ajjhattaṁ cetosamathassa, lābhī ca adhipaññādhammavipassanāya. 
+English: 
+
+pp2.4:139.1
+Pali: Kathañca puggalo neva lābhī hoti ajjhattaṁ cetosamathassa, na lābhī adhipaññādhammavipassanāya? 
+English: 
+
+pp2.4:139.2
+Pali: Idhekacco puggalo neva lābhī hoti rūpasahagatānaṁ vā arūpasahagatānaṁ vā samāpattīnaṁ, na lābhī lokuttaramaggassa vā phalassa vā. 
+English: 
+
+pp2.4:139.3
+Pali: Evaṁ puggalo neva lābhī hoti ajjhattaṁ cetosamathassa, na lābhī adhipaññādhammavipassanāya. 
+English: 
+
+pp2.4:140.1
+Pali: Katamo ca puggalo anusotagāmī? 
+English: 
+
+pp2.4:140.2
+Pali: Idhekacco puggalo kāme ca paṭisevati pāpañca kammaṁ karoti. 
+English: 
+
+pp2.4:140.3
+Pali: Ayaṁ vuccati puggalo “anusotagāmī”. 
+English: 
+
+pp2.4:141.1
+Pali: Katamo ca puggalo paṭisotagāmī? 
+English: 
+
+pp2.4:141.2
+Pali: Idhekacco puggalo kāme ca na paṭisevati pāpañca kammaṁ na karoti. 
+English: 
+
+pp2.4:141.3
+Pali: So sahāpi dukkhena sahāpi domanassena assumukhenapi rudamāno paripuṇṇaṁ parisuddhaṁ brahmacariyaṁ carati. 
+English: 
+
+pp2.4:141.4
+Pali: Ayaṁ vuccati puggalo “paṭisotagāmī”. 
+English: 
+
+pp2.4:142.1
+Pali: Katamo ca puggalo ṭhitatto? 
+English: 
+
+pp2.4:142.2
+Pali: Idhekacco puggalo pañcannaṁ orambhāgiyānaṁ saṁyojanānaṁ parikkhayā opapātiko hoti tattha parinibbāyī anāvattidhammo tasmā lokā. 
+English: 
+
+pp2.4:142.3
+Pali: Ayaṁ vuccati puggalo “ṭhitatto”. 
+English: 
+
+pp2.4:143.1
+Pali: Katamo ca puggalo tiṇṇo pāraṅgato thale tiṭṭhati brāhmaṇo? 
+English: 
+
+pp2.4:143.2
+Pali: Idhekacco puggalo āsavānaṁ khayā anāsavaṁ cetovimuttiṁ paññāvimuttiṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja viharati. 
+English: 
+
+pp2.4:143.3
+Pali: Ayaṁ vuccati puggalo tiṇṇo pāraṅgato thale tiṭṭhati brāhmaṇo. 
+English: 
+
+pp2.4:144.1
+Pali: Kathañca puggalo appassuto hoti sutena anupapanno? 
+English: 
+
+pp2.4:144.2
+Pali: Idhekaccassa puggalassa appakaṁ sutaṁ hoti suttaṁ geyyaṁ veyyākaraṇaṁ gāthaṁ udānaṁ itivuttakaṁ jātakaṁ abbhutadhammaṁ vedallaṁ. 
+English: 
+
+pp2.4:144.3
+Pali: So tassa appakassa sutassa na atthamaññāya dhammamaññāya dhammānudhammappaṭipanno hoti. 
+English: 
+
+pp2.4:144.4
+Pali: Evaṁ puggalo appassuto hoti sutena anupapanno. 
+English: 
+
+pp2.4:145.1
+Pali: Kathañca puggalo appassuto hoti sutena upapanno? 
+English: 
+
+pp2.4:145.2
+Pali: Idhekaccassa puggalassa appakaṁ sutaṁ hoti suttaṁ geyyaṁ veyyākaraṇaṁ gāthaṁ udānaṁ itivuttakaṁ jātakaṁ abbhutadhammaṁ vedallaṁ. 
+English: 
+
+pp2.4:145.3
+Pali: So tassa appakassa sutassa atthamaññāya dhammamaññāya dhammānudhammappaṭipanno hoti. 
+English: 
+
+pp2.4:145.4
+Pali: Evaṁ puggalo appassuto hoti sutena upapanno. 
+English: 
+
+pp2.4:146.1
+Pali: Kathañca puggalo bahussuto hoti sutena anupapanno? 
+English: 
+
+pp2.4:146.2
+Pali: Idhekaccassa puggalassa bahukaṁ sutaṁ hoti suttaṁ geyyaṁ veyyākaraṇaṁ gāthaṁ udānaṁ itivuttakaṁ jātakaṁ abbhutadhammaṁ vedallaṁ. 
+English: 
+
+pp2.4:146.3
+Pali: So tassa bahukassa sutassa na atthamaññāya dhammamaññāya dhammānudhammappaṭipanno hoti. 
+English: 
+
+pp2.4:146.4
+Pali: Evaṁ puggalo bahussuto hoti sutena anupapanno. 
+English: 
+
+pp2.4:147.1
+Pali: Kathañca puggalo bahussuto hoti sutena upapanno? 
+English: 
+
+pp2.4:147.2
+Pali: Idhekaccassa puggalassa bahukaṁ sutaṁ hoti suttaṁ geyyaṁ veyyākaraṇaṁ gāthaṁ udānaṁ itivuttakaṁ jātakaṁ abbhutadhammaṁ vedallaṁ. 
+English: 
+
+pp2.4:147.3
+Pali: So tassa bahukassa sutassa atthamaññāya dhammamaññāya dhammānudhammappaṭipanno hoti. 
+English: 
+
+pp2.4:147.4
+Pali: Evaṁ puggalo bahussuto hoti sutena upapanno. 
+English: 
+
+pp2.4:148.1
+Pali: Katamo ca puggalo samaṇamacalo? 
+English: 
+
+pp2.4:148.2
+Pali: Idhekacco puggalo tiṇṇaṁ saṁyojanānaṁ parikkhayā sotāpanno hoti avinipātadhammo niyato sambodhiparāyano. 
+English: 
+
+pp2.4:148.3
+Pali: Ayaṁ vuccati puggalo “samaṇamacalo”. 
+English: 
+
+pp2.4:149.1
+Pali: Katamo ca puggalo samaṇapadumo? 
+English: 
+
+pp2.4:149.2
+Pali: Idhekacco puggalo tiṇṇaṁ saṁyojanānaṁ parikkhayā rāgadosamohānaṁ tanuttā sakadāgāmī hoti, sakideva imaṁ lokaṁ āgantvā dukkhassantaṁ karoti. 
+English: 
+
+pp2.4:149.3
+Pali: Ayaṁ vuccati puggalo “samaṇapadumo”. 
+English: 
+
+pp2.4:150.1
+Pali: Katamo ca puggalo samaṇapuṇḍarīko? 
+English: 
+
+pp2.4:150.2
+Pali: Idhekacco puggalo pañcannaṁ orambhāgiyānaṁ saṁyojanānaṁ parikkhayā opapātiko hoti tattha parinibbāyī anāvattidhammo tasmā lokā. 
+English: 
+
+pp2.4:150.3
+Pali: Ayaṁ vuccati puggalo “samaṇapuṇḍarīko”. 
+English: 
+
+pp2.4:151.1
+Pali: Katamo ca puggalo samaṇesu samaṇasukhumālo? 
+English: 
+
+pp2.4:151.2
+Pali: Idhekacco puggalo āsavānaṁ khayā anāsavaṁ cetovimuttiṁ paññāvimuttiṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja viharati. 
+English: 
+
+pp2.4:151.3
+Pali: Ayaṁ vuccati puggalo “samaṇesu samaṇasukhumālo”ti. 
+English: 
+
+pp2.4:152.1
+Pali: Catukkaniddeso. 
+English: 
+
+================================================================================
+pp2.5
+Root: root/pli/ms/abhidhamma/pp/pp2/pp2.5_root-pli-ms.json
+
+pp2.5:0.1
+Pali: Puggalapaññatti 
+English: 
+
+pp2.5:0.2
+Pali: Niddesa 
+English: 
+
+pp2.5:0.3
+Pali: 5. Pañcakapuggalapaññatti 
+English: 
+
+pp2.5:1.1
+Pali: Tatra yvāyaṁ puggalo ārabhati ca vippaṭisārī ca hoti, tañca cetovimuttiṁ paññāvimuttiṁ yathābhūtaṁ nappajānāti, yatthassa te uppannā pāpakā akusalā dhammā aparisesā nirujjhanti, so evamassa vacanīyo—
+English: 
+
+pp2.5:1.2
+Pali: “āyasmato kho ārambhajā āsavā saṁvijjanti, vippaṭisārajā āsavā pavaḍḍhanti. 
+English: 
+
+pp2.5:1.3
+Pali: Sādhu vatāyasmā ārambhaje āsave pahāya vippaṭisāraje āsave paṭivinodetvā cittaṁ paññañca bhāvetu. 
+English: 
+
+pp2.5:1.4
+Pali: Evamāyasmā amunā pañcamena puggalena samasamo bhavissatī”ti. 
+English: 
+
+pp2.5:2.1
+Pali: Tatra yvāyaṁ puggalo ārabhati na vippaṭisārī hoti, tañca cetovimuttiṁ paññāvimuttiṁ yathābhūtaṁ nappajānāti, yatthassa te uppannā pāpakā akusalā dhammā aparisesā nirujjhanti, so evamassa vacanīyo—
+English: 
+
+pp2.5:2.2
+Pali: “āyasmato kho ārambhajā āsavā saṁvijjanti, vippaṭisārajā āsavā nappavaḍḍhanti. 
+English: 
+
+pp2.5:2.3
+Pali: Sādhu vatāyasmā ārambhaje āsave pahāya cittaṁ paññañca bhāvetu. 
+English: 
+
+pp2.5:2.4
+Pali: Evamāyasmā amunā pañcamena puggalena samasamo bhavissatī”ti. 
+English: 
+
+pp2.5:3.1
+Pali: Tatra yvāyaṁ puggalo na ārabhati vippaṭisārī hoti, tañca cetovimuttiṁ paññāvimuttiṁ yathābhūtaṁ nappajānāti, yatthassa te uppannā pāpakā akusalā dhammā aparisesā nirujjhanti, so evamassa vacanīyo—
+English: 
+
+pp2.5:3.2
+Pali: “āyasmato kho ārambhajā āsavā na saṁvijjanti, vippaṭisārajā āsavā pavaḍḍhanti. 
+English: 
+
+pp2.5:3.3
+Pali: Sādhu vatāyasmā vippaṭisāraje āsave paṭivinodetvā cittaṁ paññañca bhāvetu. 
+English: 
+
+pp2.5:3.4
+Pali: Evamāyasmā amunā pañcamena puggalena samasamo bhavissatī”ti. 
+English: 
+
+pp2.5:4.1
+Pali: Tatra yvāyaṁ puggalo na ārabhati na vippaṭisārī hoti, tañca cetovimuttiṁ paññāvimuttiṁ yathābhūtaṁ nappajānāti, yatthassa te pāpakā akusalā dhammā aparisesā nirujjhanti, so evamassa vacanīyo—
+English: 
+
+pp2.5:4.2
+Pali: “āyasmato kho ārambhajā āsavā na saṁvijjanti, vippaṭisārajā āsavā nappavaḍḍhanti. 
+English: 
+
+pp2.5:4.3
+Pali: Sādhu vatāyasmā cittaṁ paññañca bhāvetu. 
+English: 
+
+pp2.5:4.4
+Pali: Evamāyasmā amunā pañcamena puggalena samasamo bhavissatī”ti. 
+English: 
+
+pp2.5:5.1
+Pali: Ime cattāro puggalā amunā pañcamena puggalena evaṁ ovadiyamānā evaṁ anusāsiyamānā anupubbena āsavānaṁ khayaṁ pāpuṇanti. 
+English: 
+
+pp2.5:6.1
+Pali: Kathañca puggalo datvā avajānāti? 
+English: 
+
+pp2.5:6.2
+Pali: Idhekacco puggalo yassa puggalassa deti cīvarapiṇḍapātasenāsanagilānapaccayabhesajjaparikkhāraṁ, tassa evaṁ hoti—
+English: 
+
+pp2.5:6.3
+Pali: “ahaṁ dammi, ayaṁ paṭiggaṇhātī”ti, tamenaṁ datvā avajānāti. 
+English: 
+
+pp2.5:6.4
+Pali: Evaṁ puggalo datvā avajānāti. 
+English: 
+
+pp2.5:7.1
+Pali: Kathañca puggalo saṁvāsena avajānāti? 
+English: 
+
+pp2.5:7.2
+Pali: Idhekacco puggalo yena puggalena saddhiṁ saṁvasati dve vā tīṇi vā vassāni, tamenaṁ saṁvāsena avajānāti. 
+English: 
+
+pp2.5:7.3
+Pali: Evaṁ puggalo saṁvāsena avajānāti. 
+English: 
+
+pp2.5:8.1
+Pali: Kathañca puggalo ādheyyamukho hoti? 
+English: 
+
+pp2.5:8.2
+Pali: Idhekacco puggalo parassa vaṇṇe vā avaṇṇe vā bhāsiyamāne khippaññeva adhimuccitā hoti. 
+English: 
+
+pp2.5:8.3
+Pali: Evaṁ puggalo ādheyyamukho hoti. 
+English: 
+
+pp2.5:9.1
+Pali: Kathañca puggalo lolo hoti? 
+English: 
+
+pp2.5:9.2
+Pali: Idhekacco puggalo ittarasaddho hoti ittarabhattī ittarapemo ittarappasādo. 
+English: 
+
+pp2.5:9.3
+Pali: Evaṁ puggalo lolo hoti. 
+English: 
+
+pp2.5:10.1
+Pali: Kathañca puggalo mando momūho hoti? 
+English: 
+
+pp2.5:10.2
+Pali: Idhekacco puggalo kusalākusale dhamme na jānāti, sāvajjānavajje dhamme na jānāti, hīnappaṇīte dhamme na jānāti, kaṇhasukkasappaṭibhāge dhamme na jānāti. 
+English: 
+
+pp2.5:10.3
+Pali: Evaṁ puggalo mando momūho hoti. 
+English: 
+
+pp2.5:11.1
+Pali: Tattha katame pañca yodhājīvūpamā puggalā? 
+English: 
+
+pp2.5:11.2
+Pali: Pañca yodhājīvā—
+English: 
+
+pp2.5:11.3
+Pali: idhekacco yodhājīvo rajaggaññeva disvā saṁsīdati visīdati na santhambhati na sakkoti saṅgāmaṁ otarituṁ. 
+English: 
+
+pp2.5:11.4
+Pali: Evarūpopi idhekacco yodhājīvo hoti. 
+English: 
+
+pp2.5:11.5
+Pali: Ayaṁ paṭhamo yodhājīvo santo saṁvijjamāno lokasmiṁ. 
+English: 
+
+pp2.5:12.1
+Pali: Puna caparaṁ idhekacco yodhājīvo sahati rajaggaṁ, api ca kho dhajaggaññeva disvā saṁsīdati visīdati na santhambhati na sakkoti saṅgāmaṁ otarituṁ. 
+English: 
+
+pp2.5:12.2
+Pali: Evarūpopi idhekacco yodhājīvo hoti. 
+English: 
+
+pp2.5:12.3
+Pali: Ayaṁ dutiyo yodhājīvo santo saṁvijjamāno lokasmiṁ. 
+English: 
+
+pp2.5:13.1
+Pali: Puna caparaṁ idhekacco yodhājīvo sahati rajaggaṁ sahati dhajaggaṁ, api ca kho ussāraṇaññeva sutvā saṁsīdati visīdati na santhambhati na sakkoti saṅgāmaṁ otarituṁ. 
+English: 
+
+pp2.5:13.2
+Pali: Evarūpopi idhekacco yodhājīvo hoti. 
+English: 
+
+pp2.5:13.3
+Pali: Ayaṁ tatiyo yodhājīvo santo saṁvijjamāno lokasmiṁ. 
+English: 
+
+pp2.5:14.1
+Pali: Puna caparaṁ idhekacco yodhājīvo sahati rajaggaṁ sahati dhajaggaṁ sahati ussāraṇaṁ, api ca kho sampahāre haññati byāpajjati. 
+English: 
+
+pp2.5:14.2
+Pali: Evarūpopi idhekacco yodhājīvo hoti. 
+English: 
+
+pp2.5:14.3
+Pali: Ayaṁ catuttho yodhājīvo santo saṁvijjamāno lokasmiṁ. 
+English: 
+
+pp2.5:15.1
+Pali: Puna caparaṁ idhekacco yodhājīvo sahati rajaggaṁ sahati dhajaggaṁ sahati ussāraṇaṁ sahati sampahāraṁ. 
+English: 
+
+pp2.5:15.2
+Pali: So taṁ saṅgāmaṁ abhivijinitvā vijitasaṅgāmo tameva saṅgāmasīsaṁ ajjhāvasati. 
+English: 
+
+pp2.5:15.3
+Pali: Evarūpopi idhekacco yodhājīvo hoti. 
+English: 
+
+pp2.5:15.4
+Pali: Ayaṁ pañcamo yodhājīvo santo saṁvijjamāno lokasmiṁ. 
+English: 
+
+pp2.5:15.5
+Pali: Ime pañca yodhājīvā santo saṁvijjamānā lokasmiṁ. 
+English: 
+
+pp2.5:16.1
+Pali: Evamevaṁ pañcime yodhājīvūpamā puggalā santo saṁvijjamānā bhikkhūsu. 
+English: 
+
+pp2.5:16.2
+Pali: Katame pañca? 
+English: 
+
+pp2.5:17.1
+Pali: Idhekacco bhikkhu rajaggaññeva disvā saṁsīdati visīdati na santhambhati na sakkoti brahmacariyaṁ sandhāretuṁ, sikkhādubbalyaṁ āvikatvā sikkhaṁ paccakkhāya hīnāyāvattati. 
+English: 
+
+pp2.5:17.2
+Pali: Kimassa rajaggasmiṁ? 
+English: 
+
+pp2.5:17.3
+Pali: Idha bhikkhu suṇāti—
+English: 
+
+pp2.5:17.4
+Pali: “asukasmiṁ nāma gāme vā nigame vā itthī vā kumārī vā abhirūpā dassanīyā pāsādikā paramāya vaṇṇapokkharatāya samannāgatā”ti. 
+English: 
+
+pp2.5:17.5
+Pali: So taṁ sutvā saṁsīdati visīdati na santhambhati na sakkoti brahmacariyaṁ sandhāretuṁ, sikkhādubbalyaṁ āvikatvā sikkhaṁ paccakkhāya hīnāyāvattati. 
+English: 
+
+pp2.5:17.6
+Pali: Idamassa rajaggasmiṁ. 
+English: 
+
+pp2.5:18.1
+Pali: Seyyathāpi so yodhājīvo rajaggaññeva disvā saṁsīdati visīdati na santhambhati na sakkoti saṅgāmaṁ otarituṁ, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.5:18.2
+Pali: Evarūpopi idhekacco puggalo hoti. 
+English: 
+
+pp2.5:18.3
+Pali: Ayaṁ paṭhamo yodhājīvūpamo puggalo santo saṁvijjamāno bhikkhūsu. 
+English: 
+
+pp2.5:19.1
+Pali: Puna caparaṁ idhekacco bhikkhu sahati rajaggaṁ, api ca kho dhajaggaññeva disvā saṁsīdati visīdati na santhambhati na sakkoti brahmacariyaṁ sandhāretuṁ, sikkhādubbalyaṁ āvikatvā sikkhaṁ paccakkhāya hīnāyāvattati. 
+English: 
+
+pp2.5:19.2
+Pali: Kimassa dhajaggasmiṁ? 
+English: 
+
+pp2.5:19.3
+Pali: Idha bhikkhu na heva kho suṇāti—
+English: 
+
+pp2.5:19.4
+Pali: “asukasmiṁ nāma gāme vā nigame vā itthī vā kumārī vā abhirūpā dassanīyā pāsādikā paramāya vaṇṇapokkharatāya samannāgatā”ti, api ca kho sāmaṁ passati itthiṁ vā kumāriṁ vā abhirūpaṁ dassanīyaṁ pāsādikaṁ paramāya vaṇṇapokkharatāya samannāgataṁ. 
+English: 
+
+pp2.5:19.5
+Pali: So taṁ disvā saṁsīdati visīdati na santhambhati na sakkoti brahmacariyaṁ sandhāretuṁ, sikkhādubbalyaṁ āvikatvā sikkhaṁ paccakkhāya hīnāyāvattati. 
+English: 
+
+pp2.5:19.6
+Pali: Idamassa dhajaggasmiṁ. 
+English: 
+
+pp2.5:20.1
+Pali: Seyyathāpi so yodhājīvo sahati rajaggaṁ, api ca kho dhajaggaññeva disvā saṁsīdati visīdati na santhambhati na sakkoti saṅgāmaṁ otarituṁ, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.5:20.2
+Pali: Evarūpopi idhekacco puggalo hoti. 
+English: 
+
+pp2.5:20.3
+Pali: Ayaṁ dutiyo yodhājīvūpamo puggalo santo saṁvijjamāno bhikkhūsu. 
+English: 
+
+pp2.5:21.1
+Pali: Puna caparaṁ idhekacco bhikkhu sahati rajaggaṁ sahati dhajaggaṁ, api ca kho ussāraṇaññeva sutvā saṁsīdati visīdati na santhambhati na sakkoti brahmacariyaṁ sandhāretuṁ, sikkhādubbalyaṁ āvikatvā sikkhaṁ paccakkhāya hīnāyāvattati. 
+English: 
+
+pp2.5:21.2
+Pali: Kimassa ussāraṇāya? 
+English: 
+
+pp2.5:21.3
+Pali: Idha bhikkhuṁ araññagataṁ vā rukkhamūlagataṁ vā suññāgāragataṁ vā mātugāmo upasaṅkamitvā ūhasati ullapati ujjagghati uppaṇḍeti. 
+English: 
+
+pp2.5:21.4
+Pali: So mātugāmena ūhasiyamāno ullapiyamāno ujjagghiyamāno uppaṇḍiyamāno saṁsīdati visīdati na santhambhati na sakkoti brahmacariyaṁ sandhāretuṁ, sikkhādubbalyaṁ āvikatvā sikkhaṁ paccakkhāya hīnāyāvattati. 
+English: 
+
+pp2.5:21.5
+Pali: Idamassa ussāraṇāya. 
+English: 
+
+pp2.5:22.1
+Pali: Seyyathāpi so yodhājīvo sahati rajaggaṁ sahati dhajaggaṁ, api ca kho ussāraṇaññeva sutvā saṁsīdati visīdati na santhambhati na sakkoti saṅgāmaṁ otarituṁ, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.5:22.2
+Pali: Evarūpopi idhekacco puggalo hoti. 
+English: 
+
+pp2.5:22.3
+Pali: Ayaṁ tatiyo yodhājīvūpamo puggalo santo saṁvijjamāno bhikkhūsu. 
+English: 
+
+pp2.5:23.1
+Pali: Puna caparaṁ idhekacco bhikkhu sahati rajaggaṁ sahati dhajaggaṁ sahati ussāraṇaṁ, api ca kho sampahāre haññati byāpajjati. 
+English: 
+
+pp2.5:23.2
+Pali: Kimassa sampahārasmiṁ? 
+English: 
+
+pp2.5:23.3
+Pali: Idha bhikkhuṁ araññagataṁ vā rukkhamūlagataṁ vā suññāgāragataṁ vā mātugāmo upasaṅkamitvā abhinisīdati abhinipajjati ajjhottharati. 
+English: 
+
+pp2.5:23.4
+Pali: So mātugāmena abhinisīdiyamāno abhinipajjiyamāno ajjhotthariyamāno sikkhaṁ appaccakkhāya dubbalyaṁ anāvikatvā methunaṁ dhammaṁ paṭisevati. 
+English: 
+
+pp2.5:23.5
+Pali: Idamassa sampahārasmiṁ. 
+English: 
+
+pp2.5:24.1
+Pali: Seyyathāpi so yodhājīvo sahati rajaggaṁ sahati dhajaggaṁ sahati ussāraṇaṁ, api ca kho sampahāre haññati byāpajjati, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.5:24.2
+Pali: Evarūpopi idhekacco puggalo hoti. 
+English: 
+
+pp2.5:24.3
+Pali: Ayaṁ catuttho yodhājīvūpamo puggalo santo saṁvijjamāno bhikkhūsu. 
+English: 
+
+pp2.5:25.1
+Pali: Puna caparaṁ idhekacco bhikkhu sahati rajaggaṁ sahati dhajaggaṁ sahati ussāraṇaṁ sahati sampahāraṁ. 
+English: 
+
+pp2.5:25.2
+Pali: So taṁ saṅgāmaṁ abhivijinitvā vijitasaṅgāmo tameva saṅgāmasīsaṁ ajjhāvasati. 
+English: 
+
+pp2.5:25.3
+Pali: Kimassa saṅgāmavijayasmiṁ? 
+English: 
+
+pp2.5:25.4
+Pali: Idha bhikkhuṁ araññagataṁ vā rukkhamūlagataṁ vā suññāgāragataṁ vā mātugāmo upasaṅkamitvā abhinisīdati abhinipajjati ajjhottharati. 
+English: 
+
+pp2.5:25.5
+Pali: So mātugāmena abhinisīdiyamāno abhinipajjiyamāno ajjhotthariyamāno viniveṭhetvā vinimocetvā yena kāmaṁ pakkamati. 
+English: 
+
+pp2.5:26.1
+Pali: So vivittaṁ senāsanaṁ bhajati araññaṁ rukkhamūlaṁ pabbataṁ kandaraṁ giriguhaṁ susānaṁ vanapatthaṁ abbhokāsaṁ palālapuñjaṁ. 
+English: 
+
+pp2.5:26.2
+Pali: So araññagato vā rukkhamūlagato vā suññāgāragato vā nisīdati pallaṅkaṁ ābhujitvā ujuṁ kāyaṁ paṇidhāya parimukhaṁ satiṁ upaṭṭhapetvā. 
+English: 
+
+pp2.5:26.3
+Pali: So abhijjhaṁ loke pahāya vigatābhijjhena cetasā viharati, abhijjhāya cittaṁ parisodheti; 
+English: 
+
+pp2.5:26.4
+Pali: byāpādapadosaṁ pahāya abyāpannacitto viharati, sabbapāṇabhūtahitānukampī byāpādapadosā cittaṁ parisodheti; 
+English: 
+
+pp2.5:26.5
+Pali: thinamiddhaṁ pahāya vigatathinamiddho viharati ālokasaññī sato sampajāno, thinamiddhā cittaṁ parisodheti; 
+English: 
+
+pp2.5:26.6
+Pali: uddhaccakukkuccaṁ pahāya anuddhato viharati ajjhattaṁ vūpasantacitto, uddhaccakukkuccā cittaṁ parisodheti; 
+English: 
+
+pp2.5:26.7
+Pali: vicikicchaṁ pahāya tiṇṇavicikiccho viharati akathaṅkathī kusalesu dhammesu, vicikicchāya cittaṁ parisodheti. 
+English: 
+
+pp2.5:27.1
+Pali: So ime pañca nīvaraṇe pahāya cetaso upakkilese paññāya dubbalīkaraṇe vivicceva kāmehi vivicca akusalehi dhammehi savitakkaṁ savicāraṁ vivekajaṁ pītisukhaṁ paṭhamaṁ jhānaṁ upasampajja viharati; 
+English: 
+
+pp2.5:27.2
+Pali: vitakkavicārānaṁ vūpasamā dutiyaṁ jhānaṁ …pe… 
+English: 
+
+pp2.5:27.3
+Pali: tatiyaṁ jhānaṁ …pe… 
+English: 
+
+pp2.5:27.4
+Pali: catutthaṁ jhānaṁ upasampajja viharati. 
+English: 
+
+pp2.5:28.1
+Pali: So evaṁ samāhite citte parisuddhe pariyodāte anaṅgaṇe vigatūpakkilese mudubhūte kammaniye ṭhite āneñjappatte āsavānaṁ khayañāṇāya cittaṁ abhininnāmeti. 
+English: 
+
+pp2.5:28.2
+Pali: So “idaṁ dukkhan”ti yathābhūtaṁ pajānāti, “ayaṁ dukkhasamudayo”ti yathābhūtaṁ pajānāti, “ayaṁ dukkhanirodho”ti yathābhūtaṁ pajānāti, “ayaṁ dukkhanirodhagāminī paṭipadā”ti yathābhūtaṁ pajānāti, 
+English: 
+
+pp2.5:28.3
+Pali: “ime āsavā”ti yathābhūtaṁ pajānāti, “ayaṁ āsavasamudayo”ti yathābhūtaṁ pajānāti, “ayaṁ āsavanirodho”ti yathābhūtaṁ pajānāti, “ayaṁ āsavanirodhagāminī paṭipadā”ti yathābhūtaṁ pajānāti. 
+English: 
+
+pp2.5:29.1
+Pali: Tassa evaṁ jānato evaṁ passato kāmāsavāpi cittaṁ vimuccati, bhavāsavāpi cittaṁ vimuccati, avijjāsavāpi cittaṁ vimuccati. 
+English: 
+
+pp2.5:29.2
+Pali: Vimuttasmiṁ vimuttamiti ñāṇaṁ hoti. 
+English: 
+
+pp2.5:29.3
+Pali: “Khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā”ti pajānāti. 
+English: 
+
+pp2.5:29.4
+Pali: Idamassa saṅgāmavijayasmiṁ. 
+English: 
+
+pp2.5:29.5
+Pali: Seyyathāpi so yodhājīvo sahati rajaggaṁ sahati dhajaggaṁ sahati ussāraṇaṁ sahati sampahāraṁ, so taṁ saṅgāmaṁ abhivijinitvā vijitasaṅgāmo tameva saṅgāmasīsaṁ ajjhāvasati, tathūpamo ayaṁ puggalo. 
+English: 
+
+pp2.5:29.6
+Pali: Evarūpopi idhekacco puggalo hoti. 
+English: 
+
+pp2.5:29.7
+Pali: Ayaṁ pañcamo yodhājīvūpamo puggalo santo saṁvijjamāno bhikkhūsu. 
+English: 
+
+pp2.5:30.1
+Pali: Ime pañca yodhājīvūpamā puggalā santo saṁvijjamānā bhikkhūsu. 
+English: 
+
+pp2.5:31.1
+Pali: Tattha katame pañca piṇḍapātikā? 
+English: 
+
+pp2.5:31.2
+Pali: Mandattā momūhattā piṇḍapātiko hoti, pāpiccho icchāpakato piṇḍapātiko hoti, ummādā cittavikkhepā piṇḍapātiko hoti, “vaṇṇitaṁ buddhehi buddhasāvakehī”ti piṇḍapātiko hoti, api ca appicchataṁyeva nissāya santuṭṭhiṁyeva nissāya sallekhaṁyeva nissāya idamatthitaṁyeva nissāya piṇḍapātiko hoti. 
+English: 
+
+pp2.5:31.3
+Pali: Tatra yvāyaṁ piṇḍapātiko appicchataṁyeva nissāya santuṭṭhiṁyeva nissāya sallekhaṁyeva nissāya idamatthitaṁyeva nissāya piṇḍapātiko, ayaṁ imesaṁ pañcannaṁ piṇḍapātikānaṁ aggo ca seṭṭho ca pāmokkho ca uttamo ca pavaro ca. 
+English: 
+
+pp2.5:32.1
+Pali: Seyyathāpi nāma gavā khīraṁ, khīramhā dadhi, dadhimhā navanītaṁ, navanītamhā sappi, sappimhā sappimaṇḍo, sappimaṇḍaṁ tattha aggamakkhāyati; 
+English: 
+
+pp2.5:32.2
+Pali: evamevaṁ yvāyaṁ piṇḍapātiko appicchataṁyeva nissāya santuṭṭhiṁyeva nissāya sallekhaṁyeva nissāya idamatthitaṁyeva nissāya piṇḍapātiko hoti, ayaṁ imesaṁ pañcannaṁ piṇḍapātikānaṁ aggo ca seṭṭho ca pāmokkho ca uttamo ca pavaro ca. 
+English: 
+
+pp2.5:32.3
+Pali: Ime pañca piṇḍapātikā. 
+English: 
+
+pp2.5:33.1
+Pali: Tattha katame pañca khalupacchābhattikā …pe… 
+English: 
+
+pp2.5:33.2
+Pali: pañca ekāsanikā …pe… 
+English: 
+
+pp2.5:33.3
+Pali: pañca paṁsukūlikā …pe… 
+English: 
+
+pp2.5:33.4
+Pali: pañca tecīvarikā …pe… 
+English: 
+
+pp2.5:33.5
+Pali: pañca āraññikā …pe… 
+English: 
+
+pp2.5:33.6
+Pali: pañca rukkhamūlikā …pe… 
+English: 
+
+pp2.5:33.7
+Pali: pañca abbhokāsikā …pe… 
+English: 
+
+pp2.5:33.8
+Pali: pañca nesajjikā …pe… 
+English: 
+
+pp2.5:33.9
+Pali: pañca yathāsanthatikā …pe…. 
+English: 
+
+pp2.5:34.1
+Pali: Tattha katame pañca sosānikā? 
+English: 
+
+pp2.5:34.2
+Pali: Mandattā momūhattā sosāniko hoti, pāpiccho icchāpakato sosāniko hoti, ummādā cittavikkhepā sosāniko hoti, “vaṇṇitaṁ buddhehi buddhasāvakehī”ti sosāniko hoti, api ca appicchataṁyeva nissāya santuṭṭhiṁyeva nissāya sallekhaṁyeva nissāya idamatthitaṁyeva nissāya sosāniko hoti. 
+English: 
+
+pp2.5:34.3
+Pali: Tatra yvāyaṁ sosāniko appicchataṁyeva nissāya santuṭṭhiṁyeva nissāya sallekhaṁyeva nissāya idamatthitaṁyeva nissāya sosāniko, ayaṁ imesaṁ pañcannaṁ sosānikānaṁ aggo ca seṭṭho ca pāmokkho ca uttamo ca pavaro ca. 
+English: 
+
+pp2.5:35.1
+Pali: Seyyathāpi nāma gavā khīraṁ, khīramhā dadhi, dadhimhā navanītaṁ, navanītamhā sappi, sappimhā sappimaṇḍo, sappimaṇḍaṁ tattha aggamakkhāyati; 
+English: 
+
+pp2.5:35.2
+Pali: evamevaṁ yvāyaṁ sosāniko appicchataṁyeva nissāya santuṭṭhiṁyeva nissāya sallekhaṁyeva nissāya idamatthitaṁyeva nissāya sosāniko hoti, ayaṁ imesaṁ pañcannaṁ sosānikānaṁ aggo ca seṭṭho ca pāmokkho ca uttamo ca pavaro ca. 
+English: 
+
+pp2.5:35.3
+Pali: Ime pañca sosānikā. 
+English: 
+
+pp2.5:36.1
+Pali: Pañcakaniddeso. 
+English: 
+
+================================================================================
+pp2.6
+Root: root/pli/ms/abhidhamma/pp/pp2/pp2.6_root-pli-ms.json
+
+pp2.6:0.1
+Pali: Puggalapaññatti 
+English: 
+
+pp2.6:0.2
+Pali: Niddesa 
+English: 
+
+pp2.6:0.3
+Pali: 6. Chakkapuggalapaññatti 
+English: 
+
+pp2.6:1.1
+Pali: Tatra yvāyaṁ puggalo pubbe ananussutesu dhammesu sāmaṁ saccāni abhisambujjhati, tattha ca sabbaññutaṁ pāpuṇāti balesu ca vasībhāvaṁ, sammāsambuddho tena daṭṭhabbo. 
+English: 
+
+pp2.6:2.1
+Pali: Tatra yvāyaṁ puggalo pubbe ananussutesu dhammesu sāmaṁ saccāni abhisambujjhati, na ca tattha sabbaññutaṁ pāpuṇāti na ca balesu vasībhāvaṁ, paccekasambuddho tena daṭṭhabbo. 
+English: 
+
+pp2.6:3.1
+Pali: Tatra yvāyaṁ puggalo pubbe ananussutesu dhammesu sāmaṁ saccāni anabhisambujjhati, diṭṭheva dhamme dukkhassantakaro hoti, sāvakapāramiñca pāpuṇāti, sāriputtamoggallānā tena daṭṭhabbā. 
+English: 
+
+pp2.6:4.1
+Pali: Tatra yvāyaṁ puggalo pubbe ananussutesu dhammesu sāmaṁ saccāni anabhisambujjhati, diṭṭheva dhamme dukkhassantakaro hoti, na ca sāvakapāramiṁ pāpuṇāti, avasesā arahantā tena daṭṭhabbā. 
+English: 
+
+pp2.6:5.1
+Pali: Tatra yvāyaṁ puggalo pubbe ananussutesu dhammesu sāmaṁ saccāni anabhisambujjhati, na ca diṭṭheva dhamme dukkhassantakaro hoti, anāgāmī hoti anāgantā itthattaṁ, anāgāmī tena daṭṭhabbo. 
+English: 
+
+pp2.6:6.1
+Pali: Tatra yvāyaṁ puggalo pubbe ananussutesu dhammesu sāmaṁ saccāni anabhisambujjhati, na ca diṭṭheva dhamme dukkhassantakaro hoti, āgantā itthattaṁ, sotāpannasakadāgāmino tena daṭṭhabbā. 
+English: 
+
+pp2.6:7.1
+Pali: Chakkaniddeso. 
+English: 
+
+================================================================================
+pp2.7
+Root: root/pli/ms/abhidhamma/pp/pp2/pp2.7_root-pli-ms.json
+
+pp2.7:0.1
+Pali: Puggalapaññatti 
+English: 
+
+pp2.7:0.2
+Pali: Niddesa 
+English: 
+
+pp2.7:0.3
+Pali: 7. Sattakapuggalapaññatti 
+English: 
+
+pp2.7:1.1
+Pali: Kathañca puggalo sakiṁ nimuggo nimuggova hoti? 
+English: 
+
+pp2.7:1.2
+Pali: Idhekacco puggalo samannāgato hoti ekantakāḷakehi akusalehi dhammehi. 
+English: 
+
+pp2.7:1.3
+Pali: Evaṁ puggalo sakiṁ nimuggo nimuggova hoti. 
+English: 
+
+pp2.7:2.1
+Pali: Kathañca puggalo ummujjitvā nimujjati? 
+English: 
+
+pp2.7:2.2
+Pali: Idhekacco puggalo ummujjati “sāhu saddhā kusalesu dhammesu, sādhu hirī kusalesu dhammesu, sādhu ottappaṁ kusalesu dhammesu, sādhu vīriyaṁ kusalesu dhammesu, sādhu paññā kusalesu dhammesū”ti. 
+English: 
+
+pp2.7:2.3
+Pali: Tassa sā saddhā neva tiṭṭhati no vaḍḍhati hāyatiyeva, tassa sā hirī neva tiṭṭhati no vaḍḍhati hāyatiyeva, tassa taṁ ottappaṁ neva tiṭṭhati no vaḍḍhati hāyatiyeva, tassa taṁ vīriyaṁ neva tiṭṭhati no vaḍḍhati hāyatiyeva, tassa sā paññā neva tiṭṭhati no vaḍḍhati hāyatiyeva. 
+English: 
+
+pp2.7:2.4
+Pali: Evaṁ puggalo ummujjitvā nimujjati. 
+English: 
+
+pp2.7:3.1
+Pali: Kathañca puggalo ummujjitvā ṭhito hoti? 
+English: 
+
+pp2.7:3.2
+Pali: Idhekacco puggalo ummujjati “sāhu saddhā kusalesu dhammesu, sādhu hirī kusalesu dhammesu, sādhu ottappaṁ kusalesu dhammesu, sādhu vīriyaṁ kusalesu dhammesu, sādhu paññā kusalesu dhammesū”ti. 
+English: 
+
+pp2.7:3.3
+Pali: Tassa sā saddhā neva hāyati no vaḍḍhati ṭhitā hoti, tassa sā hirī neva hāyati no vaḍḍhati ṭhitā hoti, tassa taṁ ottappaṁ neva hāyati no vaḍḍhati ṭhitaṁ hoti, tassa taṁ vīriyaṁ neva hāyati no vaḍḍhati ṭhitaṁ hoti, tassa sā paññā neva hāyati no vaḍḍhati ṭhitā hoti. 
+English: 
+
+pp2.7:3.4
+Pali: Evaṁ puggalo ummujjitvā ṭhito hoti. 
+English: 
+
+pp2.7:4.1
+Pali: Kathañca puggalo ummujjitvā vipassati viloketi? 
+English: 
+
+pp2.7:4.2
+Pali: Idhekacco puggalo ummujjati “sāhu saddhā kusalesu dhammesu, sādhu hirī kusalesu dhammesu, sādhu ottappaṁ kusalesu dhammesu, sādhu vīriyaṁ kusalesu dhammesu, sādhu paññā kusalesu dhammesū”ti. 
+English: 
+
+pp2.7:4.3
+Pali: So tiṇṇaṁ saṁyojanānaṁ parikkhayā sotāpanno hoti avinipātadhammo niyato sambodhiparāyano. 
+English: 
+
+pp2.7:4.4
+Pali: Evaṁ puggalo ummujjitvā vipassati viloketi. 
+English: 
+
+pp2.7:5.1
+Pali: Kathañca puggalo ummujjitvā patarati? 
+English: 
+
+pp2.7:5.2
+Pali: Idhekacco puggalo ummujjati “sāhu saddhā kusalesu dhammesu, sādhu hirī kusalesu dhammesu, sādhu ottappaṁ kusalesu dhammesu, sādhu vīriyaṁ kusalesu dhammesu, sādhu paññā kusalesu dhammesū”ti. 
+English: 
+
+pp2.7:5.3
+Pali: So tiṇṇaṁ saṁyojanānaṁ parikkhayā rāgadosamohānaṁ tanuttā sakadāgāmī hoti sakideva imaṁ lokaṁ āgantvā dukkhassantakaro hoti. 
+English: 
+
+pp2.7:5.4
+Pali: Evaṁ puggalo ummujjitvā patarati. 
+English: 
+
+pp2.7:6.1
+Pali: Kathañca puggalo ummujjitvā patigādhappatto hoti? 
+English: 
+
+pp2.7:6.2
+Pali: Idhekacco puggalo ummujjati “sāhu saddhā kusalesu dhammesu, sādhu hirī kusalesu dhammesu, sādhu ottappaṁ kusalesu dhammesu, sādhu vīriyaṁ kusalesu dhammesu, sādhu paññā kusalesu dhammesū”ti. 
+English: 
+
+pp2.7:6.3
+Pali: So pañcannaṁ orambhāgiyānaṁ saṁyojanānaṁ parikkhayā opapātiko hoti tattha parinibbāyī anāvattidhammo tasmā lokā. 
+English: 
+
+pp2.7:6.4
+Pali: Evaṁ puggalo ummujjitvā paṭigādhappatto hoti. 
+English: 
+
+pp2.7:7.1
+Pali: Kathañca puggalo ummujjitvā tiṇṇo hoti pāraṅgato thale tiṭṭhati brāhmaṇo? 
+English: 
+
+pp2.7:7.2
+Pali: Idhekacco puggalo ummujjati “sāhu saddhā kusalesu dhammesu, sādhu hirī kusalesu dhammesu, sādhu ottappaṁ kusalesu dhammesu, sādhu vīriyaṁ kusalesu dhammesu, sādhu paññā kusalesu dhammesū”ti. 
+English: 
+
+pp2.7:7.3
+Pali: So āsavānaṁ khayā anāsavaṁ cetovimuttiṁ paññāvimuttiṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja viharati. 
+English: 
+
+pp2.7:7.4
+Pali: Evaṁ puggalo ummujjitvā tiṇṇo hoti pāraṅgato thale tiṭṭhati brāhmaṇo. 
+English: 
+
+pp2.7:8.1
+Pali: Katamo ca puggalo ubhatobhāgavimutto? 
+English: 
+
+pp2.7:8.2
+Pali: Idhekacco puggalo aṭṭha vimokkhe kāyena phusitvā viharati paññāya cassa disvā āsavā parikkhīṇā honti. 
+English: 
+
+pp2.7:8.3
+Pali: Ayaṁ vuccati puggalo ubhatobhāgavimutto. 
+English: 
+
+pp2.7:9.1
+Pali: Katamo ca puggalo paññāvimutto …pe…. 
+English: 
+
+pp2.7:10.1
+Pali: Kāyasakkhī …. 
+English: 
+
+pp2.7:11.1
+Pali: Diṭṭhippatto …. 
+English: 
+
+pp2.7:12.1
+Pali: Saddhāvimutto …. 
+English: 
+
+pp2.7:13.1
+Pali: Dhammānusārī …. 
+English: 
+
+pp2.7:14.1
+Pali: Katamo ca puggalo saddhānusārī? 
+English: 
+
+pp2.7:14.2
+Pali: Yassa puggalassa sotāpattiphalasacchikiriyāya paṭipannassa saddhindriyaṁ adhimattaṁ hoti, saddhāvāhiṁ saddhāpubbaṅgamaṁ ariyamaggaṁ bhāveti. 
+English: 
+
+pp2.7:14.3
+Pali: Ayaṁ vuccati puggalo saddhānusārī. 
+English: 
+
+pp2.7:14.4
+Pali: Sotāpattiphalasacchikiriyāya paṭipanno puggalo saddhānusārī, phale ṭhito saddhāvimuttoti. 
+English: 
+
+pp2.7:15.1
+Pali: Sattakaniddeso. 
+English: 
+
+================================================================================
+pp2.8
+Root: root/pli/ms/abhidhamma/pp/pp2/pp2.8_root-pli-ms.json
+
+pp2.8:0.1
+Pali: Puggalapaññatti 
+English: 
+
+pp2.8:0.2
+Pali: Niddesa 
+English: 
+
+pp2.8:0.3
+Pali: 8. Aṭṭhakapuggalapaññatti 
+English: 
+
+pp2.8:1.1
+Pali: Tattha katame cattāro maggasamaṅgino, cattāro phalasamaṅgino puggalā? 
+English: 
+
+pp2.8:1.2
+Pali: Sotāpanno, sotāpattiphalasacchikiriyāya paṭipanno; 
+English: 
+
+pp2.8:1.3
+Pali: sakadāgāmī, sakadāgāmiphalasacchikiriyāya paṭipanno; 
+English: 
+
+pp2.8:1.4
+Pali: anāgāmī, anāgāmiphalasacchikiriyāya paṭipanno; 
+English: 
+
+pp2.8:1.5
+Pali: arahā, arahattaphalasacchikiriyāya paṭipanno; 
+English: 
+
+pp2.8:1.6
+Pali: ime cattāro maggasamaṅgino, ime cattāro phalasamaṅgino puggalā. 
+English: 
+
+pp2.8:2.1
+Pali: Aṭṭhakaniddeso. 
+English: 
+
+================================================================================
+pp2.9
+Root: root/pli/ms/abhidhamma/pp/pp2/pp2.9_root-pli-ms.json
+
+pp2.9:0.1
+Pali: Puggalapaññatti 
+English: 
+
+pp2.9:0.2
+Pali: Niddesa 
+English: 
+
+pp2.9:0.3
+Pali: 9. Navakapuggalapaññatti 
+English: 
+
+pp2.9:1.1
+Pali: Katamo ca puggalo sammāsambuddho? 
+English: 
+
+pp2.9:1.2
+Pali: Idhekacco puggalo pubbe ananussutesu dhammesu sāmaṁ saccāni abhisambujjhati, tattha ca sabbaññutaṁ pāpuṇāti balesu ca vasībhāvaṁ. 
+English: 
+
+pp2.9:1.3
+Pali: Ayaṁ vuccati puggalo sammāsambuddho. 
+English: 
+
+pp2.9:2.1
+Pali: Katamo ca puggalo paccekasambuddho? 
+English: 
+
+pp2.9:2.2
+Pali: Idhekacco puggalo pubbe ananussutesu dhammesu sāmaṁ saccāni abhisambujjhati, na ca tattha sabbaññutaṁ pāpuṇāti na ca balesu vasībhāvaṁ. 
+English: 
+
+pp2.9:2.3
+Pali: Ayaṁ vuccati puggalo paccekasambuddho. 
+English: 
+
+pp2.9:3.1
+Pali: Katamo ca puggalo ubhatobhāgavimutto? 
+English: 
+
+pp2.9:3.2
+Pali: Idhekacco puggalo aṭṭha vimokkhe kāyena phusitvā viharati paññāya cassa disvā āsavā parikkhīṇā honti. 
+English: 
+
+pp2.9:3.3
+Pali: Ayaṁ vuccati puggalo ubhatobhāgavimutto. 
+English: 
+
+pp2.9:4.1
+Pali: Katamo ca puggalo paññāvimutto? 
+English: 
+
+pp2.9:4.2
+Pali: Idhekacco puggalo na heva kho aṭṭha vimokkhe kāyena phusitvā viharati paññāya cassa disvā āsavā parikkhīṇā honti. 
+English: 
+
+pp2.9:4.3
+Pali: Ayaṁ vuccati puggalo paññāvimutto. 
+English: 
+
+pp2.9:5.1
+Pali: Katamo ca puggalo kāyasakkhī? 
+English: 
+
+pp2.9:5.2
+Pali: Idhekacco puggalo aṭṭha vimokkhe kāyena phusitvā viharati paññāya cassa disvā ekacce āsavā parikkhīṇā honti. 
+English: 
+
+pp2.9:5.3
+Pali: Ayaṁ vuccati puggalo kāyasakkhī. 
+English: 
+
+pp2.9:6.1
+Pali: Katamo ca puggalo diṭṭhippatto? 
+English: 
+
+pp2.9:6.2
+Pali: Idhekacco puggalo “idaṁ dukkhan”ti yathābhūtaṁ pajānāti …pe… 
+English: 
+
+pp2.9:6.3
+Pali: “ayaṁ dukkhanirodhagāminī paṭipadā”ti yathābhūtaṁ pajānāti, tathāgatappaveditā cassa dhammā paññāya vodiṭṭhā honti vocaritā, paññāya cassa disvā ekacce āsavā parikkhīṇā honti. 
+English: 
+
+pp2.9:6.4
+Pali: Ayaṁ vuccati puggalo diṭṭhippatto. 
+English: 
+
+pp2.9:7.1
+Pali: Katamo ca puggalo saddhāvimutto? 
+English: 
+
+pp2.9:7.2
+Pali: Idhekacco puggalo “idaṁ dukkhan”ti yathābhūtaṁ pajānāti …pe… 
+English: 
+
+pp2.9:7.3
+Pali: “ayaṁ dukkhanirodhagāminī paṭipadā”ti yathābhūtaṁ pajānāti, tathāgatappaveditā cassa dhammā paññāya vodiṭṭhā honti vocaritā, paññāya cassa disvā ekacce āsavā parikkhīṇā honti, no ca kho yathā diṭṭhippattassa. 
+English: 
+
+pp2.9:7.4
+Pali: Ayaṁ vuccati puggalo saddhāvimutto. 
+English: 
+
+pp2.9:8.1
+Pali: Katamo ca puggalo dhammānusārī? 
+English: 
+
+pp2.9:8.2
+Pali: Yassa puggalassa sotāpattiphalasacchikiriyāya paṭipannassa paññindriyaṁ adhimattaṁ hoti, paññāvāhiṁ paññāpubbaṅgamaṁ ariyamaggaṁ bhāveti. 
+English: 
+
+pp2.9:8.3
+Pali: Ayaṁ vuccati puggalo dhammānusārī. 
+English: 
+
+pp2.9:8.4
+Pali: Sotāpattiphalasacchikiriyāya paṭipanno puggalo dhammānusārī, phale ṭhito diṭṭhippatto. 
+English: 
+
+pp2.9:9.1
+Pali: Katamo ca puggalo saddhānusārī? 
+English: 
+
+pp2.9:9.2
+Pali: Yassa puggalassa sotāpattiphalasacchikiriyāya paṭipannassa saddhindriyaṁ adhimattaṁ hoti, saddhāvāhiṁ saddhāpubbaṅgamaṁ ariyamaggaṁ bhāveti. 
+English: 
+
+pp2.9:9.3
+Pali: Ayaṁ vuccati puggalo saddhānusārī. 
+English: 
+
+pp2.9:9.4
+Pali: Sotāpattiphalasacchikiriyāya paṭipanno puggalo saddhānusārī, phale ṭhito saddhāvimuttoti. 
+English: 
+
+pp2.9:10.1
+Pali: Navakaniddeso. 
+English: 
+
+================================================================================
+pp2.10
+Root: root/pli/ms/abhidhamma/pp/pp2/pp2.10_root-pli-ms.json
+
+pp2.10:0.1
+Pali: Puggalapaññatti 
+English: 
+
+pp2.10:0.2
+Pali: Niddesa 
+English: 
+
+pp2.10:0.3
+Pali: 10. Dasakapuggalapaññatti 
+English: 
+
+pp2.10:1.1
+Pali: Katamesaṁ pañcannaṁ idha niṭṭhā? 
+English: 
+
+pp2.10:1.2
+Pali: Sattakkhattuparamassa, kolaṅkolassa, ekabījissa, sakadāgāmissa, yo ca diṭṭheva dhamme arahā—
+English: 
+
+pp2.10:1.3
+Pali: imesaṁ pañcannaṁ idha niṭṭhā. –5 
+English: 
+
+pp2.10:2.1
+Pali: Katamesaṁ pañcannaṁ idha vihāya niṭṭhā? 
+English: 
+
+pp2.10:2.2
+Pali: Antarāparinibbāyissa, upahaccaparinibbāyissa, asaṅkhāraparinibbāyissa, sasaṅkhāraparinibbāyissa, uddhaṁsotassa akaniṭṭhagāmino—
+English: 
+
+pp2.10:2.3
+Pali: imesaṁ pañcannaṁ idha vihāya niṭṭhāti. –10 
+English: 
+
+pp2.10:3.1
+Pali: Ettāvatā puggalānaṁ puggalapaññattīti. 
+English: 
+
+pp2.10:4.1
+Pali: Dasakaniddeso. 
+English: 
+
+pp2.10:5.1
+Pali: Puggalapaññattipakaraṇaṁ niṭṭhitaṁ. 
+English: 
+

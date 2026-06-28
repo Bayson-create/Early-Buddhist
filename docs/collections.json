@@ -1,0 +1,218 @@
+{
+  "collections": {
+    "经藏/长部_dn": {
+      "pitaka": "经藏 Sutta",
+      "collection": "长部 Dīgha Nikāya",
+      "abbr": "DN"
+    },
+    "经藏/中部_mn": {
+      "pitaka": "经藏 Sutta",
+      "collection": "中部 Majjhima Nikāya",
+      "abbr": "MN"
+    },
+    "经藏/相应部_sn": {
+      "pitaka": "经藏 Sutta",
+      "collection": "相应部 Saṁyutta Nikāya",
+      "abbr": "SN"
+    },
+    "经藏/增支部_an": {
+      "pitaka": "经藏 Sutta",
+      "collection": "增支部 Aṅguttara Nikāya",
+      "abbr": "AN"
+    },
+    "经藏/小部_kn": {
+      "pitaka": "经藏 Sutta",
+      "collection": "小部 Khuddaka Nikāya",
+      "abbr": "KN"
+    },
+    "律藏/pli-tv-bu-pm": {
+      "pitaka": "律藏 Vinaya",
+      "collection": "比丘波提木叉 Bhikkhu Pātimokkha",
+      "abbr": "Bu-Pm"
+    },
+    "律藏/pli-tv-bu-vb": {
+      "pitaka": "律藏 Vinaya",
+      "collection": "比丘经分别 Bhikkhu Vibhaṅga",
+      "abbr": "Bu-Vb"
+    },
+    "律藏/pli-tv-bi-pm": {
+      "pitaka": "律藏 Vinaya",
+      "collection": "比丘尼波提木叉 Bhikkhunī Pātimokkha",
+      "abbr": "Bi-Pm"
+    },
+    "律藏/pli-tv-bi-vb": {
+      "pitaka": "律藏 Vinaya",
+      "collection": "比丘尼经分别 Bhikkhunī Vibhaṅga",
+      "abbr": "Bi-Vb"
+    },
+    "律藏/pli-tv-kd": {
+      "pitaka": "律藏 Vinaya",
+      "collection": "犍度 Khandhaka",
+      "abbr": "Kd"
+    },
+    "律藏/pli-tv-pvr": {
+      "pitaka": "律藏 Vinaya",
+      "collection": "附随 Parivāra",
+      "abbr": "Pvr"
+    },
+    "论藏/ds": {
+      "pitaka": "论藏 Abhidhamma",
+      "collection": "法集论 Dhammasaṅgaṇī",
+      "abbr": "Ds"
+    },
+    "论藏/dt": {
+      "pitaka": "论藏 Abhidhamma",
+      "collection": "界论 Dhātukathā",
+      "abbr": "Dt"
+    },
+    "论藏/kv": {
+      "pitaka": "论藏 Abhidhamma",
+      "collection": "论事 Kathāvatthu",
+      "abbr": "Kv"
+    },
+    "论藏/patthana": {
+      "pitaka": "论藏 Abhidhamma",
+      "collection": "发趣论 Paṭṭhāna",
+      "abbr": "Paṭṭhāna"
+    },
+    "论藏/pp": {
+      "pitaka": "论藏 Abhidhamma",
+      "collection": "人施设论 Puggalapaññatti",
+      "abbr": "Pp"
+    },
+    "论藏/vb": {
+      "pitaka": "论藏 Abhidhamma",
+      "collection": "分别论 Vibhaṅga",
+      "abbr": "Vb-Abhi"
+    },
+    "论藏/ya": {
+      "pitaka": "论藏 Abhidhamma",
+      "collection": "双论 Yamaka",
+      "abbr": "Ya"
+    },
+    "xplayground/other": {
+      "pitaka": "其他",
+      "collection": "其他 Other",
+      "abbr": "Other"
+    }
+  },
+  "en_manifest": [
+    {
+      "file": "search_index_en_0.json",
+      "count": 30000,
+      "size_mb": 6.98,
+      "collections": [
+        "xplayground/other",
+        "律藏/pli-tv-bi-pm",
+        "律藏/pli-tv-bi-vb",
+        "律藏/pli-tv-bu-pm",
+        "律藏/pli-tv-bu-vb",
+        "律藏/pli-tv-kd"
+      ]
+    },
+    {
+      "file": "search_index_en_1.json",
+      "count": 30000,
+      "size_mb": 6.73,
+      "collections": [
+        "律藏/pli-tv-kd",
+        "律藏/pli-tv-pvr"
+      ]
+    },
+    {
+      "file": "search_index_en_2.json",
+      "count": 30000,
+      "size_mb": 8.2,
+      "collections": [
+        "律藏/pli-tv-pvr",
+        "经藏/中部_mn"
+      ]
+    },
+    {
+      "file": "search_index_en_3.json",
+      "count": 30000,
+      "size_mb": 6.89,
+      "collections": [
+        "经藏/中部_mn",
+        "经藏/增支部_an"
+      ]
+    },
+    {
+      "file": "search_index_en_4.json",
+      "count": 30000,
+      "size_mb": 5.58,
+      "collections": [
+        "经藏/增支部_an",
+        "经藏/小部_kn"
+      ]
+    },
+    {
+      "file": "search_index_en_5.json",
+      "count": 30000,
+      "size_mb": 6.65,
+      "collections": [
+        "经藏/小部_kn",
+        "经藏/相应部_sn"
+      ]
+    },
+    {
+      "file": "search_index_en_6.json",
+      "count": 26440,
+      "size_mb": 6.88,
+      "collections": [
+        "经藏/相应部_sn",
+        "经藏/长部_dn"
+      ]
+    }
+  ],
+  "zh_manifest": [
+    {
+      "file": "search_index_zh_0.json",
+      "count": 30000,
+      "size_mb": 4.88,
+      "collections": [
+        "经藏/中部_mn"
+      ]
+    },
+    {
+      "file": "search_index_zh_1.json",
+      "count": 30000,
+      "size_mb": 4.71,
+      "collections": [
+        "经藏/中部_mn",
+        "经藏/增支部_an"
+      ]
+    },
+    {
+      "file": "search_index_zh_2.json",
+      "count": 30000,
+      "size_mb": 4.53,
+      "collections": [
+        "经藏/增支部_an",
+        "经藏/小部_kn",
+        "经藏/相应部_sn"
+      ]
+    },
+    {
+      "file": "search_index_zh_3.json",
+      "count": 30000,
+      "size_mb": 4.54,
+      "collections": [
+        "经藏/相应部_sn"
+      ]
+    },
+    {
+      "file": "search_index_zh_4.json",
+      "count": 29860,
+      "size_mb": 4.82,
+      "collections": [
+        "经藏/相应部_sn",
+        "经藏/长部_dn"
+      ]
+    }
+  ],
+  "stats": {
+    "total_en_segments": 206440,
+    "total_zh_sentences": 149860
+  }
+}

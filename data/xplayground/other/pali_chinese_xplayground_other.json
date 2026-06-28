@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "source": "SuttaCentral bilara-data plus live SuttaCentral legacy API",
+    "data_dir": "/Users/xiebeichen/Downloads/bilara-data",
+    "api_root": "https://suttacentral.net/api",
+    "generated_at": "2026-06-12T10:50:28.845370+00:00",
+    "root_language": "pli",
+    "translation_language": "zh",
+    "root_text_count": 7289,
+    "included_text_count": 7289,
+    "texts_with_any_chinese": 3416,
+    "texts_with_bilara_segmented_chinese": 0,
+    "texts_with_legacy_chinese": 3416,
+    "bilara_segmented_translation_count": 0,
+    "legacy_translation_count": 3432,
+    "pali_segment_count": 444693,
+    "source_file": "pali_chinese_all_sources.json",
+    "pitaka": "xplayground",
+    "collection": "other",
+    "group_label": "xplayground/other",
+    "text_count": 1
+  },
+  "texts": [
+    {
+      "uid": "xplayground1",
+      "root_path": "root/pli/ms/xplayground/xplayground1_root-pli-ms.json",
+      "pali_segments": [
+        {
+          "segment_id": "xplayground1:1.1",
+          "pali": "This file is just for playing around ",
+          "zh": []
+        },
+        {
+          "segment_id": "xplayground1:1.2",
+          "pali": "Whatever you do here doesn't matter ",
+          "zh": []
+        },
+        {
+          "segment_id": "xplayground1:1.3",
+          "pali": "This is a string for testing TM ",
+          "zh": []
+        },
+        {
+          "segment_id": "xplayground1:1.4",
+          "pali": "This is also a string for testing TM ",
+          "zh": []
+        },
+        {
+          "segment_id": "xplayground1:1.5",
+          "pali": "This is yet another string for testing TM ",
+          "zh": []
+        },
+        {
+          "segment_id": "xplayground1:1.6",
+          "pali": "Do not commit this file to the main data repository ",
+          "zh": []
+        }
+      ],
+      "zh_segmented": [],
+      "zh_legacy": []
+    }
+  ]
+}

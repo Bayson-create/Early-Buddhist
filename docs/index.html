@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Early Buddhist Texts Search</title>
+<style>
+:root {
+  --bg: #faf8f5;
+  --card-bg: #fff;
+  --border: #e0d8cf;
+  --text: #2c2416;
+  --text-secondary: #6b5d4d;
+  --accent: #8b6914;
+  --accent-light: #f5ecd9;
+  --highlight: #fff3b0;
+  --tag-sutta: #2e7d32;
+  --tag-vinaya: #1565c0;
+  --tag-abhi: #6a1b9a;
+  --tag-other: #546e7a;
+  --radius: 8px;
+  --shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: "Noto Serif SC", "Source Han Serif CN", Georgia, serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  min-height: 100vh;
+}
+.header {
+  text-align: center;
+  padding: 48px 20px 24px;
+  background: linear-gradient(180deg, #f0e6d3 0%, var(--bg) 100%);
+}
+.header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 2px;
+  margin-bottom: 6px;
+}
+.header .subtitle {
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+.search-area {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.search-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.search-box input {
+  flex: 1;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.search-box input:focus { border-color: var(--accent); }
+.search-box button {
+  padding: 12px 28px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  font-size: 16px;
+  cursor: pointer;
+  font-family: inherit;
+  white-space: nowrap;
+  transition: opacity 0.2s;
+}
+.search-box button:hover { opacity: 0.85; }
+.search-box button:disabled { opacity: 0.5; cursor: not-allowed; }
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 14px;
+}
+.filters label {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-right: 4px;
+}
+.lang-toggle {
+  display: flex;
+  border: 2px solid var(--accent);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.lang-toggle button {
+  padding: 6px 18px;
+  border: none;
+  background: transparent;
+  color: var(--accent);
+  font-size: 14px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.2s;
+}
+.lang-toggle button.active {
+  background: var(--accent);
+  color: #fff;
+}
+select {
+  padding: 6px 12px;
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 14px;
+  font-family: inherit;
+  background: var(--card-bg);
+  color: var(--text);
+  outline: none;
+}
+select:focus { border-color: var(--accent); }
+.stats {
+  font-size: 13px;
+  color: var(--text-secondary);
+  padding: 8px 0;
+}
+.results { max-width: 800px; margin: 0 auto; padding: 0 20px 60px; }
+.result-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 14px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.result-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  padding: 10px 16px;
+  background: #faf6ef;
+  border-bottom: 1px solid var(--border);
+  font-size: 13px;
+}
+.tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+}
+.tag-sutta { background: var(--tag-sutta); }
+.tag-vinaya { background: var(--tag-vinaya); }
+.tag-abhi { background: var(--tag-abhi); }
+.tag-other { background: var(--tag-other); }
+.uid-badge {
+  font-weight: 700;
+  color: var(--accent);
+  font-size: 14px;
+}
+.meta-item {
+  color: var(--text-secondary);
+  font-size: 12px;
+}
+.result-body { padding: 14px 16px; }
+.result-body .pali {
+  font-size: 13px;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-bottom: 6px;
+}
+.result-body .translation {
+  font-size: 15px;
+  line-height: 1.8;
+}
+.result-body .zh-title {
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 4px;
+}
+mark {
+  background: var(--highlight);
+  color: inherit;
+  padding: 1px 2px;
+  border-radius: 2px;
+}
+.loading {
+  text-align: center;
+  padding: 40px;
+  color: var(--text-secondary);
+}
+.spinner {
+  display: inline-block;
+  width: 20px; height: 20px;
+  border: 3px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 20px 0;
+}
+.pagination button {
+  padding: 8px 20px;
+  border: 2px solid var(--accent);
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--accent);
+  font-size: 14px;
+  cursor: pointer;
+  font-family: inherit;
+}
+.pagination button:hover { background: var(--accent-light); }
+.pagination button:disabled { opacity: 0.4; cursor: not-allowed; }
+.pagination .page-info { line-height: 38px; font-size: 14px; color: var(--text-secondary); }
+.empty {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text-secondary);
+  font-size: 15px;
+}
+.empty .icon { font-size: 48px; margin-bottom: 12px; }
+.footer {
+  text-align: center;
+  padding: 24px;
+  font-size: 12px;
+  color: var(--text-secondary);
+  border-top: 1px solid var(--border);
+}
+.footer a { color: var(--accent); }
+@media (max-width: 600px) {
+  .header { padding: 32px 16px 16px; }
+  .header h1 { font-size: 22px; }
+  .search-box { flex-direction: column; }
+  .search-box button { width: 100%; }
+  .result-meta { gap: 4px; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Early Buddhist Texts Search</h1>
+  <div class="subtitle">巴利语三藏经典全文检索 &middot; Pāli Canon Full-Text Search</div>
+</div>
+
+<div class="search-area">
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="输入关键词搜索 / Enter keyword to search..." autofocus>
+    <button id="searchBtn" onclick="doSearch()">搜索</button>
+  </div>
+  <div class="filters">
+    <label>语言:</label>
+    <div class="lang-toggle">
+      <button id="langEn" class="active" onclick="setLang('en')">English</button>
+      <button id="langZh" onclick="setLang('zh')">中文</button>
+    </div>
+    <label style="margin-left:12px">范围:</label>
+    <select id="collectionFilter">
+      <option value="">全部藏经 All Collections</option>
+      <optgroup label="经藏 Sutta Piṭaka">
+        <option value="经藏/长部_dn">长部 DN</option>
+        <option value="经藏/中部_mn">中部 MN</option>
+        <option value="经藏/相应部_sn">相应部 SN</option>
+        <option value="经藏/增支部_an">增支部 AN</option>
+        <option value="经藏/小部_kn">小部 KN</option>
+      </optgroup>
+      <optgroup label="律藏 Vinaya Piṭaka">
+        <option value="律藏/pli-tv-bu-pm">比丘波提木叉 Bu-Pm</option>
+        <option value="律藏/pli-tv-bu-vb">比丘经分别 Bu-Vb</option>
+        <option value="律藏/pli-tv-bi-pm">比丘尼波提木叉 Bi-Pm</option>
+        <option value="律藏/pli-tv-bi-vb">比丘尼经分别 Bi-Vb</option>
+        <option value="律藏/pli-tv-kd">犍度 Kd</option>
+        <option value="律藏/pli-tv-pvr">附随 Pvr</option>
+      </optgroup>
+      <optgroup label="论藏 Abhidhamma Piṭaka">
+        <option value="论藏/ds">法集论 Ds</option>
+        <option value="论藏/dt">界论 Dt</option>
+        <option value="论藏/kv">论事 Kv</option>
+        <option value="论藏/patthana">发趣论 Paṭṭhāna</option>
+        <option value="论藏/pp">人施设论 Pp</option>
+        <option value="论藏/vb">分别论 Vb</option>
+        <option value="论藏/ya">双论 Ya</option>
+      </optgroup>
+    </select>
+  </div>
+  <div class="stats" id="statsBar"></div>
+</div>
+
+<div class="results" id="results">
+  <div class="empty">
+    <div class="icon">&#x1F4D6;</div>
+    <p>输入关键词开始搜索巴利语三藏经典</p>
+    <p style="font-size:13px;margin-top:8px">支持英文逐句段搜索 &middot; 支持中文全文搜索 &middot; 可按藏经部筛选</p>
+  </div>
+</div>
+
+<div class="footer">
+  Data source: <a href="https://suttacentral.net" target="_blank">SuttaCentral</a> &middot;
+  <a href="https://github.com/Bayson-create/Early-Buddhist" target="_blank">GitHub</a>
+</div>
+
+<script>
+const COLLECTIONS = {
+  "经藏/长部_dn": {pitaka:"经藏 Sutta", collection:"长部 Dīgha Nikāya", abbr:"DN"},
+  "经藏/中部_mn": {pitaka:"经藏 Sutta", collection:"中部 Majjhima Nikāya", abbr:"MN"},
+  "经藏/相应部_sn": {pitaka:"经藏 Sutta", collection:"相应部 Saṁyutta Nikāya", abbr:"SN"},
+  "经藏/增支部_an": {pitaka:"经藏 Sutta", collection:"增支部 Aṅguttara Nikāya", abbr:"AN"},
+  "经藏/小部_kn": {pitaka:"经藏 Sutta", collection:"小部 Khuddaka Nikāya", abbr:"KN"},
+  "律藏/pli-tv-bu-pm": {pitaka:"律藏 Vinaya", collection:"比丘波提木叉", abbr:"Bu-Pm"},
+  "律藏/pli-tv-bu-vb": {pitaka:"律藏 Vinaya", collection:"比丘经分别", abbr:"Bu-Vb"},
+  "律藏/pli-tv-bi-pm": {pitaka:"律藏 Vinaya", collection:"比丘尼波提木叉", abbr:"Bi-Pm"},
+  "律藏/pli-tv-bi-vb": {pitaka:"律藏 Vinaya", collection:"比丘尼经分别", abbr:"Bi-Vb"},
+  "律藏/pli-tv-kd": {pitaka:"律藏 Vinaya", collection:"犍度 Khandhaka", abbr:"Kd"},
+  "律藏/pli-tv-pvr": {pitaka:"律藏 Vinaya", collection:"附随 Parivāra", abbr:"Pvr"},
+  "论藏/ds": {pitaka:"论藏 Abhidhamma", collection:"法集论 Dhammasaṅgaṇī", abbr:"Ds"},
+  "论藏/dt": {pitaka:"论藏 Abhidhamma", collection:"界论 Dhātukathā", abbr:"Dt"},
+  "论藏/kv": {pitaka:"论藏 Abhidhamma", collection:"论事 Kathāvatthu", abbr:"Kv"},
+  "论藏/patthana": {pitaka:"论藏 Abhidhamma", collection:"发趣论 Paṭṭhāna", abbr:"Paṭṭhāna"},
+  "论藏/pp": {pitaka:"论藏 Abhidhamma", collection:"人施设论", abbr:"Pp"},
+  "论藏/vb": {pitaka:"论藏 Abhidhamma", collection:"分别论 Vibhaṅga", abbr:"Vb"},
+  "论藏/ya": {pitaka:"论藏 Abhidhamma", collection:"双论 Yamaka", abbr:"Ya"},
+  "xplayground/other": {pitaka:"其他", collection:"其他", abbr:"Other"},
+};
+
+let currentLang = 'en';
+let indexData = [];
+let indexLoaded = false;
+let searchResults = [];
+let currentPage = 0;
+const PAGE_SIZE = 30;
+let manifest = null;
+
+function setLang(lang) {
+  currentLang = lang;
+  document.getElementById('langEn').classList.toggle('active', lang === 'en');
+  document.getElementById('langZh').classList.toggle('active', lang === 'zh');
+  indexLoaded = false;
+  indexData = [];
+  document.getElementById('searchInput').placeholder =
+    lang === 'en' ? 'Enter English keyword to search...' : '输入中文关键词搜索...';
+}
+
+function pitakaClass(coll) {
+  const p = (COLLECTIONS[coll] || {}).pitaka || '';
+  if (p.includes('经藏')) return 'tag-sutta';
+  if (p.includes('律藏')) return 'tag-vinaya';
+  if (p.includes('论藏')) return 'tag-abhi';
+  return 'tag-other';
+}
+
+function highlight(text, query) {
+  if (!query) return escapeHtml(text);
+  const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const regex = new RegExp(`(${escaped})`, 'gi');
+  return escapeHtml(text).replace(regex, '<mark>$1</mark>');
+}
+
+function escapeHtml(s) {
+  const d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+async function loadIndex() {
+  if (indexLoaded) return;
+  const res = await fetch('collections.json');
+  manifest = await res.json();
+  const key = currentLang === 'en' ? 'en_manifest' : 'zh_manifest';
+  const files = manifest[key];
+
+  document.getElementById('results').innerHTML = '<div class="loading"><span class="spinner"></span>加载索引中...</div>';
+
+  indexData = [];
+  const collFilter = document.getElementById('collectionFilter').value;
+
+  for (const chunk of files) {
+    if (collFilter && !chunk.collections.includes(collFilter)) continue;
+    const r = await fetch(chunk.file);
+    const d = await r.json();
+    if (collFilter) {
+      for (const entry of d) {
+        if (entry.c === collFilter) indexData.push(entry);
+      }
+    } else {
+      indexData.push(...d);
+    }
+  }
+  indexLoaded = true;
+}
+
+async function doSearch() {
+  const query = document.getElementById('searchInput').value.trim();
+  if (!query) return;
+
+  const btn = document.getElementById('searchBtn');
+  btn.disabled = true;
+  btn.textContent = '搜索中...';
+
+  indexLoaded = false;
+  try {
+    await loadIndex();
+  } catch (e) {
+    document.getElementById('results').innerHTML = '<div class="empty"><p>索引加载失败，请刷新重试</p></div>';
+    btn.disabled = false;
+    btn.textContent = '搜索';
+    return;
+  }
+
+  const lowerQuery = query.toLowerCase();
+  searchResults = [];
+
+  if (currentLang === 'en') {
+    for (const entry of indexData) {
+      if (entry.e.toLowerCase().includes(lowerQuery) || entry.p.toLowerCase().includes(lowerQuery)) {
+        searchResults.push(entry);
+      }
+    }
+  } else {
+    for (const entry of indexData) {
+      if (entry.z.includes(query)) {
+        searchResults.push(entry);
+      }
+    }
+  }
+
+  currentPage = 0;
+  renderResults(query);
+  btn.disabled = false;
+  btn.textContent = '搜索';
+}
+
+function renderResults(query) {
+  const container = document.getElementById('results');
+  const total = searchResults.length;
+  const totalPages = Math.ceil(total / PAGE_SIZE);
+  const start = currentPage * PAGE_SIZE;
+  const end = Math.min(start + PAGE_SIZE, total);
+  const pageItems = searchResults.slice(start, end);
+
+  document.getElementById('statsBar').textContent =
+    `找到 ${total} 条结果` + (total > 0 ? ` (显示 ${start+1}-${end})` : '');
+
+  if (total === 0) {
+    container.innerHTML = '<div class="empty"><div class="icon">&#x1F50D;</div><p>未找到匹配结果</p><p style="font-size:13px;margin-top:8px">请尝试其他关键词或切换语言</p></div>';
+    return;
+  }
+
+  let html = '';
+  for (const item of pageItems) {
+    const coll = COLLECTIONS[item.c] || {pitaka:'', collection:'', abbr:''};
+    const tagClass = pitakaClass(item.c);
+
+    if (currentLang === 'en') {
+      const scLink = `https://suttacentral.net/${item.u}`;
+      html += `<div class="result-card">
+        <div class="result-meta">
+          <span class="tag ${tagClass}">${coll.pitaka}</span>
+          <span class="uid-badge"><a href="${scLink}" target="_blank" style="color:inherit;text-decoration:none">${item.u}</a></span>
+          <span class="meta-item">${coll.collection}</span>
+          <span class="meta-item">Seg: ${item.s}</span>
+          <span class="meta-item">Tr: ${item.a.join(', ')}</span>
+        </div>
+        <div class="result-body">
+          <div class="pali">${highlight(item.p, query)}</div>
+          <div class="translation">${highlight(item.e, query)}</div>
+        </div>
+      </div>`;
+    } else {
+      const scLink = `https://suttacentral.net/${item.u}`;
+      html += `<div class="result-card">
+        <div class="result-meta">
+          <span class="tag ${tagClass}">${coll.pitaka}</span>
+          <span class="uid-badge"><a href="${scLink}" target="_blank" style="color:inherit;text-decoration:none">${item.u}</a></span>
+          <span class="meta-item">${coll.collection}</span>
+          ${item.t ? `<span class="meta-item">${escapeHtml(item.t)}</span>` : ''}
+          <span class="meta-item">译者: ${escapeHtml(item.a)}</span>
+        </div>
+        <div class="result-body">
+          <div class="translation">${highlight(item.z, query)}</div>
+        </div>
+      </div>`;
+    }
+  }
+
+  if (totalPages > 1) {
+    html += `<div class="pagination">
+      <button onclick="prevPage('${escapeAttr(query)}')" ${currentPage === 0 ? 'disabled' : ''}>上一页</button>
+      <span class="page-info">${currentPage + 1} / ${totalPages}</span>
+      <button onclick="nextPage('${escapeAttr(query)}')" ${currentPage >= totalPages - 1 ? 'disabled' : ''}>下一页</button>
+    </div>`;
+  }
+
+  container.innerHTML = html;
+  container.scrollIntoView({behavior: 'smooth', block: 'start'});
+}
+
+function escapeAttr(s) {
+  return s.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+}
+
+function prevPage(query) {
+  if (currentPage > 0) { currentPage--; renderResults(query); }
+}
+
+function nextPage(query) {
+  const totalPages = Math.ceil(searchResults.length / PAGE_SIZE);
+  if (currentPage < totalPages - 1) { currentPage++; renderResults(query); }
+}
+
+document.getElementById('searchInput').addEventListener('keydown', function(e) {
+  if (e.key === 'Enter') doSearch();
+});
+
+document.getElementById('collectionFilter').addEventListener('change', function() {
+  indexLoaded = false;
+  indexData = [];
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+pali_english - xplayground/other
+Generated: 2026-06-12T11:05:09.455119+00:00
+Group: xplayground/other
+Texts: 1
+
+================================================================================
+xplayground1
+Root: root/pli/ms/xplayground/xplayground1_root-pli-ms.json
+
+English translation sources:
+  - xtest [origin/unpublished]: translation/en/xtest/xplayground/xplayground1_translation-en-xtest.json
+
+xplayground1:1.1
+Pali: This file is just for playing around 
+English (xtest, origin/unpublished): This is a test test testing translation string, testing updated login… 
+
+xplayground1:1.2
+Pali: Whatever you do here doesn't matter 
+English (xtest, origin/unpublished): Whatever I do here, it doesn't matter minor change… 
+
+xplayground1:1.3
+Pali: This is a string for testing TM 
+English (xtest, origin/unpublished): TM Test String Foobar 
+
+xplayground1:1.4
+Pali: This is also a string for testing TM 
+English (xtest, origin/unpublished): TM Test String, this is a test 
+
+xplayground1:1.5
+Pali: This is yet another string for testing TM 
+English (xtest, origin/unpublished): Seeing again for testing… 000 
+
+xplayground1:1.6
+Pali: Do not commit this file to the main data repository 
+English (xtest, origin/unpublished): Do we use pull requests for suggestions and proofreading? I think so. 
+

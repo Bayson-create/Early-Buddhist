@@ -1,0 +1,3803 @@
+{
+  "metadata": {
+    "source": "SuttaCentral bilara-data plus live SuttaCentral legacy API",
+    "data_dir": "/Users/xiebeichen/Downloads/bilara-data",
+    "api_root": "https://suttacentral.net/api",
+    "generated_at": "2026-06-12T10:50:28.845370+00:00",
+    "root_language": "pli",
+    "translation_language": "zh",
+    "root_text_count": 7289,
+    "included_text_count": 7289,
+    "texts_with_any_chinese": 3416,
+    "texts_with_bilara_segmented_chinese": 0,
+    "texts_with_legacy_chinese": 3416,
+    "bilara_segmented_translation_count": 0,
+    "legacy_translation_count": 3432,
+    "pali_segment_count": 444693,
+    "source_file": "pali_chinese_all_sources.json",
+    "pitaka": "vinaya",
+    "collection": "pli-tv-bu-pm",
+    "group_label": "律藏/pli-tv-bu-pm",
+    "text_count": 1
+  },
+  "texts": [
+    {
+      "uid": "pli-tv-bu-pm",
+      "root_path": "root/pli/ms/vinaya/pli-tv-bu-pm_root-pli-ms.json",
+      "pali_segments": [
+        {
+          "segment_id": "pli-tv-bu-pm:0.1",
+          "pali": "Dvemātikāpāḷi ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:0.2",
+          "pali": "Theravāda Bhikkhupātimokkha ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:1.0",
+          "pali": "Pubbakaraṇaṁ ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:1.1",
+          "pali": "Sammajjanī padīpo ca, udakaṁ āsanena ca; ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:1.2",
+          "pali": "Uposathassa etāni, “pubbakaraṇa”nti vuccati. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:2.0",
+          "pali": "Pubbakiccaṁ ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:2.1",
+          "pali": "Chanda, pārisuddhi, utukkhānaṁ, bhikkhugaṇanā ca ovādo; ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:2.2",
+          "pali": "Uposathassa etāni, “pubbakicca”nti vuccati. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:3.0",
+          "pali": "Pattakallaaṅgā ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:3.1",
+          "pali": "Uposatho, yāvatikā ca bhikkhū kammappattā; ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:3.2",
+          "pali": "Sabhāgāpattiyo ca na vijjanti; ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:3.3",
+          "pali": "Vajjanīyā ca puggalā tasmiṁ na honti, “pattakalla”nti vuccati. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:4.1",
+          "pali": "Pubbakaraṇapubbakiccāni samāpetvā desitāpattikassa samaggassa bhikkhusaṅghassa anumatiyā pātimokkhaṁ uddisituṁ ārādhanaṁ karoma. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:5.0",
+          "pali": "Nidānuddeso ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:5.1",
+          "pali": "Suṇātu me bhante saṅgho. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:5.2",
+          "pali": "Ajjuposatho pannaraso, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:5.3",
+          "pali": "yadi saṅghassa pattakallaṁ, saṅgho uposathaṁ kareyya, pātimokkhaṁ uddiseyya. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:6.1",
+          "pali": "Kiṁ saṅghassa pubbakiccaṁ? ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:6.2",
+          "pali": "Pārisuddhiṁ āyasmanto ārocetha, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:6.3",
+          "pali": "pātimokkhaṁ uddisissāmi, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:6.4",
+          "pali": "taṁ sabbeva santā sādhukaṁ suṇoma manasi karoma. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:6.5",
+          "pali": "Yassa siyā āpatti, so āvikareyya, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:6.6",
+          "pali": "asantiyā āpattiyā tuṇhī bhavitabbaṁ, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:6.7",
+          "pali": "tuṇhībhāvena kho panāyasmante “parisuddhā”ti vedissāmi. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:6.8",
+          "pali": "Yathā kho pana paccekapuṭṭhassa veyyākaraṇaṁ hoti, evamevaṁ evarūpāya parisāya yāvatatiyaṁ anusāvitaṁ hoti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:6.9",
+          "pali": "Yo pana bhikkhu yāvatatiyaṁ anusāviyamāne saramāno santiṁ āpattiṁ nāvikareyya, sampajānamusāvādassa hoti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:6.10",
+          "pali": "Sampajānamusāvādo kho panāyasmanto antarāyiko dhammo vutto bhagavatā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:6.11",
+          "pali": "tasmā saramānena bhikkhunā āpannena visuddhāpekkhena santī āpatti āvikātabbā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:6.12",
+          "pali": "āvikatā hissa phāsu hoti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:7.1",
+          "pali": "Uddiṭṭhaṁ kho āyasmanto nidānaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:7.2",
+          "pali": "Tatthāyasmante pucchāmi, kaccittha parisuddhā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:7.3",
+          "pali": "dutiyampi pucchāmi, kaccittha parisuddhā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:7.4",
+          "pali": "tatiyampi pucchāmi, kaccittha parisuddhā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:7.5",
+          "pali": "parisuddhetthāyasmanto, tasmā tuṇhī, evametaṁ dhārayāmīti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:7.6",
+          "pali": "Nidānaṁ niṭṭhitaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:8.0",
+          "pali": "Pārājikuddeso ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:8.1",
+          "pali": "Tatrime cattāro pārājikā dhammā uddesaṁ āgacchanti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:9.0",
+          "pali": "Pārājika 1. Methunadhamma ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:9.1",
+          "pali": "Yo pana bhikkhu bhikkhūnaṁ sikkhāsājīvasamāpanno sikkhaṁ appaccakkhāya dubbalyaṁ anāvikatvā methunaṁ dhammaṁ paṭiseveyya, antamaso tiracchānagatāyapi, pārājiko hoti asaṁvāso. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:10.0",
+          "pali": "Pārājika 2. Adinnādāna ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:10.1",
+          "pali": "Yo pana bhikkhu gāmā vā araññā vā adinnaṁ theyyasaṅkhātaṁ ādiyeyya, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:10.2",
+          "pali": "yathārūpe adinnādāne rājāno coraṁ gahetvā haneyyuṁ vā bandheyyuṁ vā pabbājeyyuṁ vā corosi bālosi mūḷhosi thenosīti, tathārūpaṁ bhikkhu adinnaṁ ādiyamāno ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:10.3",
+          "pali": "ayampi pārājiko hoti asaṁvāso. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:11.0",
+          "pali": "Pārājika 3. Manussaviggaha ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:11.1",
+          "pali": "Yo pana bhikkhu sañcicca manussaviggahaṁ jīvitā voropeyya, satthahārakaṁ vāssa pariyeseyya, maraṇavaṇṇaṁ vā saṁvaṇṇeyya, maraṇāya vā samādapeyya ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:11.2",
+          "pali": "“ambho purisa kiṁ tuyhiminā pāpakena dujjīvitena, mataṁ te jīvitā seyyo”ti, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:11.3",
+          "pali": "iti cittamano cittasaṅkappo anekapariyāyena maraṇavaṇṇaṁ vā saṁvaṇṇeyya, maraṇāya vā samādapeyya, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:11.4",
+          "pali": "ayampi pārājiko hoti asaṁvāso. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:12.0",
+          "pali": "Pārājika 4. Uttarimanussadhamma ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:12.1",
+          "pali": "Yo pana bhikkhu anabhijānaṁ uttarimanussadhammaṁ attupanāyikaṁ alamariyañāṇadassanaṁ samudācareyya “iti jānāmi, iti passāmī”ti, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:12.2",
+          "pali": "tato aparena samayena samanuggāhīyamāno vā asamanuggāhīyamāno vā āpanno visuddhāpekkho evaṁ vadeyya “ajānamevaṁ āvuso avacaṁ jānāmi, apassaṁ passāmi, tucchaṁ musā vilapi”nti, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:12.3",
+          "pali": "aññatra adhimānā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:12.4",
+          "pali": "ayampi pārājiko hoti asaṁvāso. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:13.1",
+          "pali": "Uddiṭṭhā kho āyasmanto cattāro pārājikā dhammā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:13.2",
+          "pali": "Yesaṁ bhikkhu aññataraṁ vā aññataraṁ vā āpajjitvā na labhati bhikkhūhi saddhiṁ saṁvāsaṁ ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:13.3",
+          "pali": "yathā pure, tathā pacchā, pārājiko hoti asaṁvāso. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:13.4",
+          "pali": "Tatthāyasmante pucchāmi, kaccittha parisuddhā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:13.5",
+          "pali": "dutiyampi pucchāmi, kaccittha parisuddhā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:13.6",
+          "pali": "tatiyampi pucchāmi, kaccittha parisuddhā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:13.7",
+          "pali": "parisuddhetthāyasmanto, tasmā tuṇhī, evametaṁ dhārayāmīti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:13.8",
+          "pali": "Pārājikaṁ niṭṭhitaṁ ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:14.0",
+          "pali": "Saṅghādisesuddeso ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:14.1",
+          "pali": "Ime kho panāyasmanto terasa saṅghādisesā dhammā uddesaṁ āgacchanti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:15.0",
+          "pali": "Saṅghādisesa 1. Sukkavissaṭṭhi ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:15.1",
+          "pali": "Sañcetanikā sukkavissaṭṭhi aññatra supinantā saṅghādiseso. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:16.0",
+          "pali": "Saṅghādisesa 2. Kāyasaṁsagga ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:16.1",
+          "pali": "Yo pana bhikkhu otiṇṇo vipariṇatena cittena mātugāmena saddhiṁ kāyasaṁsaggaṁ samāpajjeyya hatthaggāhaṁ vā veṇiggāhaṁ vā aññatarassa vā aññatarassa vā aṅgassa parāmasanaṁ, saṅghādiseso. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:17.0",
+          "pali": "Saṅghādisesa 3. Duṭṭhullavācā ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:17.1",
+          "pali": "Yo pana bhikkhu otiṇṇo vipariṇatena cittena mātugāmaṁ duṭṭhullāhi vācāhi obhāseyya yathā taṁ yuvā yuvatiṁ methunupasaṁhitāhi, saṅghādiseso. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:18.0",
+          "pali": "Saṅghādisesa 4. Attakāmapāricariya ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:18.1",
+          "pali": "Yo pana bhikkhu otiṇṇo vipariṇatena cittena mātugāmassa santike attakāmapāricariyāya vaṇṇaṁ bhāseyya “etadaggaṁ bhagini pāricariyānaṁ yā mādisaṁ sīlavantaṁ kalyāṇadhammaṁ brahmacāriṁ etena dhammena paricareyyā”ti methunupasaṁhitena, saṅghādiseso. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:19.0",
+          "pali": "Saṅghādisesa 5. Sañcaritta ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:19.1",
+          "pali": "Yo pana bhikkhu sañcarittaṁ samāpajjeyya itthiyā vā purisamatiṁ purisassa vā itthimatiṁ, jāyattane vā jārattane vā, antamaso taṅkhaṇikāyapi, saṅghādiseso. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:20.0",
+          "pali": "Saṅghādisesa 6. Kuṭikāra ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:20.1",
+          "pali": "Saññācikāya pana bhikkhunā kuṭiṁ kārayamānena assāmikaṁ attuddesaṁ pamāṇikā kāretabbā, tatridaṁ pamāṇaṁ, dīghaso dvādasa vidatthiyo sugatavidatthiyā, tiriyaṁ sattantarā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:20.2",
+          "pali": "bhikkhū abhinetabbā vatthudesanāya, tehi bhikkhūhi vatthu desetabbaṁ anārambhaṁ saparikkamanaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:20.3",
+          "pali": "Sārambhe ce bhikkhu vatthusmiṁ aparikkamane saññācikāya kuṭiṁ kāreyya, bhikkhū vā anabhineyya vatthudesanāya, pamāṇaṁ vā atikkāmeyya, saṅghādiseso. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:21.0",
+          "pali": "Saṅghādisesa 7. Vihārakāra ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:21.1",
+          "pali": "Mahallakaṁ pana bhikkhunā vihāraṁ kārayamānena sassāmikaṁ attuddesaṁ bhikkhū abhinetabbā vatthudesanāya, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:21.2",
+          "pali": "tehi bhikkhūhi vatthu desetabbaṁ anārambhaṁ saparikkamanaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:21.3",
+          "pali": "Sārambhe ce bhikkhu vatthusmiṁ aparikkamane mahallakaṁ vihāraṁ kāreyya, bhikkhū vā anabhineyya vatthudesanāya, saṅghādiseso. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:22.0",
+          "pali": "Saṅghādisesa 8. Duṭṭhadosa ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:22.1",
+          "pali": "Yo pana bhikkhu bhikkhuṁ duṭṭho doso appatīto amūlakena pārājikena dhammena anuddhaṁseyya “appeva nāma naṁ imamhā brahmacariyā cāveyya”nti, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:22.2",
+          "pali": "tato aparena samayena samanuggāhīyamāno vā asamanuggāhīyamāno vā amūlakañceva taṁ adhikaraṇaṁ hoti, bhikkhu ca dosaṁ patiṭṭhāti, saṅghādiseso. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:23.0",
+          "pali": "Saṅghādisesa 9. Aññabhāgiya ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:23.1",
+          "pali": "Yo pana bhikkhu bhikkhuṁ duṭṭho doso appatīto aññabhāgiyassa adhikaraṇassa kiñcidesaṁ lesamattaṁ upādāya pārājikena dhammena anuddhaṁseyya “appeva nāma naṁ imamhā brahmacariyā cāveyya”nti, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:23.2",
+          "pali": "tato aparena samayena samanuggāhīyamāno vā asamanuggāhīyamāno vā aññabhāgiyañceva taṁ adhikaraṇaṁ hoti kocideso lesamatto upādinno, bhikkhu ca dosaṁ patiṭṭhāti, saṅghādiseso. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:24.0",
+          "pali": "Saṅghādisesa 10. Saṅghabheda ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:24.1",
+          "pali": "Yo pana bhikkhu samaggassa saṅghassa bhedāya parakkameyya, bhedanasaṁvattanikaṁ vā adhikaraṇaṁ samādāya paggayha tiṭṭheyya, so bhikkhu bhikkhūhi evamassa vacanīyo ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:24.2",
+          "pali": "“māyasmā samaggassa saṅghassa bhedāya parakkami, bhedanasaṁvattanikaṁ vā adhikaraṇaṁ samādāya paggayha aṭṭhāsi, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:24.3",
+          "pali": "sametāyasmā saṅghena, samaggo hi saṅgho sammodamāno avivadamāno ekuddeso phāsu viharatī”ti, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:24.4",
+          "pali": "evañca so bhikkhu bhikkhūhi vuccamāno tatheva paggaṇheyya, so bhikkhu bhikkhūhi yāvatatiyaṁ samanubhāsitabbo tassa paṭinissaggāya, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:24.5",
+          "pali": "yāvatatiyañce samanubhāsiyamāno taṁ paṭinissajjeyya, iccetaṁ kusalaṁ, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:24.6",
+          "pali": "no ce paṭinissajjeyya, saṅghādiseso. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:25.0",
+          "pali": "Saṅghādisesa 11. Bhedānuvattaka ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:25.1",
+          "pali": "Tasseva kho pana bhikkhussa bhikkhū honti anuvattakā vaggavādakā eko vā dve vā tayo vā, te evaṁ vadeyyuṁ ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:25.2",
+          "pali": "“māyasmanto etaṁ bhikkhuṁ kiñci avacuttha, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:25.3",
+          "pali": "dhammavādī ceso bhikkhu, vinayavādī ceso bhikkhu, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:25.4",
+          "pali": "amhākañceso bhikkhu chandañca ruciñca ādāya voharati, jānāti, no bhāsati, amhākampetaṁ khamatī”ti, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:25.5",
+          "pali": "te bhikkhū bhikkhūhi evamassu vacanīyā ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:25.6",
+          "pali": "“māyasmanto evaṁ avacuttha, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:25.7",
+          "pali": "na ceso bhikkhu dhammavādī, na ceso bhikkhu vinayavādī, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:25.8",
+          "pali": "māyasmantānampi saṅghabhedo ruccittha, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:25.9",
+          "pali": "sametāyasmantānaṁ saṅghena, samaggo hi saṅgho sammodamāno avivadamāno ekuddeso phāsu viharatī”ti, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:25.10",
+          "pali": "evañca te bhikkhū bhikkhūhi vuccamānā tatheva paggaṇheyyuṁ, te bhikkhū bhikkhūhi yāvatatiyaṁ samanubhāsitabbā tassa paṭinissaggāya, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:25.11",
+          "pali": "yāvatatiyañce samanubhāsiyamānā taṁ paṭinissajjeyyuṁ, iccetaṁ kusalaṁ, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:25.12",
+          "pali": "no ce paṭinissajjeyyuṁ, saṅghādiseso. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:26.0",
+          "pali": "Saṅghādisesa 12. Dubbaca ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:26.1",
+          "pali": "Bhikkhu paneva dubbacajātiko hoti uddesapariyāpannesu sikkhāpadesu bhikkhūhi sahadhammikaṁ vuccamāno attānaṁ avacanīyaṁ karoti ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:26.2",
+          "pali": "“mā maṁ āyasmanto kiñci avacuttha kalyāṇaṁ vā pāpakaṁ vā, ahampāyasmante na kiñci vakkhāmi kalyāṇaṁ vā pāpakaṁ vā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:26.3",
+          "pali": "viramathāyasmanto mama vacanāyā”ti, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:26.4",
+          "pali": "so bhikkhu bhikkhūhi evamassa vacanīyo ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:26.5",
+          "pali": "“māyasmā attānaṁ avacanīyaṁ akāsi, vacanīyamevāyasmā attānaṁ karotu, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:26.6",
+          "pali": "āyasmāpi bhikkhū vadatu sahadhammena, bhikkhūpi āyasmantaṁ vakkhanti sahadhammena, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:26.7",
+          "pali": "evaṁ saṁvaddhā hi tassa bhagavato parisā yadidaṁ aññamaññavacanena aññamaññavuṭṭhāpanenā”ti, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:26.8",
+          "pali": "evañca so bhikkhu bhikkhūhi vuccamāno tatheva paggaṇheyya, so bhikkhu bhikkhūhi yāvatatiyaṁ samanubhāsitabbo tassa paṭinissaggāya, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:26.9",
+          "pali": "yāvatatiyañce samanubhāsiyamāno taṁ paṭinissajjeyya, iccetaṁ kusalaṁ, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:26.10",
+          "pali": "no ce paṭinissajjeyya, saṅghādiseso. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:27.0",
+          "pali": "Saṅghādisesa 13. Kuladūsaka ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:27.1",
+          "pali": "Bhikkhu paneva aññataraṁ gāmaṁ vā nigamaṁ vā upanissāya viharati kuladūsako pāpasamācāro, tassa kho pāpakā samācārā dissanti ceva suyyanti ca, kulāni ca tena duṭṭhāni dissanti ceva suyyanti ca, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:27.2",
+          "pali": "so bhikkhu bhikkhūhi evamassa vacanīyo ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:27.3",
+          "pali": "“āyasmā kho kuladūsako pāpasamācāro, āyasmato kho pāpakā samācārā dissanti ceva suyyanti ca, kulāni cāyasmatā duṭṭhāni dissanti ceva suyyanti ca, pakkamatāyasmā imamhā āvāsā, alaṁ te idha vāsenā”ti, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:27.4",
+          "pali": "evañca so bhikkhu bhikkhūhi vuccamāno te bhikkhū evaṁ vadeyya ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:27.5",
+          "pali": "“chandagāmino ca bhikkhū, dosagāmino ca bhikkhū, mohagāmino ca bhikkhū, bhayagāmino ca bhikkhū tādisikāya āpattiyā ekaccaṁ pabbājenti, ekaccaṁ na pabbājentī”ti, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:27.6",
+          "pali": "so bhikkhu bhikkhūhi evamassa vacanīyo ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:27.7",
+          "pali": "“māyasmā evaṁ avaca, na ca bhikkhū chandagāmino, na ca bhikkhū dosagāmino, na ca bhikkhū mohagāmino, na ca bhikkhū bhayagāmino, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:27.8",
+          "pali": "āyasmā kho kuladūsako pāpasamācāro, āyasmato kho pāpakā samācārā dissanti ceva suyyanti ca, kulāni cāyasmatā duṭṭhāni dissanti ceva suyyanti ca, pakkamatāyasmā imamhā āvāsā, alaṁ te idha vāsenā”ti, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:27.9",
+          "pali": "evañca so bhikkhu bhikkhūhi vuccamāno tatheva paggaṇheyya, so bhikkhu bhikkhūhi yāvatatiyaṁ samanubhāsitabbo tassa paṭinissaggāya, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:27.10",
+          "pali": "yāvatatiyañce samanubhāsiyamāno taṁ paṭinissajjeyya, iccetaṁ kusalaṁ, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:27.11",
+          "pali": "no ce paṭinissajjeyya, saṅghādiseso. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:28.1",
+          "pali": "Uddiṭṭhā kho āyasmanto terasa saṅghādisesā dhammā nava paṭhamāpattikā, cattāro yāvatatiyakā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:28.2",
+          "pali": "Yesaṁ bhikkhu aññataraṁ vā aññataraṁ vā āpajjitvā yāvatīhaṁ jānaṁ paṭicchādeti, tāvatīhaṁ tena bhikkhunā akāmā parivatthabbaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:28.3",
+          "pali": "Parivutthaparivāsena bhikkhunā uttari chārattaṁ bhikkhumānattāya paṭipajjitabbaṁ, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:28.4",
+          "pali": "ciṇṇamānatto bhikkhu yattha siyā vīsatigaṇo bhikkhusaṅgho, tattha so bhikkhu abbhetabbo. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:28.5",
+          "pali": "Ekenapi ce ūno vīsatigaṇo bhikkhusaṅgho taṁ bhikkhuṁ abbheyya, so ca bhikkhu anabbhito, te ca bhikkhū gārayhā, ayaṁ tattha sāmīci. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:28.6",
+          "pali": "Tatthāyasmante pucchāmi, kaccittha parisuddhā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:28.7",
+          "pali": "dutiyampi pucchāmi, kaccittha parisuddhā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:28.8",
+          "pali": "tatiyampi pucchāmi, kaccittha parisuddhā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:28.9",
+          "pali": "parisuddhetthāyasmanto, tasmā tuṇhī, evametaṁ dhārayāmīti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:28.10",
+          "pali": "Saṅghādiseso niṭṭhito ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:29.0",
+          "pali": "Aniyatuddeso ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:29.1",
+          "pali": "Ime kho panāyasmanto dve aniyatā dhammā uddesaṁ āgacchanti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:30.0",
+          "pali": "Aniyata 1. Paṭhamaaniyata ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:30.1",
+          "pali": "Yo pana bhikkhu mātugāmena saddhiṁ eko ekāya raho paṭicchanne āsane alaṅkammaniye nisajjaṁ kappeyya, tamenaṁ saddheyyavacasā upāsikā disvā ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:30.2",
+          "pali": "tiṇṇaṁ dhammānaṁ aññatarena vadeyya pārājikena vā saṅghādisesena vā pācittiyena vā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:30.3",
+          "pali": "nisajjaṁ bhikkhu paṭijānamāno tiṇṇaṁ dhammānaṁ aññatarena kāretabbo pārājikena vā saṅghādisesena vā pācittiyena vā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:30.4",
+          "pali": "yena vā sā saddheyyavacasā upāsikā vadeyya, tena so bhikkhu kāretabbo, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:30.5",
+          "pali": "ayaṁ dhammo aniyato. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:31.0",
+          "pali": "Aniyata 2. Dutiyaaniyata ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:31.1",
+          "pali": "Na heva kho pana paṭicchannaṁ āsanaṁ hoti nālaṅkammaniyaṁ, alañca kho hoti mātugāmaṁ duṭṭhullāhi vācāhi obhāsituṁ, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:31.2",
+          "pali": "yo pana bhikkhu tathārūpe āsane mātugāmena saddhiṁ eko ekāya raho nisajjaṁ kappeyya, tamenaṁ saddheyyavacasā upāsikā disvā ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:31.3",
+          "pali": "dvinnaṁ dhammānaṁ aññatarena vadeyya saṅghādisesena vā pācittiyena vā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:31.4",
+          "pali": "nisajjaṁ bhikkhu paṭijānamāno dvinnaṁ dhammānaṁ aññatarena kāretabbo saṅghādisesena vā pācittiyena vā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:31.5",
+          "pali": "yena vā sā saddheyyavacasā upāsikā vadeyya, tena so bhikkhu kāretabbo, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:31.6",
+          "pali": "ayampi dhammo aniyato. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:32.1",
+          "pali": "Uddiṭṭhā kho āyasmanto dve aniyatā dhammā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:32.2",
+          "pali": "Tatthāyasmante pucchāmi, kaccittha parisuddhā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:32.3",
+          "pali": "dutiyampi pucchāmi, kaccittha parisuddhā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:32.4",
+          "pali": "tatiyampi pucchāmi, kaccittha parisuddhā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:32.5",
+          "pali": "parisuddhetthāyasmanto, tasmā tuṇhī, evametaṁ dhārayāmīti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:32.6",
+          "pali": "Aniyato niṭṭhito ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:33.0",
+          "pali": "Nissaggiyapācittiyā ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:33.1",
+          "pali": "Ime kho panāyasmanto tiṁsa nissaggiyā pācittiyā dhammā uddesaṁ āgacchanti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:34.0.1",
+          "pali": "Chapter 1. Kaṭhina ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:34.0.2",
+          "pali": "Nissaggiya Pācittiya 1. Kathina ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:34.1",
+          "pali": "Niṭṭhitacīvarasmiṁ bhikkhunā ubbhatasmiṁ kathine dasāhaparamaṁ atirekacīvaraṁ dhāretabbaṁ, taṁ atikkāmayato nissaggiyaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:35.0",
+          "pali": "Nissaggiya Pācittiya 2. Udosita ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:35.1",
+          "pali": "Niṭṭhitacīvarasmiṁ bhikkhunā ubbhatasmiṁ kathine ekarattampi ce bhikkhu ticīvarena vippavaseyya, aññatra bhikkhusammutiyā nissaggiyaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:36.0",
+          "pali": "Nissaggiya Pācittiya 3. Akālacīvara ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:36.1",
+          "pali": "Niṭṭhitacīvarasmiṁ bhikkhunā ubbhatasmiṁ kathine bhikkhuno paneva akālacīvaraṁ uppajjeyya, ākaṅkhamānena bhikkhunā paṭiggahetabbaṁ, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:36.2",
+          "pali": "paṭiggahetvā khippameva kāretabbaṁ, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:36.3",
+          "pali": "no cassa pāripūri, māsaparamaṁ tena bhikkhunā taṁ cīvaraṁ nikkhipitabbaṁ ūnassa pāripūriyā satiyā paccāsāya. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:36.4",
+          "pali": "Tato ce uttari nikkhipeyya satiyāpi paccāsāya, nissaggiyaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:37.0",
+          "pali": "Nissaggiya Pācittiya 4. Purāṇacīvara ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:37.1",
+          "pali": "Yo pana bhikkhu aññātikāya bhikkhuniyā purāṇacīvaraṁ dhovāpeyya vā rajāpeyya vā ākoṭāpeyya vā, nissaggiyaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:38.0",
+          "pali": "Nissaggiya Pācittiya 5. Cīvarapaṭiggahaṇa ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:38.1",
+          "pali": "Yo pana bhikkhu aññātikāya bhikkhuniyā hatthato cīvaraṁ paṭiggaṇheyya aññatra pārivattakā, nissaggiyaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:39.0",
+          "pali": "Nissaggiya Pācittiya 6. Aññātakaviññatti ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:39.1",
+          "pali": "Yo pana bhikkhu aññātakaṁ gahapatiṁ vā gahapatāniṁ vā cīvaraṁ viññāpeyya aññatra samayā, nissaggiyaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:39.2",
+          "pali": "Tatthāyaṁ samayo, acchinnacīvaro vā hoti bhikkhu, naṭṭhacīvaro vā, ayaṁ tattha samayo. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:40.0",
+          "pali": "Nissaggiya Pācittiya 7. Tatuttari ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:40.1",
+          "pali": "Tañce aññātako gahapati vā gahapatānī vā bahūhi cīvarehi abhihaṭṭhuṁ pavāreyya, santaruttaraparamaṁ tena bhikkhunā tato cīvaraṁ sāditabbaṁ. Tato ce uttari sādiyeyya, nissaggiyaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:41.0",
+          "pali": "Nissaggiya Pācittiya 8. Paṭhamaupakkhaṭa ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:41.1",
+          "pali": "Bhikkhuṁ paneva uddissa aññātakassa gahapatissa vā gahapatāniyā vā cīvaracetāpannaṁ upakkhaṭaṁ hoti ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:41.2",
+          "pali": "“iminā cīvaracetāpannena cīvaraṁ cetāpetvā itthannāmaṁ bhikkhuṁ cīvarena acchādessāmī”ti, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:41.3",
+          "pali": "tatra ce so bhikkhu pubbe appavārito upasaṅkamitvā cīvare vikappaṁ āpajjeyya ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:41.4",
+          "pali": "“sādhu vata maṁ āyasmā iminā cīvaracetāpannena evarūpaṁ vā evarūpaṁ vā cīvaraṁ cetāpetvā acchādehī”ti ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:41.5",
+          "pali": "kalyāṇakamyataṁ upādāya, nissaggiyaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:42.0",
+          "pali": "Nissaggiya Pācittiya 9. Dutiyaupakkhaṭa ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:42.1",
+          "pali": "Bhikkhuṁ paneva uddissa ubhinnaṁ aññātakānaṁ gahapatīnaṁ vā gahapatānīnaṁ vā paccekacīvaracetāpannāni upakkhaṭāni honti ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:42.2",
+          "pali": "“imehi mayaṁ paccekacīvaracetāpannehi paccekacīvarāni cetāpetvā itthannāmaṁ bhikkhuṁ cīvarehi acchādessāmā”ti, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:42.3",
+          "pali": "tatra ce so bhikkhu pubbe appavārito upasaṅkamitvā cīvare vikappaṁ āpajjeyya ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:42.4",
+          "pali": "“sādhu vata maṁ āyasmanto imehi paccekacīvaracetāpannehi evarūpaṁ vā evarūpaṁ vā cīvaraṁ cetāpetvā acchādetha ubhova santā ekenā”ti ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:42.5",
+          "pali": "kalyāṇakamyataṁ upādāya, nissaggiyaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:43.0",
+          "pali": "Nissaggiya Pācittiya 10. Rāja ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:43.1",
+          "pali": "Bhikkhuṁ paneva uddissa rājā vā rājabhoggo vā brāhmaṇo vā gahapatiko vā dūtena cīvaracetāpannaṁ pahiṇeyya ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:43.2",
+          "pali": "“iminā cīvaracetāpannena cīvaraṁ cetāpetvā itthannāmaṁ bhikkhuṁ cīvarena acchādehī”ti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:43.3",
+          "pali": "So ce dūto taṁ bhikkhuṁ upasaṅkamitvā evaṁ vadeyya ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:43.4",
+          "pali": "“idaṁ kho, bhante, āyasmantaṁ uddissa cīvaracetāpannaṁ ābhataṁ, paṭiggaṇhātu āyasmā cīvaracetāpanna”nti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:43.5",
+          "pali": "Tena bhikkhunā so dūto evamassa vacanīyo ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:43.6",
+          "pali": "“na kho mayaṁ, āvuso, cīvaracetāpannaṁ paṭiggaṇhāma, cīvarañca kho mayaṁ paṭiggaṇhāma kālena kappiya”nti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:43.7",
+          "pali": "So ce dūto taṁ bhikkhuṁ evaṁ vadeyya ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:43.8",
+          "pali": "“atthi panāyasmato koci veyyāvaccakaro”ti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:43.9",
+          "pali": "Cīvaratthikena, bhikkhave, bhikkhunā veyyāvaccakaro niddisitabbo ārāmiko vā upāsako vā ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:43.10",
+          "pali": "“eso kho, āvuso, bhikkhūnaṁ veyyāvaccakaro”ti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:43.11",
+          "pali": "So ce dūto taṁ veyyāvaccakaraṁ saññāpetvā taṁ bhikkhuṁ upasaṅkamitvā evaṁ vadeyya ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:43.12",
+          "pali": "“yaṁ kho, bhante, āyasmā veyyāvaccakaraṁ niddisi, saññatto so mayā, upasaṅkamatāyasmā kālena, cīvarena taṁ acchādessatī”ti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:43.13",
+          "pali": "Cīvaratthikena, bhikkhave, bhikkhunā veyyāvaccakaro upasaṅkamitvā dvattikkhattuṁ codetabbo sāretabbo ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:43.14",
+          "pali": "“attho me, āvuso, cīvarenā”ti, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:43.15",
+          "pali": "dvattikkhattuṁ codayamāno sārayamāno taṁ cīvaraṁ abhinipphādeyya, iccetaṁ kusalaṁ, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:43.16",
+          "pali": "no ce abhinipphādeyya, catukkhattuṁ pañcakkhattuṁ chakkhattuparamaṁ tuṇhībhūtena uddissa ṭhātabbaṁ, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:43.17",
+          "pali": "catukkhattuṁ pañcakkhattuṁ chakkhattuparamaṁ tuṇhībhūto uddissa tiṭṭhamāno taṁ cīvaraṁ abhinipphādeyya, iccetaṁ kusalaṁ, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:43.18",
+          "pali": "tato ce uttari vāyamamāno taṁ cīvaraṁ abhinipphādeyya, nissaggiyaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:43.19",
+          "pali": "No ce abhinipphādeyya, yatassa cīvaracetāpannaṁ ābhataṁ, tattha sāmaṁ vā gantabbaṁ, dūto vā pāhetabbo ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:43.20",
+          "pali": "“yaṁ kho tumhe āyasmanto bhikkhuṁ uddissa cīvaracetāpannaṁ pahiṇittha, na taṁ tassa bhikkhuno kiñci atthaṁ anubhoti, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:43.21",
+          "pali": "yuñjantāyasmanto sakaṁ, mā vo sakaṁ vinassā”ti, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:43.22",
+          "pali": "ayaṁ tattha sāmīci. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:43.23",
+          "pali": "Kathinavaggo paṭhamo. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:44.0.1",
+          "pali": "Chapter 2. Kosiya ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:44.0.2",
+          "pali": "Nissaggiya Pācittiya 11. Kosiya ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:44.1",
+          "pali": "Yo pana bhikkhu kosiyamissakaṁ santhataṁ kārāpeyya, nissaggiyaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:45.0",
+          "pali": "Nissaggiya Pācittiya 12. Suddhakāḷaka ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:45.1",
+          "pali": "Yo pana bhikkhu suddhakāḷakānaṁ eḷakalomānaṁ santhataṁ kārāpeyya, nissaggiyaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:46.0",
+          "pali": "Nissaggiya Pācittiya 13. Dvebhāga ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:46.1",
+          "pali": "Navaṁ pana bhikkhunā santhataṁ kārayamānena dve bhāgā suddhakāḷakānaṁ eḷakalomānaṁ ādātabbā, tatiyaṁ odātānaṁ, catutthaṁ gocariyānaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:46.2",
+          "pali": "Anādā ce bhikkhu dve bhāge suddhakāḷakānaṁ eḷakalomānaṁ, tatiyaṁ odātānaṁ, catutthaṁ gocariyānaṁ, navaṁ santhataṁ kārāpeyya, nissaggiyaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:47.0",
+          "pali": "Nissaggiya Pācittiya 14. Chabbassa ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:47.1",
+          "pali": "Navaṁ pana bhikkhunā santhataṁ kārāpetvā chabbassāni dhāretabbaṁ, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:47.2",
+          "pali": "orena ce channaṁ vassānaṁ taṁ santhataṁ vissajjetvā vā avissajjetvā vā aññaṁ navaṁ santhataṁ kārāpeyya aññatra bhikkhusammutiyā, nissaggiyaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:48.0",
+          "pali": "Nissaggiya Pācittiya 15. Nisīdanasanthata ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:48.1",
+          "pali": "Nisīdanasanthataṁ pana bhikkhunā kārayamānena purāṇasanthatassa sāmantā sugatavidatthi ādātabbā dubbaṇṇakaraṇāya. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:48.2",
+          "pali": "Anādā ce bhikkhu purāṇasantha tassa sāmantā sugatavidatthiṁ, navaṁ nisīdanasanthataṁ kārāpeyya, nissaggiyaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:49.0",
+          "pali": "Nissaggiya Pācittiya 16. Eḷakaloma ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:49.1",
+          "pali": "Bhikkhuno paneva addhānamaggappaṭipannassa eḷakalomāni uppajjeyyuṁ, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:49.2",
+          "pali": "ākaṅkhamānena bhikkhunā paṭiggahetabbāni, paṭiggahetvā tiyojanaparamaṁ sahatthā haritabbāni asante hārake. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:49.3",
+          "pali": "Tato ce uttari hareyya, asantepi hārake, nissaggiyaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:50.0",
+          "pali": "Nissaggiya Pācittiya 17. Eḷakalomadhovāpana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:50.1",
+          "pali": "Yo pana bhikkhu aññātikāya bhikkhuniyā eḷakalomāni dhovāpeyya vā rajāpeyya vā vijaṭāpeyya vā, nissaggiyaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:51.0",
+          "pali": "Nissaggiya Pācittiya 18. Rūpiya ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:51.1",
+          "pali": "Yo pana bhikkhu jātarūparajataṁ uggaṇheyya vā uggaṇhāpeyya vā upanikkhittaṁ vā sādiyeyya, nissaggiyaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:52.0",
+          "pali": "Nissaggiya Pācittiya 19. Rūpiyasaṁvohāra ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:52.1",
+          "pali": "Yo pana bhikkhu nānappakārakaṁ rūpiyasaṁvohāraṁ samāpajjeyya, nissaggiyaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:53.0",
+          "pali": "Nissaggiya Pācittiya 20. Kayavikkaya ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:53.1",
+          "pali": "Yo pana bhikkhu nānappakārakaṁ kayavikkayaṁ samāpajjeyya, nissaggiyaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:53.2",
+          "pali": "Kosiyavaggo dutiyo. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:54.0.1",
+          "pali": "Chapter 3. Patta ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:54.0.2",
+          "pali": "Nissaggiya Pācittiya 21. Patta ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:54.1",
+          "pali": "Dasāhaparamaṁ atirekapatto dhāretabbo, taṁ atikkāmayato nissaggiyaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:55.0",
+          "pali": "Nissaggiya Pācittiya 22. Ūnapañcabandhana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:55.1",
+          "pali": "Yo pana bhikkhu ūnapañcabandhanena pattena aññaṁ navaṁ pattaṁ cetāpeyya, nissaggiyaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:55.2",
+          "pali": "Tena bhikkhunā so patto bhikkhuparisāya nissajjitabbo, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:55.3",
+          "pali": "yo ca tassā bhikkhuparisāya pattapariyanto, so tassa bhikkhuno padātabbo “ayaṁ te bhikkhu patto yāva bhedanāya dhāretabbo”ti, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:55.4",
+          "pali": "ayaṁ tattha sāmīci. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:56.0",
+          "pali": "Nissaggiya Pācittiya 23. Bhesajja ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:56.1",
+          "pali": "Yāni kho pana tāni gilānānaṁ bhikkhūnaṁ paṭisāyanīyāni bhesajjāni, seyyathidaṁ—sappi navanītaṁ telaṁ madhu phāṇitaṁ, tāni paṭiggahetvā sattāhaparamaṁ sannidhikārakaṁ paribhuñjitabbāni, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:56.2",
+          "pali": "taṁ atikkāmayato nissaggiyaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:57.0",
+          "pali": "Nissaggiya Pācittiya 24. Vassikasāṭika ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:57.1",
+          "pali": "“Māso seso gimhāna”nti bhikkhunā vassikasāṭikacīvaraṁ pariyesitabbaṁ, “addhamāso seso gimhāna”nti katvā nivāsetabbaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:57.2",
+          "pali": "Orena ce “māso seso gimhāna”nti vassikasāṭikacīvaraṁ pariyeseyya, orena“ddhamāso seso gimhāna”nti katvā nivāseyya, nissaggiyaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:58.0",
+          "pali": "Nissaggiya Pācittiya 25. Cīvaraacchindana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:58.1",
+          "pali": "Yo pana bhikkhu bhikkhussa sāmaṁ cīvaraṁ datvā kupito anattamano acchindeyya vā acchindāpeyya vā, nissaggiyaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:59.0",
+          "pali": "Nissaggiya Pācittiya 26. Suttaviññatti ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:59.1",
+          "pali": "Yo pana bhikkhu sāmaṁ suttaṁ viññāpetvā tantavāyehi cīvaraṁ vāyāpeyya, nissaggiyaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:60.0",
+          "pali": "Nissaggiya Pācittiya 27. Mahāpesakāra ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:60.1",
+          "pali": "Bhikkhuṁ paneva uddissa aññātako gahapati vā gahapatānī vā tantavāyehi cīvaraṁ vāyāpeyya, tatra ce so bhikkhu pubbe appavārito tantavāye upasaṅkamitvā cīvare vikappaṁ āpajjeyya ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:60.2",
+          "pali": "“idaṁ kho, āvuso, cīvaraṁ maṁ uddissa viyyati, āyatañca karotha, vitthatañca, appitañca, suvītañca, suppavāyitañca, suvilekhitañca, suvitacchitañca karotha, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:60.3",
+          "pali": "appeva nāma mayampi āyasmantānaṁ kiñcimattaṁ anupadajjeyyāmā”ti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:60.4",
+          "pali": "Evañca so bhikkhu vatvā kiñcimattaṁ anupadajjeyya antamaso piṇḍapātamattampi, nissaggiyaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:61.0",
+          "pali": "Nissaggiya Pācittiya 28. Accekacīvara ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:61.1",
+          "pali": "Dasāhānāgataṁ kattikatemāsikapuṇṇamaṁ bhikkhuno paneva accekacīvaraṁ uppajjeyya, accekaṁ maññamānena bhikkhunā paṭiggahetabbaṁ, paṭiggahetvā yāva cīvarakālasamayaṁ nikkhipitabbaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:61.2",
+          "pali": "Tato ce uttari nikkhipeyya, nissaggiyaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:62.0",
+          "pali": "Nissaggiya Pācittiya 29. Sāsaṅka ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:62.1",
+          "pali": "Upavassaṁ kho pana kattikapuṇṇamaṁ yāni kho pana tāni āraññakāni senāsanāni sāsaṅkasammatāni sappaṭibhayāni, tathārūpesu bhikkhu senāsanesu viharanto ākaṅkhamāno tiṇṇaṁ cīvarānaṁ aññataraṁ cīvaraṁ antaraghare nikkhipeyya, siyā ca tassa bhikkhuno kocideva paccayo tena cīvarena vippavāsāya, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:62.2",
+          "pali": "chārattaparamaṁ tena bhikkhunā tena cīvarena vippavasitabbaṁ. Tato ce uttari vippavaseyya aññatra bhikkhusammutiyā, nissaggiyaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:63.0",
+          "pali": "Nissaggiya Pācittiya 30. Pariṇata ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:63.1",
+          "pali": "Yo pana bhikkhu jānaṁ saṅghikaṁ lābhaṁ pariṇataṁ attano pariṇāmeyya, nissaggiyaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:63.2",
+          "pali": "Pattavaggo tatiyo. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:64.1",
+          "pali": "Uddiṭṭhā kho āyasmanto tiṁsa nissaggiyā pācittiyā dhammā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:64.2",
+          "pali": "Tatthāyasmante pucchāmi, kaccittha parisuddhā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:64.3",
+          "pali": "dutiyampi pucchāmi, kaccittha parisuddhā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:64.4",
+          "pali": "tatiyampi pucchāmi, kaccittha parisuddhā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:64.5",
+          "pali": "parisuddhetthāyasmanto, tasmā tuṇhī, evametaṁ dhārayāmīti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:64.6",
+          "pali": "Nissaggiyapācittiyā niṭṭhitā ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:65.0",
+          "pali": "Suddhapācittiyā ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:65.1",
+          "pali": "Ime kho panāyasmanto dvenavuti pācittiyā dhammā uddesaṁ āgacchanti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:66.0.1",
+          "pali": "Chapter 1. Musāvāda ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:66.0.2",
+          "pali": "Pācittiya 1. Musāvāda ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:66.1",
+          "pali": "Sampajānamusāvāde pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:67.0",
+          "pali": "Pācittiya 2. Omasavāda ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:67.1",
+          "pali": "Omasavāde pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:68.0",
+          "pali": "Pācittiya 3. Pesuñña ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:68.1",
+          "pali": "Bhikkhupesuññe pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:69.0",
+          "pali": "Pācittiya 4. Padasodhamma ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:69.1",
+          "pali": "Yo pana bhikkhu anupasampannaṁ padaso dhammaṁ vāceyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:70.0",
+          "pali": "Pācittiya 5. Paṭhamasahaseyya ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:70.1",
+          "pali": "Yo pana bhikkhu anupasampannena uttaridirattatirattaṁ sahaseyyaṁ kappeyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:71.0",
+          "pali": "Pācittiya 6. Dutiyasahaseyya ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:71.1",
+          "pali": "Yo pana bhikkhu mātugāmena sahaseyyaṁ kappeyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:72.0",
+          "pali": "Pācittiya 7. Dhammadesanā ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:72.1",
+          "pali": "Yo pana bhikkhu mātugāmassa uttarichappañcavācāhi dhammaṁ deseyya aññatra viññunā purisaviggahena, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:73.0",
+          "pali": "Pācittiya 8. Bhūtārocana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:73.1",
+          "pali": "Yo pana bhikkhu anupasampannassa uttarimanussadhammaṁ āroceyya, bhūtasmiṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:74.0",
+          "pali": "Pācittiya 9. Duṭṭhullārocana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:74.1",
+          "pali": "Yo pana bhikkhu bhikkhussa duṭṭhullaṁ āpattiṁ anupasampannassa āroceyya aññatra bhikkhusammutiyā, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:75.0",
+          "pali": "Pācittiya 10. Pathavīkhaṇana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:75.1",
+          "pali": "Yo pana bhikkhu pathaviṁ khaṇeyya vā khaṇāpeyya vā pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:75.2",
+          "pali": "Musāvādavaggo paṭhamo ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:76.0.1",
+          "pali": "Chapter 2. Bhūtagāma ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:76.0.2",
+          "pali": "Pācittiya 11. Bhūtagāma ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:76.1",
+          "pali": "Bhūtagāmapātabyatāya pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:77.0",
+          "pali": "Pācittiya 12. Aññavādaka ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:77.1",
+          "pali": "Aññavādake, vihesake pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:78.0",
+          "pali": "Pācittiya 13. Ujjhāpanaka ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:78.1",
+          "pali": "Ujjhāpanake, khiyyanake pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:79.0",
+          "pali": "Pācittiya 14. Paṭhamasenāsana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:79.1",
+          "pali": "Yo pana bhikkhu saṅghikaṁ mañcaṁ vā pīṭhaṁ vā bhisiṁ vā kocchaṁ vā ajjhokāse santharitvā vā santharāpetvā vā taṁ pakkamanto neva uddhareyya, na uddharāpeyya, anāpucchaṁ vā gaccheyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:80.0",
+          "pali": "Pācittiya 15. Dutiyasenāsana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:80.1",
+          "pali": "Yo pana bhikkhu saṅghike vihāre seyyaṁ santharitvā vā santharāpetvā vā taṁ pakkamanto neva uddhareyya, na uddharāpeyya, anāpucchaṁ vā gaccheyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:81.0",
+          "pali": "Pācittiya 16. Anupakhajja ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:81.1",
+          "pali": "Yo pana bhikkhu saṅghike vihāre jānaṁ pubbupagataṁ bhikkhuṁ anupakhajja seyyaṁ kappeyya “yassa sambādho bhavissati, so pakkamissatī”ti etadeva paccayaṁ karitvā anaññaṁ, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:82.0",
+          "pali": "Pācittiya 17. Nikkaḍḍhana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:82.1",
+          "pali": "Yo pana bhikkhu bhikkhuṁ kupito anattamano saṅghikā vihārā nikkaḍḍheyya vā nikkaḍḍhāpeyya vā, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:83.0",
+          "pali": "Pācittiya 18. Vehāsakuṭi ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:83.1",
+          "pali": "Yo pana bhikkhu saṅghike vihāre uparivehāsakuṭiyā āhaccapādakaṁ mañcaṁ vā pīṭhaṁ vā abhinisīdeyya vā abhinipajjeyya vā, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:84.0",
+          "pali": "Pācittiya 19. Mahallakavihāra ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:84.1",
+          "pali": "Mahallakaṁ pana bhikkhunā vihāraṁ kārayamānena yāva dvārakosā aggaḷaṭṭhapanāya ālokasandhiparikammāya dvatticchadanassa pariyāyaṁ appaharite ṭhitena adhiṭṭhātabbaṁ, tato ce uttari appaharitepi ṭhito adhiṭṭhaheyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:85.0",
+          "pali": "Pācittiya 20. Sappāṇaka ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:85.1",
+          "pali": "Yo pana bhikkhu jānaṁ sappāṇakaṁ udakaṁ tiṇaṁ vā mattikaṁ vā siñceyya vā siñcāpeyya vā, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:85.2",
+          "pali": "Bhūtagāmavaggo dutiyo ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:86.0.1",
+          "pali": "Chapter 3. Ovāda ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:86.0.2",
+          "pali": "Pācittiya 21. Ovāda ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:86.1",
+          "pali": "Yo pana bhikkhu asammato bhikkhuniyo ovadeyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:87.0",
+          "pali": "Pācittiya 22. Atthaṅgata ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:87.1",
+          "pali": "Sammatopi ce bhikkhu atthaṅgate sūriye bhikkhuniyo ovadeyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:88.0",
+          "pali": "Pācittiya 23. Bhikkhunupassaya ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:88.1",
+          "pali": "Yo pana bhikkhu bhikkhunupassayaṁ upasaṅkamitvā bhikkhuniyo ovadeyya aññatra samayā, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:88.2",
+          "pali": "Tatthāyaṁ samayo, gilānā hoti bhikkhunī, ayaṁ tattha samayo. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:89.0",
+          "pali": "Pācittiya 24. Āmisa ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:89.1",
+          "pali": "Yo pana bhikkhu evaṁ vadeyya “āmisahetu therā bhikkhū bhikkhuniyo ovadantī”ti, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:90.0",
+          "pali": "Pācittiya 25. Cīvaradāna ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:90.1",
+          "pali": "Yo pana bhikkhu aññātikāya bhikkhuniyā cīvaraṁ dadeyya aññatra pārivattakā, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:91.0",
+          "pali": "Pācittiya 26. Cīvarasibbana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:91.1",
+          "pali": "Yo pana bhikkhu aññātikāya bhikkhuniyā cīvaraṁ sibbeyya vā sibbāpeyya vā, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:92.0",
+          "pali": "Pācittiya 27. Saṁvidhāna ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:92.1",
+          "pali": "Yo pana bhikkhu bhikkhuniyā saddhiṁ saṁvidhāya ekaddhānamaggaṁ paṭipajjeyya antamaso gāmantarampi aññatra samayā, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:92.2",
+          "pali": "Tatthāyaṁ samayo, satthagamanīyo hoti maggo, sāsaṅkasammato, sappaṭibhayo, ayaṁ tattha samayo. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:93.0",
+          "pali": "Pācittiya 28. Nāvābhiruhana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:93.1",
+          "pali": "Yo pana bhikkhu bhikkhuniyā saddhiṁ saṁvidhāya ekaṁ nāvaṁ abhiruheyya uddhaṅgāminiṁ vā adhogāminiṁ vā aññatra tiriyaṁ taraṇāya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:94.0",
+          "pali": "Pācittiya 29. Paripācita ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:94.1",
+          "pali": "Yo pana bhikkhu jānaṁ bhikkhuniparipācitaṁ piṇḍapātaṁ bhuñjeyya aññatra pubbe gihisamārambhā, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:95.0",
+          "pali": "Pācittiya 30. Rahonisajja ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:95.1",
+          "pali": "Yo pana bhikkhu bhikkhuniyā saddhiṁ eko ekāya raho nisajjaṁ kappeyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:95.2",
+          "pali": "Ovādavaggo tatiyo ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:96.0.1",
+          "pali": "Chapter 4. Bhojanavaggo ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:96.0.2",
+          "pali": "Pācittiya 31. Āvasathapiṇḍa ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:96.1",
+          "pali": "Agilānena bhikkhunā eko āvasathapiṇḍo bhuñjitabbo. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:96.2",
+          "pali": "Tato ce uttari bhuñjeyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:97.0",
+          "pali": "Pācittiya 32. Gaṇabhojana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:97.1",
+          "pali": "Gaṇabhojane aññatra samayā pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:97.2",
+          "pali": "Tatthāyaṁ samayo, gilānasamayo, cīvaradānasamayo, cīvarakārasamayo, addhānagamanasamayo, nāvābhiruhanasamayo, mahāsamayo, samaṇabhattasamayo, ayaṁ tattha samayo. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:98.0",
+          "pali": "Pācittiya 33. Paramparabhojana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:98.1",
+          "pali": "Paramparabhojane aññatra samayā pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:98.2",
+          "pali": "Tatthāyaṁ samayo, gilānasamayo, cīvaradānasamayo, cīvarakārasamayo, ayaṁ tattha samayo. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:99.0",
+          "pali": "Pācittiya 34. Kāṇamātu ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:99.1",
+          "pali": "Bhikkhuṁ paneva kulaṁ upagataṁ pūvehi vā manthehi vā abhihaṭṭhuṁ pavāreyya, ākaṅkhamānena bhikkhunā dvattipattapūrā paṭiggahetabbā. Tato ce uttari paṭiggaṇheyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:99.2",
+          "pali": "Dvattipattapūre paṭiggahetvā tato nīharitvā bhikkhūhi saddhiṁ saṁvibhajitabbaṁ, ayaṁ tattha sāmīci. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:100.0",
+          "pali": "Pācittiya 35. Paṭhamapavāraṇā ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:100.1",
+          "pali": "Yo pana bhikkhu bhuttāvī pavārito anatirittaṁ khādanīyaṁ vā bhojanīyaṁ vā khādeyya vā bhuñjeyya vā, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:101.0",
+          "pali": "Pācittiya 36. Dutiyapavāraṇā ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:101.1",
+          "pali": "Yo pana bhikkhu bhikkhuṁ bhuttāviṁ pavāritaṁ anatirittena khādanīyena vā bhojanīyena vā abhihaṭṭhuṁ pavāreyya “handa bhikkhu khāda vā bhuñja vā”ti jānaṁ āsādanāpekkho, bhuttasmiṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:102.0",
+          "pali": "Pācittiya 37. Vikālabhojana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:102.1",
+          "pali": "Yo pana bhikkhu vikāle khādanīyaṁ vā bhojanīyaṁ vā khādeyya vā bhuñjeyya vā, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:103.0",
+          "pali": "Pācittiya 38. Sannidhikāraka ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:103.1",
+          "pali": "Yo pana bhikkhu sannidhikārakaṁ khādanīyaṁ vā bhojanīyaṁ vā khādeyya vā bhuñjeyya vā, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:104.0",
+          "pali": "Pācittiya 39. Paṇītabhojana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:104.1",
+          "pali": "Yāni kho pana tāni paṇītabhojanāni, seyyathidaṁ—sappi, navanītaṁ, telaṁ, madhu, phāṇitaṁ, maccho, maṁsaṁ, khīraṁ, dadhi. Yo pana bhikkhu evarūpāni paṇītabhojanāni agilāno attano atthāya viññāpetvā bhuñjeyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:105.0",
+          "pali": "Pācittiya 40. Dantapona ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:105.1",
+          "pali": "Yo pana bhikkhu adinnaṁ mukhadvāraṁ āhāraṁ āhareyya aññatra udakadantaponā, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:105.2",
+          "pali": "Bhojanavaggo catuttho ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:106.0.1",
+          "pali": "Chapter 5. Acelaka ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:106.0.2",
+          "pali": "Pācittiya 41. Acelaka ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:106.1",
+          "pali": "Yo pana bhikkhu acelakassa vā paribbājakassa vā paribbājikāya vā sahatthā khādanīyaṁ vā bhojanīyaṁ vā dadeyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:107.0",
+          "pali": "Pācittiya 42. Uyyojana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:107.1",
+          "pali": "Yo pana bhikkhu bhikkhuṁ “ehāvuso, gāmaṁ vā nigamaṁ vā piṇḍāya pavisissāmā”ti tassa dāpetvā vā adāpetvā vā uyyojeyya “gacchāvuso, na me tayā saddhiṁ kathā vā nisajjā vā phāsu hoti, ekakassa me kathā vā nisajjā vā phāsu hotī”ti etadeva paccayaṁ karitvā anaññaṁ, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:108.0",
+          "pali": "Pācittiya 43. Sabhojana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:108.1",
+          "pali": "Yo pana bhikkhu sabhojane kule anupakhajja nisajjaṁ kappeyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:109.0",
+          "pali": "Pācittiya 44. Rahopaṭicchanna ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:109.1",
+          "pali": "Yo pana bhikkhu mātugāmena saddhiṁ raho paṭicchanne āsane nisajjaṁ kappeyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:110.0",
+          "pali": "Pācittiya 45. Rahonisajja ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:110.1",
+          "pali": "Yo pana bhikkhu mātugāmena saddhiṁ eko ekāya raho nisajjaṁ kappeyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:111.0",
+          "pali": "Pācittiya 46. Cāritta ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:111.1",
+          "pali": "Yo pana bhikkhu nimantito sabhatto samāno santaṁ bhikkhuṁ anāpucchā purebhattaṁ vā pacchābhattaṁ vā kulesu cārittaṁ āpajjeyya aññatra samayā, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:111.2",
+          "pali": "Tatthāyaṁ samayo, cīvaradānasamayo, cīvarakārasamayo, ayaṁ tattha samayo. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:112.0",
+          "pali": "Pācittiya 47. Mahānāma ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:112.1",
+          "pali": "Agilānena bhikkhunā catumāsappaccayapavāraṇā sāditabbā aññatra punapavāraṇāya, aññatra niccapavāraṇāya. Tato ce uttari sādiyeyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:113.0",
+          "pali": "Pācittiya 48. Uyyuttasenā ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:113.1",
+          "pali": "Yo pana bhikkhu uyyuttaṁ senaṁ dassanāya gaccheyya aññatra tathārūpappaccayā, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:114.0",
+          "pali": "Pācittiya 49. Senāvāsa ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:114.1",
+          "pali": "Siyā ca tassa bhikkhuno kocideva paccayo senaṁ gamanāya, dirattatirattaṁ tena bhikkhunā senāya vasitabbaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:114.2",
+          "pali": "Tato ce uttari vaseyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:115.0",
+          "pali": "Pācittiya 50. Uyyodhika ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:115.1",
+          "pali": "Dirattatirattaṁ ce bhikkhu senāya vasamāno uyyodhikaṁ vā balaggaṁ vā senābyūhaṁ vā anīkadassanaṁ vā gaccheyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:115.2",
+          "pali": "Acelakavaggo pañcamo ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:116.0.1",
+          "pali": "Chapter 6. Surāpāna ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:116.0.2",
+          "pali": "Pācittiya 51. Surāpāna ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:116.1",
+          "pali": "Surāmerayapāne pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:117.0",
+          "pali": "Pācittiya 52. Aṅgulipatodaka ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:117.1",
+          "pali": "Aṅgulipatodake pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:118.0",
+          "pali": "Pācittiya 53. Hasadhamma ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:118.1",
+          "pali": "Udake hasadhamme pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:119.0",
+          "pali": "Pācittiya 54. Anādariya ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:119.1",
+          "pali": "Anādariye pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:120.0",
+          "pali": "Pācittiya 55. Bhiṁsāpana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:120.1",
+          "pali": "Yo pana bhikkhu bhikkhuṁ bhiṁsāpeyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:121.0",
+          "pali": "Pācittiya 56. Joti ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:121.1",
+          "pali": "Yo pana bhikkhu agilāno visibbanāpekkho jotiṁ samādaheyya vā samādahāpeyya vā aññatra tathārūpappaccayā, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:122.0",
+          "pali": "Pācittiya 57. Nahāna ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:122.1",
+          "pali": "Yo pana bhikkhu orenaddhamāsaṁ nahāyeyya aññatra samayā, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:122.2",
+          "pali": "Tatthāyaṁ samayo “diyaḍḍho māso seso gimhāna”nti “vassānassa paṭhamo māso” iccete aḍḍhateyyamāsā uṇhasamayo, pariḷāhasamayo, gilānasamayo, kammasamayo, addhānagamanasamayo, vātavuṭṭhisamayo, ayaṁ tattha samayo. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:123.0",
+          "pali": "Pācittiya 58. Dubbaṇṇakaraṇa ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:123.1",
+          "pali": "Navaṁ pana bhikkhunā cīvaralābhena tiṇṇaṁ dubbaṇṇakaraṇānaṁ aññataraṁ dubbaṇṇakaraṇaṁ ādātabbaṁ nīlaṁ vā kaddamaṁ vā kāḷasāmaṁ vā. Anādā ce bhikkhu tiṇṇaṁ dubbaṇṇakaraṇānaṁ aññataraṁ dubbaṇṇakaraṇaṁ navaṁ cīvaraṁ paribhuñjeyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:124.0",
+          "pali": "Pācittiya 59. Vikappana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:124.1",
+          "pali": "Yo pana bhikkhu bhikkhussa vā bhikkhuniyā vā sikkhamānāya vā sāmaṇerassa vā sāmaṇeriyā vā sāmaṁ cīvaraṁ vikappetvā appaccuddhāraṇaṁ paribhuñjeyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:125.0",
+          "pali": "Pācittiya 60. Apanidhāna ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:125.1",
+          "pali": "Yo pana bhikkhu bhikkhussa pattaṁ vā cīvaraṁ vā nisīdanaṁ vā sūcigharaṁ vā kāyabandhanaṁ vā apanidheyya vā apanidhāpeyya vā antamaso hasāpekkhopi, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:125.2",
+          "pali": "Surāpānavaggo chaṭṭho ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:126.0.1",
+          "pali": "Chapter 7. Sappāṇa ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:126.0.2",
+          "pali": "Pācittiya 61. Sañcicca ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:126.1",
+          "pali": "Yo pana bhikkhu sañcicca pāṇaṁ jīvitā voropeyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:127.0",
+          "pali": "Pācittiya 62. Sappāṇaka ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:127.1",
+          "pali": "Yo pana bhikkhu jānaṁ sappāṇakaṁ udakaṁ paribhuñjeyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:128.0",
+          "pali": "Pācittiya 63. Ukkoṭana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:128.1",
+          "pali": "Yo pana bhikkhu jānaṁ yathādhammaṁ nihatādhikaraṇaṁ punakammāya ukkoṭeyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:129.0",
+          "pali": "Pācittiya 64. Duṭṭhulla ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:129.1",
+          "pali": "Yo pana bhikkhu bhikkhussa jānaṁ duṭṭhullaṁ āpattiṁ paṭicchādeyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:130.0",
+          "pali": "Pācittiya 65. Ūnavīsativassa ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:130.1",
+          "pali": "Yo pana bhikkhu jānaṁ ūnavīsativassaṁ puggalaṁ upasampādeyya, so ca puggalo anupasampanno, te ca bhikkhū gārayhā, idaṁ tasmiṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:131.0",
+          "pali": "Pācittiya 66. Theyyasattha ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:131.1",
+          "pali": "Yo pana bhikkhu jānaṁ theyyasatthena saddhiṁ saṁvidhāya ekaddhānamaggaṁ paṭipajjeyya antamaso gāmantarampi, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:132.0",
+          "pali": "Pācittiya 67. Saṁvidhāna ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:132.1",
+          "pali": "Yo pana bhikkhu mātugāmena saddhiṁ saṁvidhāya ekaddhānamaggaṁ paṭipajjeyya antamaso gāmantarampi, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:133.0",
+          "pali": "Pācittiya 68. Ariṭṭha ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:133.1",
+          "pali": "Yo pana bhikkhu evaṁ vadeyya ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:133.2",
+          "pali": "“tathāhaṁ bhagavatā dhammaṁ desitaṁ ājānāmi, yathā yeme antarāyikā dhammā vuttā bhagavatā, te paṭisevato nālaṁ antarāyāyā”ti, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:133.3",
+          "pali": "so bhikkhu bhikkhūhi evamassa vacanīyo ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:133.4",
+          "pali": "“māyasmā evaṁ avaca, mā bhagavantaṁ abbhācikkhi, na hi sādhu bhagavato abbhakkhānaṁ, na hi bhagavā evaṁ vadeyya, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:133.5",
+          "pali": "anekapariyāyenāvuso antarāyikā dhammā antarāyikā vuttā bhagavatā, alañca pana te paṭisevato antarāyāyā”ti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:133.6",
+          "pali": "Evañca so bhikkhu bhikkhūhi vuccamāno tatheva paggaṇheyya, so bhikkhu bhikkhūhi yāvatatiyaṁ samanubhāsitabbo tassa paṭinissaggāya. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:133.7",
+          "pali": "Yāvatatiyañce samanubhāsiyamāno taṁ paṭinissajjeyya, iccetaṁ kusalaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:133.8",
+          "pali": "No ce paṭinissajjeyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:134.0",
+          "pali": "Pācittiya 69. Ukkhittasambhoga ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:134.1",
+          "pali": "Yo pana bhikkhu jānaṁ tathāvādinā bhikkhunā akaṭānudhammena taṁ diṭṭhiṁ appaṭinissaṭṭhena saddhiṁ sambhuñjeyya vā, saṁvaseyya vā, saha vā seyyaṁ kappeyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:135.0",
+          "pali": "Pācittiya 70. Kaṇṭaka ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:135.1",
+          "pali": "Samaṇuddesopi ce evaṁ vadeyya ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:135.2",
+          "pali": "“tathāhaṁ bhagavatā dhammaṁ desitaṁ ājānāmi, yathā yeme antarāyikā dhammā vuttā bhagavatā, te paṭisevato nālaṁ antarāyāyā”ti, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:135.3",
+          "pali": "so samaṇuddeso bhikkhūhi evamassa vacanīyo ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:135.4",
+          "pali": "“māvuso, samaṇuddesa evaṁ avaca, mā bhagavantaṁ abbhācikkhi, na hi sādhu bhagavato abbhakkhānaṁ, na hi bhagavā evaṁ vadeyya, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:135.5",
+          "pali": "anekapariyāyenāvuso, samaṇuddesa antarāyikā dhammā antarāyikā vuttā bhagavatā, alañca pana te paṭisevato antarāyāyā”ti, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:135.6",
+          "pali": "evañca so samaṇuddeso bhikkhūhi vuccamāno tatheva paggaṇheyya, so samaṇuddeso bhikkhūhi evamassa vacanīyo ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:135.7",
+          "pali": "“ajjatagge te, āvuso, samaṇuddesa na ceva so bhagavā satthā apadisitabbo, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:135.8",
+          "pali": "yampi caññe samaṇuddesā labhanti bhikkhūhi saddhiṁ dirattatirattaṁ sahaseyyaṁ, sāpi te natthi, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:135.9",
+          "pali": "cara pire, vinassā”ti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:135.10",
+          "pali": "Yo pana bhikkhu jānaṁ tathānāsitaṁ samaṇuddesaṁ upalāpeyya vā, upaṭṭhāpeyya vā, sambhuñjeyya vā, saha vā seyyaṁ kappeyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:135.11",
+          "pali": "Sappāṇakavaggo sattamo ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:136.0.1",
+          "pali": "Chapter 8. Sahadhammika ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:136.0.2",
+          "pali": "Pācittiya 71. Sahadhammika ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:136.1",
+          "pali": "Yo pana bhikkhu bhikkhūhi sahadhammikaṁ vuccamāno evaṁ vadeyya “na tāvāhaṁ, āvuso, etasmiṁ sikkhāpade sikkhissāmi, yāva na aññaṁ bhikkhuṁ byattaṁ vinayadharaṁ paripucchāmī”ti, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:136.2",
+          "pali": "Sikkhamānena, bhikkhave, bhikkhunā aññātabbaṁ paripucchitabbaṁ paripañhitabbaṁ, ayaṁ tattha sāmīci. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:137.0",
+          "pali": "Pācittiya 72. Vilekhana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:137.1",
+          "pali": "Yo pana bhikkhu pātimokkhe uddissamāne evaṁ vadeyya “kiṁ panimehi khuddānukhuddakehi sikkhāpadehi uddiṭṭhehi, yāvadeva kukkuccāya vihesāya vilekhāya saṁvattantī”ti, sikkhāpadavivaṇṇake pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:138.0",
+          "pali": "Pācittiya 73. Mohana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:138.1",
+          "pali": "Yo pana bhikkhu anvaddhamāsaṁ pātimokkhe uddissamāne evaṁ vadeyya ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:138.2",
+          "pali": "“idāneva kho ahaṁ jānāmi, ayampi kira dhammo suttāgato suttapariyāpanno anvaddhamāsaṁ uddesaṁ āgacchatī”ti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:138.3",
+          "pali": "Tañce bhikkhuṁ aññe bhikkhū jāneyyuṁ nisinnapubbaṁ iminā bhikkhunā dvattikkhattuṁ pātimokkhe uddissamāne, ko pana vādo bhiyyo, na ca tassa bhikkhuno aññāṇakena mutti atthi, yañca tattha āpattiṁ āpanno, tañca yathādhammo kāretabbo, uttari cassa moho āropetabbo ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:138.4",
+          "pali": "“tassa te, āvuso, alābhā, tassa te dulladdhaṁ, yaṁ tvaṁ pātimokkhe uddissamānena sādhukaṁ aṭṭhiṁ katvā manasi karosī”ti, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:138.5",
+          "pali": "idaṁ tasmiṁ mohanake pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:139.0",
+          "pali": "Pācittiya 74. Pahāra ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:139.1",
+          "pali": "Yo pana bhikkhu bhikkhussa kupito anattamano pahāraṁ dadeyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:140.0",
+          "pali": "Pācittiya 75. Talasattika ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:140.1",
+          "pali": "Yo pana bhikkhu bhikkhussa kupito anattamano talasattikaṁ uggireyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:141.0",
+          "pali": "Pācittiya 76. Amūlaka ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:141.1",
+          "pali": "Yo pana bhikkhu bhikkhuṁ amūlakena saṅghādisesena anuddhaṁseyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:142.0",
+          "pali": "Pācittiya 77. Sañcicca ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:142.1",
+          "pali": "Yo pana bhikkhu bhikkhussa sañcicca kukkuccaṁ upadaheyya “itissa muhuttampi aphāsu bhavissatī”ti etadeva paccayaṁ karitvā anaññaṁ, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:143.0",
+          "pali": "Pācittiya 78. Upassuti ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:143.1",
+          "pali": "Yo pana bhikkhu bhikkhūnaṁ bhaṇḍanajātānaṁ kalahajātānaṁ vivādāpannānaṁ upassutiṁ tiṭṭheyya “yaṁ ime bhaṇissanti, taṁ sossāmī”ti etadeva paccayaṁ karitvā anaññaṁ, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:144.0",
+          "pali": "Pācittiya 79. Kammappaṭibāhana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:144.1",
+          "pali": "Yo pana bhikkhu dhammikānaṁ kammānaṁ chandaṁ datvā pacchā khīyanadhammaṁ āpajjeyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:145.0",
+          "pali": "Pācittiya 80. Chandaṁadatvāgamana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:145.1",
+          "pali": "Yo pana bhikkhu saṅghe vinicchayakathāya vattamānāya chandaṁ adatvā uṭṭhāyāsanā pakkameyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:146.0",
+          "pali": "Pācittiya 81. Dubbala ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:146.1",
+          "pali": "Yo pana bhikkhu samaggena saṅghena cīvaraṁ datvā pacchā khīyanadhammaṁ āpajjeyya “yathāsanthutaṁ bhikkhū saṅghikaṁ lābhaṁ pariṇāmentī”ti, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:147.0",
+          "pali": "Pācittiya 82. Pariṇāmana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:147.1",
+          "pali": "Yo pana bhikkhu jānaṁ saṅghikaṁ lābhaṁ pariṇataṁ puggalassa pariṇāmeyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:147.2",
+          "pali": "Sahadhammikavaggo aṭṭhamo ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:148.0.1",
+          "pali": "Chapter 9. Ratana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:148.0.2",
+          "pali": "Pācittiya 83. Antepura ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:148.1",
+          "pali": "Yo pana bhikkhu rañño khattiyassa muddhābhisittassa anikkhantarājake aniggataratanake pubbe appaṭisaṁvidito indakhīlaṁ atikkāmeyya, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:149.0",
+          "pali": "Pācittiya 84. Ratana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:149.1",
+          "pali": "Yo pana bhikkhu ratanaṁ vā ratanasammataṁ vā aññatra ajjhārāmā vā ajjhāvasathā vā uggaṇheyya vā uggaṇhāpeyya vā, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:149.2",
+          "pali": "Ratanaṁ vā pana bhikkhunā ratanasammataṁ vā ajjhārāme vā ajjhāvasathe vā uggahetvā vā uggahāpetvā vā nikkhipitabbaṁ “yassa bhavissati, so harissatī”ti, ayaṁ tattha sāmīci. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:150.0",
+          "pali": "Pācittiya 85. Vikālagāmappavesana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:150.1",
+          "pali": "Yo pana bhikkhu santaṁ bhikkhuṁ anāpucchāvikāle gāmaṁ paviseyya aññatra tathārūpā accāyikā karaṇīyā, pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:151.0",
+          "pali": "Pācittiya 86. Sūcighara ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:151.1",
+          "pali": "Yo pana bhikkhu aṭṭhimayaṁ vā dantamayaṁ vā visāṇamayaṁ vā sūcigharaṁ kārāpeyya, bhedanakaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:152.0",
+          "pali": "Pācittiya 87. Mañcapīṭha ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:152.1",
+          "pali": "Navaṁ pana bhikkhunā mañcaṁ vā pīṭhaṁ vā kārayamānena aṭṭhaṅgulapādakaṁ kāretabbaṁ sugataṅgulena aññatra heṭṭhimāya aṭaniyā. Taṁ atikkāmayato chedanakaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:153.0",
+          "pali": "Pācittiya 88. Tūlonaddha ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:153.1",
+          "pali": "Yo pana bhikkhu mañcaṁ vā pīṭhaṁ vā tūlonaddhaṁ kārāpeyya, uddālanakaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:154.0",
+          "pali": "Pācittiya 89. Nisīdana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:154.1",
+          "pali": "Nisīdanaṁ pana bhikkhunā kārayamānena pamāṇikaṁ kāretabbaṁ, tatridaṁ pamāṇaṁ, dīghaso dve vidatthiyo sugatavidatthiyā, tiriyaṁ diyaḍḍhaṁ, dasā vidatthi. Taṁ atikkāmayato chedanakaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:155.0",
+          "pali": "Pācittiya 90. Kaṇḍuppaṭicchādi ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:155.1",
+          "pali": "Kaṇḍuppaṭicchādiṁ pana bhikkhunā kārayamānena pamāṇikā kāretabbā, tatridaṁ pamāṇaṁ, dīghaso catasso vidatthiyo sugatavidatthiyā, tiriyaṁ dve vidatthiyo. Taṁ atikkāmayato chedanakaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:156.0",
+          "pali": "Pācittiya 91. Vassikasāṭika ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:156.1",
+          "pali": "Vassikasāṭikaṁ pana bhikkhunā kārayamānena pamāṇikā kāretabbā, tatridaṁ pamāṇaṁ, dīghaso cha vidatthiyo sugatavidatthiyā, tiriyaṁ aḍḍhateyyā. Taṁ atikkāmayato chedanakaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:157.0",
+          "pali": "Pācittiya 92. Nanda ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:157.1",
+          "pali": "Yo pana bhikkhu sugatacīvarappamāṇaṁ cīvaraṁ kārāpeyya, atirekaṁ vā, chedanakaṁ pācittiyaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:157.2",
+          "pali": "Tatridaṁ sugatassa sugatacīvarappamāṇaṁ, dīghaso nava vidatthiyo sugatavidatthiyā, tiriyaṁ cha vidatthiyo, idaṁ sugatassa sugatacīvarapamāṇanti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:157.3",
+          "pali": "Ratanavaggo navamo ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:158.1",
+          "pali": "Uddiṭṭhā kho āyasmanto dvenavuti pācittiyā dhammā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:158.2",
+          "pali": "Tatthāyasmante pucchāmi, kaccittha parisuddhā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:158.3",
+          "pali": "dutiyampi pucchāmi, kaccittha parisuddhā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:158.4",
+          "pali": "tatiyampi pucchāmi, kaccittha parisuddhā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:158.5",
+          "pali": "parisuddhetthāyasmanto, tasmā tuṇhī, evametaṁ dhārayāmīti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:158.6",
+          "pali": "Pācittiyā niṭṭhitā ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:159.0",
+          "pali": "Pāṭidesanīya ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:159.1",
+          "pali": "Ime kho panāyasmanto cattāro pāṭidesanīyā dhammā uddesaṁ āgacchanti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:160.0",
+          "pali": "Pāṭidesanīya 1. Paṭhamapāṭidesanīya ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:160.1",
+          "pali": "Yo pana bhikkhu aññātikāya bhikkhuniyā antaragharaṁ paviṭṭhāya hatthato khādanīyaṁ vā bhojanīyaṁ vā sahatthā paṭiggahetvā khādeyya vā bhuñjeyya vā, paṭidesetabbaṁ tena bhikkhunā ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:160.2",
+          "pali": "“gārayhaṁ, āvuso, dhammaṁ āpajjiṁ asappāyaṁ pāṭidesanīyaṁ, taṁ paṭidesemī”ti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:161.0",
+          "pali": "Pāṭidesanīya 2. Dutiyapāṭidesanīya ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:161.1",
+          "pali": "Bhikkhū paneva kulesu nimantitā bhuñjanti, tatra ce sā bhikkhunī vosāsamānarūpā ṭhitā hoti “idha sūpaṁ detha, idha odanaṁ dethā”ti. Tehi bhikkhūhi sā bhikkhunī apasādetabbā “apasakka tāva bhagini, yāva bhikkhū bhuñjantī”ti. Ekassapi ce bhikkhuno na paṭibhāseyya taṁ bhikkhuniṁ apasādetuṁ “apasakka tāva bhagini, yāva bhikkhū bhuñjantī”ti, paṭidesetabbaṁ tehi bhikkhūhi ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:161.2",
+          "pali": "“gārayhaṁ, āvuso, dhammaṁ āpajjimhā asappāyaṁ pāṭidesanīyaṁ, taṁ paṭidesemā”ti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:162.0",
+          "pali": "Pāṭidesanīya 3. Tatiyapāṭidesanīya ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:162.1",
+          "pali": "Yāni kho pana tāni sekkhasammatāni kulāni, yo pana bhikkhu tathārūpesu sekkhasammatesu kulesu pubbe animantito agilāno khādanīyaṁ vā, bhojanīyaṁ vā sahatthā paṭiggahetvā khādeyya vā, bhuñjeyya vā, paṭidesetabbaṁ tena bhikkhunā ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:162.2",
+          "pali": "“gārayhaṁ, āvuso, dhammaṁ āpajjiṁ asappāyaṁ pāṭidesanīyaṁ, taṁ paṭidesemī”ti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:163.0",
+          "pali": "Pāṭidesanīya 4. Catutthapāṭidesanīya ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:163.1",
+          "pali": "Yāni kho pana tāni āraññakāni senāsanāni sāsaṅkasammatāni sappaṭibhayāni, yo pana bhikkhu tathārūpesu senāsanesu pubbe appaṭisaṁviditaṁ khādanīyaṁ vā, bhojanīyaṁ vā ajjhārāme sahatthā paṭiggahetvā agilāno khādeyya vā, bhuñjeyya vā, paṭidesetabbaṁ tena bhikkhunā ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:163.2",
+          "pali": "“gārayhaṁ, āvuso, dhammaṁ āpajjiṁ asappāyaṁ pāṭidesanīyaṁ, taṁ paṭidesemī”ti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:164.1",
+          "pali": "Uddiṭṭhā kho āyasmanto cattāro pāṭidesanīyā dhammā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:164.2",
+          "pali": "Tatthāyasmante pucchāmi, kaccittha parisuddhā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:164.3",
+          "pali": "dutiyampi pucchāmi, kaccittha parisuddhā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:164.4",
+          "pali": "tatiyampi pucchāmi, kaccittha parisuddhā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:164.5",
+          "pali": "parisuddhetthāyasmanto, tasmā tuṇhī, evametaṁ dhārayāmīti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:164.6",
+          "pali": "Pāṭidesanīyā niṭṭhitā ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:165.0",
+          "pali": "Sekhiya ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:165.1",
+          "pali": "Ime kho panāyasmanto sekhiyā dhammā uddesaṁ āgacchanti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:166.0.1",
+          "pali": "Chapter 1. Parimaṇḍala ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:166.0.2",
+          "pali": "Sekhiya 1. Parimaṇḍala ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:166.1",
+          "pali": "Parimaṇḍalaṁ nivāsessāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:167.0",
+          "pali": "Sekhiya 2. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:167.1",
+          "pali": "Parimaṇḍalaṁ pārupissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:168.0",
+          "pali": "Sekhiya 3. Suppaṭicchanna ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:168.1",
+          "pali": "Suppaṭicchanno antaraghare gamissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:169.0",
+          "pali": "Sekhiya 4. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:169.1",
+          "pali": "Suppaṭicchanno antaraghare nisīdissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:170.0",
+          "pali": "Sekhiya 5. Susaṁvuta ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:170.1",
+          "pali": "Susaṁvuto antaraghare gamissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:171.0",
+          "pali": "Sekhiya 6. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:171.1",
+          "pali": "Susaṁvuto antaraghare nisīdissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:172.0",
+          "pali": "Sekhiya 7. Okkhittacakkhu ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:172.1",
+          "pali": "Okkhittacakkhu antaraghare gamissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:173.0",
+          "pali": "Sekhiya 8. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:173.1",
+          "pali": "Okkhittacakkhu antaraghare nisīdissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:174.0",
+          "pali": "Sekhiya 9. Ukkhittaka ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:174.1",
+          "pali": "Na ukkhittakāya antaraghare gamissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:175.0",
+          "pali": "Sekhiya 10. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:175.1",
+          "pali": "Na ukkhittakāya antaraghare nisīdissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:175.2",
+          "pali": "Parimaṇḍalavaggo paṭhamo ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:176.0.1",
+          "pali": "Chapter 2. Ujjagghika ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:176.0.2",
+          "pali": "Sekhiya 11. Ujjagghika ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:177.1",
+          "pali": "Na ujjagghikāya antaraghare gamissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:178.0",
+          "pali": "Sekhiya 12. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:178.1",
+          "pali": "Na ujjagghikāya antaraghare nisīdissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:179.0",
+          "pali": "Sekhiya 13. Uccasadda ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:179.1",
+          "pali": "Appasaddo antaraghare gamissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:180.0",
+          "pali": "Sekhiya 14. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:180.1",
+          "pali": "Appasaddo antaraghare nisīdissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:181.0",
+          "pali": "Sekhiya 15. Kāyappacālaka ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:181.1",
+          "pali": "Na kāyappacālakaṁ antaraghare gamissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:182.0",
+          "pali": "Sekhiya 16. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:182.1",
+          "pali": "Na kāyappacālakaṁ antaraghare nisīdissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:183.0",
+          "pali": "Sekhiya 17. Bāhuppacālaka ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:183.1",
+          "pali": "Na bāhuppacālakaṁ antaraghare gamissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:184.0",
+          "pali": "Sekhiya 18. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:184.1",
+          "pali": "Na bāhuppacālakaṁ antaraghare nisīdissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:185.0",
+          "pali": "Sekhiya 19. Sīsappacālaka ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:185.1",
+          "pali": "Na sīsappacālakaṁ antaraghare gamissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:186.0",
+          "pali": "Sekhiya 20. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:186.1",
+          "pali": "Na sīsappacālakaṁ antaraghare nisīdissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:186.2",
+          "pali": "Ujjagghikavaggo dutiyo ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:187.0.1",
+          "pali": "Chapter 3. Khambhakata ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:187.0.2",
+          "pali": "Sekhiya 21. Khambhakata ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:187.1",
+          "pali": "Na khambhakato antaraghare gamissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:188.0",
+          "pali": "Sekhiya 22. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:188.1",
+          "pali": "Na khambhakato antaraghare nisīdissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:189.0",
+          "pali": "Sekhiya 23. Oguṇṭhita ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:189.1",
+          "pali": "Na oguṇṭhito antaraghare gamissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:190.0",
+          "pali": "Sekhiya 24. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:191.1",
+          "pali": "Na oguṇṭhito antaraghare nisīdissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:192.0",
+          "pali": "Sekhiya 25. Ukkuṭika ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:192.1",
+          "pali": "Na ukkuṭikāya antaraghare gamissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:193.0",
+          "pali": "Sekhiya 26. Pallatthika ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:193.1",
+          "pali": "Na pallatthikāya antaraghare nisīdissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:194.0",
+          "pali": "Sekhiya 27. Sakkaccapaṭiggahaṇa ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:194.1",
+          "pali": "Sakkaccaṁ piṇḍapātaṁ paṭiggahessāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:195.0",
+          "pali": "Sekhiya 28. Pattasaññīpaṭiggahaṇa ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:195.1",
+          "pali": "Pattasaññī piṇḍapātaṁ paṭiggahessāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:196.0",
+          "pali": "Sekhiya 29. Samasūpakapaṭiggahaṇa ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:196.1",
+          "pali": "Samasūpakaṁ piṇḍapātaṁ paṭiggahessāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:197.0",
+          "pali": "Sekhiya 30. Samatittika ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:197.1",
+          "pali": "Samatittikaṁ piṇḍapātaṁ paṭiggahessāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:198.2",
+          "pali": "Khambhakatavaggo tatiyo ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:199.0.1",
+          "pali": "Chapter 4. Sakkacca ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:199.0.2",
+          "pali": "Sekhiya 31. Sakkaccabhuñjana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:199.1",
+          "pali": "Sakkaccaṁ piṇḍapātaṁ bhuñjissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:200.0",
+          "pali": "Sekhiya 32. Pattasaññībhuñjana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:200.1",
+          "pali": "Pattasaññī piṇḍapātaṁ bhuñjissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:201.0",
+          "pali": "Sekhiya 33. Sapadāna ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:201.1",
+          "pali": "Sapadānaṁ piṇḍapātaṁ bhuñjissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:202.0",
+          "pali": "Sekhiya 34. Samasūpaka ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:202.1",
+          "pali": "Samasūpakaṁ piṇḍapātaṁ bhuñjissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:203.0",
+          "pali": "Sekhiya 35. Nathūpakata ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:203.1",
+          "pali": "Na thūpakato omadditvā piṇḍapātaṁ bhuñjissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:204.0",
+          "pali": "Sekhiya 36. Odanappaṭicchādana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:204.1",
+          "pali": "Na sūpaṁ vā byañjanaṁ vā odanena paṭicchādessāmi bhiyyokamyataṁ upādāyāti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:205.0",
+          "pali": "Sekhiya 37. Sūpodanaviññatti ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:205.1",
+          "pali": "Na sūpaṁ vā odanaṁ vā agilāno attano atthāya viññāpetvā bhuñjissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:206.0",
+          "pali": "Sekhiya 38. Ujjhānasaññī ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:206.1",
+          "pali": "Na ujjhānasaññī paresaṁ pattaṁ olokessāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:207.0",
+          "pali": "Sekhiya 39. Kabaḷa ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:207.1",
+          "pali": "Nātimahantaṁ kabaḷaṁ karissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:208.0",
+          "pali": "Sekhiya 40. Ālopa ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:208.1",
+          "pali": "Parimaṇḍalaṁ ālopaṁ karissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:208.2",
+          "pali": "Sakkaccavaggo catuttho ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:209.0.1",
+          "pali": "Chapter 5. Kabaḷa ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:209.0.2",
+          "pali": "Sekhiya 41. Anāhaṭa ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:209.1",
+          "pali": "Na anāhaṭe kabaḷe mukhadvāraṁ vivarissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:210.0",
+          "pali": "Sekhiya 42. Bhuñjamāna ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:210.1",
+          "pali": "Na bhuñjamāno sabbahatthaṁ mukhe pakkhipissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:211.0",
+          "pali": "Sekhiya 43. Sakabaḷa ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:211.1",
+          "pali": "Na sakabaḷena mukhena byāharissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:212.0",
+          "pali": "Sekhiya 44. Piṇḍukkhepaka ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:212.1",
+          "pali": "Na piṇḍukkhepakaṁ bhuñjissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:213.0",
+          "pali": "Sekhiya 45. Kabaḷāvacchedaka ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:213.1",
+          "pali": "Na kabaḷāvacchedakaṁ bhuñjissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:214.0",
+          "pali": "Sekhiya 46. Avagaṇḍakāraka ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:214.1",
+          "pali": "Na avagaṇḍakārakaṁ bhuñjissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:215.0",
+          "pali": "Sekhiya 47. Hatthaniddhunaka ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:215.1",
+          "pali": "Na hatthaniddhunakaṁ bhuñjissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:216.0",
+          "pali": "Sekhiya 48. Sitthāvakāraka ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:216.1",
+          "pali": "Na sitthāvakārakaṁ bhuñjissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:217.0",
+          "pali": "Sekhiya 49. Jivhānicchāraka ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:217.1",
+          "pali": "Na jivhānicchārakaṁ bhuñjissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:218.0",
+          "pali": "Sekhiya 50. Capucapukāraka ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:218.1",
+          "pali": "Na capucapukārakaṁ bhuñjissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:218.2",
+          "pali": "Kabaḷavaggo pañcamo ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:219.0.1",
+          "pali": "Chapter 6. Surusuru ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:219.0.2",
+          "pali": "Sekhiya 51. Surusurukāraka ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:219.1",
+          "pali": "Na surusurukārakaṁ bhuñjissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:220.0",
+          "pali": "Sekhiya 52. Hatthanillehaka ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:220.1",
+          "pali": "Na hatthanillehakaṁ bhuñjissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:221.0",
+          "pali": "Sekhiya 53. Pattanillehaka ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:221.1",
+          "pali": "Na pattanillehakaṁ bhuñjissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:222.0",
+          "pali": "Sekhiya 54. Oṭṭhanillehaka ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:222.1",
+          "pali": "Na oṭṭhanillehakaṁ bhuñjissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:223.0",
+          "pali": "Sekhiya 55. Sāmisa ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:223.1",
+          "pali": "Na sāmisena hatthena pānīyathālakaṁ paṭiggahessāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:224.0",
+          "pali": "Sekhiya 56. Sasitthaka ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:224.1",
+          "pali": "Na sasitthakaṁ pattadhovanaṁ antaraghare chaḍḍessāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:225.0",
+          "pali": "Sekhiya 57. Chattapāṇi ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:225.1",
+          "pali": "Na chattapāṇissa agilānassa dhammaṁ desessāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:226.0",
+          "pali": "Sekhiya 58. Daṇḍapāṇi ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:226.1",
+          "pali": "Na daṇḍapāṇissa agilānassa dhammaṁ desessāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:227.0",
+          "pali": "Sekhiya 59. Satthapāṇi ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:227.1",
+          "pali": "Na satthapāṇissa agilānassa dhammaṁ desessāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:228.0",
+          "pali": "Sekhiya 60. Āvudhapāṇi ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:228.1",
+          "pali": "Na āvudhapāṇissa agilānassa dhammaṁ desessāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:228.2",
+          "pali": "Surusuruvaggo chaṭṭho ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:229.0.1",
+          "pali": "Chapter 7. Pāduka ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:229.0.2",
+          "pali": "Sekhiya 61. Pāduka ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:229.1",
+          "pali": "Na pādukāruḷhassa agilānassa dhammaṁ desessāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:230.0",
+          "pali": "Sekhiya 62. Upāhana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:230.1",
+          "pali": "Na upāhanāruḷhassa agilānassa dhammaṁ desessāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:231.0",
+          "pali": "Sekhiya 63. Yāna ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:231.1",
+          "pali": "Na yānagatassa agilānassa dhammaṁ desessāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:232.0",
+          "pali": "Sekhiya 64. Sayana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:232.1",
+          "pali": "Na sayanagatassa agilānassa dhammaṁ desessāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:233.0",
+          "pali": "Sekhiya 65. Pallatthika ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:233.1",
+          "pali": "Na pallatthikāya nisinnassa agilānassa dhammaṁ desessāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:234.0",
+          "pali": "Sekhiya 66. Veṭhita ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:234.1",
+          "pali": "Na veṭhitasīsassa agilānassa dhammaṁ desessāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:235.0",
+          "pali": "Sekhiya 67. Oguṇṭhita ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:235.1",
+          "pali": "Na oguṇṭhitasīsassa agilānassa dhammaṁ desessāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:236.0",
+          "pali": "Sekhiya 68. Chamā ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:236.1",
+          "pali": "Na chamāyaṁ nisīditvā āsane nisinnassa agilānassa dhammaṁ desessāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:237.0",
+          "pali": "Sekhiya 69. Nīcāsana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:237.1",
+          "pali": "Na nīce āsane nisīditvā ucce āsane nisinnassa agilānassa dhammaṁ desessāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:238.0",
+          "pali": "Sekhiya 70. Ṭhita ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:238.1",
+          "pali": "Na ṭhito nisinnassa agilānassa dhammaṁ desessāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:239.0",
+          "pali": "Sekhiya 71. Pacchatogamana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:239.1",
+          "pali": "Na pacchato gacchanto purato gacchantassa agilānassa dhammaṁ desessāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:240.0",
+          "pali": "Sekhiya 72. Uppathenagamana ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:240.1",
+          "pali": "Na uppathena gacchanto pathena gacchantassa agilānassa dhammaṁ desessāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:241.0",
+          "pali": "Sekhiya 73. Ṭhitouccāra ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:241.1",
+          "pali": "Na ṭhito agilāno uccāraṁ vā passāvaṁ vā karissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:242.0",
+          "pali": "Sekhiya 74. Hariteuccāra ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:242.1",
+          "pali": "Na harite agilāno uccāraṁ vā passāvaṁ vā kheḷaṁ vā karissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:243.0",
+          "pali": "Sekhiya 75. Udakeuccāra ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:243.1",
+          "pali": "Na udake agilāno uccāraṁ vā passāvaṁ vā kheḷaṁ vā karissāmīti sikkhā karaṇīyā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:243.2",
+          "pali": "Pādukavaggo sattamo ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:244.1",
+          "pali": "Uddiṭṭhā kho āyasmanto sekhiyā dhammā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:244.2",
+          "pali": "Tatthāyasmante pucchāmi, kaccittha parisuddhā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:244.3",
+          "pali": "dutiyampi pucchāmi, kaccittha parisuddhā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:244.4",
+          "pali": "tatiyampi pucchāmi, kaccittha parisuddhā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:244.5",
+          "pali": "parisuddhetthāyasmanto, tasmā tuṇhī, evametaṁ dhārayāmīti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:244.6",
+          "pali": "Sekhiyā niṭṭhitā ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:245.0",
+          "pali": "Adhikaraṇasamathā ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:245.1",
+          "pali": "Ime kho panāyasmanto satta adhikaraṇasamathā dhammā uddesaṁ āgacchanti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:246.1",
+          "pali": "Uppannuppannānaṁ adhikaraṇānaṁ samathāya vūpasamāya: ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:247.0",
+          "pali": "Adhikaraṇasamatha 1 ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:247.1",
+          "pali": "Sammukhāvinayo dātabbo. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:248.0",
+          "pali": "Adhikaraṇasamatha 2 ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:248.1",
+          "pali": "Sativinayo dātabbo. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:249.0",
+          "pali": "Adhikaraṇasamatha 3 ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:249.1",
+          "pali": "Amūḷhavinayo dātabbo. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:250.0",
+          "pali": "Adhikaraṇasamatha 4 ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:250.1",
+          "pali": "Paṭiññāya kāretabbaṁ. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:251.0",
+          "pali": "Adhikaraṇasamatha 5 ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:251.1",
+          "pali": "Yebhuyyasikā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:252.0",
+          "pali": "Adhikaraṇasamatha 6 ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:252.1",
+          "pali": "Tassapāpiyasikā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:253.0",
+          "pali": "Adhikaraṇasamatha 7 ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:253.1",
+          "pali": "Tiṇavatthārakoti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:254.1",
+          "pali": "Uddiṭṭhā kho āyasmanto satta adhikaraṇasamathā dhammā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:254.2",
+          "pali": "Tatthāyasmante pucchāmi, kaccittha parisuddhā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:254.3",
+          "pali": "dutiyampi pucchāmi, kaccittha parisuddhā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:254.4",
+          "pali": "tatiyampi pucchāmi, kaccittha parisuddhā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:254.5",
+          "pali": "parisuddhetthāyasmanto, tasmā tuṇhī, evametaṁ dhārayāmīti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:254.6",
+          "pali": "Adhikaraṇasamathā niṭṭhitā ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:255.1",
+          "pali": "Uddiṭṭhaṁ kho āyasmanto nidānaṁ, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:255.2",
+          "pali": "uddiṭṭhā cattāro pārājikā dhammā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:255.3",
+          "pali": "uddiṭṭhā terasa saṅghādisesā dhammā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:255.4",
+          "pali": "uddiṭṭhā dve aniyatā dhammā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:255.5",
+          "pali": "uddiṭṭhā tiṁsa nissaggiyā pācittiyā dhammā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:255.6",
+          "pali": "uddiṭṭhā dvenavuti pācittiyā dhammā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:255.7",
+          "pali": "uddiṭṭhā cattāro pāṭidesanīyā dhammā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:255.8",
+          "pali": "uddiṭṭhā sekhiyā dhammā, ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:255.9",
+          "pali": "uddiṭṭhā satta adhikaraṇasamathā dhammā. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:255.10",
+          "pali": "Ettakaṁ tassa bhagavato suttāgataṁ suttapariyāpannaṁ anvaddhamāsaṁ uddesaṁ āgacchati. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:255.11",
+          "pali": "Tattha sabbeheva samaggehi sammodamānehi avivadamānehi sikkhitabbanti. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:255.12",
+          "pali": "Vitthāruddeso pañcamo. ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:255.13",
+          "pali": "Bhikkhupātimokkhaṁ niṭṭhitaṁ ",
+          "zh": []
+        },
+        {
+          "segment_id": "pli-tv-bu-pm:255.14",
+          "pali": "Namo tassa bhagavato arahato sammāsambuddhassa ",
+          "zh": []
+        }
+      ],
+      "zh_segmented": [],
+      "zh_legacy": []
+    }
+  ]
+}
