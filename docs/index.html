@@ -103,13 +103,14 @@ mark { background: var(--highlight); color: inherit; padding: 1px 2px; border-ra
 .seg-pali { font-size: 14px; color: var(--text-secondary); font-style: italic; margin-bottom: 4px; }
 .seg-en { font-size: 15px; line-height: 1.7; }
 .seg-row.active-match { background: #fff8e1; border-radius: 6px; padding: 10px 12px; margin: 4px -12px; border-left: 4px solid var(--highlight-active); }
-.zh-text-body { font-size: 16px; line-height: 2.2; }
-.zh-text-body .zh-title { font-size: 22px; font-weight: 700; color: var(--accent); text-align: center; margin: 16px 0; }
-.zh-text-body .zh-subtitle { font-size: 16px; font-weight: 600; color: var(--text-secondary); text-align: center; margin: 8px 0 16px; }
-.zh-text-body .zh-section-header { font-size: 17px; font-weight: 700; color: var(--accent); margin: 24px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
-.zh-text-body .zh-para { margin-bottom: 12px; text-indent: 2em; }
-.zh-text-body .zh-para.active-match { background: #fff8e1; padding: 4px 8px; border-radius: 4px; border-left: 4px solid var(--highlight-active); text-indent: 0; padding-left: calc(2em + 8px); }
-.zh-text-body .zh-break { height: 16px; }
+.zh-text-body { font-size: 16px; line-height: 2.2; padding: 0 12px; }
+.zh-text-body .zh-title { font-size: 22px; font-weight: 700; color: var(--accent); text-align: center; margin: 24px 0 8px; }
+.zh-text-body .zh-subtitle { font-size: 15px; font-weight: 600; color: var(--text-secondary); text-align: center; margin: 4px 0 20px; }
+.zh-text-body .zh-section-header { font-size: 17px; font-weight: 700; color: var(--accent); margin: 32px 0 16px; padding-bottom: 8px; border-bottom: 2px solid var(--border); }
+.zh-text-body .zh-para { margin-bottom: 16px; text-indent: 2em; text-align: justify; }
+.zh-text-body .zh-para.active-match { background: #fff8e1; padding: 8px 12px; border-radius: 6px; border-left: 4px solid var(--highlight-active); text-indent: 0; padding-left: calc(2em + 12px); margin-left: -12px; margin-right: -12px; }
+.zh-text-body .zh-break { height: 8px; }
+.zh-text-body .zh-end-mark { font-size: 14px; color: var(--text-secondary); text-align: center; margin-top: 24px; font-style: italic; }
 .zh-author-info { font-size: 13px; color: var(--text-secondary); margin-bottom: 16px; padding-bottom: 10px; border-bottom: 1px solid #f0ebe3; }
 .pali-toggle { cursor: pointer; user-select: none; }
 .pali-toggle:hover { color: var(--accent); }
@@ -736,21 +737,26 @@ function formatChineseText(rawText,query){
   let lineIdx=0;
   let headerDone=false;
   let firstMatchDone=false;
+  let nonEmptyIdx=0;
 
   for(const line of lines){
     const trimmed=line.trim();
     if(!trimmed){
-      html+='<div class="zh-break"></div>';
+      if(headerDone)html+='<div class="zh-break"></div>';
       continue;
     }
 
     const isShort=trimmed.length<25;
     const noEndPunct=!/[。！？；：，、）」』\.]$/.test(trimmed);
-    const isHeaderLike=isShort&&noEndPunct;
+    const isEndMark=/終了|终了/.test(trimmed)&&trimmed.length<12;
+    const isHeaderLike=isShort&&noEndPunct&&!isEndMark;
 
-    if(!headerDone&&isHeaderLike&&lineIdx<5){
-      if(lineIdx===0)html+=`<div class="zh-title">${highlight(trimmed,query)}</div>`;
+    if(!headerDone&&isHeaderLike&&nonEmptyIdx<5){
+      if(nonEmptyIdx===0)html+=`<div class="zh-title">${highlight(trimmed,query)}</div>`;
       else html+=`<div class="zh-subtitle">${highlight(trimmed,query)}</div>`;
+    } else if(isEndMark){
+      headerDone=true;
+      html+=`<div class="zh-end-mark">${highlight(trimmed,query)}</div>`;
     } else if(headerDone&&isHeaderLike&&trimmed.length<20){
       html+=`<div class="zh-section-header">${highlight(trimmed,query)}</div>`;
     } else {
@@ -761,6 +767,7 @@ function formatChineseText(rawText,query){
       html+=`<p class="zh-para${hasMatch?' active-match':''}${isFirst?' first-match':''}">${highlight(trimmed,query)}</p>`;
     }
     lineIdx++;
+    nonEmptyIdx++;
   }
   return html;
 }
