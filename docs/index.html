@@ -615,7 +615,17 @@ async function viewFullText(uid,collKey,lang,segId,sentIdx,authorUid){
   if(zhText&&zhText.zh_legacy&&zhText.zh_legacy.length>0){
     html+=`<span class="detail-meta-label">中文译者</span><span class="detail-meta-value">${escapeHtml(zhText.zh_legacy.map(l=>l.author).join(', '))}</span>`;
   }
-  html+=`<span class="detail-meta-label">SuttaCentral</span><span class="detail-meta-value"><a href="https://suttacentral.net/${uid}" target="_blank" style="color:var(--accent)">在 SuttaCentral 查看 ↗</a></span>`;
+  const scLinks=[];
+  if(enText&&enText.translation_sources&&enText.translation_sources.length>0){
+    const enAuthor=enText.translation_sources[0].author;
+    scLinks.push(`<a href="https://suttacentral.net/${uid}/en/${enAuthor}?lang=en&layout=plain&reference=none&notes=none&highlight=false&script=latin" target="_blank" style="color:var(--accent)">英文 (${escapeHtml(enAuthor)}) ↗</a>`);
+  }
+  if(zhText&&zhText.zh_legacy&&zhText.zh_legacy.length>0){
+    const zhAuthorUid=zhText.zh_legacy[0].author_uid;
+    scLinks.push(`<a href="https://suttacentral.net/${uid}/zh/${zhAuthorUid}?lang=en&reference=none&highlight=false" target="_blank" style="color:var(--accent)">中文 (${escapeHtml(zhText.zh_legacy[0].author)}) ↗</a>`);
+  }
+  if(scLinks.length===0)scLinks.push(`<a href="https://suttacentral.net/${uid}" target="_blank" style="color:var(--accent)">查看 ↗</a>`);
+  html+=`<span class="detail-meta-label">SuttaCentral</span><span class="detail-meta-value">${scLinks.join(' · ')}</span>`;
   html+=`</div></div>`;
 
   // English section
