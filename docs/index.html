@@ -176,6 +176,9 @@ mark { background: var(--highlight); color: inherit; padding: 1px 2px; border-ra
       </optgroup>
     </select>
   </div>
+  <div style="display:flex;align-items:center;gap:8px;margin-bottom:14px">
+    <button class="zh-convert-btn" onclick="toggleSimplified()" style="padding:4px 12px;border:2px solid var(--border);border-radius:var(--radius);background:var(--card-bg);color:var(--text-secondary);font-size:13px;cursor:pointer;font-family:inherit">切换繁体</button>
+  </div>
   <div class="stats" id="statsBar"></div>
 </div>
 
@@ -267,8 +270,8 @@ const COLL_FILE_MAP = {
 };
 
 // ===== SIMPLIFIED-TRADITIONAL CONVERSION =====
-const S2T_S="爱碍袄奥坝罢摆败颁办绑榜报贝备辈笔毕边编变辩标鳖别宾拨补参蚕残惭惨灿苍舱层产长尝偿厂畅车彻尘陈衬称惩诚骋迟齿冲虫丑筹处触础传创纯辞词赐聪从丛窜达带担单当挡党档导灯邓敌涤递点电垫淀调谍叠钉东动栋冻斗独读赌镀锻断对吨顿夺堕鹅额恶儿尔饵贰发罚阀烦范飞废费纷坟奋愤丰锋风凤肤辐抚辅赋复负妇缚该盖干赶感冈纲岗钢搞镐稿个给龚宫巩贡购够顾雇观馆惯广规龟归轨贵柜国过铪韩号合贺横恒轰鸿红后壶护华画划话怀坏欢环还缓换唤焕患荒皇辉回汇会绘荤浑伙获货祸击积饥迹际剂济继记技计纪夹颊坚监减简检鉴键舰渐践荐剑贱见间将奖桨酱讲胶脚饺搅缴轿较阶节杰洁结届紧进晋尽禁经惊净竞纠旧举据锯惧剧鹃卷觉决绝军骏开凯颗壳课肯垦恳铿库夸块宽况亏岿窥馈扩阔蜡腊莱来赖兰拦栏烂滥劳涝乐类离历丽励砾沥隶俩联帘怜莲连炼练粮两辆谅疗辽了临邻灵岭刘龙笼垄拢楼露卢芦颅庐炉鲁陆虏录禄滤绿峦挛乱掠抡轮论萝罗逻骡落妈马买卖迈脉馒满谩猫贸么没镁门闷萌锰梦弥觅灭庙蔑闽鸣铭谬谋亩哪钠难恼脑呢拟逆酿鸟聂镊宁农浓怒诺偶盘庞赔喷鹏骗频凭评泼扑朴铺齐启气弃牵签迁钱潜浅谴堑枪强抢锹桥窍窃钦侵亲轻氢倾庆穷琼丘区驱趋权劝确让扰热认纫荣绒软锐闰润洒丧骚扫涩杀纱筛晒删闪赡缮伤赏烧绍赊摄慑设绅审肾渗声胜师狮湿实识驶释寿书输属术树竖数帅双谁顺说丝饲松耸颂讼诵搜苏诉肃虽随岁孙损缩锁她台态摊贪坛谈叹汤趟烫涛讨誊锑题体屉天条铁厅听铜统头图团推腿退吞拖驮驼椭洼袜弯湾万网围为韦维纬伪苇卫温闻纹稳问瓮挝蜗涡窝呜钨乌无芜吴务误锡牺袭习铣戏细虾辖吓锨鲜纤咸显险馅宪线献乡详响项橡向协胁亵写泄卸锌兴汹绣虚叙绪续轩选悬学寻询训讯压鸦鸭哑亚烟严岩颜阎艳验阳养样药谣尧摇遥页业叶医铱仪蚁亿忆义艺异议译阴银饮隐应莹蝇颖拥涌优邮犹铀游鱼渔屿语吁郁誉预驭鸳渊圆远愿约跃钥岳阅云运酝杂灾载暂赞赃脏凿枣灶则择泽责贼赠扎铡轧闸诈摘斋债毡战盏斩展辗占栈绽张涨帐账胀赵哲辙针侦诊镇阵挣睁郑证织职执纸质滞钟终种肿众诌轴皱昼朱驻铸筑专庄桩装壮状锥坠赘准浊资踪综总纵邹组钻";
-const S2T_T="愛礙襖奧壩罷擺敗頒辦綁榜報貝備輩筆畢邊編變辯標鱉別賓撥補參蠶殘慚慘燦蒼艙層產長嘗償廠暢車徹塵陳襯稱懲誠騁遲齒衝蟲醜籌處觸礎傳創純辭詞賜聰從叢竄達帶擔單當擋黨檔導燈鄧敵滌遞點電墊澱調諜疊釘東動棟凍鬥獨讀賭鍍鍛斷對噸頓奪墮鵝額惡兒爾餌貳發罰閥煩範飛廢費紛墳奮憤豐鋒風鳳膚輻撫輔賦復負婦縛該蓋幹趕感岡綱崗鋼搞鎬稿個給龔宮鞏貢購夠顧僱觀館慣廣規龜歸軌貴櫃國過鉿韓號閤賀橫恆轟鴻紅後壺護華畫劃話懷壞歡環還緩換喚煥患荒皇輝回匯會繪葷渾夥獲貨禍擊積飢跡際劑濟繼記技計紀夾頰堅監減簡檢鑑鍵艦漸踐薦劍賤見間將獎槳醬講膠腳餃攪繳轎較階節傑潔結屆緊進晉盡禁經驚淨競糾舊舉據鋸懼劇鵑卷覺決絕軍駿開凱顆殼課肯墾懇鏗庫誇塊寬況虧巋窺饋擴闊蠟臘萊來賴蘭攔欄爛濫勞澇樂類離歷麗勵礫瀝隸倆聯簾憐蓮連煉練糧兩輛諒療遼瞭臨鄰靈嶺劉龍籠壟攏樓露盧蘆顱廬爐魯陸虜錄祿濾綠巒攣亂掠掄輪論蘿羅邏騾落媽馬買賣邁脈饅滿謾貓貿麼沒鎂門悶萌錳夢彌覓滅廟蔑閩鳴銘謬謀畝哪鈉難惱腦呢擬逆釀鳥聶鑷寧農濃怒諾偶盤龐賠噴鵬騙頻憑評潑撲樸鋪齊啟氣棄牽簽遷錢潛淺譴塹槍強搶鍬橋竅竊欽侵親輕氫傾慶窮瓊丘區驅趨權勸確讓擾熱認紉榮絨軟銳閏潤灑喪騷掃澀殺紗篩曬刪閃贍繕傷賞燒紹賒攝懾設紳審腎滲聲勝師獅濕實識駛釋壽書輸屬術樹豎數帥雙誰順說絲飼鬆聳頌訟誦搜蘇訴肅雖隨歲孫損縮鎖她台態攤貪壇談嘆湯趟燙濤討謄銻題體屜天條鐵廳聽銅統頭圖團推腿退吞拖馱駝橢窪襪彎灣萬網圍為韋維緯偽葦衛溫聞紋穩問甕撾蝸渦窩嗚鎢烏無蕪吳務誤錫犧襲習銑戲細蝦轄嚇鍁鮮纖鹹顯險餡憲線獻鄉詳響項橡嚮協脅褻寫洩卸鋅興洶繡虛敘緒續軒選懸學尋詢訓訊壓鴉鴨啞亞煙嚴巖顏閻艷驗陽養樣藥謠堯搖遙頁業葉醫銥儀蟻億憶義藝異議譯陰銀飲隱應瑩蠅穎擁湧優郵猶鈾遊魚漁嶼語籲鬱譽預馭鴛淵圓遠願約躍鑰嶽閱雲運醞雜災載暫贊贓髒鑿棗竈則擇澤責賊贈扎鍘軋閘詐摘齋債氈戰盞斬展輾佔棧綻張漲帳賬脹趙哲轍針偵診鎮陣掙睜鄭證織職執紙質滯鐘終種腫眾謅軸皺晝朱駐鑄築專莊樁裝壯狀錐墜贅準濁資蹤綜總縱鄒組鑽";
+const S2T_S="乱亚占来俩个们侦伪杰备传债伤倾雇价仪亿偿优儿两冻凯别删则创划剧刘剑剂动务胜劳励劝汇区协参丛吴问哑启唤丧单呜叹呕尝哗啸嘘喷吨吓向严嘱国围园圆图团执坚尧报块尘堑垫坠堕坟垦坛压垒坏垄坝壮壶寿够梦伙夹奥夺奋妇妈娇婴婶孙学宫实宁审写宽宝将专寻对导届屉层属冈岗岭屿岳岿峦岩帅师帐带币帮干几库庙厂废广庐厅张强弹弥弯后从复彻恒闷恶恼爱态惨惭惯虑庆忧怜凭愤宪忆恳应惩懒怀悬惧慑恋战戏户舍扫抡挣换损摇抢掺拨抚扑挝拥择击挡担据拟扩摆扰拢拦摄挛摊搅败叙敌数毙斩断于时晋昼畅暂晒书会东条弃枣栋栈业极荣构枪桨桩乐楼标样朴树桥机椭横档检柜栏权钦叹欧欢岁历归残杀壳毁毡气氢决没况泄汹净渊浅减涡测浑涌汤准沟温灭涤滞渗满渔涨渐泼洁潜润涩涝泽淀浊浓湿济涛滥滤沥洒湾灾为乌无炼烟焕烦热灯烧烫营灿炉烂尔牵牺状犹狱狮奖独狞获猎兽献现莹环琼瓮产亩毕画异当叠疗痴发皱盗盏尽监盘卢众睁嗔了确码础碍砾禄祸禅礼税种称积颖稳窝洼穷窥窜窍灶窃竞笔节范筑筛简签帘篮筹笼签吁粮纠纪约红纫纹纯纱纸纷细绅绍终组结绝给绒统丝绑经综绿维纲网绽紧绪线缘编缓纬练缚县缝缩纵总绩织缮绣绳绘缴继续缠纤罚罢罗义习闻联聪声耸聂职听肃胁脉胀肾脑肿脚肤胶腊临台与兴举旧舱舰艰艳庄华莱万叶苇荤苍盖莲芜荐艺药芦苏蕴兰萝处虚虏号亏虾蜗虫蚁蝇蜡蚕众术卫冲补装里制复裤亵袄袜衬袭见规觅亲觉览观触订计讯讨训记讼设许诉诊诈评词询诗话该详夸志认语诚误诵说谁课调谈请谅论谍谛诸诺谋誊诌谎讲谣谬谩证识谱译议谴护誉读变让竖丰猫贝负财贡贫货贩贪责贰贵买费贴贸贺资贼赊宾赐赏赔卖贱赋质账赌赖赚购赛赘赠赞赡赃赶赵趋迹践迹踪跃车轧轨军轩软轴较载辅轻辆辉辈轮输辐辗舆辖转辙轿轰办辞辩农回这连进游运过达遥递远适迟迁选遗辽迈还边逻邮乡邹邓郑邻丑酝医酱酿释钉针钠铀铪银铜铣铭铱锐锑锌锋铺锯钢录锥钱锦锡错锰锨锅镀铡锻锹键镁锁钨镐镇链铿镜钟铁铸鉴钥镊钻凿长门闪闭开闰闲间闸阁合阀闽阅阎阔关阵阴陈陆阳队阶际随险隐隶虽双杂鸡离难云电灵静巩韦韩响页顶项顺须颂预顽颁顿颇领头颊频颗题额颜愿类顾显颅风飞饥饭饮饲饱饰饺饼养饵余馅馆馒馈饥饶马驭驮驻驾驶驼骇骏骋骑骗骚骡驱验惊脏体发松斗闹郁鱼鲁鲜鳖鸟凤鸣鸦鸳鸭鸿鹃鹅鹏鹰咸盐丽么点党齐斋齿龄龙庞龚龟";
+const S2T_T="亂亞佔來倆個們偵偽傑備傳債傷傾僱價儀億償優兒兩凍凱別刪則創劃劇劉劍劑動務勝勞勵勸匯區協參叢吳問啞啟喚喪單嗚嘆嘔嘗嘩嘯噓噴噸嚇嚮嚴囑國圍園圓圖團執堅堯報塊塵塹墊墜墮墳墾壇壓壘壞壟壩壯壺壽夠夢夥夾奧奪奮婦媽嬌嬰嬸孫學宮實寧審寫寬寶將專尋對導屆屜層屬岡崗嶺嶼嶽巋巒巖帥師帳帶幣幫幹幾庫廟廠廢廣廬廳張強彈彌彎後從復徹恆悶惡惱愛態慘慚慣慮慶憂憐憑憤憲憶懇應懲懶懷懸懼懾戀戰戲戶捨掃掄掙換損搖搶摻撥撫撲撾擁擇擊擋擔據擬擴擺擾攏攔攝攣攤攪敗敘敵數斃斬斷於時晉晝暢暫曬書會東條棄棗棟棧業極榮構槍槳樁樂樓標樣樸樹橋機橢橫檔檢櫃欄權欽歎歐歡歲歷歸殘殺殼毀氈氣氫決沒況洩洶淨淵淺減渦測渾湧湯準溝溫滅滌滯滲滿漁漲漸潑潔潛潤澀澇澤澱濁濃濕濟濤濫濾瀝灑灣災為烏無煉煙煥煩熱燈燒燙營燦爐爛爾牽犧狀猶獄獅獎獨獰獲獵獸獻現瑩環瓊甕產畝畢畫異當疊療癡發皺盜盞盡監盤盧眾睜瞋瞭確碼礎礙礫祿禍禪禮稅種稱積穎穩窩窪窮窺竄竅竈竊競筆節範築篩簡簽簾籃籌籠籤籲糧糾紀約紅紉紋純紗紙紛細紳紹終組結絕給絨統絲綁經綜綠維綱網綻緊緒線緣編緩緯練縛縣縫縮縱總績織繕繡繩繪繳繼續纏纖罰罷羅義習聞聯聰聲聳聶職聽肅脅脈脹腎腦腫腳膚膠臘臨臺與興舉舊艙艦艱艷莊華萊萬葉葦葷蒼蓋蓮蕪薦藝藥蘆蘇蘊蘭蘿處虛虜號虧蝦蝸蟲蟻蠅蠟蠶衆術衛衝補裝裡製複褲褻襖襪襯襲見規覓親覺覽觀觸訂計訊討訓記訟設許訴診詐評詞詢詩話該詳誇誌認語誠誤誦說誰課調談請諒論諜諦諸諾謀謄謅謊講謠謬謾證識譜譯議譴護譽讀變讓豎豐貓貝負財貢貧貨販貪責貳貴買費貼貿賀資賊賒賓賜賞賠賣賤賦質賬賭賴賺購賽贅贈贊贍贓趕趙趨跡踐蹟蹤躍車軋軌軍軒軟軸較載輔輕輛輝輩輪輸輻輾輿轄轉轍轎轟辦辭辯農迴這連進遊運過達遙遞遠適遲遷選遺遼邁還邊邏郵鄉鄒鄧鄭鄰醜醞醫醬釀釋釘針鈉鈾鉿銀銅銑銘銥銳銻鋅鋒鋪鋸鋼錄錐錢錦錫錯錳鍁鍋鍍鍘鍛鍬鍵鎂鎖鎢鎬鎮鏈鏗鏡鐘鐵鑄鑑鑰鑷鑽鑿長門閃閉開閏閑間閘閣閤閥閩閱閻闊關陣陰陳陸陽隊階際隨險隱隸雖雙雜雞離難雲電靈靜鞏韋韓響頁頂項順須頌預頑頒頓頗領頭頰頻顆題額顏願類顧顯顱風飛飢飯飲飼飽飾餃餅養餌餘餡館饅饋饑饒馬馭馱駐駕駛駝駭駿騁騎騙騷騾驅驗驚髒體髮鬆鬥鬧鬱魚魯鮮鱉鳥鳳鳴鴉鴛鴨鴻鵑鵝鵬鷹鹹鹽麗麼點黨齊齋齒齡龍龐龔龜";
 const _s2tMap={},_t2sMap={};
 for(let i=0;i<S2T_S.length;i++){_s2tMap[S2T_S[i]]=S2T_T[i];_t2sMap[S2T_T[i]]=S2T_S[i];}
 function toT(s){return[...s].map(c=>_s2tMap[c]||c).join('');}
@@ -317,7 +320,8 @@ const EN_STOP = new Set("what is are the a an of in to and or how do does this t
 let currentLang='zh', indexData=[], indexLoaded=false, searchResults=[], currentPage=0, lastQuery='';
 const PAGE_SIZE=30, dataCache={};
 let manifest=null;
-let zhSimplified=false;
+function dzh(text){return zhSimplified?toS(text):text;}
+let zhSimplified=true;
 
 const TERM_MAP_ZH_EN={
   "正见":"right view","正見":"right view","正思维":"right intention","正思惟":"right intention",
@@ -418,12 +422,24 @@ function extractTerms(text,lang){
 function detectQuestion(text,lang){
   if(lang==='zh'){
     const tS=toS(text),tT=toT(text);
-    const pats=[/^(?:什么是|什麼是|何为|何為|何谓|何謂|怎么是|怎麼是|如何是)(.+)/,/^(.+?)(?:是什么|是什麼|是何|什么意思|什麼意思)[?？]?$/];
+    const pats=[
+      /^(?:什么是|什麼是|何为|何為|何谓|何謂|怎么是|怎麼是|如何是)(.+)/,
+      /^(.+?)(?:是什么|是什麼|是何|什么意思|什麼意思)[?？]?$/,
+      /^(?:为什么|為什麼|为何|為何)(?:要|会|會|需要)?(.+)/,
+      /^(?:怎么|怎麼|如何|怎样|怎樣)(?:修|做|修习|修習|实践|實踐|修行)?(.+)/,
+      /^(?:应该|應該|应当|應當)(?:怎么|怎麼|如何)(.+)/,
+    ];
     for(const p of pats){const m=tS.match(p)||tT.match(p)||text.match(p);if(m)return{isQ:true,core:m[1].trim()};}
     if(/[?？]$/.test(text)){const ts=extractTerms(text,'zh');if(ts.length)return{isQ:true,core:ts[0]};}
     return{isQ:false};
   } else {
-    const pats=[/^what (?:is|are) (?:the )?(.+?)[?]?$/i,/^how (?:is|are|do|does) (.+?)[?]?$/i,/^(?:define|explain|describe) (.+?)[?]?$/i];
+    const pats=[
+      /^what (?:is|are) (?:the )?(.+?)[?]?$/i,
+      /^how (?:is|are|do|does|should|can|to) (.+?)[?]?$/i,
+      /^how to (?:practice |develop |cultivate )?(.+?)[?]?$/i,
+      /^why (?:is|are|does|do|should|did) (.+?)[?]?$/i,
+      /^(?:define|explain|describe) (.+?)[?]?$/i,
+    ];
     for(const p of pats){const m=text.match(p);if(m)return{isQ:true,core:m[1].trim()};}
     if(/\?$/.test(text)){const ts=extractTerms(text,'en');if(ts.length)return{isQ:true,core:ts[0]};}
     return{isQ:false};
@@ -433,13 +449,18 @@ function scoreResult(entry,coreTerm,lang){
   const text=lang==='en'?entry.e:entry.z;
   const tT=toT(coreTerm),tS=toS(coreTerm);
   if(lang==='zh'){
-    for(const p of['云何','何為','何謂','什麼是','怎樣是']){if(text.includes(p+tT)||text.includes(p+tS))return 1;}
+    for(const p of['云何','何為','何謂','什麼是','怎樣是','為何','為什麼']){if(text.includes(p+tT)||text.includes(p+tS))return 1;}
+    for(const p of['怎樣修','如何修','應當','應該']){if((text.includes(p)&&(text.includes(tT)||text.includes(tS))))return 1;}
     if(text.includes(tT+'者')||text.includes(tS+'者')||text.includes('所謂'+tT)||text.includes('所謂'+tS))return 2;
+    for(const p of['因為','由於','以是之故','之所以']){if(text.includes(p)&&(text.includes(tT)||text.includes(tS)))return 2;}
   } else {
     const lo=text.toLowerCase(),clo=coreTerm.toLowerCase();
     if(/and what[\s,]+\w*[\s,]*is/i.test(lo)&&lo.includes(clo))return 1;
     if(lo.includes('what is '+clo)||lo.includes('what are '+clo))return 1;
+    if(lo.includes('why')||lo.includes('because')||lo.includes('reason')){if(lo.includes(clo))return 1;}
+    if(lo.includes('how to')||lo.includes('should')||lo.includes('practice')){if(lo.includes(clo))return 1;}
     if(lo.includes(clo+' is ')||lo.includes(clo+' means'))return 2;
+    if((lo.includes('develop')||lo.includes('cultivat'))&&lo.includes(clo))return 2;
   }
   return 3;
 }
@@ -496,13 +517,14 @@ async function doSearch(){
   lastQuery=rawQuery;
   const question=detectQuestion(rawQuery,currentLang);
   const terms=extractTerms(rawQuery,currentLang);
-  const isSingleTerm=terms.length<=1&&rawQuery.length<(currentLang==='zh'?6:20);
+  const isSingleTerm=terms.length<=1||(question.isQ&&terms.length<=2);
 
   if(isSingleTerm||terms.length===0){
-    const coreQuery=question.isQ?question.core:rawQuery;
+    const coreQuery=question.isQ?(terms.length>0?terms[0]:question.core):(terms.length>0?terms[0]:rawQuery);
     searchResults=searchIndex(coreQuery,currentLang);
     if(question.isQ){
-      searchResults.forEach(r=>r._score=scoreResult(r,question.core,currentLang));
+      const scoreTerm=terms.length>0?terms[0]:question.core;
+      searchResults.forEach(r=>r._score=scoreResult(r,scoreTerm,currentLang));
       searchResults.sort((a,b)=>a._score-b._score);
     }
     currentPage=0;
@@ -589,11 +611,11 @@ function renderResultCard(item,query){
         ${scoreTag}
         <span class="uid-badge">${escapeHtml(item.u)}</span>
         <span class="meta-item">${coll.collection}</span>
-        ${item.t?`<span class="meta-item">${escapeHtml(item.t)}</span>`:''}
+        ${item.t?`<span class="meta-item">${escapeHtml(dzh(item.t))}</span>`:''}
         <span class="meta-item">译者: ${escapeHtml(item.a)}</span>
       </div>
       <div class="result-body">
-        <div class="translation">${highlight(item.z,query)}</div>
+        <div class="translation" data-zh="${escapeAttr(item.z)}" data-q="${escapeAttr(query)}">${highlight(dzh(item.z),query)}</div>
       </div>
     </div>`;
   }
@@ -725,7 +747,7 @@ async function viewFullText(uid,collKey,lang,segId,sentIdx,authorUid){
       legacies.forEach((l,i)=>html+=`<option value="${i}"${i===selIdx?' selected':''}>${escapeHtml(l.author)}${l.title?' - '+escapeHtml(l.title):''}</option>`);
       html+=`</select>`;
     }
-    html+=`<button onclick="toggleSimplified()" id="simplifiedBtn" style="margin-left:auto;padding:4px 12px;border:1px solid var(--accent);border-radius:4px;background:transparent;color:var(--accent);cursor:pointer;font-family:inherit;font-size:13px">${zhSimplified?'切换繁体':'切换简体'}</button>`;
+    html+=`<button onclick="toggleSimplified()" id="simplifiedBtn" style="margin-left:auto;padding:4px 12px;border:1px solid var(--accent);border-radius:4px;background:transparent;color:var(--accent);cursor:pointer;font-family:inherit;font-size:13px">${zhSimplified?'切换繁体':'切换简体'}</button><span class="zh-convert-btn" style="display:none"></span>`;
     html+=`</div>`;
     html+=`<div id="zhContent">`;
     html+=renderChineseFullText(legacies[selIdx],zhHighlight);
@@ -794,8 +816,9 @@ function renderChineseFullText(legacy,query){
   html+=`</div>`;
 
   const rawText=legacy.text||'';
+  const displayText=zhSimplified?toS(rawText):rawText;
   html+=`<div class="zh-text-body">`;
-  html+=formatChineseText(rawText,query);
+  html+=formatChineseText(displayText,query);
   html+=`</div>`;
   return html;
 }
@@ -851,8 +874,13 @@ function toggleSection(titleEl){
 
 function toggleSimplified(){
   zhSimplified=!zhSimplified;
-  const btn=document.getElementById('simplifiedBtn');
-  if(btn)btn.textContent=zhSimplified?'切换繁体':'切换简体';
+  document.querySelectorAll('.zh-convert-btn,#simplifiedBtn').forEach(b=>b.textContent=zhSimplified?'切换繁体':'切换简体');
+  // Update search results
+  document.querySelectorAll('[data-zh]').forEach(el=>{
+    const raw=el.getAttribute('data-zh');
+    el.innerHTML=highlight(zhSimplified?toS(raw):raw,el.getAttribute('data-q')||'');
+  });
+  // Update detail view
   const zhContent=document.getElementById('zhContent');
   if(!zhContent)return;
   if(zhSimplified){
