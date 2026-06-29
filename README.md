@@ -3,6 +3,7 @@
 巴利语三藏经典全文检索 · Pāli Canon Full-Text Search
 
 基于 [SuttaCentral](https://suttacentral.net) 数据源，提供巴利语三藏经典的英文和中文全文搜索功能。
+
 请访问网页 https://bayson-create.github.io/Early-Buddhist/ 进行查看。
 
 ## 功能
