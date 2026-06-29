@@ -568,7 +568,7 @@ function renderResultCard(item,query){
   const priorityClass=item._score===1?' priority-1':item._score===2?' priority-2':'';
 
   if(currentLang==='en'){
-    return `<div class="result-card${priorityClass}" onclick="viewFullText('${escapeAttr(item.u)}','${escapeAttr(item.c)}','en','${escapeAttr(item.s)}')">
+    return `<div class="result-card${priorityClass}" onclick="lastQuery='${escapeAttr(query)}';viewFullText('${escapeAttr(item.u)}','${escapeAttr(item.c)}','en','${escapeAttr(item.s)}')">
       <div class="result-meta">
         <span class="tag ${tagClass}">${coll.pitaka}</span>
         ${scoreTag}
@@ -583,7 +583,7 @@ function renderResultCard(item,query){
       </div>
     </div>`;
   } else {
-    return `<div class="result-card${priorityClass}" onclick="viewFullText('${escapeAttr(item.u)}','${escapeAttr(item.c)}','zh','',${item.i},'${escapeAttr(item.au||'')}')">
+    return `<div class="result-card${priorityClass}" onclick="lastQuery='${escapeAttr(query)}';viewFullText('${escapeAttr(item.u)}','${escapeAttr(item.c)}','zh','',${item.i},'${escapeAttr(item.au||'')}')">
       <div class="result-meta">
         <span class="tag ${tagClass}">${coll.pitaka}</span>
         ${scoreTag}
