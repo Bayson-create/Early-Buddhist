@@ -91,7 +91,8 @@ mark { background: var(--highlight); color: inherit; padding: 1px 2px; border-ra
 .detail-header .detail-meta-grid { display: grid; grid-template-columns: auto 1fr; gap: 6px 16px; font-size: 14px; }
 .detail-header .detail-meta-label { color: var(--text-secondary); font-weight: 600; }
 .detail-header .detail-meta-value { color: var(--text); }
-.translator-select { margin-bottom: 16px; padding: 12px 16px; background: #faf6ef; border-radius: var(--radius); border: 1px solid var(--border); display: flex; align-items: center; gap: 10px; }
+.translator-select { margin-bottom: 16px; padding: 12px 16px; background: #faf6ef; border-radius: var(--radius); border: 1px solid var(--border); display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.detail-section-inner { }
 .translator-select label { font-size: 14px; font-weight: 600; color: var(--text-secondary); }
 .detail-section { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); margin-bottom: 20px; overflow: hidden; }
 .detail-section-title { padding: 12px 20px; background: #faf6ef; border-bottom: 1px solid var(--border); font-size: 16px; font-weight: 700; color: var(--accent); }
@@ -137,14 +138,14 @@ mark { background: var(--highlight); color: inherit; padding: 1px 2px; border-ra
 
 <div class="search-area">
   <div class="search-box">
-    <input type="text" id="searchInput" placeholder="输入关键词、术语或问题 / Enter keyword, term or question..." autofocus>
+    <input type="text" id="searchInput" placeholder="输入关键词、术语或问题..." autofocus>
     <button id="searchBtn" onclick="doSearch()">搜索</button>
   </div>
   <div class="filters">
     <label>语言:</label>
     <div class="lang-toggle">
-      <button id="langEn" class="active" onclick="setLang('en')">English</button>
-      <button id="langZh" onclick="setLang('zh')">中文</button>
+      <button id="langZh" class="active" onclick="setLang('zh')">中文</button>
+      <button id="langEn" onclick="setLang('en')">English</button>
     </div>
     <label style="margin-left:12px">范围:</label>
     <select id="collectionFilter">
@@ -313,9 +314,62 @@ const GLOSSARY_EN = [
 const EN_STOP = new Set("what is are the a an of in to and or how do does this that it for with on at by from as be was were been being have has had will would could should may might can shall not no but if then so than too very just about which who whom whose when where why i you he she we they me him her us them my your his its our their".split(' '));
 
 // ===== STATE =====
-let currentLang='en', indexData=[], indexLoaded=false, searchResults=[], currentPage=0, lastQuery='';
+let currentLang='zh', indexData=[], indexLoaded=false, searchResults=[], currentPage=0, lastQuery='';
 const PAGE_SIZE=30, dataCache={};
 let manifest=null;
+let zhSimplified=false;
+
+const TERM_MAP_ZH_EN={
+  "正见":"right view","正見":"right view","正思维":"right intention","正思惟":"right intention",
+  "正语":"right speech","正語":"right speech","正业":"right action","正業":"right action",
+  "正命":"right livelihood","正精进":"right effort","正精進":"right effort",
+  "正念":"right mindfulness","正定":"right concentration",
+  "四圣谛":"four noble truths","四聖諦":"four noble truths","八正道":"noble eightfold path","八聖道":"noble eightfold path",
+  "四念处":"foundations of mindfulness","四念處":"foundations of mindfulness",
+  "五蕴":"five aggregates","五蘊":"five aggregates",
+  "十二因缘":"dependent origination","十二因緣":"dependent origination","缘起":"dependent origination","緣起":"dependent origination",
+  "七觉支":"seven factors of awakening","七覺支":"seven factors of awakening",
+  "涅槃":"nibbana","解脱":"liberation","解脫":"liberation",
+  "烦恼":"defilements","煩惱":"defilements","贪":"greed","貪":"greed","嗔":"hatred","瞋":"hatred","痴":"delusion",
+  "无常":"impermanence","無常":"impermanence","无我":"non-self","無我":"non-self","苦":"suffering",
+  "禅那":"jhana","禪那":"jhana","初禅":"first jhana","初禪":"first jhana",
+  "阿罗汉":"arahant","阿羅漢":"arahant","菩提":"awakening","觉悟":"awakening","覺悟":"awakening",
+  "轮回":"rebirth","輪迴":"rebirth","业":"kamma","業":"kamma",
+  "戒":"virtue","定":"concentration","慧":"wisdom","布施":"generosity","精进":"energy","精進":"energy",
+  "比丘":"monk","比丘尼":"nun","僧伽":"sangha",
+  "世尊":"the Buddha","如来":"the Realized One","如來":"the Realized One",
+  "慈":"loving-kindness","悲":"compassion","喜":"appreciative joy","舍":"equanimity","捨":"equanimity",
+  "五盖":"five hindrances","五蓋":"five hindrances","三毒":"three poisons",
+  "无明":"ignorance","無明":"ignorance","名色":"name-and-form","六处":"six sense bases","六處":"six sense bases",
+  "触":"contact","觸":"contact","受":"feeling","爱":"craving","愛":"craving","取":"clinging","有":"existence",
+  "生":"birth","老死":"aging-and-death","空":"emptiness",
+  "正知":"clear comprehension","安般":"breathing","出入息":"breathing",
+  "善法":"wholesome","不善法":"unwholesome",
+};
+const TERM_MAP_EN_ZH={};
+for(const[zh,en] of Object.entries(TERM_MAP_ZH_EN)){
+  const key=en.toLowerCase();
+  if(!TERM_MAP_EN_ZH[key])TERM_MAP_EN_ZH[key]=[];
+  TERM_MAP_EN_ZH[key].push(zh);
+}
+
+function getCrossLangTerms(query,fromLang){
+  if(fromLang==='zh'){
+    const qS=toS(query),qT=toT(query);
+    const enTerms=new Set();
+    for(const[zh,en] of Object.entries(TERM_MAP_ZH_EN)){
+      if(qS.includes(toS(zh))||qT.includes(toT(zh))||query.includes(zh))enTerms.add(en);
+    }
+    return[...enTerms];
+  } else {
+    const lower=query.toLowerCase();
+    const zhTerms=new Set();
+    for(const[en,zhs] of Object.entries(TERM_MAP_EN_ZH)){
+      if(lower.includes(en))for(const z of zhs)zhTerms.add(z);
+    }
+    return[...zhTerms];
+  }
+}
 
 // ===== UTILITIES =====
 function escapeHtml(s){const d=document.createElement('div');d.textContent=s;return d.innerHTML;}
@@ -323,8 +377,11 @@ function escapeAttr(s){return s.replace(/\\/g,'\\\\').replace(/'/g,"\\'").replac
 function pitakaClass(c){const p=(COLLECTIONS[c]||{}).pitaka||'';return p.includes('经藏')?'tag-sutta':p.includes('律藏')?'tag-vinaya':p.includes('论藏')?'tag-abhi':'tag-other';}
 function highlight(text,query){
   if(!query)return escapeHtml(text);
-  const vs=new Set([query,toT(query),toS(query)]);
-  const esc=[...vs].map(v=>v.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'));
+  const parts=query.split('|').filter(Boolean);
+  const vs=new Set();
+  for(const p of parts){vs.add(p);vs.add(toT(p));vs.add(toS(p));}
+  const esc=[...vs].filter(Boolean).map(v=>v.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'));
+  if(esc.length===0)return escapeHtml(text);
   return escapeHtml(text).replace(new RegExp(`(${esc.join('|')})`,'gi'),'<mark>$1</mark>');
 }
 function textMatch(text,query){
@@ -629,21 +686,28 @@ async function viewFullText(uid,collKey,lang,segId,sentIdx,authorUid){
   html+=`<span class="detail-meta-label">SuttaCentral</span><span class="detail-meta-value">${scLinks.join(' · ')}</span>`;
   html+=`</div></div>`;
 
+  const crossTerms=getCrossLangTerms(query,lang);
+  const enCollapsed=lang==='zh';
+  const zhCollapsed=lang==='en';
+  const enHighlight=lang==='en'?query:(crossTerms.length>0?crossTerms.join('|'):'');
+  const zhHighlight=lang==='zh'?query:(crossTerms.length>0?crossTerms[0]:'');
+
   // English section
   if(enText&&enText.segments&&enText.segments.length>0){
     const authors=[...new Set(enText.segments.flatMap(s=>(s.english||[]).map(e=>e.author)))];
     const defaultAuthor=(lang==='en'&&segId)?((enText.segments.find(s=>s.segment_id===segId)||{}).english||[])[0]?.author||authors[0]:authors[0];
 
     html+=`<div class="detail-section">`;
-    html+=`<div class="detail-section-title">巴利原文 · 英文译文</div>`;
+    html+=`<div class="detail-section-title pali-toggle" onclick="toggleSection(this)">${enCollapsed?'▸':'▾'} 巴利原文 · 英文译文${enCollapsed?' (点击展开)':''}</div>`;
+    html+=`<div class="detail-section-inner"${enCollapsed?' style="display:none"':''}>`;
     if(authors.length>1){
       html+=`<div class="translator-select"><label>英文译者:</label><select id="enAuthorSelect" onchange="switchEnAuthor('${escapeAttr(uid)}','${escapeAttr(collKey)}')">`;
       for(const a of authors)html+=`<option value="${escapeAttr(a)}"${a===defaultAuthor?' selected':''}>${escapeHtml(a)}</option>`;
       html+=`</select></div>`;
     }
     html+=`<div class="detail-section-body" id="enSegments">`;
-    html+=renderEnglishSegments(enText,defaultAuthor,segId,query);
-    html+=`</div></div>`;
+    html+=renderEnglishSegments(enText,defaultAuthor,segId,enHighlight);
+    html+=`</div></div></div>`;
   }
 
   // Chinese section
@@ -653,15 +717,19 @@ async function viewFullText(uid,collKey,lang,segId,sentIdx,authorUid){
     const selIdx=defaultIdx>=0?defaultIdx:0;
 
     html+=`<div class="detail-section">`;
-    html+=`<div class="detail-section-title">中文译文</div>`;
+    html+=`<div class="detail-section-title pali-toggle" onclick="toggleSection(this)">${zhCollapsed?'▸':'▾'} 中文译文${zhCollapsed?' (点击展开)':''}</div>`;
+    html+=`<div class="detail-section-inner"${zhCollapsed?' style="display:none"':''}>`;
+    html+=`<div class="translator-select">`;
     if(legacies.length>1){
-      html+=`<div class="translator-select"><label>中文译者:</label><select id="zhAuthorSelect" onchange="switchZhAuthor('${escapeAttr(uid)}','${escapeAttr(collKey)}')">`;
+      html+=`<label>中文译者:</label><select id="zhAuthorSelect" onchange="switchZhAuthor('${escapeAttr(uid)}','${escapeAttr(collKey)}')">`;
       legacies.forEach((l,i)=>html+=`<option value="${i}"${i===selIdx?' selected':''}>${escapeHtml(l.author)}${l.title?' - '+escapeHtml(l.title):''}</option>`);
-      html+=`</select></div>`;
+      html+=`</select>`;
     }
+    html+=`<button onclick="toggleSimplified()" id="simplifiedBtn" style="margin-left:auto;padding:4px 12px;border:1px solid var(--accent);border-radius:4px;background:transparent;color:var(--accent);cursor:pointer;font-family:inherit;font-size:13px">${zhSimplified?'切换繁体':'切换简体'}</button>`;
+    html+=`</div>`;
     html+=`<div id="zhContent">`;
-    html+=renderChineseFullText(legacies[selIdx],query);
-    html+=`</div></div>`;
+    html+=renderChineseFullText(legacies[selIdx],zhHighlight);
+    html+=`</div></div></div>`;
   }
 
   // Pali-only section (collapsible)
@@ -678,6 +746,7 @@ async function viewFullText(uid,collKey,lang,segId,sentIdx,authorUid){
 
   container.innerHTML=html;
   window._currentEnText=enText;window._currentZhText=zhText;window._currentQuery=query;window._currentSegId=segId;
+  window._currentEnHighlight=enHighlight;window._currentZhHighlight=zhHighlight;
 
   requestAnimationFrame(()=>{
     const el=document.querySelector('.active-match');
@@ -706,13 +775,13 @@ function renderEnglishSegments(text,author,activeSegId,query){
 function switchEnAuthor(uid,collKey){
   const author=document.getElementById('enAuthorSelect').value;
   const container=document.getElementById('enSegments');
-  container.innerHTML=renderEnglishSegments(window._currentEnText,author,window._currentSegId,window._currentQuery);
+  container.innerHTML=renderEnglishSegments(window._currentEnText,author,window._currentSegId,window._currentEnHighlight||window._currentQuery);
 }
 
 function switchZhAuthor(uid,collKey){
   const idx=parseInt(document.getElementById('zhAuthorSelect').value);
   const legacy=window._currentZhText.zh_legacy[idx];
-  document.getElementById('zhContent').innerHTML=renderChineseFullText(legacy,window._currentQuery);
+  document.getElementById('zhContent').innerHTML=renderChineseFullText(legacy,window._currentZhHighlight||window._currentQuery);
 }
 
 function renderChineseFullText(legacy,query){
@@ -771,6 +840,32 @@ function formatChineseText(rawText,query){
   }
   return html;
 }
+
+function toggleSection(titleEl){
+  const inner=titleEl.nextElementSibling;
+  const show=inner.style.display==='none';
+  inner.style.display=show?'':'none';
+  titleEl.textContent=titleEl.textContent.replace(/^[▸▾]/,show?'▾':'▸').replace(/ \(点击展开\)/,'');
+  if(!show)titleEl.textContent+=' (点击展开)';
+}
+
+function toggleSimplified(){
+  zhSimplified=!zhSimplified;
+  const btn=document.getElementById('simplifiedBtn');
+  if(btn)btn.textContent=zhSimplified?'切换繁体':'切换简体';
+  const zhContent=document.getElementById('zhContent');
+  if(!zhContent)return;
+  if(zhSimplified){
+    zhContent.querySelectorAll('.zh-text-body,.zh-author-info').forEach(el=>{
+      if(!el.dataset.original)el.dataset.original=el.innerHTML;
+      el.innerHTML=toSHtml(el.dataset.original);
+    });
+  } else {
+    zhContent.querySelectorAll('[data-original]').forEach(el=>{el.innerHTML=el.dataset.original;});
+  }
+}
+
+function toSHtml(html){return[...html].map(c=>_t2sMap[c]||c).join('');}
 
 function backToResults(){
   document.getElementById('detailPage').style.display='none';
