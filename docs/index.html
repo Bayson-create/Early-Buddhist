@@ -558,6 +558,60 @@ function isSubsequence(needle,haystack){
 const SUTTA_PREFIXES=new Set(['dn','mn','sn','an','kn','snp','thag','thig','ja','dhp','ud','iti','vv','pv','ap','bv','cp','mnd','cnd','ps','ne','mil','pe','vb','ds','dt','kv','pp','ya','patthana','pli-tv-bu-pm','pli-tv-bu-vb','pli-tv-bi-pm','pli-tv-bi-vb','pli-tv-kd','pli-tv-pvr']);
 const CN_NUM_PAT='[零一二两三四五六七八九十百千万\\d]+';
 
+const PREFIX_COLLECTION_MAP={dn:'经藏/长部_dn',mn:'经藏/中部_mn',sn:'经藏/相应部_sn',an:'经藏/增支部_an',kn:'经藏/小部_kn'};
+const PREFIX_LABELS={
+  dhp:{zh:'法句经',en:'Dhammapada'},
+  thag:{zh:'长老偈经',en:'Theragāthā (Verses of the Senior Monks)'},
+  thig:{zh:'长老尼偈经',en:'Therīgāthā (Verses of the Senior Nuns)'},
+  ja:{zh:'本生经',en:'Jātaka (Birth Stories)'},
+  ud:{zh:'自说经',en:'Udāna'},
+  iti:{zh:'如是语经',en:'Itivuttaka'},
+  snp:{zh:'经集',en:'Sutta Nipāta'},
+  vv:{zh:'天宫事经',en:'Vimānavatthu'},
+  pv:{zh:'饿鬼事经',en:'Petavatthu'},
+  ap:{zh:'譬喻经',en:'Apadāna'},
+  bv:{zh:'佛种姓经',en:'Buddhavaṁsa'},
+  cp:{zh:'所行藏经',en:'Cariyāpiṭaka'},
+  mnd:{zh:'大义释',en:'Mahāniddesa'},
+  cnd:{zh:'小义释',en:'Cullaniddesa'},
+  ps:{zh:'无碍解道',en:'Paṭisambhidāmagga'},
+  ne:{zh:'导论',en:'Nettippakaraṇa'},
+  mil:{zh:'弥兰陀王问经',en:'Milindapañha'},
+  pe:{zh:'藏释',en:'Peṭakopadesa'},
+  'pli-tv-bu-pm':{zh:'比丘波罗提木叉',en:'Bhikkhu Pātimokkha'},
+  'pli-tv-bu-vb':{zh:'比丘经分别',en:'Bhikkhu Vibhaṅga'},
+  'pli-tv-bi-pm':{zh:'比丘尼波罗提木叉',en:'Bhikkhunī Pātimokkha'},
+  'pli-tv-bi-vb':{zh:'比丘尼经分别',en:'Bhikkhunī Vibhaṅga'},
+  'pli-tv-kd':{zh:'犍度',en:'Khandhaka'},
+  'pli-tv-pvr':{zh:'附随',en:'Parivāra'},
+  ds:{zh:'法集论',en:'Dhammasaṅgaṇī'},
+  dt:{zh:'界论',en:'Dhātukathā'},
+  kv:{zh:'论事',en:'Kathāvatthu'},
+  pp:{zh:'人施设论',en:'Puggalapaññatti'},
+  vb:{zh:'分别论',en:'Vibhaṅga'},
+  ya:{zh:'双论',en:'Yamaka'},
+  patthana:{zh:'发趣论',en:'Paṭṭhāna'},
+};
+const ZH_NAME_TO_PREFIX={
+  '法句经':'dhp','长老偈经':'thag','长老偈':'thag','长老尼偈经':'thig','长老尼偈':'thig',
+  '本生经':'ja','本生谭':'ja','自说经':'ud','如是语经':'iti','经集':'snp',
+  '天宫事经':'vv','饿鬼事经':'pv','譬喻经':'ap','佛种姓经':'bv','所行藏经':'cp',
+  '大义释':'mnd','小义释':'cnd','无碍解道':'ps','导论':'ne','弥兰陀王问经':'mil','弥兰王问经':'mil','藏释':'pe',
+  '法集论':'ds','界论':'dt','论事':'kv','人施设论':'pp','分别论':'vb','双论':'ya','发趣论':'patthana',
+};
+const EN_NAME_TO_PREFIX={
+  'dhammapada':'dhp','theragatha':'thag','theragāthā':'thag','therigatha':'thig','therīgāthā':'thig',
+  'jataka':'ja','jātaka':'ja','udana':'ud','udāna':'ud','itivuttaka':'iti',
+  'sutta nipata':'snp','sutta nipāta':'snp','suttanipata':'snp','vimanavatthu':'vv','vimānavatthu':'vv',
+  'petavatthu':'pv','apadana':'ap','apadāna':'ap','buddhavamsa':'bv','buddhavaṁsa':'bv',
+  'cariyapitaka':'cp','cariyāpiṭaka':'cp','mahaniddesa':'mnd','mahāniddesa':'mnd','cullaniddesa':'cnd',
+  'patisambhidamagga':'ps','paṭisambhidāmagga':'ps','nettippakarana':'ne','nettippakaraṇa':'ne',
+  'milindapanha':'mil','milindapañha':'mil','petakopadesa':'pe','peṭakopadesa':'pe',
+  'dhammasangani':'ds','dhammasaṅgaṇī':'ds','dhatukatha':'dt','dhātukathā':'dt','kathavatthu':'kv','kathāvatthu':'kv',
+  'puggalapannatti':'pp','puggalapaññatti':'pp','vibhanga':'vb','vibhaṅga':'vb','yamaka':'ya',
+  'patthana':'patthana','paṭṭhāna':'patthana',
+};
+
 const EN_NUM_WORDS={one:1,two:2,three:3,four:4,five:5,six:6,seven:7,eight:8,nine:9,ten:10,eleven:11,twelve:12,thirteen:13,fourteen:14,fifteen:15,sixteen:16,seventeen:17,eighteen:18,nineteen:19,twenty:20};
 function enWordNum(s){
   s=s.toLowerCase().trim();
@@ -571,6 +625,11 @@ function parseSuttaReference(query){
   if(!q)return null;
   const qSimp=toS(q);
   const ql=q.toLowerCase();
+
+  // ---- Bare abbreviation: "SN", "sn", "dhp", "DHP" etc -> all entries of that collection ----
+  if(SUTTA_PREFIXES.has(ql))return{type:'prefixAll',prefix:ql};
+  if(ZH_NAME_TO_PREFIX[qSimp])return{type:'prefixAll',prefix:ZH_NAME_TO_PREFIX[qSimp]};
+  if(EN_NAME_TO_PREFIX[ql])return{type:'prefixAll',prefix:EN_NAME_TO_PREFIX[ql]};
 
   let m=q.match(/^([a-zA-Z][a-zA-Z\-]{1,18})\s*(\d+(?:\.\d+)?(?:-\d+)?)$/);
   if(m){
@@ -595,13 +654,16 @@ function parseSuttaReference(query){
   m=qSimp.match(/^增支部\s*(\d+)\.(\d+)$/);
   if(m)return{type:'uid',uid:`an${m[1]}.${m[2]}`};
 
+  m=qSimp.match(new RegExp(`^相应部第(${CN_NUM_PAT})相应第(${CN_NUM_PAT})经$`));
+  if(m){const sy=cn2num(m[1]),n=cn2num(m[2]);if(sy&&n)return{type:'uid',uid:`sn${sy}.${n}`};}
+
   m=qSimp.match(/^相应部\s*(\d+)\.(\d+)$/);
   if(m)return{type:'uid',uid:`sn${m[1]}.${m[2]}`};
 
-  m=qSimp.match(/^长部\s*(\d+)$/);
-  if(m)return{type:'uid',uid:`dn${m[1]}`};
-  m=qSimp.match(/^中部\s*(\d+)$/);
-  if(m)return{type:'uid',uid:`mn${m[1]}`};
+  m=qSimp.match(new RegExp(`^长部第?(${CN_NUM_PAT})经?$`));
+  if(m){const n=cn2num(m[1]);if(n)return{type:'uid',uid:`dn${n}`};}
+  m=qSimp.match(new RegExp(`^中部第?(${CN_NUM_PAT})经?$`));
+  if(m){const n=cn2num(m[1]);if(n)return{type:'uid',uid:`mn${n}`};}
 
   m=qSimp.match(new RegExp(`^增支部第(${CN_NUM_PAT})集$`));
   if(m){const n=cn2num(m[1]);if(n)return{type:'nipata',collKey:'经藏/增支部_an',n,label:`增支部第${n}集 / Numbered Discourses ${n}`};}
@@ -714,6 +776,20 @@ function findSuttaReferenceMatch(query,lang){
     if(direct.type==='samyutta'){
       const entries=titleIndex.filter(t=>t.c===direct.collKey&&t.sy===direct.sy).sort((a,b)=>a.o-b.o);
       return entries.length?{type:'samyutta',entries,label:`${direct.label} (${entries.length} 条)`}:null;
+    }
+    if(direct.type==='prefixAll'){
+      const prefix=direct.prefix;
+      const directCollKey=PREFIX_COLLECTION_MAP[prefix];
+      let entries,label;
+      if(directCollKey){
+        entries=titleIndex.filter(t=>t.c===directCollKey).sort((a,b)=>a.o-b.o);
+        label=(COLLECTIONS[directCollKey]||{}).collection||prefix.toUpperCase();
+      }else{
+        entries=titleIndex.filter(t=>t.u===prefix||(t.u.startsWith(prefix)&&/^[\d-]/.test(t.u.slice(prefix.length)))).sort((a,b)=>a.o-b.o);
+        const info=PREFIX_LABELS[prefix];
+        label=info?`${info.zh} ${info.en}`:prefix.toUpperCase();
+      }
+      return entries.length?{type:'prefixAll',entries,label:`${label} 全部经文 (${entries.length} 条，按顺序)`}:null;
     }
   }
   const vagga=findVaggaMatch(query,titleIndex);
