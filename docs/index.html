@@ -104,17 +104,25 @@ mark { background: var(--highlight); color: inherit; padding: 1px 2px; border-ra
 .seg-pali { font-size: 14px; color: var(--text-secondary); font-style: italic; margin-bottom: 4px; }
 .seg-en { font-size: 15px; line-height: 1.7; }
 .seg-row.active-match { background: #fff8e1; border-radius: 6px; padding: 10px 12px; margin: 4px -12px; border-left: 4px solid var(--highlight-active); }
-.zh-text-body { font-size: 16px; line-height: 2.2; padding: 0 12px; }
+.zh-text-body { font-size: 16px; line-height: 2.2; max-width: 680px; margin: 0 auto; padding: 0 8px; }
 .zh-text-body .zh-title { font-size: 22px; font-weight: 700; color: var(--accent); text-align: center; margin: 24px 0 8px; }
 .zh-text-body .zh-subtitle { font-size: 15px; font-weight: 600; color: var(--text-secondary); text-align: center; margin: 4px 0 20px; }
 .zh-text-body .zh-section-header { font-size: 17px; font-weight: 700; color: var(--accent); margin: 32px 0 16px; padding-bottom: 8px; border-bottom: 2px solid var(--border); }
 .zh-text-body .zh-para { margin-bottom: 16px; text-indent: 2em; text-align: justify; }
-.zh-text-body .zh-para.active-match { background: #fff8e1; padding: 8px 12px; border-radius: 6px; border-left: 4px solid var(--highlight-active); text-indent: 0; padding-left: calc(2em + 12px); margin-left: -12px; margin-right: -12px; }
+.zh-text-body .zh-para.active-match { background: #fff8e1; padding: 8px 12px; border-radius: 6px; border-left: 4px solid var(--highlight-active); text-indent: 0; padding-left: calc(2em + 12px); }
 .zh-text-body .zh-break { height: 8px; }
 .zh-text-body .zh-end-mark { font-size: 14px; color: var(--text-secondary); text-align: center; margin-top: 24px; font-style: italic; }
-.zh-author-info { font-size: 13px; color: var(--text-secondary); margin-bottom: 16px; padding-bottom: 10px; border-bottom: 1px solid #f0ebe3; }
+.zh-author-info { font-size: 13px; color: var(--text-secondary); margin-bottom: 16px; padding-bottom: 10px; border-bottom: 1px solid #f0ebe3; display: flex; align-items: center; flex-wrap: wrap; gap: 8px 4px; }
+.zh-author-info .author-text { flex: 1; min-width: 150px; }
 .pali-toggle { cursor: pointer; user-select: none; }
 .pali-toggle:hover { color: var(--accent); }
+.small-toggle-btn { padding: 4px 12px; border: 1px solid var(--accent); border-radius: 4px; background: transparent; color: var(--accent); cursor: pointer; font-family: inherit; font-size: 13px; white-space: nowrap; }
+.en-text-body { font-size: 16px; line-height: 2; max-width: 680px; margin: 0 auto; padding: 0 8px; }
+.en-text-body .en-title { font-size: 20px; font-weight: 700; color: var(--accent); text-align: center; margin: 16px 0 4px; }
+.en-text-body .en-subtitle { font-size: 16px; font-weight: 600; color: var(--text-secondary); text-align: center; margin: 4px 0 20px; font-style: italic; }
+.en-text-body .en-para { margin-bottom: 14px; text-align: justify; }
+.en-text-body .en-para.active-match { background: #fff8e1; padding: 8px 12px; border-radius: 6px; border-left: 4px solid var(--highlight-active); }
+.en-text-body .en-pali-line { font-size: 13px; color: var(--text-secondary); font-style: italic; margin-bottom: 14px; }
 
 @media (max-width: 600px) {
   .header { padding: 32px 16px 16px; }
@@ -709,10 +717,9 @@ async function viewFullText(uid,collKey,lang,segId,sentIdx,authorUid){
   html+=`</div></div>`;
 
   const crossTerms=getCrossLangTerms(query,lang);
-  const enCollapsed=lang==='zh';
-  const zhCollapsed=lang==='en';
   const enHighlight=lang==='en'?query:(crossTerms.length>0?crossTerms.join('|'):'');
   const zhHighlight=lang==='zh'?query:(crossTerms.length>0?crossTerms[0]:'');
+  window._showPali=window._showPali!==false;
 
   // English section
   if(enText&&enText.segments&&enText.segments.length>0){
@@ -720,16 +727,20 @@ async function viewFullText(uid,collKey,lang,segId,sentIdx,authorUid){
     const defaultAuthor=(lang==='en'&&segId)?((enText.segments.find(s=>s.segment_id===segId)||{}).english||[])[0]?.author||authors[0]:authors[0];
 
     html+=`<div class="detail-section">`;
-    html+=`<div class="detail-section-title pali-toggle" onclick="toggleSection(this)">${enCollapsed?'▸':'▾'} 巴利原文 · 英文译文${enCollapsed?' (点击展开)':''}</div>`;
-    html+=`<div class="detail-section-inner"${enCollapsed?' style="display:none"':''}>`;
+    html+=`<div class="detail-section-title">巴利原文 · 英文译文</div>`;
+    html+=`<div class="detail-section-inner">`;
+    html+=`<div class="translator-select">`;
     if(authors.length>1){
-      html+=`<div class="translator-select"><label>英文译者:</label><select id="enAuthorSelect" onchange="switchEnAuthor('${escapeAttr(uid)}','${escapeAttr(collKey)}')">`;
+      html+=`<label>英文译者:</label><select id="enAuthorSelect" onchange="switchEnAuthor('${escapeAttr(uid)}','${escapeAttr(collKey)}')">`;
       for(const a of authors)html+=`<option value="${escapeAttr(a)}"${a===defaultAuthor?' selected':''}>${escapeHtml(a)}</option>`;
-      html+=`</select></div>`;
+      html+=`</select>`;
     }
+    html+=`<button onclick="togglePali('${escapeAttr(uid)}','${escapeAttr(collKey)}')" id="paliToggleBtn" class="small-toggle-btn" style="margin-left:auto">${window._showPali?'隐藏巴利原文':'显示巴利原文'}</button>`;
+    html+=`</div>`;
     html+=`<div class="detail-section-body" id="enSegments">`;
-    html+=renderEnglishSegments(enText,defaultAuthor,segId,enHighlight);
+    html+=renderEnglishSegments(enText,defaultAuthor,segId,enHighlight,window._showPali);
     html+=`</div></div></div>`;
+    window._currentEnAuthor=defaultAuthor;
   }
 
   // Chinese section
@@ -739,16 +750,13 @@ async function viewFullText(uid,collKey,lang,segId,sentIdx,authorUid){
     const selIdx=defaultIdx>=0?defaultIdx:0;
 
     html+=`<div class="detail-section">`;
-    html+=`<div class="detail-section-title pali-toggle" onclick="toggleSection(this)">${zhCollapsed?'▸':'▾'} 中文译文${zhCollapsed?' (点击展开)':''}</div>`;
-    html+=`<div class="detail-section-inner"${zhCollapsed?' style="display:none"':''}>`;
-    html+=`<div class="translator-select">`;
+    html+=`<div class="detail-section-title">中文译文</div>`;
+    html+=`<div class="detail-section-inner">`;
     if(legacies.length>1){
-      html+=`<label>中文译者:</label><select id="zhAuthorSelect" onchange="switchZhAuthor('${escapeAttr(uid)}','${escapeAttr(collKey)}')">`;
+      html+=`<div class="translator-select"><label>中文译者:</label><select id="zhAuthorSelect" onchange="switchZhAuthor('${escapeAttr(uid)}','${escapeAttr(collKey)}')">`;
       legacies.forEach((l,i)=>html+=`<option value="${i}"${i===selIdx?' selected':''}>${escapeHtml(l.author)}${l.title?' - '+escapeHtml(l.title):''}</option>`);
-      html+=`</select>`;
+      html+=`</select></div>`;
     }
-    html+=`<button onclick="toggleSimplified()" id="simplifiedBtn" style="margin-left:auto;padding:4px 12px;border:1px solid var(--accent);border-radius:4px;background:transparent;color:var(--accent);cursor:pointer;font-family:inherit;font-size:13px">${zhSimplified?'切换繁体':'切换简体'}</button><span class="zh-convert-btn" style="display:none"></span>`;
-    html+=`</div>`;
     html+=`<div id="zhContent">`;
     html+=renderChineseFullText(legacies[selIdx],zhHighlight);
     html+=`</div></div></div>`;
@@ -776,7 +784,9 @@ async function viewFullText(uid,collKey,lang,segId,sentIdx,authorUid){
   });
 }
 
-function renderEnglishSegments(text,author,activeSegId,query){
+function renderEnglishSegments(text,author,activeSegId,query,showPali){
+  if(showPali===undefined)showPali=true;
+  if(!showPali)return renderEnglishFlowing(text,author,activeSegId,query);
   let html='';
   for(const seg of text.segments){
     const isActive=seg.segment_id===activeSegId;
@@ -794,10 +804,42 @@ function renderEnglishSegments(text,author,activeSegId,query){
   return html;
 }
 
+function renderEnglishFlowing(text,author,activeSegId,query){
+  let html='<div class="en-text-body">';
+  let titleDone=false,titleCount=0;
+  for(const seg of text.segments){
+    const isActive=seg.segment_id===activeSegId;
+    const enForAuthor=(seg.english||[]).filter(e=>e.author===author);
+    const enText=(enForAuthor.length>0?enForAuthor.map(e=>e.text.trim()).join(' '):'').trim();
+    if(!enText)continue;
+    const isTitleSeg=/:0\.\d+$/.test(seg.segment_id);
+    const hasMatch=query&&textMatch(enText,query);
+    const isActiveOrMatch=isActive||hasMatch;
+    if(isTitleSeg&&titleCount<2){
+      html+=`<div class="${titleCount===0?'en-title':'en-subtitle'}" id="seg-${escapeAttr(seg.segment_id)}">${highlight(enText,query)}</div>`;
+      titleCount++;
+    }else{
+      titleDone=true;
+      html+=`<p class="en-para${isActiveOrMatch?' active-match':''}" id="seg-${escapeAttr(seg.segment_id)}">${highlight(enText,query)}</p>`;
+    }
+  }
+  html+='</div>';
+  return html;
+}
+
+function togglePali(uid,collKey){
+  window._showPali=!window._showPali;
+  const btn=document.getElementById('paliToggleBtn');
+  if(btn)btn.textContent=window._showPali?'隐藏巴利原文':'显示巴利原文';
+  const author=document.getElementById('enAuthorSelect')?document.getElementById('enAuthorSelect').value:window._currentEnAuthor;
+  document.getElementById('enSegments').innerHTML=renderEnglishSegments(window._currentEnText,author,window._currentSegId,window._currentEnHighlight||window._currentQuery,window._showPali);
+}
+
 function switchEnAuthor(uid,collKey){
   const author=document.getElementById('enAuthorSelect').value;
+  window._currentEnAuthor=author;
   const container=document.getElementById('enSegments');
-  container.innerHTML=renderEnglishSegments(window._currentEnText,author,window._currentSegId,window._currentEnHighlight||window._currentQuery);
+  container.innerHTML=renderEnglishSegments(window._currentEnText,author,window._currentSegId,window._currentEnHighlight||window._currentQuery,window._showPali);
 }
 
 function switchZhAuthor(uid,collKey){
@@ -809,10 +851,13 @@ function switchZhAuthor(uid,collKey){
 function renderChineseFullText(legacy,query){
   let html='';
   html+=`<div class="zh-author-info">`;
+  html+=`<span class="author-text">`;
   html+=`译者: ${escapeHtml(legacy.author||'')}`;
   if(legacy.author_uid)html+=` (${escapeHtml(legacy.author_uid)})`;
   if(legacy.publication_date)html+=` · ${escapeHtml(legacy.publication_date)}`;
   if(legacy.source_url)html+=` · <a href="${escapeHtml(legacy.source_url)}" target="_blank" style="color:var(--accent)">来源</a>`;
+  html+=`</span>`;
+  html+=`<button onclick="toggleSimplified()" id="simplifiedBtn" class="small-toggle-btn">${zhSimplified?'切换繁体':'切换简体'}</button>`;
   html+=`</div>`;
 
   const rawText=legacy.text||'';
@@ -884,7 +929,7 @@ function toggleSimplified(){
   const zhContent=document.getElementById('zhContent');
   if(!zhContent)return;
   if(zhSimplified){
-    zhContent.querySelectorAll('.zh-text-body,.zh-author-info').forEach(el=>{
+    zhContent.querySelectorAll('.zh-text-body,.zh-author-info .author-text').forEach(el=>{
       if(!el.dataset.original)el.dataset.original=el.innerHTML;
       el.innerHTML=toSHtml(el.dataset.original);
     });
