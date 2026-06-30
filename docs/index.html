@@ -92,8 +92,10 @@ mark { background: var(--highlight); color: inherit; padding: 1px 2px; border-ra
 .detail-header .detail-meta-label { color: var(--text-secondary); font-weight: 600; }
 .detail-header .detail-meta-value { color: var(--text); }
 .translator-select { margin-bottom: 16px; padding: 12px 16px; background: #faf6ef; border-radius: var(--radius); border: 1px solid var(--border); display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
-.detail-section-inner { }
+.detail-section-inner { padding: 20px; }
 .translator-select label { font-size: 14px; font-weight: 600; color: var(--text-secondary); }
+.toolbar-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 16px; }
+.toolbar-row label { font-size: 14px; font-weight: 600; color: var(--text-secondary); }
 .detail-section { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); margin-bottom: 20px; overflow: hidden; }
 .detail-section-title { padding: 12px 20px; background: #faf6ef; border-bottom: 1px solid var(--border); font-size: 16px; font-weight: 700; color: var(--accent); }
 .detail-section-body { padding: 20px; }
@@ -112,8 +114,6 @@ mark { background: var(--highlight); color: inherit; padding: 1px 2px; border-ra
 .zh-text-body .zh-para.active-match { background: #fff8e1; padding: 8px 12px; border-radius: 6px; border-left: 4px solid var(--highlight-active); text-indent: 0; padding-left: calc(2em + 12px); }
 .zh-text-body .zh-break { height: 8px; }
 .zh-text-body .zh-end-mark { font-size: 14px; color: var(--text-secondary); text-align: center; margin-top: 24px; font-style: italic; }
-.zh-author-info { font-size: 13px; color: var(--text-secondary); margin-bottom: 16px; padding-bottom: 10px; border-bottom: 1px solid #f0ebe3; display: flex; align-items: center; flex-wrap: wrap; gap: 8px 4px; }
-.zh-author-info .author-text { flex: 1; min-width: 150px; }
 .pali-toggle { cursor: pointer; user-select: none; }
 .pali-toggle:hover { color: var(--accent); }
 .small-toggle-btn { padding: 4px 12px; border: 1px solid var(--accent); border-radius: 4px; background: transparent; color: var(--accent); cursor: pointer; font-family: inherit; font-size: 13px; white-space: nowrap; }
@@ -729,7 +729,7 @@ async function viewFullText(uid,collKey,lang,segId,sentIdx,authorUid){
     html+=`<div class="detail-section">`;
     html+=`<div class="detail-section-title">巴利原文 · 英文译文</div>`;
     html+=`<div class="detail-section-inner">`;
-    html+=`<div class="translator-select">`;
+    html+=`<div class="toolbar-row">`;
     if(authors.length>1){
       html+=`<label>英文译者:</label><select id="enAuthorSelect" onchange="switchEnAuthor('${escapeAttr(uid)}','${escapeAttr(collKey)}')">`;
       for(const a of authors)html+=`<option value="${escapeAttr(a)}"${a===defaultAuthor?' selected':''}>${escapeHtml(a)}</option>`;
@@ -737,7 +737,7 @@ async function viewFullText(uid,collKey,lang,segId,sentIdx,authorUid){
     }
     html+=`<button onclick="togglePali('${escapeAttr(uid)}','${escapeAttr(collKey)}')" id="paliToggleBtn" class="small-toggle-btn" style="margin-left:auto">${window._showPali?'隐藏巴利原文':'显示巴利原文'}</button>`;
     html+=`</div>`;
-    html+=`<div class="detail-section-body" id="enSegments">`;
+    html+=`<div id="enSegments">`;
     html+=renderEnglishSegments(enText,defaultAuthor,segId,enHighlight,window._showPali);
     html+=`</div></div></div>`;
     window._currentEnAuthor=defaultAuthor;
@@ -752,11 +752,14 @@ async function viewFullText(uid,collKey,lang,segId,sentIdx,authorUid){
     html+=`<div class="detail-section">`;
     html+=`<div class="detail-section-title">中文译文</div>`;
     html+=`<div class="detail-section-inner">`;
+    html+=`<div class="toolbar-row">`;
     if(legacies.length>1){
-      html+=`<div class="translator-select"><label>中文译者:</label><select id="zhAuthorSelect" onchange="switchZhAuthor('${escapeAttr(uid)}','${escapeAttr(collKey)}')">`;
+      html+=`<label>中文译者:</label><select id="zhAuthorSelect" onchange="switchZhAuthor('${escapeAttr(uid)}','${escapeAttr(collKey)}')">`;
       legacies.forEach((l,i)=>html+=`<option value="${i}"${i===selIdx?' selected':''}>${escapeHtml(l.author)}${l.title?' - '+escapeHtml(l.title):''}</option>`);
-      html+=`</select></div>`;
+      html+=`</select>`;
     }
+    html+=`<button onclick="toggleSimplified()" id="simplifiedBtn" class="small-toggle-btn" style="margin-left:auto">${zhSimplified?'切换繁体':'切换简体'}</button>`;
+    html+=`</div>`;
     html+=`<div id="zhContent">`;
     html+=renderChineseFullText(legacies[selIdx],zhHighlight);
     html+=`</div></div></div>`;
@@ -848,19 +851,23 @@ function switchZhAuthor(uid,collKey){
   document.getElementById('zhContent').innerHTML=renderChineseFullText(legacy,window._currentZhHighlight||window._currentQuery);
 }
 
+function stripZhFooter(text){
+  const lines=text.split('\n');
+  let cutAt=-1;
+  for(let i=0;i<lines.length;i++){
+    if(/Retrieved from|Prepared for SuttaCentral/i.test(lines[i])){cutAt=i;break;}
+  }
+  if(cutAt===-1)return text;
+  let end=cutAt;
+  while(end>0&&lines[end-1].trim()==='')end--;
+  if(end>0&&/^\S{1,6}(譯|译)\s*[。.]?\s*$/.test(lines[end-1].trim()))end--;
+  while(end>0&&lines[end-1].trim()==='')end--;
+  return lines.slice(0,end).join('\n');
+}
+
 function renderChineseFullText(legacy,query){
   let html='';
-  html+=`<div class="zh-author-info">`;
-  html+=`<span class="author-text">`;
-  html+=`译者: ${escapeHtml(legacy.author||'')}`;
-  if(legacy.author_uid)html+=` (${escapeHtml(legacy.author_uid)})`;
-  if(legacy.publication_date)html+=` · ${escapeHtml(legacy.publication_date)}`;
-  if(legacy.source_url)html+=` · <a href="${escapeHtml(legacy.source_url)}" target="_blank" style="color:var(--accent)">来源</a>`;
-  html+=`</span>`;
-  html+=`<button onclick="toggleSimplified()" id="simplifiedBtn" class="small-toggle-btn">${zhSimplified?'切换繁体':'切换简体'}</button>`;
-  html+=`</div>`;
-
-  const rawText=legacy.text||'';
+  const rawText=stripZhFooter(legacy.text||'');
   const displayText=zhSimplified?toS(rawText):rawText;
   html+=`<div class="zh-text-body">`;
   html+=formatChineseText(displayText,query);
@@ -929,7 +936,7 @@ function toggleSimplified(){
   const zhContent=document.getElementById('zhContent');
   if(!zhContent)return;
   if(zhSimplified){
-    zhContent.querySelectorAll('.zh-text-body,.zh-author-info .author-text').forEach(el=>{
+    zhContent.querySelectorAll('.zh-text-body').forEach(el=>{
       if(!el.dataset.original)el.dataset.original=el.innerHTML;
       el.innerHTML=toSHtml(el.dataset.original);
     });
