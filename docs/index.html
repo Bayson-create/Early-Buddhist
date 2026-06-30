@@ -1078,7 +1078,7 @@ async function viewFullText(uid,collKey,lang,segId,sentIdx,authorUid){
     const authors=[...new Set(enText.segments.flatMap(s=>(s.english||[]).map(e=>e.author)))];
     const defaultAuthor=(lang==='en'&&segId)?((enText.segments.find(s=>s.segment_id===segId)||{}).english||[])[0]?.author||authors[0]:authors[0];
 
-    html+=`<div class="detail-section">`;
+    html+=`<div class="detail-section" id="enSection">`;
     html+=`<div class="detail-section-title">巴利原文 · 英文译文</div>`;
     html+=`<div class="detail-section-inner">`;
     html+=`<div class="toolbar-row">`;
@@ -1101,7 +1101,7 @@ async function viewFullText(uid,collKey,lang,segId,sentIdx,authorUid){
     const defaultIdx=authorUid?legacies.findIndex(l=>l.author_uid===authorUid):0;
     const selIdx=defaultIdx>=0?defaultIdx:0;
 
-    html+=`<div class="detail-section">`;
+    html+=`<div class="detail-section" id="zhSection">`;
     html+=`<div class="detail-section-title">中文译文</div>`;
     html+=`<div class="detail-section-inner">`;
     html+=`<div class="toolbar-row">`;
@@ -1134,8 +1134,10 @@ async function viewFullText(uid,collKey,lang,segId,sentIdx,authorUid){
   window._currentEnHighlight=enHighlight;window._currentZhHighlight=zhHighlight;
 
   requestAnimationFrame(()=>{
-    const el=document.querySelector('.active-match');
-    if(el)el.scrollIntoView({behavior:'smooth',block:'center'});
+    const matchEl=document.querySelector('.active-match');
+    if(matchEl){matchEl.scrollIntoView({behavior:'smooth',block:'center'});return;}
+    const targetSection=document.getElementById(lang==='zh'?'zhSection':'enSection')||document.getElementById(lang==='zh'?'enSection':'zhSection');
+    if(targetSection)targetSection.scrollIntoView({behavior:'smooth',block:'start'});
   });
 }
 
