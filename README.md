@@ -41,28 +41,24 @@ python3 -m http.server 8765 -d docs
 
 ## 版权声明 · Copyright Notice
 
-### 上座部视角：法非私产
+本项目（索引构建脚本、搜索网页、跨语言术语对照表等）由 **[Bayson-create](https://github.com/Bayson-create)** 设计开发，© 2026 Bayson-create。代码以 [MIT License](https://opensource.org/licenses/MIT) 开源；术语对照表等原创整理内容以 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 共享——欢迎自由使用、转载、修改、二次开发，但请注明出处并附本仓库链接。
 
-在上座部佛教传统中，佛陀的教导（**Buddhavacana**，佛语）历经口诵结集（saṅgāyana）二千五百余年，由历代僧团共同护持、传诵、抄写，最终结集为巴利三藏（Tipiṭaka）。这些教法的本质是"**法布施**"（dhammadāna）——《法句经》第 354 偈言："一切布施中，法施为最上"（*Sabbadānaṃ dhammadānaṃ jināti*）。佛语本身不属于任何个人、译者或机构的私有财产，而是历代僧俗共同护持、自由流通的共同遗产。
+本着"法布施胜一切施"（*Sabbadānaṃ dhammadānaṃ jināti*，《法句经》354 偈）的精神，作者不以此项目牟利，亦不限制非商业性的自由传播。
 
-基于这一立场，本项目所索引的经文数据来源与授权如下：
+### 经文数据来源与引用
 
-- **巴利原文**（Tipiṭaka root text）：源自 [SuttaCentral](https://suttacentral.net) 维护的 Mahāsaṅgīti Tipiṭaka（佛历 2500 年结集本），以 [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) 公共领域贡献方式发布，不设权利保留。
-- **英文译文**：由 SuttaCentral 上数百位译者（以 Bhikkhu Sujato、Bhikkhu Brahmali 等为主）翻译，published 与 unpublished 分支译文均以 CC0 1.0 发布，译者明确放弃专属权利，使译文如同原典一样自由流通。
-- **中文译文**：主要采用莊春江（Zhuang Chunjiang）居士的譯註，经 SuttaCentral legacy HTML 接口收录、对外公开传播；本着法布施精神，鼓励非商业性自由引用与转载，敬请保留译者署名以志感念。
+巴利三藏原文及其英、中译文并非本项目原创，引用时遵照各自授权：
 
-本项目（索引构建脚本、搜索网页、跨语言术语对照表等）由编者原创整理编纂，同样以法供养的精神向大众免费开放，欢迎自由使用、转载、修改、二次开发，无需另行授权；若用于学术研究或公开传播，敬请保留对原始译者与 [SuttaCentral](https://suttacentral.net) 的署名，以示对历代结集者、译经者的尊重与感念。
+- **巴利原文**：源自 [SuttaCentral](https://suttacentral.net) 维护的 Mahāsaṅgīti Tipiṭaka（佛历 2500 年结集本），以 [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) 公共领域方式发布。
+- **英文译文**：由 SuttaCentral 上数百位译者（以 Bhikkhu Sujato、Bhikkhu Brahmali 等为主）翻译，published 与 unpublished 分支译文均以 CC0 1.0 发布。
+- **中文译文**：主要采用莊春江（Zhuang Chunjiang）居士的譯註，经 SuttaCentral legacy HTML 接口收录、对外公开传播，敬请保留译者署名。
 
 ### 免责声明
 
-本项目的关键词高亮、问答意图识别、术语提取等功能均为程序化检索辅助，不构成对经义的权威诠释；检索结果的取舍、排序仅依据文本匹配规则，不代表任何僧团或学术机构的立场。读者应以巴利原文及尊者译本为准，并以闻、思、修次第如理作意（yoniso manasikāra）。若发现数据有误或链接失效，欢迎通过 [GitHub Issues](https://github.com/Bayson-create/Early-Buddhist/issues) 指正。
-
-### 功德回向
-
-愿以此网站编纂、校对、修订之功德，回向一切有情，愿正法久住，愿众生离苦得乐，证得涅槃。
-
-*Idaṁ me puññaṁ āsavakkhayāvahaṁ hotu — 愿此功德，导向诸漏灭尽。*
+本项目的关键词高亮、问答意图识别、术语提取等功能均为程序化检索辅助，不构成对经义的权威诠释；检索结果的取舍、排序仅依据文本匹配规则，不代表任何僧团或学术机构的立场，仅供学习参考，请以巴利原文及尊者译本为准。若发现数据有误或链接失效，欢迎通过 [GitHub Issues](https://github.com/Bayson-create/Early-Buddhist/issues) 指正。
 
 ---
 
-**Attribution**: Pāli root text & translations released under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) via [SuttaCentral](https://suttacentral.net). Chinese translations primarily by 莊春江 (Zhuang Chunjiang). This project's original curation (search index, cross-language glossary, code) is shared freely in the spirit of *dhammadāna* — the gift of the Dhamma, said to excel all other gifts (Dhp 354).
+**Copyright**: © 2026 [Bayson-create](https://github.com/Bayson-create). Code under [MIT License](https://opensource.org/licenses/MIT); original written content (cross-language glossary, categorization) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — attribution and a link back to this repo appreciated.
+
+**Sutta data attribution**: Pāli root text & translations released under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) via [SuttaCentral](https://suttacentral.net). Chinese translations primarily by 莊春江 (Zhuang Chunjiang).
