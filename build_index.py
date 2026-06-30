@@ -133,9 +133,103 @@ def build_chinese_index():
     return entries
 
 
+VAGGA_RE = re.compile(r"^[（(]?(.+?品)[\[［].*?[\]］]?[）)]?$|^[（(]?(.+?品)[）)]?$")
+UID_NUM_RE = re.compile(r"^([a-z]+)(\d+)(?:\.(\d+))?")
+
+
+def extract_vagga(raw_text: str) -> str:
+    lines = [l.strip() for l in raw_text.split("\n") if l.strip()]
+    for line in lines[:6]:
+        m = VAGGA_RE.match(line)
+        if m:
+            return m.group(1) or m.group(2)
+    return ""
+
+
+def build_title_index():
+    entries = []
+    en_files = {f.stem: f for f in SOURCE_DIR.rglob("pali_english_*.json")}
+    zh_files = sorted(SOURCE_DIR.rglob("pali_chinese_*.json"))
+
+    # Build uid -> english title map first
+    en_titles = {}
+    for fpath in sorted(SOURCE_DIR.rglob("pali_english_*.json")):
+        with open(fpath, encoding="utf-8") as f:
+            data = json.load(f)
+        for text in data["texts"]:
+            segs = text.get("segments", [])
+            title_segs = [s for s in segs if re.search(r":0\.\d+$", s.get("segment_id", ""))]
+            title_segs.sort(key=lambda s: int(re.search(r":0\.(\d+)$", s["segment_id"]).group(1)))
+            parts = []
+            for s in title_segs:
+                for e in s.get("english", []):
+                    t = e.get("text", "").strip()
+                    if t:
+                        parts.append(t)
+                        break
+            en_titles[text["uid"]] = parts
+
+    last_vagga = {}
+    for fpath in zh_files:
+        rel = str(fpath.relative_to(SOURCE_DIR)).replace("\\", "/")
+        coll_key = find_collection_key(rel)
+        with open(fpath, encoding="utf-8") as f:
+            data = json.load(f)
+
+        order = 0
+        for text in data["texts"]:
+            uid = text["uid"]
+            legacies = text.get("zh_legacy", [])
+            zh_title = legacies[0].get("title", "") if legacies else ""
+            vagga = ""
+            if legacies:
+                vagga = extract_vagga(legacies[0].get("text", ""))
+            if not vagga:
+                vagga = last_vagga.get(coll_key, "")
+            else:
+                last_vagga[coll_key] = vagga
+
+            en_parts = en_titles.get(uid, [])
+            en_title = en_parts[-1] if en_parts else ""
+            en_collection_label = en_parts[0] if en_parts else ""
+
+            num_m = UID_NUM_RE.match(uid)
+            nipata = None
+            samyutta = None
+            sutta_num = None
+            if num_m and coll_key.endswith("增支部_an"):
+                nipata = int(num_m.group(2))
+                sutta_num = num_m.group(3)
+            elif num_m and coll_key.endswith("相应部_sn"):
+                samyutta = int(num_m.group(2))
+                sutta_num = num_m.group(3)
+
+            entries.append({
+                "u": uid,
+                "zt": zh_title,
+                "et": en_title,
+                "ec": en_collection_label,
+                "vg": vagga,
+                "c": coll_key,
+                "o": order,
+                "n": nipata,
+                "sy": samyutta,
+            })
+            order += 1
+
+    return entries
+
+
 def main():
     out_dir = Path(__file__).parent / "docs"
     out_dir.mkdir(exist_ok=True)
+
+    print("Building title index...")
+    title_entries = build_title_index()
+    with open(out_dir / "title_index.json", "w", encoding="utf-8") as f:
+        json.dump(title_entries, f, ensure_ascii=False, separators=(",", ":"))
+    size_mb = os.path.getsize(out_dir / "title_index.json") / 1024 / 1024
+    print(f"  {len(title_entries)} titles, {size_mb:.1f} MB")
 
     print("Building English index...")
     en_entries = build_english_index()

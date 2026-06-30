@@ -82,6 +82,16 @@ mark { background: var(--highlight); color: inherit; padding: 1px 2px; border-ra
 .term-group-header .toggle-icon { font-size: 14px; color: var(--text-secondary); transition: transform 0.2s; }
 .term-group.collapsed .toggle-icon { transform: rotate(-90deg); }
 .term-group.collapsed .term-group-body { display: none; }
+.ref-match-section { margin-bottom: 24px; border: 2px solid var(--accent); border-radius: var(--radius); overflow: hidden; background: var(--card-bg); }
+.ref-match-header { padding: 12px 16px; background: var(--accent); color: #fff; font-size: 15px; font-weight: 700; }
+.ref-match-body { max-height: 520px; overflow-y: auto; }
+.ref-match-card { display: flex; align-items: baseline; gap: 10px; padding: 10px 16px; border-bottom: 1px solid #f0ebe3; cursor: pointer; transition: background 0.15s; flex-wrap: wrap; }
+.ref-match-card:last-child { border-bottom: none; }
+.ref-match-card:hover { background: var(--accent-light); }
+.ref-match-card .uid-badge { flex-shrink: 0; }
+.ref-match-card .ref-match-title { font-size: 15px; }
+.ref-match-card .ref-match-en { font-size: 13px; color: var(--text-secondary); font-style: italic; }
+.ref-match-more { padding: 10px 16px; font-size: 13px; color: var(--text-secondary); text-align: center; }
 
 .detail-view { max-width: 860px; margin: 0 auto; padding: 0 20px 60px; }
 .back-btn { display: inline-flex; align-items: center; gap: 6px; padding: 8px 18px; border: 2px solid var(--accent); border-radius: var(--radius); background: transparent; color: var(--accent); font-size: 14px; cursor: pointer; font-family: inherit; margin-bottom: 20px; transition: background 0.2s; }
@@ -482,6 +492,183 @@ function setLang(lang){
   if(cb)cb.style.display=lang==='zh'?'':'none';
 }
 
+// ===== SUTTA REFERENCE MATCHING (title / uid / collection / vagga / nipata / samyutta) =====
+let titleIndex=null, titleIndexLoaded=false;
+async function loadTitleIndex(){
+  if(titleIndexLoaded)return;
+  const r=await fetch('title_index.json');
+  titleIndex=await r.json();
+  titleIndexLoaded=true;
+}
+
+function cn2num(s){
+  if(/^\d+$/.test(s))return parseInt(s,10);
+  const digit={'零':0,'一':1,'两':2,'二':2,'三':3,'四':4,'五':5,'六':6,'七':7,'八':8,'九':9};
+  const unit={'十':10,'百':100,'千':1000,'万':10000};
+  let section=0,num=0,result=0,any=false;
+  for(const ch of s){
+    if(ch in digit){num=digit[ch];any=true;}
+    else if(ch in unit){
+      const u=unit[ch];
+      if(u===10&&num===0)num=1;
+      section+=num*u;num=0;any=true;
+    }
+  }
+  result=section+num;
+  return any?result:null;
+}
+
+function isSubsequence(needle,haystack){
+  let i=0;
+  for(const c of haystack){if(i<needle.length&&c===needle[i])i++;}
+  return i===needle.length&&needle.length>0;
+}
+
+const SUTTA_PREFIXES=new Set(['dn','mn','sn','an','kn','snp','thag','thig','ja','dhp','ud','iti','vv','pv','ap','bv','cp','mnd','cnd','ps','ne','mil','pe','vb','ds','dt','kv','pp','ya','patthana','pli-tv-bu-pm','pli-tv-bu-vb','pli-tv-bi-pm','pli-tv-bi-vb','pli-tv-kd','pli-tv-pvr']);
+const CN_NUM_PAT='[零一二两三四五六七八九十百千万\\d]+';
+
+function parseSuttaReference(query){
+  const q=query.trim();
+  if(!q)return null;
+  const qSimp=toS(q);
+
+  let m=q.match(/^([a-zA-Z][a-zA-Z\-]{1,18})\s*(\d+(?:\.\d+)?(?:-\d+)?)$/);
+  if(m){
+    const prefix=m[1].toLowerCase();
+    if(SUTTA_PREFIXES.has(prefix))return{type:'uid',uid:prefix+m[2]};
+  }
+
+  m=qSimp.match(new RegExp(`^增支部第(${CN_NUM_PAT})集第(${CN_NUM_PAT})经$`));
+  if(m){const n=cn2num(m[1]),s=cn2num(m[2]);if(n&&s)return{type:'uid',uid:`an${n}.${s}`};}
+
+  m=qSimp.match(/^增支部\s*(\d+)\.(\d+)$/);
+  if(m)return{type:'uid',uid:`an${m[1]}.${m[2]}`};
+
+  m=qSimp.match(/^相应部\s*(\d+)\.(\d+)$/);
+  if(m)return{type:'uid',uid:`sn${m[1]}.${m[2]}`};
+
+  m=qSimp.match(/^长部\s*(\d+)$/);
+  if(m)return{type:'uid',uid:`dn${m[1]}`};
+  m=qSimp.match(/^中部\s*(\d+)$/);
+  if(m)return{type:'uid',uid:`mn${m[1]}`};
+
+  m=qSimp.match(new RegExp(`^增支部第(${CN_NUM_PAT})集$`));
+  if(m){const n=cn2num(m[1]);if(n)return{type:'nipata',collKey:'经藏/增支部_an',n,label:`增支部第${n}集`};}
+
+  m=qSimp.match(new RegExp(`^相应部第(${CN_NUM_PAT})相应$`));
+  if(m){const sy=cn2num(m[1]);if(sy)return{type:'samyutta',collKey:'经藏/相应部_sn',sy,label:`相应部第${sy}相应`};}
+
+  const collMap={'长部':'经藏/长部_dn','中部':'经藏/中部_mn','小部':'经藏/小部_kn','相应部':'经藏/相应部_sn','增支部':'经藏/增支部_an'};
+  if(collMap[qSimp])return{type:'collection',collKey:collMap[qSimp]};
+
+  return null;
+}
+
+function findVaggaMatch(query,idx){
+  const qS=toS(query);
+  if(qS.length<2)return null;
+  const vaggas=new Map();
+  for(const e of idx){
+    if(e.vg&&(e.c==='经藏/长部_dn'||e.c==='经藏/中部_mn')){
+      if(!vaggas.has(toS(e.vg)))vaggas.set(toS(e.vg),e.vg);
+    }
+  }
+  for(const[vgS,vgOrig]of vaggas){
+    if(vgS===qS||vgS.includes(qS)||qS.includes(vgS))return vgOrig;
+  }
+  return null;
+}
+
+function findTitleMatches(query,idx,lang){
+  const results=[];
+  if(lang==='zh'){
+    const qS=toS(query);
+    if(qS.length<1)return results;
+    for(const e of idx){
+      if(!e.zt)continue;
+      const titleS=toS(e.zt);
+      let score;
+      if(titleS===qS)score=0;
+      else if(titleS.startsWith(qS))score=1;
+      else if(titleS.includes(qS))score=2;
+      else if(qS.length>=2&&isSubsequence(qS,titleS))score=3;
+      else continue;
+      results.push({...e,_mscore:score});
+    }
+  }else{
+    const ql=query.toLowerCase();
+    if(ql.length<2)return results;
+    for(const e of idx){
+      if(!e.et)continue;
+      const titleL=e.et.toLowerCase();
+      let score;
+      if(titleL===ql)score=0;
+      else if(titleL.startsWith(ql))score=1;
+      else if(titleL.includes(ql))score=2;
+      else continue;
+      results.push({...e,_mscore:score});
+    }
+  }
+  results.sort((a,b)=>a._mscore-b._mscore||a.o-b.o);
+  return results;
+}
+
+function findSuttaReferenceMatch(query,lang){
+  if(!titleIndex)return null;
+  const direct=parseSuttaReference(query);
+  if(direct){
+    if(direct.type==='uid'){
+      const e=titleIndex.find(t=>t.u===direct.uid);
+      if(e)return{type:'uid',entries:[e],label:`经文匹配: ${direct.uid}`};
+      return null;
+    }
+    if(direct.type==='collection'){
+      const entries=titleIndex.filter(t=>t.c===direct.collKey).sort((a,b)=>a.o-b.o);
+      const label=(COLLECTIONS[direct.collKey]||{}).collection||direct.collKey;
+      return{type:'collection',entries,label:`${label} 全部经文 (${entries.length} 条，按顺序)`};
+    }
+    if(direct.type==='nipata'){
+      const entries=titleIndex.filter(t=>t.c===direct.collKey&&t.n===direct.n).sort((a,b)=>a.o-b.o);
+      return entries.length?{type:'nipata',entries,label:`${direct.label} (${entries.length} 条)`}:null;
+    }
+    if(direct.type==='samyutta'){
+      const entries=titleIndex.filter(t=>t.c===direct.collKey&&t.sy===direct.sy).sort((a,b)=>a.o-b.o);
+      return entries.length?{type:'samyutta',entries,label:`${direct.label} (${entries.length} 条)`}:null;
+    }
+  }
+  const vagga=findVaggaMatch(query,titleIndex);
+  if(vagga){
+    const entries=titleIndex.filter(t=>t.vg===vagga).sort((a,b)=>a.o-b.o);
+    if(entries.length)return{type:'vagga',entries,label:`${vagga} (${entries.length} 条)`};
+  }
+  const titleMatches=findTitleMatches(query,titleIndex,lang);
+  if(titleMatches.length>0){
+    return{type:'title',entries:titleMatches.slice(0,50),label:`经文标题匹配 (${titleMatches.length} 条)`};
+  }
+  return null;
+}
+
+function renderSuttaMatchSection(match){
+  if(!match||!match.entries||match.entries.length===0)return'';
+  const showLimit=50;
+  const shown=match.entries.slice(0,showLimit);
+  let html=`<div class="ref-match-section"><div class="ref-match-header">&#x1F4D6; ${escapeHtml(match.label)}</div><div class="ref-match-body">`;
+  for(const e of shown){
+    const coll=COLLECTIONS[e.c]||{pitaka:'',collection:''};
+    const tagClass=pitakaClass(e.c);
+    const titleText=currentLang==='zh'?(e.zt||e.et||''):(e.et||e.zt||'');
+    html+=`<div class="ref-match-card" onclick="lastQuery='';viewFullText('${escapeAttr(e.u)}','${escapeAttr(e.c)}','${currentLang}')">`;
+    html+=`<span class="tag ${tagClass}" style="font-size:11px">${coll.pitaka}</span>`;
+    html+=`<span class="uid-badge">${escapeHtml(e.u)}</span>`;
+    html+=`<span class="ref-match-title">${escapeHtml(titleText)}</span>`;
+    if(e.et&&currentLang==='zh')html+=`<span class="ref-match-en">${escapeHtml(e.et)}</span>`;
+    html+=`</div>`;
+  }
+  if(match.entries.length>showLimit)html+=`<div class="ref-match-more">还有 ${match.entries.length-showLimit} 条未显示，请点击具体经文或缩小范围</div>`;
+  html+=`</div></div>`;
+  return html;
+}
+
 async function loadIndex(){
   if(indexLoaded)return;
   const res=await fetch('collections.json');
@@ -517,12 +704,15 @@ async function doSearch(){
   const btn=document.getElementById('searchBtn');
   btn.disabled=true;btn.textContent='搜索中...';
   indexLoaded=false;
-  try{await loadIndex();}catch(e){
+  try{await loadIndex();await loadTitleIndex();}catch(e){
     document.getElementById('results').innerHTML='<div class="empty"><p>索引加载失败，请刷新重试</p></div>';
     btn.disabled=false;btn.textContent='搜索';return;
   }
 
   lastQuery=rawQuery;
+  const refMatch=findSuttaReferenceMatch(rawQuery,currentLang);
+  window._refMatchHtml=renderSuttaMatchSection(refMatch);
+
   const question=detectQuestion(rawQuery,currentLang);
   const terms=extractTerms(rawQuery,currentLang);
   const isSingleTerm=terms.length<=1||(question.isQ&&terms.length<=2);
@@ -546,7 +736,7 @@ async function doSearch(){
 
 function renderMultiTermResults(terms,question){
   const container=document.getElementById('results');
-  let html='';
+  let html=window._refMatchHtml||'';
   let totalCount=0;
   document.getElementById('statsBar').textContent=`从输入中提取了 ${terms.length} 个术语`;
 
@@ -642,9 +832,10 @@ function renderResults(query,isQuestion){
   if(isQuestion)statsText+=' · 已按问答/定义优先排序';
   document.getElementById('statsBar').textContent=statsText;
 
-  if(total===0){container.innerHTML='<div class="empty"><div class="icon">&#x1F50D;</div><p>未找到匹配结果</p><p style="font-size:13px;margin-top:8px">请尝试其他关键词或切换语言</p></div>';return;}
+  const refHtml=window._refMatchHtml||'';
+  if(total===0){container.innerHTML=refHtml||'<div class="empty"><div class="icon">&#x1F50D;</div><p>未找到匹配结果</p><p style="font-size:13px;margin-top:8px">请尝试其他关键词或切换语言</p></div>';return;}
 
-  let html='';
+  let html=refHtml;
   for(const item of pageItems)html+=renderResultCard(item,query);
 
   if(totalPages>1){
