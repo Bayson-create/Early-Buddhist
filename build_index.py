@@ -151,8 +151,9 @@ def build_title_index():
     en_files = {f.stem: f for f in SOURCE_DIR.rglob("pali_english_*.json")}
     zh_files = sorted(SOURCE_DIR.rglob("pali_chinese_*.json"))
 
-    # Build uid -> english title map first
+    # Build uid -> english title map and uid -> pali title map
     en_titles = {}
+    pali_titles = {}
     for fpath in sorted(SOURCE_DIR.rglob("pali_english_*.json")):
         with open(fpath, encoding="utf-8") as f:
             data = json.load(f)
@@ -161,13 +162,18 @@ def build_title_index():
             title_segs = [s for s in segs if re.search(r":0\.\d+$", s.get("segment_id", ""))]
             title_segs.sort(key=lambda s: int(re.search(r":0\.(\d+)$", s["segment_id"]).group(1)))
             parts = []
+            pali_parts = []
             for s in title_segs:
                 for e in s.get("english", []):
                     t = e.get("text", "").strip()
                     if t:
                         parts.append(t)
                         break
+                pt = (s.get("pali") or "").strip()
+                if pt:
+                    pali_parts.append(pt)
             en_titles[text["uid"]] = parts
+            pali_titles[text["uid"]] = pali_parts[-1] if pali_parts else ""
 
     last_vagga = {}
     for fpath in zh_files:
@@ -192,6 +198,7 @@ def build_title_index():
             en_parts = en_titles.get(uid, [])
             en_title = en_parts[-1] if en_parts else ""
             en_collection_label = en_parts[0] if en_parts else ""
+            pali_title = pali_titles.get(uid, "")
 
             num_m = UID_NUM_RE.match(uid)
             nipata = None
@@ -209,6 +216,7 @@ def build_title_index():
                 "zt": zh_title,
                 "et": en_title,
                 "ec": en_collection_label,
+                "pt": pali_title,
                 "vg": vagga,
                 "c": coll_key,
                 "o": order,
