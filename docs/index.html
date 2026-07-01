@@ -457,7 +457,22 @@ function extractTerms(text,lang){
       if(tS.includes(termS)||tT.includes(termT)||text.includes(term))matched.push(term);
     }
     matched.sort((a,b)=>b.length-a.length);
-    return matched.filter(t=>!matched.some(o=>o.length>t.length&&(toS(o).includes(toS(t))||toT(o).includes(toT(t)))));
+    const longestFiltered=matched.filter(t=>!matched.some(o=>o.length>t.length&&(toS(o).includes(toS(t))||toT(o).includes(toT(t)))));
+    // GLOSSARY_ZH lists both a term's Simplified and Traditional spelling
+    // as separate entries (same length, so the containment filter above
+    // doesn't dedupe them) - collapse same-length script variants of the
+    // same term down to one, keyed by Simplified form, so e.g. a query
+    // containing only "四念处" doesn't get treated as two distinct terms
+    // ("四念处" and "四念處") and misrouted into the multi-term grouped view.
+    const seenCanonical=new Set();
+    const deduped=[];
+    for(const t of longestFiltered){
+      const canon=toS(t);
+      if(seenCanonical.has(canon))continue;
+      seenCanonical.add(canon);
+      deduped.push(t);
+    }
+    return deduped;
   } else {
     const lower=text.toLowerCase();
     const matched=[];
@@ -470,6 +485,23 @@ function extractTerms(text,lang){
     for(const w of words){if(!deduped.some(t=>t.toLowerCase().includes(w)))deduped.push(w);}
     return deduped;
   }
+}
+
+// extractTerms()'s English branch deliberately appends every remaining
+// non-stopword word as its own "term" (used by renderMultiTermResults to
+// show a group per content word when that's genuinely what's wanted).
+// But that means terms.length is almost always >1 for ordinary English
+// sentences, which would route EVERY multi-word English query into the
+// grouped view and never into the unified whole-sentence BM25 ranking
+// doSearch() uses for everything else. This counts only actual
+// GLOSSARY_EN phrase matches (mirroring how the Chinese branch already
+// behaves, since GLOSSARY_ZH is the only source of ZH terms) so the
+// single-vs-grouped decision is judged the same way in both languages.
+function countGlossaryTerms(text,lang){
+  if(lang==='zh')return extractTerms(text,lang).length;
+  const lower=text.toLowerCase();
+  const matched=GLOSSARY_EN.filter(term=>lower.includes(term.toLowerCase()));
+  return matched.filter(t=>!matched.some(o=>o!==t&&o.length>t.length&&o.toLowerCase().includes(t.toLowerCase()))).length;
 }
 
 // ===== QUESTION DETECTION =====
@@ -524,7 +556,6 @@ function setLang(lang){
   currentLang=lang;
   document.getElementById('langEn').classList.toggle('active',lang==='en');
   document.getElementById('langZh').classList.toggle('active',lang==='zh');
-  indexLoaded=false;indexData=[];
   document.getElementById('searchInput').placeholder=lang==='en'?'Enter keyword, term or question...':'输入关键词、术语或问题...';
   const cb=document.getElementById('zhConvertBtn');
   if(cb)cb.style.display=lang==='zh'?'':'none';
@@ -833,37 +864,27 @@ function renderSuttaMatchSection(match){
   return html;
 }
 
-async function loadIndex(){
-  if(indexLoaded)return;
-  const res=await fetch('collections.json');
-  manifest=await res.json();
-  const key=currentLang==='en'?'en_manifest':'zh_manifest';
-  const files=manifest[key];
-  document.getElementById('results').innerHTML='<div class="loading"><span class="spinner"></span>加载索引中...</div>';
-  indexData=[];
-  const cf=document.getElementById('collectionFilter').value;
-  for(const chunk of files){
-    if(cf&&!chunk.collections.includes(cf))continue;
-    const r=await fetch(chunk.file);const d=await r.json();
-    if(cf){for(const e of d){if(e.c===cf)indexData.push(e);}}else indexData.push(...d);
-  }
-  indexLoaded=true;
-}
+// NOTE: full-corpus loadIndex()/linear-scan searchIndex() were replaced
+// by search_engine.js's engineSearch()/engineSearchTerm() (BM25 word
+// index + vocab-based tokenizer + char-bigram OOV fallback, fetching
+// only the shards/chunks a query actually needs instead of the whole
+// language corpus on every search). paliFlexRegex-based Pali diacritic
+// matching is preserved via highlight()/textMatch(), which still use it.
 
-function searchIndex(query,lang){
-  const results=[];
-  if(lang==='en'){
-    const lq=query.toLowerCase();
-    const paliRe=paliFlexRegex(query);
-    for(const e of indexData){
-      if(e.e.toLowerCase().includes(lq)||e.p.toLowerCase().includes(lq)){results.push(e);continue;}
-      if(paliRe&&paliRe.test(e.p))results.push(e);
-    }
-  }else{
-    const qT=toT(query),qS=toS(query);
-    for(const e of indexData){if(e.z.includes(query)||e.z.includes(qT)||e.z.includes(qS))results.push(e);}
-  }
-  return results;
+function currentCollectionFilter(){return document.getElementById('collectionFilter').value;}
+
+// Attaches _formTag (1=问答/2=定义/undefined, from the existing rule-based
+// scoreResult heuristic) without touching _score, which is now the BM25
+// relevance score from search_engine.js and must stay the primary sort
+// key. Array.prototype.sort is stable, so bucketing by _formTag afterwards
+// preserves BM25 order within each bucket - questions still get
+// canonical-phrasing hits surfaced first, but no longer at the cost of
+// relevance ordering within that bucket (the old code fully overwrote
+// _score with the 1/2/undefined bucket value and lost BM25 ordering).
+function applyFormTags(results,coreTerm,lang,isQuestion){
+  if(!isQuestion)return results;
+  results.forEach(r=>r._formTag=scoreResult(r,coreTerm,lang));
+  return results.slice().sort((a,b)=>(a._formTag||3)-(b._formTag||3));
 }
 
 async function doSearch(){
@@ -871,8 +892,7 @@ async function doSearch(){
   if(!rawQuery)return;
   const btn=document.getElementById('searchBtn');
   btn.disabled=true;btn.textContent='搜索中...';
-  indexLoaded=false;
-  try{await loadIndex();await loadTitleIndex();}catch(e){
+  try{await loadTitleIndex();}catch(e){
     document.getElementById('results').innerHTML='<div class="empty"><p>索引加载失败，请刷新重试</p></div>';
     btn.disabled=false;btn.textContent='搜索';return;
   }
@@ -883,39 +903,47 @@ async function doSearch(){
 
   const question=detectQuestion(rawQuery,currentLang);
   const terms=extractTerms(rawQuery,currentLang);
-  const isSingleTerm=terms.length<=1||(question.isQ&&terms.length<=2);
+  const glossaryTermCount=countGlossaryTerms(rawQuery,currentLang);
+  const isSingleTerm=glossaryTermCount<=1||(question.isQ&&glossaryTermCount<=2);
 
   if(isSingleTerm||terms.length===0){
+    // Whole input (statement or question alike) goes through the BM25
+    // engine as one query - this is what makes a full sentence or
+    // question searchable as such, not just its first recognized
+    // glossary term.
     const coreQuery=question.isQ?(terms.length>0?terms[0]:question.core):(terms.length>0?terms[0]:rawQuery);
-    searchResults=searchIndex(coreQuery,currentLang);
-    if(question.isQ){
-      const scoreTerm=terms.length>0?terms[0]:question.core;
-      searchResults.forEach(r=>r._score=scoreResult(r,scoreTerm,currentLang));
-      searchResults.sort((a,b)=>a._score-b._score);
+    let engineResult;
+    try{
+      engineResult=await engineSearch(rawQuery,currentLang,{collectionFilter:currentCollectionFilter()});
+    }catch(e){
+      document.getElementById('results').innerHTML=`<div class="empty"><p>检索出错：${escapeHtml(String(e))}</p></div>`;
+      btn.disabled=false;btn.textContent='搜索';return;
     }
+    searchResults=applyFormTags(engineResult.results,terms.length>0?terms[0]:question.core,currentLang,question.isQ);
     currentPage=0;
     renderResults(coreQuery,question.isQ);
   } else {
-    renderMultiTermResults(terms,question);
+    await renderMultiTermResults(terms,question);
   }
 
   btn.disabled=false;btn.textContent='搜索';
 }
 
-function renderMultiTermResults(terms,question){
+async function renderMultiTermResults(terms,question){
   const container=document.getElementById('results');
-  let html=window._refMatchHtml||'';
-  let totalCount=0;
   document.getElementById('statsBar').textContent=`从输入中提取了 ${terms.length} 个术语`;
+  const collectionFilter=currentCollectionFilter();
 
-  for(const term of terms){
+  const perTerm=await Promise.all(terms.map(async term=>{
+    const engineResult=await engineSearchTerm(term,currentLang,{collectionFilter});
+    const isCore=question.isQ&&toS(term)===toS(question.core);
+    const results=applyFormTags(engineResult.results,question.core,currentLang,isCore);
+    return {term,results};
+  }));
+
+  let html=window._refMatchHtml||'';
+  for(const {term,results} of perTerm){
     const coreQuery=term;
-    let results=searchIndex(coreQuery,currentLang);
-    if(question.isQ&&toS(term)===toS(question.core)){
-      results.forEach(r=>r._score=scoreResult(r,question.core,currentLang));
-      results.sort((a,b)=>a._score-b._score);
-    }
-    totalCount+=results.length;
     const shown=results.slice(0,10);
     const remaining=results.length-shown.length;
 
@@ -939,10 +967,11 @@ function renderMultiTermResults(terms,question){
   container.innerHTML=html;
 }
 
-function searchSingleTerm(term){
+async function searchSingleTerm(term){
   document.getElementById('searchInput').value=term;
   lastQuery=term;
-  searchResults=searchIndex(term,currentLang);
+  const engineResult=await engineSearchTerm(term,currentLang,{collectionFilter:currentCollectionFilter()});
+  searchResults=engineResult.results;
   currentPage=0;
   renderResults(term,false);
 }
@@ -952,8 +981,8 @@ function toggleTermGroup(el){el.classList.toggle('collapsed');}
 function renderResultCard(item,query){
   const coll=COLLECTIONS[item.c]||{pitaka:'',collection:'',abbr:''};
   const tagClass=pitakaClass(item.c);
-  const scoreTag=item._score===1?'<span class="tag tag-p1" style="font-size:11px">问答</span>':item._score===2?'<span class="tag tag-p2" style="font-size:11px">定义</span>':'';
-  const priorityClass=item._score===1?' priority-1':item._score===2?' priority-2':'';
+  const scoreTag=item._formTag===1?'<span class="tag tag-p1" style="font-size:11px">问答</span>':item._formTag===2?'<span class="tag tag-p2" style="font-size:11px">定义</span>':'';
+  const priorityClass=item._formTag===1?' priority-1':item._formTag===2?' priority-2':'';
 
   if(currentLang==='en'){
     return `<div class="result-card${priorityClass}" onclick="lastQuery='${escapeAttr(query)}';viewFullText('${escapeAttr(item.u)}','${escapeAttr(item.c)}','en','${escapeAttr(item.s)}')">
@@ -1321,22 +1350,17 @@ function goHome(){
 
 // ===== EVENT LISTENERS =====
 document.getElementById('searchInput').addEventListener('keydown',e=>{if(e.key==='Enter')doSearch();});
-document.getElementById('collectionFilter').addEventListener('change',()=>{indexLoaded=false;indexData=[];});
 
 // ===== API =====
 window.EarlyBuddhistAPI = {
   search: async function(query, lang, options={}) {
     currentLang = lang || 'en';
-    if (options.collection) document.getElementById('collectionFilter').value = options.collection;
-    indexLoaded = false;
-    await loadIndex();
-    const results = searchIndex(query, currentLang);
+    let collectionFilter='';
+    if (options.collection) { document.getElementById('collectionFilter').value = options.collection; collectionFilter = options.collection; }
+    const engineResult = await engineSearch(query, currentLang, {collectionFilter});
     const q = detectQuestion(query, currentLang);
-    if (q.isQ) {
-      results.forEach(r => r._score = scoreResult(r, q.core, currentLang));
-      results.sort((a, b) => a._score - b._score);
-    }
-    return results.map(r => ({...r, _priority: r._score || 3}));
+    const results = applyFormTags(engineResult.results, q.core, currentLang, q.isQ);
+    return results.map(r => ({...r, _priority: r._formTag || 3}));
   },
   getFullText: async function(uid, collKey, lang) {
     const data = await fetchCollectionData(collKey, lang || 'zh');
@@ -1360,5 +1384,6 @@ window.EarlyBuddhistAPI = {
   }
 })();
 </script>
+<script src="search_engine.js"></script>
 </body>
 </html>
